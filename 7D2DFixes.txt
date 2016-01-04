@@ -12,6 +12,13 @@ Changelog:
 
 Blocks:
 
+scrapIronPoleBlock: Added repair items <property class="RepairItems"><property name="scrapIron" value="10" />
+
+reinforcedScrapIronPoleBlock: Added repair items <property class="RepairItems"><property name="scrapIron" value="10" />
+
+concreteReinforcedPoleBlock: added repair items <property class="RepairItems"><property name="concreteMix" value="10" />
+
+steelPoleBlock: added repair items <property class="RepairItems"><property name="forgedSteel" value="10" />
 
 car03BlueDamage1: fixed <drop event="Fall" name="car03Damage2" count="1" prob="1.0"  stick_chance="1" />
 
@@ -28,6 +35,8 @@ car03White: Added <drop event="Fall" name="car03WhiteDamage1" count="1" prob="1.
 car03WhiteDamage1: Fixed <drop event="Fall" name="car03Damage2" count="1" prob="1.0"  stick_chance="1" />
 
 cobblestoneWedge: Fixed shape=New -> Wedged and commented out mesh and model
+
+cobblestoneWedge: Added <property class="RepairItems"><property name="cobblestones" value="4" />
 
 cobblestoneWedgeBroke01: Fixed shape=New -> Wedged and commented out mesh and model
 
