@@ -1,0 +1,102 @@
+
+This one is questionable (so I have not made this fix) as to which you would like to use the axe for sicne it cant be purposed to be used for both!
+
+Fireaxe: changed from "Blade Weapons" to "Mining Tools" so blockDamage is increased with skills instead of entityDamage. ?
+
+I personally feel that the axe is meant to be a tool and not a weapon but i will leave this one up to you to decide if you wish to make this change. If you do decide to make this change please let me know and I will update it on my github!
+
+
+
+Changelog:
+
+
+Blocks:
+
+
+car03BlueDamage1: fixed <drop event="Fall" name="car03Damage2" count="1" prob="1.0"  stick_chance="1" />
+
+car03Red: Added <drop event="Fall" name="car03RedDamage1" count="1" prob="1.0"  stick_chance="1" />
+
+car03RedDamage1: Fixed <drop event="Fall" name="car03Damage2" count="1" prob="1.0"  stick_chance="1" />
+
+car03Yellow: Added <drop event="Fall" name="car03YellowDamage1" count="1" prob="1.0"  stick_chance="1" />
+
+car03YellowDamage1: Fixed <drop event="Fall" name="car03Damage2" count="1" prob="1.0"  stick_chance="1" />
+
+car03White: Added <drop event="Fall" name="car03WhiteDamage1" count="1" prob="1.0"  stick_chance="1" />
+
+car03WhiteDamage1: Fixed <drop event="Fall" name="car03Damage2" count="1" prob="1.0"  stick_chance="1" />
+
+cobblestoneWedge: Fixed shape=New -> Wedged and commented out mesh and model
+
+cobblestoneWedgeBroke01: Fixed shape=New -> Wedged and commented out mesh and model
+
+cobblestoneWedgeBroke02: Fixed shape=New -> Wedged and commented out mesh and model
+
+WindowPlug06: Removed upgrade path to reinforcedConcreteBarrier
+
+concreteBarrier: Added upgrade path to reinforcedConcreteBarrier and repair cost of 10 concrete mix
+
+reinforcedConcreteBarrierBroke02: Changed upgrade path to reinforcedConcreteBarrierBroke01
+
+reinforcedConcreteBarrierBroke03: Removed downgrade path to itself Changed upgrade path to reinforcedConcreteBarrierBroke02
+
+reinforcedConcreteWedge60Broke03: Removed downgrade path to itself
+
+wedgeBrick: Fixed <property name="DowngradeBlock" value="solidWoodFrame -> solidWoodRampFrame (h0tr0d)
+
+concreteReinforcedWedge60: Fixed <drop event="Fall" name="scrapMetalPile -> destroyedStone (h0tr0d)
+
+reinforcedConcreteWedge60Broke01: Added <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" /> to match reinforcedConcreteWedge60Broke03
+
+reinforcedConcreteWedge60Broke02: Added <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" /> to match reinforcedConcreteWedge60Broke03
+
+rebarRampFrame: material from metal_weak to metal to maintain SI
+
+solidRebarRampFrame: material from metal_weak to metal to maintain SI
+
+solidRebarFrame: material from metal_weak to metal to maintain SI
+
+solidRebarInsideCornerFrame: material from metal_weak to metal to maintain SI
+
+rebarInsideCornerFrame: material from metal_weak to metal to maintain SI
+
+painting02: Fixed added <property name="CanMobsSpawnOn" value="false" /> to match painting01
+
+reinforcedScrapIronRamp: fixed copy paste error (two times <property class="RepairItems">)
+
+reinforcedConcreteOutsideCorner: fixed copy paste error (two times <property class="RepairItems">)
+
+reinforcedConcreteOutsideCornerBroke02: fixed copy paste error (two times <property class="RepairItems">)
+
+reinforcedConcreteInsideCorner: fixed copy paste error (two times <property class="RepairItems">)
+
+reinforcedWoodenPoleBlock: fixed copy paste error (two times <property class="RepairItems">)
+
+concreteForm: fixed copy paste error (two times <property name="CanMobsSpawnOn" value="false" />)
+
+pouredConcrete: fixed copy paste error (two times <property name="CanMobsSpawnOn" value="false" />)
+
+concreteReinforcedBroke01: fixed copy paste error (two times <property name="CanMobsSpawnOn" value="false" />)
+
+animalGore: fixed upgrade to gore block instead of fertile dirt
+
+fixed removed some characters that should not be in the XML for eg. (xxx) or (yyy) or duplicate closign tags (>>) and (-->)
+
+
+Entityclasses:
+
+zombiedog: added missing properties:
+    <property name="MaxViewAngle" value="180" />
+
+
+
+Recipes:
+
+commented out: "cobblestoneRampFrame" and added "cobblestoneWedge" recipe
+
+
+
+Items:
+
+SteelArrowHead: removed crazy number of blank spaces (340kb) after </item> tag (GIDustin)
