@@ -557,6 +557,7 @@
 		<property name="SoundFootstepModifier"  value="Enemies/Snow_Zombie_Male/zombiesnowfootstep" />
         <property name="HandItem"             value="handCopZombie" />
 		<property name="ExperienceGain" value="500"/>
+		<property name="LootListOnDeath"  value="66" />
     </entity_class>	
 	
     <entity_class name="spiderzombie" extends="zombie01">
@@ -638,8 +639,6 @@
 	    <property name="RightHandJointName"   value="Jaw" />
         <property name="AvatarController" value="AvatarZombie01Controller" />
 		<property name="ModelType" value="Standard" />
-	    <property name="Weight"       value="70" />
-	    <property name="PushFactor"   value="20" />
 	    <property name="CanClimbLadders"     value="true" />
 		<property name="ExperienceGain" value="500"/>		
 		<property name="PhysicsBody" value="zombieStandard" />
@@ -648,8 +647,7 @@
 	    <property name="MaxHealth"    value="700" />
 	    <property name="Weight"       value="70" />
 	    <property name="PushFactor"   value="20" />
-	    <property name="LootListOnDeath"  value="17" />					
-        
+	    <property name="LootListOnDeath"  value="17" />
         <property name="AITask-1" value="BreakDoor" />
         <property name="AITask-2" value="BreakBlock" />
 		<!-- param1: 0 == attack action, 1 == use action, param2: attack length in s -->
@@ -657,9 +655,7 @@
         <property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer" />
         <property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag" />
         <property name="AITask-6" value="ApproachSpot" />
-	    <property name="AITask-7" value="Wander" />		
-		
-		
+	    <property name="AITask-7" value="Wander" />
 	    <property name="SoundRandom"     value="Enemies/Acid_Puking_Hulk/hulkroam" />
         <property name="SoundAlert"     value="Enemies/Acid_Puking_Hulk/hulkalert" />
         <property name="SoundAttack"     value="Enemies/Acid_Puking_Hulk/hulkattack" />
@@ -667,14 +663,10 @@
         <property name="SoundDeath"   value="Enemies/Acid_Puking_Hulk/hulkdeath" />
         <property name="SoundSense"   value="Enemies/Acid_Puking_Hulk/hulksense" />
 		<property name="SoundFootstepModifier"  value="Animals/Bear/bear_footstep" />
-		
-		
         <property name="Explosion.ParticleIndex"   value="8" />
         <property name="Explosion.RadiusBlocks"    value="3" />
         <property name="Explosion.RadiusEntities"  value="6" />
-		
 		<property name="ExperienceGain" value="500"/>
-
 		<property name="HeadDismemberThreshold" value="0"/>
 		<property name="LowerLegDismemberThreshold" value="0"/>
 		<property name="UpperLegDismemberThreshold" value="0"/>
@@ -754,6 +746,8 @@
        	<!--property name="LootListOnDeath"  value="12" /-->  <!-- Need to remove this when we want to harvest the entity ! -->
 		<property name="ExperienceGain" value="300"/>
 		<property name="MaxViewAngle" value="180" />
+		<property name="Immunity"     value="sickness;disease;bleeding;wellness" />
+		<property name="Weight"       value="70" />
         <!-- AI properties -->
         <property name="AITask-1" value="BreakDoor" />
         <property name="AITask-2" value="BreakBlock" />
@@ -1195,7 +1189,7 @@
         <property name="SoundLanding"    value="SupplyDrops/Supply_Crate_Land" />
 
 	    <property name="TimeStayAfterDeath" value="0" />
-<property name="SkinTexture"	value="SupplyCrate/supply_crate_general" />
+		<property name="SkinTexture"	value="SupplyCrate/supply_crate_general" />
 		<!-- If set this entity shows on the map -->
 	    <!-- <property name="MapIcon"   		 value="map_supply_crate" /> -->
     </entity_class>
@@ -1258,22 +1252,16 @@
         <property name="HandItem"     value="handZombie" />
         <property name="Weight"       value="70" />
 		<property name="Immunity"     value="sickness;disease;bleeding;wellness" />
-		
         <property name="WanderSpeed"        value="0.08" />
         <property name="ApproachSpeed"      value="0.2" />
         <property name="NightWanderSpeed"   value="0.08" />
         <property name="NightApproachSpeed" value="1.1" />
         <property name="PanicSpeed"         value="0.55" />
-				
 	    <property name="CanClimbLadders"     value="true" />
-
         <!-- This decides on the particle effect played on hit -->
         <property name="SurfaceCategory"    value="organic" />
-        
         <property name="WalkType"      value="2" />
-
-	      <property name="ParticleOnDeath" value="blood_death" />
-		
+	    <property name="ParticleOnDeath" value="blood_death" />
         <property name="SoundRandomTime" value="60.0" /> <!-- It will play the roam every 60/30 seconds -->    
         <property name="SoundRandom"     value="Enemies/Base_Zombie_Male/zombiemaleroam" />
         <property name="SoundAlertTime" value="25.0" /> <!-- It will play the roam every 25/12.5 seconds-->

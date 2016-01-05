@@ -482,7 +482,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sphere" value="0.2" />
             <property name="Block_range" value="4" />
             <property name="Sound_start" value="swoosh" />
-            <property name="Stamina_usage" value="8" />
+            <property name="Stamina_usage" value="5" />
             <property name="DamageBonus.earth" value="2" />
             <property name="DamageBonus.glass" value="25" />
             <property name="DamageBonus.head" value="4" />
@@ -963,7 +963,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="DamageEntity" value="8" />
             <property name="DamageBlock" value="1" />
             <property name="Sound_start" value="swoosh" />
-            <property name="Stamina_usage" value="8" />
+            <property name="Stamina_usage" value="4" />
             <property name="DamageBonus.earth" value="2" />
             <property name="DamageBonus.glass" value="25" />
             <property name="DamageBonus.head" value="4" />
@@ -2174,7 +2174,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="250" />
         <property name="FuelValue" value="1" />
-        <property name="Weight" value="5" />
+        <property name="Weight" value="1" />
         <property name="Group" value="Miscellaneous" />
         <property class="Preview">
             <property name="Zoom" value="10" />
