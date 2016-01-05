@@ -9480,7 +9480,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Action1">
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
-            <property name="Recipes_to_learn" value="rocketLauncher,rocket,rocketCase,rocketTip" />
+            <property name="Recipes_to_learn" value="rocketLauncher,rocket,rocketCasing,rocketTip" />
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
