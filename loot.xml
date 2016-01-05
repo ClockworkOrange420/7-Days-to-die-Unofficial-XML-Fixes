@@ -1322,7 +1322,7 @@
 		<item group="warmClothes" prob="0.7" />		        	
     </lootcontainer>
 
-	<lootcontainer id="67"  count="0,2" size="8,4" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet">
+	<lootcontainer id="67"  count="0,2" size="2,2" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet">
 		<item group="toiletLoot" count="1"/>	
     </lootcontainer>   	
 	
