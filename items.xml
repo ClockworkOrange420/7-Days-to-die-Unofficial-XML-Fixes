@@ -374,7 +374,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="DismembermentBonus" value="0.001,0.005"/>
         </property>
         <property name="Group" value="Tools/Traps" />
-		<property name="ActionSkillGroup" value="Blade Weapons"/>
+		<property name="ActionSkillGroup" value="Mining Tools"/>
 		<property name="CraftingSkillGroup" value="Tool Smithing"/>
     </item>
     <item id="21" name="pickaxeIron">

@@ -1,16 +1,9 @@
 
-This one is questionable (so I have not made this fix) as to which you would like to use the axe for sicne it cant be purposed to be used for both!
-
-Fireaxe: changed from "Blade Weapons" to "Mining Tools" so blockDamage is increased with skills instead of entityDamage. ?
-
-I personally feel that the axe is meant to be a tool and not a weapon but i will leave this one up to you to decide if you wish to make this change. If you do decide to make this change please let me know and I will update it on my github!
-
-
-
 Changelog:
 
 
 Blocks:
+
 
 scrapIronPoleBlock: Added repair items <property class="RepairItems"><property name="scrapIron" value="10" />
 
@@ -107,5 +100,7 @@ commented out: "cobblestoneRampFrame" and added "cobblestoneWedge" recipe
 
 
 Items:
+
+Fireaxe: changed from "Blade Weapons" to "Mining Tools" so blockDamage is increased with skills instead of entityDamage.
 
 SteelArrowHead: removed crazy number of blank spaces (340kb) after </item> tag (GIDustin)
