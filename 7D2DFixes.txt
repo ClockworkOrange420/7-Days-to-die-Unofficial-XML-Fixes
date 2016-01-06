@@ -620,6 +620,8 @@ scrapHelmet Fixed can now be repaired with scrap iron instead of forged iron
 
 scrapGloves Fixed can now be repaired with scrap iron instead of forged iron
 
+Fixed rocketLauncherSchematic mispelling of <property name="Recipes_to_learn" value="rocketLauncher,rocket,rocketCasing,rocketTip" />
+
 Paper fixed weight value to 1
 
 Shovel Fixed stamina usage is now 6 instead of 8
