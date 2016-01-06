@@ -1,6 +1,24 @@
 
 Changelog:
 
+Spawning
+
+Fixed increased zombie spawns for biomes <spawn maxcount="3" respawndelay="4" time="Any"   entitygroup="ZombiesAll" /> From -->maxcount="1"
+
+RoamingHordeSpawnDay Fixed changed  <property name="Time"   value="Day" /> from -->"Any"
+
+RoamingHordeSpawnDay Fixed add roaming day hoards will now spawn up to day 99
+
+RoamingHordeSpawnNight Fixed changed <property name="Time"   value="Night" /> from -->"Any"
+
+RoamingHordeSpawnNight Fixed add roaming night hoards will now spawn up to day 99
+
+NightHorde Fixed 7 day feral hoards will now spawn every 7 days forever!
+
+HordeMeterDynamicSpawnDay Fixed changed <property name="Time"   value="Day" /> from -->"Any"
+
+HordeMeterDynamicSpawnNight Fixed changed <property name="Time"   value="Night" /> from -->"Any"
+
 
 Blocks:
 -------------
@@ -580,6 +598,8 @@ Loot:
 
 Fixed  loot container for herbal antibiotics recipe should now drop <lootcontainer id="63" count="0,1"
 
+Fixed toilet loot container size to 2 x 2
+
 
 Progression:
 
@@ -590,9 +610,9 @@ Items:
 
 Paper fixed weight value to 1
 
-Shovel Fixed stamina usage is now 5 instead of 8
+Shovel Fixed stamina usage is now 6 instead of 8
 
-Stone Shovel Fixed stamina usage is now 4 instead of 8
+Stone Shovel Fixed stamina usage is now 6 instead of 8
 
 Fireaxe: changed from "Blade Weapons" to "Mining Tools" so blockDamage is increased with skills instead of entityDamage.
 
