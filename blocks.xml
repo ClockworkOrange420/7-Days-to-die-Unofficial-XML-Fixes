@@ -2332,7 +2332,6 @@
 	<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
     <drop event="Destroy" count="0" />
     <property name="Group" value="Food/Cooking,Basics" />
-    <drop event="Destroy" name="[recipe]" count="1" />	
 	<property class="Workstation">
 		<property name="Modules" value="tools,output,fuel,input"/>
 	</property>
