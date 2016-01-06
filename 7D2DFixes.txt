@@ -608,6 +608,18 @@ Fixed missing numerical value for skills <multiply skill_level="76,99" value="1.
 
 Items:
 
+pickaxeSteel Fixed can now be repaired with forgedSteel instead of forged iron
+
+scrapBoots Fixed can now be repaired with scrap iron instead of forged iron
+
+scrapLegArmor Fixed can now be repaied with scrap iron instead of forged iron
+
+scrapChestArmor Fixed can now be repaired with scrap iron instead of forged iron
+
+scrapHelmet Fixed can now be repaired with scrap iron instead of forged iron
+
+scrapGloves Fixed can now be repaired with scrap iron instead of forged iron
+
 Paper fixed weight value to 1
 
 Shovel Fixed stamina usage is now 6 instead of 8

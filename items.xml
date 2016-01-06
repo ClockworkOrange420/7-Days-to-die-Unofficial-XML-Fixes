@@ -6116,7 +6116,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="EquipSlot" value="Feet" />
         <property name="FuelValue" value="4" />
         <property name="Degradation" value="250" param1="true" />
-        <property name="RepairTools" value="forgedIron" />
+        <property name="RepairTools" value="scrapIron" />
 		
 		<property class="Attributes">
   			<property name="ConcussiveProtection" value="0.3, 0.7" /> 
@@ -6152,7 +6152,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="EquipSlot" value="Legs" />
         <property name="FuelValue" value="16" />
         <property name="Degradation" value="250" param1="true" />
-        <property name="RepairTools" value="forgedIron" />
+        <property name="RepairTools" value="scrapIron" />
         
         <property class="Attributes">
   			<property name="ConcussiveProtection" value="0.3, 0.7" /> 
@@ -6188,7 +6188,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="EquipSlot" value="Chest" />
         <property name="FuelValue" value="16" />
         <property name="Degradation" value="250" param1="true" />
-        <property name="RepairTools" value="forgedIron" />
+        <property name="RepairTools" value="scrapIron" />
         
 		<property class="Attributes">
   			<property name="ConcussiveProtection" value="0.3, 0.7" /> 
@@ -6224,7 +6224,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="EquipSlot" value="Head" />
         <property name="FuelValue" value="16" />
         <property name="Degradation" value="250" param1="true" />
-        <property name="RepairTools" value="forgedIron" />
+        <property name="RepairTools" value="scrapIron" />
 		
 		<property class="Attributes">
   			<property name="ConcussiveProtection" value="0.3, 0.7" /> 
@@ -6261,7 +6261,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="EquipSlot" value="Hands" />
         <property name="FuelValue" value="16" />
         <property name="Degradation" value="250" param1="true" />
-        <property name="RepairTools" value="forgedIron" />
+        <property name="RepairTools" value="scrapIron" />
 
 		<property class="Attributes">
   			<property name="ConcussiveProtection" value="0.3, 0.7" /> 
@@ -7498,7 +7498,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="metal" />
         <property name="HoldType" value="4" />
         <property name="Stacknumber" value="1" />
-        <property name="RepairTools" value="forgedIron" />
+        <property name="RepairTools" value="forgedSteel" />
         <property name="SoundDestroy" value="metaldestroy1" />
 		<property name="DegradationBreaksAfter" value="false" />
 		<property name="SoundJammed" value="ItemNeedsRepair" />		
