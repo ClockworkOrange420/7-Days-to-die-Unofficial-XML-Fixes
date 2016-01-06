@@ -2896,8 +2896,7 @@
     <property name="Model" value="LootContainers/safe_wall" param1="main_mesh" />
     <property name="LootList" value="11" />
 	<property name="DowngradeBlock" value="wallSafeInsecure" />             
-	<drop event="Destroy" count="0" prob="1" /> 
-    <drop event="Fall" name="wallSafe" count="1" prob="1.0"  stick_chance=".75" />
+	<drop event="Destroy" count="0" prob="1" />
   </block>
   <block id="368" name="corpseLoot02">
     <property name="Class" value="Loot" />
