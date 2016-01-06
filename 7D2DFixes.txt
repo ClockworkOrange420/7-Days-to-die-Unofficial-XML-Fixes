@@ -502,6 +502,8 @@ steelPoleBlock: added repair items <property class="RepairItems"><property name=
 
 
 ---------
+wallSafe: Fixed removed fall event to fix possible expoit
+
 car03BlueDamage1: fixed <drop event="Fall" name="car03Damage2" count="1" prob="1.0"  stick_chance="1" />
 
 car03Red: Added <drop event="Fall" name="car03RedDamage1" count="1" prob="1.0"  stick_chance="1" />
