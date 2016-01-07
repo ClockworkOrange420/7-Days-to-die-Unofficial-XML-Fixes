@@ -1190,7 +1190,7 @@
         <ingredient name="concrete" count="4"/>
     </recipe>
 
-    <recipe name="stairsPavers" count="1" craft_area="forge" material_based="true" scrapable="False" >
+    <recipe name="stairsPavers" count="1" scrapable="False" >
         <ingredient name="brickPaver" count="1"/>
     </recipe>
 

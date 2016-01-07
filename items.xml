@@ -8137,7 +8137,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Action1">
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
-            <property name="Recipes_to_learn" value="leatherJacket" />
+            <property name="Recipes_to_learn" value="leatherJacket,leatherDuster" />
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -8772,7 +8772,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Class" value="LearnRecipe" />
             <property name="Title" value="Do not Read this book." />
             <property name="Description" value="Is used to provide repair costs for blocks." />
-			<property name="Recipes_to_learn" value="oldWood,leatherDuster" />
+			<property name="Recipes_to_learn" value="oldWood" />
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
