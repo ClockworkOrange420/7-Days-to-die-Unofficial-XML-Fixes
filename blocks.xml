@@ -7663,7 +7663,7 @@
     <property name="Shape" value="Wedged60Curb" />
     <property name="Texture" value="269,11,8,11,11,11" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />
+		<property name="concreteMix" value="5" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />     
