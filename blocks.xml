@@ -2060,6 +2060,9 @@
   <block id="278" name="tileFloor3">
     <property name="Material" value="stone" />
     <property name="Texture" value="340" />
+	<property class="RepairItems">
+		<property name="concreteMix" value="10" />
+	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />         
   </block>
@@ -2068,6 +2071,9 @@
     <property name="Shape" value="StairsQuarterFilled" />
     <property name="Texture" value="340" />
     <property name="Place" value="TowardsPlacer" />
+	<property class="RepairItems">
+		<property name="concreteMix" value="10" />
+	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />     
   </block>
