@@ -8122,8 +8122,8 @@
 	<property class="RepairItems">
 		<property name="cobblestones" value="4" />
 	</property>
-    <drop event="Destroy" name="woodDebris" count="1" />
-    <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />    
+    <drop event="Destroy" name="destroyedStone" count="1" />
+    <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />    
   </block>
   
   <block id="940" name="redWoodPillar">
