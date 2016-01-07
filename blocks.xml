@@ -2528,6 +2528,9 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="HousingDecor/mailbox" param1="main_mesh" />
     <property name="LootList" value="14" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="5" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1" />
   </block>
   <block id="328" name="pew_segment01">
@@ -2537,8 +2540,10 @@
     <property name="Model" value="Furniture/pew_segment01" param1="main_mesh" />
     <property name="FuelValue" value="30" />
     <property name="CanPickup" value="true" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />
+	</property>
     <drop event="Destroy" count="0" />
-
   </block>
   <block id="329" name="pew_segment02">
     <property name="Material" value="wood_weak" />
@@ -2548,7 +2553,6 @@
     <property name="FuelValue" value="30" />
     <property name="CanPickup" value="true" />
     <drop event="Destroy" count="0" />
-
   </block>
   <block id="330" name="pew_segment03">
     <property name="Material" value="wood_weak" />
@@ -2558,7 +2562,6 @@
     <property name="FuelValue" value="30" />
     <property name="CanPickup" value="true" />
     <drop event="Destroy" count="0" />
-
   </block>
   <block id="331" name="chest01">
     <property name="Class" value="Loot" />
@@ -2568,6 +2571,9 @@
     <property name="Model" value="LootContainers/chest01" param1="main_mesh" />
     <property name="Place" value="TowardsPlacer" />
     <property name="LootList" value="1" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />
+	</property>
     <drop event="Destroy" name="woodDebris" count="1" />
     <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />    
   </block>
@@ -2579,6 +2585,9 @@
     <property name="Model" value="LootContainers/chest02" param1="main_mesh" />
     <property name="Place" value="TowardsPlacer" />
     <property name="LootList" value="1" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />
+	</property>
     <drop event="Destroy" name="woodDebris" count="1" />
     <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />    
   </block>
@@ -2590,6 +2599,9 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="LootContainers/trash_can01" param1="main_mesh" />
     <property name="LootList" value="16" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="5" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1" prob="1" />
   </block>
   <block id="336" name="bin">
@@ -2599,6 +2611,9 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="LootContainers/bin" />
     <property name="LootList" value="2" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="5" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1" prob="1" />
   </block>
   <block id="337" name="nightstand">
@@ -2608,7 +2623,9 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="LootContainers/nightstand" param1="main_mesh" />
     <property name="LootList" value="6" />
-
+	<property class="RepairItems">
+		<property name="wood" value="10" />
+	</property>
     <drop event="Destroy" name="woodDebris" count="1" />
     <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />    
   </block>
@@ -2619,6 +2636,9 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
     <property name="LootList" value="36" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="5" />
+	</property>
     <drop event="Destroy" count="0" />
   </block>
   <block id="339" name="storageChest">
