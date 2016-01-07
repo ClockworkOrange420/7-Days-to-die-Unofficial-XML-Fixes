@@ -3258,7 +3258,7 @@
     <property name="Shape" value="Wedged60Curb" />
     <property name="Texture" value="326,326,326,326,326,326" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />	
+		<property name="concreteMix" value="5" />	
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />     
@@ -3383,7 +3383,7 @@
 		<property name="wood" value="3" />
 	</property>
     <drop event="Destroy" name="woodDebris" count="0" />
-    <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />    
+    <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
   </block>
   <block id="411" name="trapSpikesDamage03">
     <property name="Class" value="Spikes" />
