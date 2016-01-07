@@ -10156,7 +10156,7 @@
     <property name="DowngradeBlock" value="commercialDoor4_v2" />
 	<property class="RepairItems">
 		<property name="scrapIron" value="10" />	
-	</property>		
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />      
     <property name="Group" value="Building" />
