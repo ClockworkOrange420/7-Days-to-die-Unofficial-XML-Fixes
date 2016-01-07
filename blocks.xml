@@ -13293,7 +13293,6 @@
   <block id="1456" name="car03Red">
     <property name="Extends" value="car03Blue" />
     <property name="Model" value="Entities/Vehicles/car03_red_dmg0_Prefab" />
-	<drop event="Fall" name="car03RedDamage1" count="1" prob="1.0"  stick_chance="1" />
 	<property name="DowngradeBlock" value="car03RedDamage1" />
   </block>   
   
@@ -13321,7 +13320,6 @@
   <block id="1458" name="car03Yellow">
     <property name="Extends" value="car03Blue" />
     <property name="Model" value="Entities/Vehicles/car03_yellow_dmg0_Prefab" />
-	<drop event="Fall" name="car03YellowDamage1" count="1" prob="1.0"  stick_chance="1" />
 	<property name="DowngradeBlock" value="car03YellowDamage1" />
   </block>   
   
@@ -13349,7 +13347,6 @@
   <block id="1460" name="car03White">
     <property name="Extends" value="car03Blue" />
     <property name="Model" value="Entities/Vehicles/car03_white_dmg0_Prefab" />
-	<drop event="Fall" name="car03WhiteDamage1" count="1" prob="1.0"  stick_chance="1" />
 	<property name="DowngradeBlock" value="car03WhiteDamage1" />
   </block>   
   
