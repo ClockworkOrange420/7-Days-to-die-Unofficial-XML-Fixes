@@ -2926,8 +2926,7 @@
 	</property>
 	<property name="DowngradeBlock" value="deskSafeInsecure" /> 
 	<drop event="Destroy" count="0" prob="1" />    
-	<drop event="Fall" name="deskSafe" count="1" prob="1.0"  stick_chance=".75" />	    
-
+	<drop event="Fall" name="deskSafe" count="1" prob="1.0"  stick_chance=".75" />
   </block>
   <block id="367" name="wallSafe">
     <property name="Class" value="SecureLoot" />
@@ -2959,7 +2958,7 @@
     <property name="Model" value="LootContainers/mailbox01" param1="main_mesh" />
     <property name="LootList" value="14" />
 	<property class="RepairItems">
-		<property name="scrapIron" value="10" />
+		<property name="scrapIron" value="5" />
 	</property>
     <drop event="Destroy" name="scrapIron" count="1" prob="1" />
   </block>
@@ -2971,7 +2970,7 @@
     <property name="Model" value="LootContainers/mailbox02" param1="main_mesh" />
     <property name="LootList" value="14" />
 	<property class="RepairItems">
-		<property name="scrapIron" value="10" />
+		<property name="scrapIron" value="5" />
 	</property>
     <drop event="Destroy" name="scrapIron" count="1" prob="1" />
   </block>
@@ -2983,7 +2982,7 @@
     <property name="Model" value="LootContainers/mailbox03" param1="main_mesh" />
     <property name="LootList" value="14" />
 	<property class="RepairItems">
-		<property name="scrapIron" value="10" />
+		<property name="scrapIron" value="5" />
 	</property>
     <drop event="Destroy" name="scrapIron" count="1" prob="1" />
   </block>
