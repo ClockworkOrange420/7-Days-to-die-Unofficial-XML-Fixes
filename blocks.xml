@@ -2355,6 +2355,9 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="Appliances/oven" param1="main_mesh" />
     <property name="LootList" value="5" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
 	<drop event="Harvest" name="scrapCable" count="1" tool_category="Disassemble" />
 	<drop event="Harvest" name="shortMetalPipe" count="2" tool_category="Disassemble" /> 
     <drop event="Destroy" name="scrapIron" count="2" prob="1" />
@@ -8979,7 +8982,7 @@
     <property name="Texture" value="346,345,341,345,262,345" />
     <property name="LootList" value="3" />
 	<property class="RepairItems">
-		<property name="shortMetalPipe" value="10" />
+		<property name="scrapIron" value="10" />
 	</property>
 	<drop event="Harvest" name="scrapCable" count="1" tool_category="Disassemble" />
 	<drop event="Harvest" name="shortMetalPipe" count="2" tool_category="Disassemble" /> 
