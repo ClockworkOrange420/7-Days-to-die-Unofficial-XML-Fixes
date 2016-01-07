@@ -2760,7 +2760,9 @@
     <property name="LootList" value="4" />
     <property name="Model" value="Entities/LootContainers/fridgePrefab" />
     <!-- <drop event="Destroy" name="scrapIron" count="3,5" prob="1" /> -->
-
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />    
   </block>
@@ -4415,6 +4417,9 @@
     <property name="Texture" value="282" />
     <property name="Weight" value="32" />
     <property name="Model" value="Commercial/store_shelving01" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />    
   </block>
@@ -4425,6 +4430,9 @@
     <property name="Texture" value="282" />
     <property name="Weight" value="32" />
     <property name="Model" value="Commercial/store_shelving01_double" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />    
   </block>
@@ -4434,6 +4442,9 @@
 	<property name="Mesh" value="models" />
     <property name="Texture" value="282" />
     <property name="Weight" value="32" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <property name="Model" value="Commercial/store_shelving01_top" param1="main_mesh" />
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />    
@@ -4445,6 +4456,9 @@
     <property name="Texture" value="282" />
     <property name="Weight" value="32" />
     <property name="Model" value="Commercial/store_shelving01_top_double" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />    
   </block>
