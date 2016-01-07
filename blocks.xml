@@ -12837,7 +12837,7 @@
     <property name="Weight" value="184" />
     <property name="LootList" value="11" />
 	<property class="RepairItems">
-		<property name="scrapIron" value="10" />	
+		<property name="scrapIron" value="5" />	
 	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />   
 	<drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance="1" />	   
@@ -12852,7 +12852,7 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="LootContainers/safe_wall" param1="main_mesh" />
 	<property class="RepairItems">
-		<property name="forgedIron" value="10" />
+		<property name="forgedIron" value="5" />
 	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance="1" />
