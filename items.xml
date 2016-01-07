@@ -4826,7 +4826,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Insulation" value="-5"/>
 		<property name="Waterproof" value="0"/>
         <property name="Meshfile" value="Items/Clothing/Head/shadesPrefab" />
-        <property name="Material" value="glass" />
+        <property name="Material" value="metal" />
         <property name="HoldType" value="7" />
         <property name="Stacknumber" value="1" />
         <property name="EquipSlot" value="Eyes" />
