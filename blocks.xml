@@ -9608,6 +9608,9 @@
     <property name="Material" value="stone" />
     <property name="Shape" value="Wedged60Tip" />
     <property name="Texture" value="10" />
+	<property class="RepairItems">
+		<property name="concreteMix" value="5" />
+	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
   </block>
   <block id="1139" name="wedge60TipWoodOld">
