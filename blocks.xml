@@ -12847,7 +12847,10 @@
     <property name="Material" value="metal_hard" />
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
-    <property name="Model" value="LootContainers/safe_wall" param1="main_mesh" />       
+    <property name="Model" value="LootContainers/safe_wall" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="forgedIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance="1" />
   </block>  
