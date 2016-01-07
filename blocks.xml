@@ -2786,6 +2786,9 @@
     <drop event="Destroy" count="0" />
     <property name="LPHardnessScale" value="0" />
     <!-- disable LP for TNT blocks -->
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
   </block>
   <block id="351" name="wallTorch">
     <property name="Class" value="Torch" />
