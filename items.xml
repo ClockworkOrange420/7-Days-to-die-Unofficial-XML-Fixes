@@ -3566,7 +3566,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="brass" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="500" />
-        <property name="Weight" value="5" />
+        <property name="Weight" value="1" />
         <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
             <property name="Zoom" value="18" />
@@ -3585,7 +3585,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="brass" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="500" />
-        <property name="Weight" value="5" />
+        <property name="Weight" value="1" />
         <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
             <property name="Zoom" value="18" />
@@ -3604,7 +3604,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="brass" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="500" />
-        <property name="Weight" value="5" />
+        <property name="Weight" value="1" />
         <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
             <property name="Zoom" value="18" />
@@ -4612,7 +4612,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="brass" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="500" />
-        <property name="Weight" value="5" />
+        <property name="Weight" value="1" />
         <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
             <property name="Zoom" value="18" />
