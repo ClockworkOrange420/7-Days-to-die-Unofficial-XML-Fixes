@@ -3037,7 +3037,7 @@
     <property name="GrassBlock1" value="tallGrassDiagonal" />
     <property name="GrassBlock2" value="tallGrassDiagonal" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />	
+		<property name="concreteMix" value="5" />	
 	</property>
     <drop event="Destroy" count="0" />
   </block>
@@ -3064,7 +3064,7 @@
     <property name="Model" value="Pole0.5m" />
     <property name="Texture" value="8" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />	
+		<property name="concreteMix" value="5" />	
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />    
