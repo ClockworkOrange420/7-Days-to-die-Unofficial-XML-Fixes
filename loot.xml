@@ -492,7 +492,7 @@
 	</lootgroup>	
 	
 	<lootgroup name="herbalRecipes" count="1">
-		<item name="herbalAntibioticsRecipe"/>	
+		<item name="herbalAntibioticsRecipe"/>
 	</lootgroup>	
 	
 	<lootgroup name="gasPumps" >
@@ -500,7 +500,8 @@
 	</lootgroup>	
 	
 	<lootgroup name="commonBooks" count="1">
-	    <item name="book" prob="20"/>	
+	    <item name="book" prob="20"/>
+		<item name="herbalAntibioticsRecipe"/>
 		<item name="crossbowSchematic"/>			
 		<item name="hammerSchematic"/>	
 		<item name="huntingKnifeBook"/>
