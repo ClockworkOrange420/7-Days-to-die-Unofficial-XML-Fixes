@@ -7797,7 +7797,7 @@
     <property name="Collide" value="rockets,melee" />
     <!-- Corn Seed -->
     <property name="IsTerrainDecoration" value="true" />
-    <property name="PlantGrowing.FertileLevel" value="0" />
+    <property name="PlantGrowing.FertileLevel" value="1" />
     <property name="PlantGrowing.Next" value="growableCornTop1" />
     <property name="PlantGrowing.GrowthRate" value="60" />
     <property name="PlantGrowing.LightLevelStay" value="0" />
