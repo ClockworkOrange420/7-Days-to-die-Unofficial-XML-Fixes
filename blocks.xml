@@ -13244,7 +13244,7 @@
 	<drop event="Harvest" name="leather" count="5" prob=".5"/>
 	<drop event="Harvest" name="scrapIron" count="4" prob="0.5" />
     <drop event="Destroy" name="scrapIron" count="2" prob="1" />
-    <drop event="Fall" name="car03BlueDamage1" count="1" prob="1.0"  stick_chance="1" /> 
+    <drop event="Fall" name="car03BlueDamage1" count="1" prob="1.0"  stick_chance="1" />
 	<property name="DowngradeBlock" value="car03BlueDamage1" />
 	<property name="BigDecorationRadius" value="5" />
 	<property name="CanDecorateOnSlopes" value="false" />
