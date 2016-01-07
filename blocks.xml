@@ -418,7 +418,7 @@
     <property name="Texture" value="380" />
     <property name="Collide" value="movement,rocket,melee" />
     <property name="FuelValue" value="100" />   
-    <drop event="Destroy" name="woodDebris" count="1" />
+    <drop event="Destroy" name="scrapIron" count="1" />
 	<property name="CanMobsSpawnOn" value="false" />
     <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />    
     <property class="UpgradeBlock">
@@ -445,7 +445,7 @@
     <property name="CanPickup" value="true" />    
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<property name="CanMobsSpawnOn" value="false" />
-    <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />    
+    <drop event="Fall" name="scrapIron" count="1" prob="1.0"  stick_chance=".75" />    
     <property class="UpgradeBlock">
       <property name="ToBlock" value="scrapIronWedge60" />
       <property name="Item" value="scrapIron" />
@@ -9131,7 +9131,7 @@
 		<property name="concreteMix" value="10" />
 	</property> 	
     <drop event="Destroy" count="0" prob="1" /> 
-    <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />    
+    <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />    
   </block>
   <block id="1073" name="stairstileFloor4">
     <property name="Material" value="concrete" />
