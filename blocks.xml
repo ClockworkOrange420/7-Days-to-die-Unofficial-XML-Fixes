@@ -2374,6 +2374,9 @@
     <property name="Model" value="Furniture/chair03_Collider" param1="game" />
     <property name="Place" value="TowardsPlacerInverted" />
     <property name="FuelValue" value="50" />
+	<property class="RepairItems">
+		<property name="wood" value="5" />
+	</property>
 	<drop event="Destroy" name="wood" count="2" prob="1" />
     <property name="CanPickup" value="true" />
   </block>
@@ -2408,8 +2411,7 @@
     <property name="FuelValue" value="50" />
 	<drop event="Harvest" name="wood" count="2" />
 	<drop event="Harvest" name="cloth" count="2" />
-	<drop event="Destroy" count="0" />	
-
+	<drop event="Destroy" count="0" />
   </block>
   <block id="316" name="porchLight01">
     <property name="Class" value="Light" />
