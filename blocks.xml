@@ -4508,7 +4508,9 @@
     <property name="Model" value="Furniture/end_table" param1="main_mesh" />
     <property name="FuelValue" value="32" />
     <property name="CanPickup" value="true" />
-
+	<property class="RepairItems">
+		<property name="wood" value="5" />
+	</property>
   </block>
   <block id="548" name="endTableLamp">
     <property name="Material" value="furniture" />
@@ -4517,7 +4519,9 @@
     <property name="Model" value="Furniture/end_table_lamp" param1="main_mesh" />
     <property name="FuelValue" value="32" />
     <property name="CanPickup" value="true" />
-
+	<property class="RepairItems">
+		<property name="wood" value="5" />
+	</property>
   </block>
   <block id="549" name="sectionalArm2">
     <property name="Material" value="furniture" />
@@ -4528,7 +4532,6 @@
 	<drop event="Harvest" name="wood" count="2" />
 	<drop event="Harvest" name="leather" count="2" />
 	<drop event="Destroy" count="0" />
-
   </block>
   <block id="550" name="sectionalCorner2">
     <property name="Material" value="furniture" />
@@ -4536,7 +4539,6 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="Furniture/sectionalCorner2" param1="main_mesh" />
     <property name="FuelValue" value="164" />
-
 	<drop event="Harvest" name="wood" count="2" />
 	<drop event="Harvest" name="leather" count="2" />
 	<drop event="Destroy" count="0" />	
@@ -4547,7 +4549,6 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="Furniture/sectionalMiddle2" param1="main_mesh" />
     <property name="FuelValue" value="164" />
-
 	<drop event="Harvest" name="wood" count="2" />
 	<drop event="Harvest" name="leather" count="2" />	
 	<drop event="Destroy" count="0" />
@@ -4561,7 +4562,6 @@
     <property name="Weight" value="8" />
     <drop event="Destroy" name="scrapIron" count="1" prob="1" />
     <property name="CanPickup" value="true" />
-
   </block>
   <block id="553" name="tv_fallen">
     <property name="Material" value="metal_thin" />
@@ -4571,7 +4571,6 @@
     <property name="Collide" value="bullet,rocket,melee" />
     <property name="Weight" value="8" />
     <drop event="Destroy" name="scrapIron" count="1" prob="1" />
-
   </block>
   <block id="554" name="tv_large_1">
     <property name="Material" value="metal_thin" />
@@ -4581,7 +4580,6 @@
     <property name="Collide" value="bullet,rocket,melee" />
     <property name="Weight" value="8" />
     <drop event="Destroy" name="scrapIron" count="1" prob="1" />
-
   </block>
   <block id="555" name="tv_large_2">
     <property name="Material" value="metal_thin" />
@@ -4591,7 +4589,6 @@
     <property name="Collide" value="bullet,rocket,melee" />
     <property name="Weight" value="8" />
     <drop event="Destroy" name="scrapIron" count="1" prob="1" />
-
   </block>
   <block id="556" name="forge">
     <property name="Class" value="Forge" />
@@ -4627,6 +4624,9 @@
     <property name="Model" value="LootContainers/munitions_box01" param1="main_mesh" />
     <property name="Place" value="TowardsPlacer" />
     <property name="LootList" value="40" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="6" prob="1" />
   </block>
   <block id="558" name="ironBars">
