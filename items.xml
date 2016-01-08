@@ -687,7 +687,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Weight" value="5" />
         <property name="SoundDestroy" value="wooddestroy1" />
         <property name="FuelValue" value="5" />
-		
         <property class="Action0">
             <!-- AttackAction -->
             <property name="Class" value="Melee" />
@@ -702,6 +701,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="DamageBonus.metal" value="0.25" />
 			<property name="DamageBonus.earth" value="0.25" />
 			<property name="ActionExp" value="1" />
+			<property name="ToolCategory.Butcher" value="0.5" />
         </property>
         <property class="Action1">
             <!-- UseAction -->
@@ -711,7 +711,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Upgrade_hit_offset" value="0" />
             <property name="Sound_start" value="UseActions/repair_block" />
             <property name="Allowed_upgrade_items" value="wood,scrapIron,forgedIron,forgedSteel,concreteMix,cobblestones" />
-			<property name="ToolCategory.Butcher" value="0.5" />
         </property>
         <property name="Group" value="Tools/Traps,Basics" />
         <property class="Attributes">
