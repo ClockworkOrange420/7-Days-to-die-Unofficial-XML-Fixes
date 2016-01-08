@@ -4419,12 +4419,19 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="EquipSlot" value="Head" />
         <property name="FuelValue" value="16" />
         <property name="Degradation" value="250" param1="true" />
-        <property class="Armor">
-            <property name="Melee" value="0.6" />
-            <property name="Bullet" value="0.4" />
-            <property name="Puncture" value="0.4" />
-            <property name="Blunt" value="0.5" />
-            <property name="Explosive" value="0.2" />
+        <property class="Attributes">
+          <property name="ConcussiveProtection" value="0.1, 0.3" /> 
+          <property name="PunctureProtection" value="0.05, 0.2" />
+          <property name="FireProtection" value="0.05, 0.2" />
+          <property name="RadiationProtection" value="0.15, 0.2" />
+          <property name="DegradationMax" value="40,600" />
+        </property>
+        <property class="UMA">
+            <property name="Mesh" value="armor_hazmat_head" />
+            <property name="Overlay" value="armor_hazmat_hood" />
+            <property name="Layer" value="2" />
+            <property name="UISlot" value="Headgear" />
+            <property name="ShowHair" value="true" />
         </property>
         <property name="Group" value="Clothing" />
         <property class="Preview">
