@@ -7549,6 +7549,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Group" value="Resources" />
 		<property name="CraftingIngredientExp" value="15" />
 		<property name="CraftingIngredientTime" value="15" />
+		<property name="RepairTime" value="0.5" />
+        <property name="RepairAmount" value="200" />
 		<property name="LootExpValue" value="1" />		
         <property class="Preview">
             <property name="Zoom" value="10" />
