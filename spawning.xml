@@ -1789,7 +1789,7 @@
 		</day>
 	</entityspawner>
 	
-	<entityspawner name="NightHorde" dynamic="true"> <!-- these are feral hordes who will find the player for sure -->
+	<entityspawner name="NightHorde" dynamic="true" wrapMode="wrap"> <!-- these are feral hordes who will find the player for sure -->
 		<day value="1,6">
 			<property name="ResetToday"         value="true" />
 			<property name="EntityGroupName"    value="ZombiesNight" />
@@ -1898,7 +1898,7 @@
 		<day value="*">
 			<property name="ResetToday"         value="true" />
 			<property name="EntityGroupName"    value="ZombiesWastelandNight" />
-			<property name="DelayBetweenSpawns" value="7" />
+			<property name="DelayBetweenSpawns" value="1" />
 			<property name="TotalAlive"         value="30" />
 			<property name="TotalPerWave"       value="300" />
 		</day>
