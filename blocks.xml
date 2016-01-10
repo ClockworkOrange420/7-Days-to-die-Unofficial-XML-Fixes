@@ -9400,7 +9400,7 @@
     <property class="UpgradeBlock">
       <property name="ToBlock" value="cobblestoneWedge" />
       <property name="Item" value="cobblestones" />
-      <property name="ItemCount" value="10" />
+      <property name="ItemCount" value="4" />
       <property name="UpgradeHitCount" value="4" />
     </property>
 	<property class="RepairItems">
@@ -9422,7 +9422,7 @@
     <property class="UpgradeBlock">
       <property name="ToBlock" value="cobblestoneWedgeBroke01" />
       <property name="Item" value="cobblestones" />
-      <property name="ItemCount" value="10" />
+      <property name="ItemCount" value="4" />
       <property name="UpgradeHitCount" value="4" />
     </property>
 	<property class="RepairItems">
