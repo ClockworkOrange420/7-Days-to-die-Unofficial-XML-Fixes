@@ -13425,6 +13425,7 @@
 	<property name="Mesh-Damage-5" value="Door/Hatch_DMG4" />
     <property name="OpenSound" value="UseActions/open_door_metal" />
     <property name="CloseSound" value="UseActions/close_door_metal" />
+	<property name="DowngradeBlock" value="scrapHatch_v1" />
     <property class="UpgradeBlock">
       <property name="ToBlock" value="scrapHatch_v3" />
       <property name="Item" value="scrapIron" />
