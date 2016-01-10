@@ -11918,7 +11918,7 @@
     <!-- <property name="Place" value="TowardsPlacerInverted" /> -->
 	<property name="Texture" value="517" />
     <property class="UpgradeBlock">
-      <property name="ToBlock" value="cobblestoneWedgeBroke02" />
+      <property name="ToBlock" value="cobblestoneWedgeBroke01" />
       <property name="Item" value="cobblestones" />
       <property name="ItemCount" value="4" />
       <property name="UpgradeHitCount" value="4" />
@@ -11926,7 +11926,7 @@
     <property class="RepairItems">
 		<property name="cobblestones" value="4" />
 	</property>
-	<property name="DowngradeBlock" value="cobblestoneWedgeBroke01" />
+	<property name="DowngradeBlock" value="cobblestoneWedgeBroke02" />
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" /> 
 	<property name="MaxDamage" value="100" />		
@@ -11945,7 +11945,7 @@
       <property name="ItemCount" value="4" />
       <property name="UpgradeHitCount" value="4" />
     </property>
-	<property name="DowngradeBlock" value="cobblestoneWedgeBroke02" />
+	<property name="DowngradeBlock" value="cobblestoneWedgeBroke01" />
     <property class="RepairItems">
 		<property name="cobblestones" value="4" />
 	</property>
