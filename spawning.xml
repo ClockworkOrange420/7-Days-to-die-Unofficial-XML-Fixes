@@ -2810,7 +2810,7 @@
 			<property name="EntityGroupName"    value="ZombiesWastelandNight" />
 			<property name="DelayBetweenSpawns" value="1" />
 			<property name="TotalAlive"         value="20" />
-			<property name="TotalPerWave"       value="60" />
+			<property name="TotalPerWave"       value="20" />
 		</day>
 	</entityspawner>
 
