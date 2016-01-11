@@ -3152,6 +3152,7 @@
     <property name="Mesh" value="cutout" />
     <property name="Texture" value="310" />
     <property name="Collide" value="movement,rocket,melee" />
+	<property name="Weight" value="16" />
 	<property class="RepairItems">
 		<property name="forgedIron" value="5" />	
 	</property>		
@@ -3196,6 +3197,7 @@
     <property name="Mesh" value="cutout" />
     <property name="Texture" value="313" />
     <property name="Place" value="Torch" />
+	<property name="Weight" value="16" />
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />   
     <property name="Group" value="Building" />
 	<property class="RepairItems">
