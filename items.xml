@@ -1668,6 +1668,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Meshfile" value="Items/Crafting/ingotIron" />
         <property name="Material" value="metal" />
         <property name="HoldType" value="21" />
+		<property name="Weight" value="10" />
 		<property name="CraftingIngredientExp" value="10" />
 		<property name="CraftingIngredientTime" value="10" />	
 		<property name="RepairTime" value="0.5" />
@@ -1684,6 +1685,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Meshfile" value="Items/Crafting/Metal/shortMetalPipe" />
         <property name="Material" value="metal" />
         <property name="HoldType" value="16" />
+		<property name="Weight" value="5" />
         <property name="Group" value="Resources" />
         <property class="Preview">
             <property name="Zoom" value="5" />
