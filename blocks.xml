@@ -6397,12 +6397,11 @@
   </block>
   <block id="704" name="reinforcedMetalTrunkPineTip">
     <property name="Class" value="Damage" />
-    <property name="Damage" value="7" />
+    <property name="Damage" value="5" />
 	<property name="Damage_received" value="15" /> 
     <property name="Material" value="metal" />
     <property name="Shape" value="Cone" />
     <property name="Texture" value="380" />
-    <property name="Damage" value="5" />
     <property name="IsTerrainDecoration" value="true" />
     <property class="UpgradeBlock">
       <property name="ToBlock" value="scrapIronSpike" />
