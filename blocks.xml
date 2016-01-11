@@ -3197,7 +3197,7 @@
     <property name="Mesh" value="cutout" />
     <property name="Texture" value="313" />
     <property name="Place" value="Torch" />
-	<property name="Weight" value="16" />
+	<property name="Weight" value="32" />
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />   
     <property name="Group" value="Building" />
 	<property class="RepairItems">
