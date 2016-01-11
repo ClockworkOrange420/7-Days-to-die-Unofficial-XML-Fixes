@@ -13907,6 +13907,9 @@
     <property name="Shape" value="New" />
     <property name="Model" value="pipe_thin" />
     <property name="Texture" value="519" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1" prob="1" />	
   </block>	
   
@@ -13915,6 +13918,9 @@
     <property name="Shape" value="New" />
     <property name="Model" value="pipe_thin_corner_up" />
     <property name="Texture" value="519" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
 	<drop event="Destroy" name="scrapIron" count="1" prob="1" />	
   </block>
   
@@ -13951,6 +13957,9 @@
     <property name="Shape" value="New" />
     <property name="Model" value="pipe_thin_corner_down" />
     <property name="Texture" value="519" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
 	<drop event="Destroy" name="scrapIron" count="1" prob="1" />	
   </block>
  
