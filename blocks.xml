@@ -2052,7 +2052,7 @@
     <property name="Material" value="glass" />
     <property name="Shape" value="Plate" />
     <property name="Texture" value="334,335,335,335,335,335" />
-    <property name="Weight" value="100" />
+    <property name="Weight" value="10" />
     <property name="CanPickup" value="true" />
     <drop event="Destroy" name="brokenGlass" count="1,2" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -7890,7 +7890,7 @@
     <property name="Material" value="glass" />
     <property name="Shape" value="Plate" />
     <property name="Texture" value="336,335,335,335,335,335" />
-    <property name="Weight" value="100" />
+    <property name="Weight" value="10" />
     <property name="CanPickup" value="true" />
     <drop event="Destroy" name="brokenGlass" count="1,2" />
 	<property name="CanMobsSpawnOn" value="false" />
