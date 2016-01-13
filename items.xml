@@ -1225,7 +1225,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="-0.20,-0.40" />
             <property name="Rot" value="0,-45,0" />
         </property>
-		<property name="ActionSkillGroup" value="Rifles"/>
+		<property name="ActionSkillGroup" value="Pistols"/>
 		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
 	
