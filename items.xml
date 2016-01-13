@@ -8642,7 +8642,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="EquipSlot" value="Legs" />
         <property name="FuelValue" value="2" />
         <property name="Degradation" value="100" param1="true" />
-
 		<property class="Attributes">
   			<property name="ConcussiveProtection" value="0.1, 0.3" /> 
   			<property name="PunctureProtection" value="0.05, 0.2" />
@@ -8654,7 +8653,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="UMA">
             <property name="Mesh" value="armor_hazmat_legs" />
             <property name="Overlay" value="armor_hazmat_pants" />
-            <property name="Layer" value="1" />
+            <property name="Layer" value="3" />
             <property name="UISlot" value="LegArmor" />
         </property>
         <property class="Preview">
