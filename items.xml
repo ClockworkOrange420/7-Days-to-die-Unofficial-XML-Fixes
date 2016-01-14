@@ -3726,7 +3726,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Meshfile" value="Items/Crafting/scrap_brass" />
         <property name="Material" value="brass" />
         <property name="HoldType" value="7" />
-        <property name="Weight" value="10" />
+        <property name="Weight" value="5" />
         <property name="Group" value="Resources" />
     </item>
     <item id="347" name="scrapIron">
