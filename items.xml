@@ -9019,7 +9019,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Weight" value="10" />
         <property name="Group" value="Resources" />
 		<property class="Attributes">
-			<property name="DegradationMax" value="30,600"/>
+			<property name="DegradationMax" value="500,2000"/>
 		</property>
         <property class="Preview">
             <property name="Zoom" value="28" />
