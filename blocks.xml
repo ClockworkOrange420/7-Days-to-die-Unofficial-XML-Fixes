@@ -1141,7 +1141,7 @@
     <property name="Mesh" value="cutout" />
     <property name="Texture" value="381" />
     <property name="Place" value="TowardsPlacer90" />
-    <property name="FuelValue" value="100" />
+    <property name="FuelValue" value="50" />
     <property name="CanPickup" value="true" />
 	<property name="Collide" value="movement,rocket,melee" />
     <property class="UpgradeBlock">
@@ -2403,7 +2403,7 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="Furniture/chair03_Collider" param1="game" />
     <property name="Place" value="TowardsPlacerInverted" />
-    <property name="FuelValue" value="50" />
+    <property name="FuelValue" value="100" />
 	<property class="RepairItems">
 		<property name="wood" value="5" />
 	</property>
@@ -3361,7 +3361,7 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="Traps/trap_spikes01" param1="main_mesh" />
     <property name="Collide" value="movement,bullet,rocket,melee" />
-    <property name="FuelValue" value="36" />
+    <property name="FuelValue" value="33" />
     <property name="SiblingBlock" value="trapSpikesDamage01" />
     <property name="IsTerrainDecoration" value="true" />
 	<property class="RepairItems">
@@ -3534,7 +3534,7 @@
     <property name="Material" value="wood" />
     <property name="Shape" value="Cone" />
     <property name="Texture" value="21,21,116,116,116,116" />
-    <property name="FuelValue" value="128" />
+    <property name="FuelValue" value="300" />
 	<!--property name="DontDamageOnTouch" value="true" /-->
     <!--property name="IsTerrainDecoration" value="true"   DOES NOT WORK ON THIS SHAPE!!! -->
     <property class="UpgradeBlock">
@@ -4411,7 +4411,7 @@
     <property name="Material" value="wood_weak" />
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
-	<property name="FuelValue" value="100" />
+	<property name="FuelValue" value="150" />
     <property name="Model" value="Furniture/desk01" param1="main_mesh" />
     <property name="LootList" value="6" />
 	<property class="RepairItems">
@@ -4678,8 +4678,8 @@
     <property name="ParticleOnDeath" value="treeGib_burnt" />
 	<property name="ModelOffset" value="0,-0.5,0" />
     <!-- uses dummy texture id from opaque atlas -->
-    <drop event="Harvest" name="wood" count="25" />
-    <drop event="Destroy" name="wood" count="12" prob="1" />
+    <drop event="Harvest" name="wood" count="100" />
+    <drop event="Destroy" name="wood" count="50" prob="1" />
     <drop event="Destroy" name="pineSeed" count="1,2" prob=".5" />
   </block>
   <block id="560" name="MountainPine8m">
@@ -4694,8 +4694,8 @@
     <property name="ParticleOnDeath" value="treeGib_burnt" />
 	<property name="ModelOffset" value="0,-0.4,0" />
     <!-- uses dummy texture id from opaque atlas -->
-    <drop event="Harvest" name="wood" count="25" />
-    <drop event="Destroy" name="wood" count="12" prob="1" />
+    <drop event="Harvest" name="wood" count="100" />
+    <drop event="Destroy" name="wood" count="50" prob="1" />
     <drop event="Destroy" name="pineSeed" count="1,2" prob=".5" />
   </block>
   <block id="561" name="MountainPine13m">
@@ -4795,8 +4795,8 @@
     <property name="IsPlant" value="true" />
 	<property name="ModelOffset" value="0,-1.2,0" />
     <!-- uses dummy texture id from opaque atlas -->
-    <drop event="Harvest" name="wood" count="25" />
-    <drop event="Destroy" name="wood" count="12" prob="1" />
+    <drop event="Harvest" name="wood" count="100" />
+    <drop event="Destroy" name="wood" count="50" prob="1" />
   </block>
   <block id="567" name="Birch12m">
     <property name="Class" value="ModelTree" />
@@ -4811,8 +4811,8 @@
     <property name="IsPlant" value="true" />
 	<property name="ModelOffset" value="0,-1.2,0" />
     <!-- uses dummy texture id from opaque atlas -->
-    <drop event="Harvest" name="wood" count="25" />
-    <drop event="Destroy" name="wood" count="12" prob="1" />
+    <drop event="Harvest" name="wood" count="100" />
+    <drop event="Destroy" name="wood" count="50" prob="1" />
   </block>
   <block id="568" name="Birch15m">
     <property name="Class" value="ModelTree" />
@@ -4853,8 +4853,8 @@
     <property name="UpwardsCount" value="3" />
     <property name="IsPlant" value="true" />
 	<property name="ModelOffset" value="0,-1.2,0" />
-	<drop event="Harvest" name="wood" count="25" />
-    <drop event="Destroy" name="wood" count="12" prob="1" />
+	<drop event="Harvest" name="wood" count="100" />
+    <drop event="Destroy" name="wood" count="50" prob="1" />
     <drop event="Destroy" name="mapleSeed" count="1" prob="1" />
   </block>
   <block id="571" name="Maple13m">
@@ -5098,8 +5098,8 @@
     <property name="IsPlant" value="true" />
     <property name="ParticleOnDeath" value="treeGib_burnt" />
 	<property name="ModelOffset" value="0,-1.2,0" />
-	<drop event="Harvest" name="wood" count="25" />
-    <drop event="Destroy" name="wood" count="12" prob="1" />
+	<drop event="Harvest" name="wood" count="100" />
+    <drop event="Destroy" name="wood" count="50" prob="1" />
 	<property name="FallOver" value="true" />
   </block>
   <block id="587" name="WinterPine01">
@@ -5986,8 +5986,8 @@
       <property name="IsRandom" value="false" />
     </property>
     <!-- uses dummy texture id from opaque atlas -->
-    <drop event="Harvest" name="wood" count="25" />
-    <drop event="Destroy" name="wood" count="12" prob="1" />
+    <drop event="Harvest" name="wood" count="100" />
+    <drop event="Destroy" name="wood" count="50" prob="1" />
   </block>
   <block id="676" name="plantedMountainPine8m">
     <property name="Class" value="ModelTree" />
@@ -6008,8 +6008,8 @@
       <property name="IsRandom" value="false" />
     </property>
     <!-- uses dummy texture id from opaque atlas -->
-    <drop event="Harvest" name="wood" count="25" />
-    <drop event="Destroy" name="wood" count="12" prob="1" />
+    <drop event="Harvest" name="wood" count="100" />
+    <drop event="Destroy" name="wood" count="50" prob="1" />
     <drop event="Destroy" name="pineSeed" count="1,2" prob=".5" />
   </block>
   <block id="677" name="plantedMountainPine13m">
@@ -6121,8 +6121,8 @@
     </property>
     <property name="UpwardsCount" value="3" />
     <property name="IsPlant" value="true" />
-    <drop event="Harvest" name="wood" count="25" />
-    <drop event="Destroy" name="wood" count="12" prob="1" />
+    <drop event="Harvest" name="wood" count="100" />
+    <drop event="Destroy" name="wood" count="50" prob="1" />
     <drop event="Destroy" name="mapleSeed" count="1,2" prob="1" />
   </block>
   <block id="682" name="plantedMaple13m">
@@ -6825,7 +6825,7 @@
      <property name="Shape" value="New" />
      <property name="Model" value="Pole1m" />
     <property name="Texture" value="21,21,116,116,116,116" />
-    <property name="FuelValue" value="180" />
+    <property name="FuelValue" value="400" />
     <drop event="Harvest" name="wood" count="25" />
     <drop event="Destroy" name="wood" count="12" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
@@ -6981,7 +6981,7 @@
     <property name="Material" value="wood_ladders" />
     <property name="Shape" value="BillboardSingleOnWall" />
     <property name="Mesh" value="cutout" />
-    <property name="Texture" value="83" />
+    <property name="Texture" value="33" />
     <property name="Place" value="Torch" />
     <property name="FuelValue" value="32" />
 	<property class="RepairItems">
@@ -7029,7 +7029,7 @@
   <block id="794" name="logCabin">
     <property name="Extends" value="oldWood" />
     <property name="Texture" value="43" />
-    <property name="FuelValue" value="86" />
+    <property name="FuelValue" value="200" />
 	<property class="RepairItems">
 		<property name="wood" value="10" />
 	</property>
@@ -7038,7 +7038,8 @@
   </block>
   <block id="795" name="shinglesWood">
     <property name="Extends" value="oldWood" />
-    <property name="Texture" value="44" /> 
+    <property name="Texture" value="44" />
+	<property name="FuelValue" value="200" />
 	<property class="RepairItems">
 		<property name="wood" value="10" />
 	</property>
@@ -7046,6 +7047,7 @@
   <block id="796" name="wedgeWoodShingles">
     <property name="Extends" value="woodRamp" />
     <property name="Texture" value="44" />
+	<property name="FuelValue" value="200" />
 	<property class="RepairItems">
 		<property name="wood" value="10" />
 	</property>
@@ -7345,7 +7347,7 @@
     <property name="Model" value="StairsFilled" />
     <property name="Texture" value="214" />
     <property name="Place" value="TowardsPlacer" />
-    <property name="FuelValue" value="48" />
+    <property name="FuelValue" value="100" />
     <drop event="Destroy" name="woodDebris" count="1" />
     <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
 	<property class="RepairItems">
@@ -7512,6 +7514,7 @@
   <block id="859" name="barnWood">
     <property name="Extends" value="oldWood" />
     <property name="Texture" value="193" />
+	<property name="FuelValue" value="200" />
 	<property class="RepairItems">
 		<property name="wood" value="10" />
 	</property>
@@ -7714,7 +7717,7 @@
     <property name="Material" value="wood_weak" />
     <property name="Shape" value="BillboardSingleOnWall" />
     <property name="Texture" value="272" />
-	<property name="FuelValue" value="108" />
+	<property name="FuelValue" value="90" />
     <property name="ShapeMinBB" value="0.3,0,0.3" />
 	<property class="RepairItems">
 		<property name="wood" value="3" />
@@ -7727,7 +7730,7 @@
     <property name="Shape" value="BillboardSingleOnWall" />
     <property name="Mesh" value="cutout" />
     <property name="Texture" value="274" />
-	<property name="FuelValue" value="108" />
+	<property name="FuelValue" value="50" />
     <property name="ShapeMinBB" value="0.3,0,0.3" />
 	<property class="RepairItems">
 		<property name="wood" value="3" />
@@ -8202,6 +8205,7 @@
   <block id="952" name="planks4">
     <property name="Extends" value="oldWood" />
     <property name="Texture" value="214" />
+	<property name="FuelValue" value="200" />
   </block>
   <block id="953" name="woodFloor01">
     <property name="Extends" value="oldWood" />
@@ -8383,7 +8387,7 @@
     <property name="Material" value="wood" />
     <property name="Shape" value="Pyramid" />
     <property name="Texture" value="44" />
-	<property name="FuelValue" value="24" />
+	<property name="FuelValue" value="200" />
 	<property class="RepairItems">
 		<property name="wood" value="10" />
 	</property>
@@ -8445,6 +8449,7 @@
   <block id="986" name="woodShinglesCorner">
     <property name="Extends" value="woodOutsideCorner" />
     <property name="Texture" value="44" />
+	<property name="FuelValue" value="100" />
 	<property class="RepairItems">
 		<property name="wood" value="10" />
 	</property>
@@ -8463,7 +8468,7 @@
 	<property class="RepairItems">
 		<property name="wood" value="10" />
 	</property>
-    <property name="FuelValue" value="9" />
+    <property name="FuelValue" value="8" />
     <drop event="Destroy" name="woodDebris" count="1" prob="1.0" />
     <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
     <property name="CanMobsSpawnOn" value="false" />
@@ -9173,7 +9178,7 @@
     <property name="Material" value="wood_weak" />
     <property name="Texture" value="345,345,263,345,345,345" />
     <property name="LootList" value="3" />
-	<property name="FuelValue" value="12" />
+	<property name="FuelValue" value="100" />
 	<property class="RepairItems">
 		<property name="wood" value="10" />
 	</property>
@@ -9668,6 +9673,7 @@
     <property name="Mesh" value="cutout" />
     <property name="Texture" value="60" />
     <property name="ShapeMinBB" value="0.3,0,0.3" />
+	<property name="FuelValue" value="40" />
 	<property class="RepairItems">
 		<property name="wood" value="10" />
 	</property>
