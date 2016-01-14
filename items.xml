@@ -4824,6 +4824,9 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="DegradationBreaksAfter" value="false" />
         <property name="Weight" value="35" />
         <property name="Group" value="Miscellaneous" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="30,600"/>
+		</property>
         <property class="Preview">
             <property name="Zoom" value="28" />
             <property name="Pos" value="0,-0.05" />
@@ -6127,7 +6130,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="4" />
         <property name="Degradation" value="250" param1="true" />
         <property name="RepairTools" value="scrapIron" />
-		
 		<property class="Attributes">
   			<property name="ConcussiveProtection" value="0.3, 0.7" /> 
   			<property name="PunctureProtection" value="0.2, 0.5" />
@@ -6163,7 +6165,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="16" />
         <property name="Degradation" value="250" param1="true" />
         <property name="RepairTools" value="scrapIron" />
-        
         <property class="Attributes">
   			<property name="ConcussiveProtection" value="0.3, 0.7" /> 
   			<property name="PunctureProtection" value="0.2, 0.5" />
@@ -6199,7 +6200,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="16" />
         <property name="Degradation" value="250" param1="true" />
         <property name="RepairTools" value="scrapIron" />
-        
 		<property class="Attributes">
   			<property name="ConcussiveProtection" value="0.3, 0.7" /> 
   			<property name="PunctureProtection" value="0.2, 0.5" />
@@ -6235,7 +6235,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="16" />
         <property name="Degradation" value="250" param1="true" />
         <property name="RepairTools" value="scrapIron" />
-		
 		<property class="Attributes">
   			<property name="ConcussiveProtection" value="0.3, 0.7" /> 
   			<property name="PunctureProtection" value="0.2, 0.5" />
@@ -6272,7 +6271,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="16" />
         <property name="Degradation" value="250" param1="true" />
         <property name="RepairTools" value="scrapIron" />
-
 		<property class="Attributes">
   			<property name="ConcussiveProtection" value="0.3, 0.7" /> 
   			<property name="PunctureProtection" value="0.2, 0.5" />
@@ -6335,7 +6333,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="4" />
         <property name="Weight" value="5" />
         <property name="Degradation" value="100" param1="true" />
-		
 		<property class="Attributes">
   			<property name="ConcussiveProtection" value="0.05, 0.2" /> 
   			<property name="PunctureProtection" value="0.05, 0.2" /> 
@@ -6422,7 +6419,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="4" />
         <property name="Weight" value="5" />
         <property name="Degradation" value="100" param1="true" />
-        
 		<property class="Attributes">
   			<property name="ConcussiveProtection" value="0.05, 0.2" /> 
   			<property name="PunctureProtection" value="0.05, 0.2" /> 
@@ -6471,7 +6467,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="EquipSlot" value="Feet" />
         <property name="FuelValue" value="2" />
         <property name="Degradation" value="100" param1="true" />
-        
 		<property class="Attributes">
   			<property name="ConcussiveProtection" value="0.05, 0.2" /> 
   			<property name="PunctureProtection" value="0.05, 0.2" /> 
@@ -6668,7 +6663,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="EquipSlot" value="Legs" />
         <property name="FuelValue" value="2" />
         <property name="Degradation" value="100" param1="true" />
-        
 		<property class="Attributes">
   			<property name="ConcussiveProtection" value="0.01, 0.1" /> 
   			<property name="PunctureProtection" value="0.01, 0.1" /> 
@@ -7089,8 +7083,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="VehicleStartChance" value="0.5,0.99" />
 			<property name="VehicleTankSize" value="400, 1000" />
 			<property name="FalloffRange" value="2,3" /><!-- used for auger and chainsaw -->
-        </property>     
-        
+        </property>
     </item>
     <item id="733" name="augerBlade">
 		<property name="PartType" value="Barrel" />
@@ -7171,7 +7164,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Group" value="Clothing" />
         <property name="RepairTools" value="forgedIron" />
         <property name="Weight" value="10" />
-
 		<property class="Attributes">
   			<property name="ConcussiveProtection" value="0.05, 0.2" /> 
   			<property name="PunctureProtection" value="0.05, 0.2" /> 
@@ -7306,6 +7298,9 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="100" param1="true" />
         <property name="Weight" value="10" />
         <property name="Group" value="Resources" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="500,1000"/>
+		</property>
         <property class="Preview">
             <property name="Zoom" value="28" />
             <property name="Pos" value="0,-0.05" />
@@ -9023,6 +9018,9 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="100" param1="true" />
         <property name="Weight" value="10" />
         <property name="Group" value="Resources" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="30,600"/>
+		</property>
         <property class="Preview">
             <property name="Zoom" value="28" />
             <property name="Pos" value="0,-0.05" />
@@ -9476,6 +9474,9 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="100" param1="true" />
         <property name="Weight" value="10" />
         <property name="Group" value="Resources" />
+		<property class="Attributes">
+			<property name="DegradationMax" value="500,2000" />
+		</property>
         <property class="Preview">
             <property name="Zoom" value="28" />
             <property name="Pos" value="0,-0.05" />
