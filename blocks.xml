@@ -6220,7 +6220,7 @@
     <drop event="Destroy" count="0" />
   </block>
   <block id="688" name="clayRoofCorner">
-    <property name="Extends" value="reinforcedConcreteOutsideCornerBroke01" />
+    <property name="Extends" value="reinforcedConcreteOutsideCornerBroke03" />
     <property name="Material" value="stone" />
     <property name="Texture" value="170" />
 	<property class="RepairItems">
@@ -6906,7 +6906,7 @@
   </block>
   <!-- 780 free -->
   <block id="781" name="cornerFullWedgeConcrete">
-    <property name="Extends" value="reinforcedConcreteOutsideCornerBroke01" />
+    <property name="Extends" value="reinforcedConcreteOutsideCornerBroke03" />
 	<property name="Material" value="concrete" />
     <property name="Texture" value="8" />
 	<property class="RepairItems">
@@ -7471,7 +7471,7 @@
     <property name="Group" value="Building" />
   </block>
   <block id="850" name="adobeWhiteTrimCorner">
-    <property name="Extends" value="reinforcedConcreteOutsideCornerBroke01" />
+    <property name="Extends" value="reinforcedConcreteOutsideCornerBroke03" />
 	<property name="Material" value="stone" />
     <property name="Texture" value="172" />
   </block>
