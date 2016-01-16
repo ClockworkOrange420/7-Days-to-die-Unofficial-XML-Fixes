@@ -9072,7 +9072,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="CraftingIngredientTime" value="0.5" />
 	</item>
 	
-	<item id="824" name="unit_brass">'
+	<item id="824" name="unit_brass">
 		<property name="CustomIcon" value="scrapBrass" />
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
@@ -9086,10 +9086,10 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="UserHidden" value="true" />
 		<property name="CraftingIngredientTime" value="0.5" />
 	</item>
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
 	
 	<item id="825" name="unit_lead">
 		<property name="CustomIcon" value="scrapLead" />
-		<property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 		<property name="Material" value="lead" />
 		<property name="HoldType" value="45" />
