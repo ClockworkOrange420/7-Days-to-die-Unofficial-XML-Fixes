@@ -9086,7 +9086,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="UserHidden" value="true" />
 		<property name="CraftingIngredientTime" value="0.5" />
 	</item>
-		<property name="Meshfile" value="Items/Misc/sackPrefab" />
 	
 	<item id="825" name="unit_lead">
 		<property name="CustomIcon" value="scrapLead" />
