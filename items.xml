@@ -9089,6 +9089,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 	
 	<item id="825" name="unit_lead">
 		<property name="CustomIcon" value="scrapLead" />
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 		<property name="Material" value="lead" />
 		<property name="HoldType" value="45" />
