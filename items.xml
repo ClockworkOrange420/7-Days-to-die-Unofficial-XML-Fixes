@@ -199,15 +199,15 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="EntityDamage" value="8,14" />
             <property name="BlockDamage" value="3,12" />
 			<property name="DegradationMax" value="100,600" />
-			<property name="DegradationRate" value="3,1" />               
-        </property>         
+			<property name="DegradationRate" value="3,1" />
+        </property>
         <property name="CritChance" value=".10" />
         <property name="Group" value="Ammo/Weapons,Basics" />
         <property class="Preview">
             <property name="Zoom" value="8" />
             <property name="Pos" value="-0.1,-0.7" />
         </property>
-		<property name="DescriptionKey" value="clubWoodDesc"/>	
+		<property name="DescriptionKey" value="clubWoodDesc"/>
 		<property name="ActionSkillGroup" value="Blunt Weapons"/>
 		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
     </item>
@@ -219,19 +219,18 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Degradation" value="150" param1="true" />
 		<property name="FuelValue" value="16" />
         <property class="Action0">
-            <property name="Buff_chance" value=".2" />	
+            <property name="Buff_chance" value=".2" />
 		</property>
         <property class="Attributes">
             <property name="EntityDamage" value="9,16" />
             <property name="BlockDamage" value="3,13" />
-        </property>   		
+        </property>
 		<property name="CritChance" value=".2" />
         <property name="Group" value="Ammo/Weapons" />
 		<property name="DescriptionKey" value="clubIronDesc"/>
 		<property name="ActionSkillGroup" value="Blunt Weapons"/>
 		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
     </item>
-
     <item id="3" name="clubSpiked">
         <property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_Spiked" />
         <property name="Material" value="metal" />
@@ -258,8 +257,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="EntityDamage" value="12,30" />
             <property name="BlockDamage" value="3,13" />
 			<property name="DegradationMax" value="100,600" />
-			<property name="DegradationRate" value="2,1" />              
-        </property>          
+			<property name="DegradationRate" value="2,1" />
+        </property>
         <property name="CritChance" value=".4" />
         <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
@@ -270,7 +269,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="ActionSkillGroup" value="Blunt Weapons"/>
 		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
     </item>
-	
     <item id="4" name="clubBarbed">
         <property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_Barbed" />
         <property name="Material" value="metal" />
@@ -297,8 +295,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="EntityDamage" value="10,22" />
             <property name="BlockDamage" value="3,13" />
 			<property name="DegradationMax" value="100,600" />
-			<property name="DegradationRate" value="2,1" />              
-        </property>          
+			<property name="DegradationRate" value="2,1" />
+        </property>
         <property name="CritChance" value=".3" />
         <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
@@ -309,7 +307,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="ActionSkillGroup" value="Blunt Weapons"/>
 		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
     </item>
-	
     <!-- Ids 10 - 19: free-->
     <item id="5" name="zombieHandBear">
         <property name="Material" value="organic" />
@@ -331,9 +328,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Buff_chance" value="0.3,0.4,0.4" />
             <property name="DamageBonus.glass" value="25" />
         </property>
-    </item>   	
-	
-
+    </item>
     <!-- Ids 20 - 40: Tools -->
     <item id="20" name="fireaxe">
         <property name="Meshfile" value="Items/Weapons/Melee/Axe/fireaxePrefab" />
@@ -342,7 +337,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Stacknumber" value="1" />
         <property name="RepairTools" value="forgedIron" />
 		<property name="DegradationBreaksAfter" value="false" />
-		<property name="SoundJammed" value="ItemNeedsRepair" />		
+		<property name="SoundJammed" value="ItemNeedsRepair" />
         <property name="FuelValue" value="16" />
         <property name="SoundDestroy" value="wooddestroy1" />
         <property class="Action0">
@@ -364,7 +359,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
         <property class="Attributes">
             <property name="EntityDamage" value="6,15" />
-            <property name="BlockDamage" value="20,60" />				
+            <property name="BlockDamage" value="20,60" />
 			<property name="DegradationMax" value="100,600" />
 			<property name="DegradationRate" value="2,1" />
 			<property name="DismembermentBaseChance" value="0.1,0.3"/>
@@ -406,7 +401,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="DegradationRate" value="2,1" />
 			<property name="DismembermentBaseChance" value="0.05,0.15"/>
 			<property name="DismembermentBonus" value="0,0"/>
-        </property>                 
+        </property>
         <property class="Preview">
             <property name="Pos" value="-0.05,-0.4" />
         </property>
@@ -420,11 +415,11 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Stacknumber" value="1" />
         <property name="RepairTools" value="forgedIron" />
 		<property name="DegradationBreaksAfter" value="false" />
-		<property name="SoundJammed" value="ItemNeedsRepair" />		
+		<property name="SoundJammed" value="ItemNeedsRepair" />
         <property name="SoundDestroy" value="metaldestroy1" />
         <property name="FuelValue" value="16" />
         <property name="CritChance" value=".4" />
-        <property class="Action0">        
+        <property class="Action0">
             <!-- AttackAction -->
             <property name="Class" value="Melee" />
             <property name="Delay" value="1.8" />
@@ -441,16 +436,15 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="DamageBonus.head" value="4" />
             <property name="DamageBonus.concrete" value=".5" />
             <property name="DamageBonus.glass" value="20" />
-		</property>             
-        
+		</property>
         <property class="Attributes">
             <property name="EntityDamage" value="20,50" />
             <property name="BlockDamage" value="10,60" />
             <property name="DegradationMax" value="100,600" />
 			<property name="DegradationRate" value="2,1" />
 			<property name="DismembermentBaseChance" value="0.1,0.3"/>
-			<property name="DismembermentBonus" value="0,0"/>			
-        </property>          
+			<property name="DismembermentBonus" value="0,0"/>
+        </property>
         <property name="Group" value="Tools/Traps" />
         <property class="Preview">
             <property name="Zoom" value="-2" />
@@ -491,7 +485,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="DegradationMax" value="100,600" />
 			<property name="DegradationRate" value="3,1" />
 			<property name="DismembermentBaseChance" value="0.1,0.3"/>
-			<property name="DismembermentBonus" value="0,0"/>			
+			<property name="DismembermentBonus" value="0,0"/>
         </property>
         <property name="Group" value="Tools/Traps" />
         <property class="Preview">
@@ -591,7 +585,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
 		<property name="DescriptionKey" value="torchDesc"/>
     </item>
-	
     <item id="26" name="blackCowboyHat">
 		<property name="DescriptionKey" value="cowboyHatGroupDesc"/>
 		<property name="Insulation" value="-10"/>
@@ -606,18 +599,17 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="16" />
         <property name="Degradation" value="100" param1="true" />
         <property name="CustomIcon" value="cowboyHat" />
-        <property name="CustomIconTint" value="575757" />			
+        <property name="CustomIconTint" value="575757" />
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.2, 0.4" /> 
+  			<property name="ConcussiveProtection" value="0.2, 0.4" />
  			<property name="PunctureProtection" value="0.1, 0.3" />
   			<property name="DegradationMax" value="40,600" />
- 		</property>        
-        
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="gear_cowboyhat" />
             <property name="Overlay" value="gear_cowboyhat" />
-			<property name="OverlayTints" value="575757" />			
+			<property name="OverlayTints" value="575757" />
             <property name="Layer" value="2" />
             <property name="UISlot" value="Headgear" />
             <property name="ShowHair" value="true" />
@@ -629,8 +621,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
 		<property name="ActionSkillGroup" value="Clothing"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
-    </item>	
-	
+    </item>
     <item id="27" name="chainsawSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
@@ -651,8 +642,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item> 		
-	
+    </item>
     <item id="28" name="ak47Schematic">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
@@ -673,7 +663,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item> 	
+    </item>
     <item id="29" name="stoneAxe">
         <property name="Meshfile" value="Items/Weapons/Melee/Axe/stone_axe" />
         <property name="Material" value="stone" />
@@ -714,7 +704,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="DegradationMax" value="100,600" />
 			<property name="DegradationRate" value="2,1" />
 			<property name="DismembermentBaseChance" value="0,0"/>
-			<property name="DismembermentBonus" value="0,0"/>			
+			<property name="DismembermentBonus" value="0,0"/>
         </property>
         <property class="Preview">
             <property name="Zoom" value="8" />
@@ -756,14 +746,13 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Upgrade_hit_offset" value="-1" />
             <property name="Sound_start" value="UseActions/repair_block" />
             <property name="Allowed_upgrade_items" value="wood,scrapIron,forgedIron,forgedSteel,concreteMix,cobblestones" />
-            
         </property>
             <property class="Attributes">
             	<property name="EntityDamage" value="7,20" />
             	<property name="BlockDamage" value="10,80" />
 				<property name="DegradationMax" value="100,600" />
 				<property name="DegradationRate" value="2,1" />
-			</property>        
+			</property>
         <property name="Group" value="Tools/Traps" />
         <property class="Preview">
             <property name="Zoom" value="8" />
@@ -804,14 +793,13 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Upgrade_hit_offset" value="-2" />
             <property name="Sound_start" value="UseActions/repair_block" />
             <property name="Allowed_upgrade_items" value="wood,scrapIron,forgedIron,forgedSteel,concreteMix,cobblestones" />
-     
         </property>
             <property class="Attributes">
             	<property name="EntityDamage" value="4,10" />
             	<property name="BlockDamage" value="2,10" />
 				<property name="DegradationMax" value="100,600" />
 				<property name="DegradationRate" value="2,1" />
-			</property>        
+			</property>
         <property name="Group" value="Tools/Traps" />
         <property class="Preview">
             <property name="Zoom" value="8" />
@@ -848,8 +836,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 				<property name="DegradationMax" value="100,600" />
 				<property name="DegradationRate" value="2,1" />
 				<property name="DismembermentBaseChance" value="0.1,0.3"/>
-				<property name="DismembermentBonus" value="0,0"/>				
-			</property>        
+				<property name="DismembermentBonus" value="0,0"/>
+			</property>
         <property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Blade Weapons"/>
 		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
@@ -905,8 +893,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="DegradationMax" value="100,600" />
 			<property name="DegradationRate" value="1,1" />
 			<property name="DismembermentBaseChance" value="0.01,0.05"/>
-			<property name="DismembermentBonus" value="0,0"/>			
-        </property>         
+			<property name="DismembermentBonus" value="0,0"/>
+        </property>
         <property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Blade Weapons"/>
 		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
@@ -966,7 +954,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="BlockDamage" value="10,30" />
 			<property name="DegradationMax" value="60,600" />
 			<property name="DegradationRate" value="1,1" />
-        </property>          
+        </property>
         <property name="Group" value="Tools/Traps,Basics" />
         <property class="Preview">
             <property name="Zoom" value="5" />
@@ -987,7 +975,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="175" param1="false" />
         <property name="DegradationBreaksAfter" value="false" />
         <property name="SoundJammed" value="Weapons/weapon_jam" />
-		<property name="Attachments" value="flashlight02" />     
+		<property name="Attachments" value="flashlight02" />
         <property class="Parts">
             <property name="Stock" value="pistol_grip" />
             <property name="Receiver" value="pistol_receiver" />
@@ -999,7 +987,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Class" value="Ranged" />
             <property name="Delay" value="0.15" />
             <property name="Range" value="120" />
-        
             <property name="DamageBlock" value="1" />
             <property name="Magazine_size" value="15" />
             <property name="Magazine_items" value="9mmBullet" />
@@ -1025,7 +1012,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="LightSource" value="lightSource" />
 		<property name="ActivateObject" value="Attachments/flashlight/lightSource" />
 		<property name="AttachmentFlashlight" value="flashlight02" />
-		<!-- End: Needed for the attachment flashlight -->        
+		<!-- End: Needed for the attachment flashlight -->
         <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
             <property name="Zoom" value="14" />
@@ -1044,8 +1031,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="RepairTools" value="repairKit" />
         <property name="Degradation" value="350" param1="false" />
         <property name="DegradationBreaksAfter" value="false" />
-        <property name="SoundJammed" value="Weapons/weapon_jam" /> 
-		<property name="Attachments" value="flashlight02" /> 		
+        <property name="SoundJammed" value="Weapons/weapon_jam" />
+		<property name="Attachments" value="flashlight02" />
         <property class="Parts">
             <property name="Stock" value="44MagnumGrip" />
             <property name="Receiver" value="44MagnumCylinder" />
@@ -1090,7 +1077,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="0,-45,0" />
         </property>
 		<property name="ActionSkillGroup" value="Pistols"/>
-		<property name="CraftingSkillGroup" value="Gun Smithing"/>	
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="44" name="sawedOffPumpShotgun">
         <property name="Meshfile" value="Items/Weapons/Ranged/SawedOffPumpShotgun/SawedOffPumpShotgunPrefab" />
@@ -1100,8 +1087,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="RepairTools" value="repairKit" />
         <property name="Degradation" value="250" param1="false" />
         <property name="DegradationBreaksAfter" value="false" />
-        <property name="SoundJammed" value="Weapons/weapon_jam" /> 
-		<property name="Attachments" value="flashlight02" /> 		
+        <property name="SoundJammed" value="Weapons/weapon_jam" />
+		<property name="Attachments" value="flashlight02" />
         <property class="Parts">
             <property name="Stock" value="PumpShotgun_shortStock" />
             <property name="Receiver" value="PumpShotgun_receiver" />
@@ -1141,7 +1128,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="LightSource" value="lightSource" />
 		<property name="ActivateObject" value="Attachments/flashlight/lightSource" />
 		<property name="AttachmentFlashlight" value="flashlight02" />
-		<!-- End: Needed for the attachment flashlight -->      
+		<!-- End: Needed for the attachment flashlight -->
         <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
             <property name="Zoom" value="5" />
@@ -1163,7 +1150,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="RepairTools" value="repairKit" />
         <property name="Degradation" value="500" param1="false" />
         <property name="DegradationBreaksAfter" value="false" />
-        <property name="SoundJammed" value="Weapons/weapon_jam" />   
+        <property name="SoundJammed" value="Weapons/weapon_jam" />
 		<property name="Attachments" value="flashlight02" />
         <property class="Parts">
             <property name="Stock" value="mp5_stock" />
@@ -1210,7 +1197,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="LightSource" value="lightSource" />
 		<property name="ActivateObject" value="Attachments/flashlight/lightSource" />
 		<property name="AttachmentFlashlight" value="flashlight02" />
-		<!-- End: Needed for the attachment flashlight -->         
+		<!-- End: Needed for the attachment flashlight -->
         <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
             <property name="Zoom" value="2" />
@@ -1220,7 +1207,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="ActionSkillGroup" value="Pistols"/>
 		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
-	
     <item id="46" name="ak47">
         <property name="Meshfile" value="Items/Weapons/Ranged/ak47/ak47Prefab" />
         <property name="Material" value="metal" />
@@ -1229,7 +1215,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="RepairTools" value="repairKit" />
         <property name="Degradation" value="600" param1="false" />
         <property name="DegradationBreaksAfter" value="false" />
-        <property name="SoundJammed" value="Weapons/weapon_jam" />   
+        <property name="SoundJammed" value="Weapons/weapon_jam" />
 		<property name="Attachments" value="flashlight02" />
         <property class="Parts">
             <property name="Stock" value="ak47_stock" />
@@ -1276,7 +1262,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="LightSource" value="lightSource" />
 		<property name="ActivateObject" value="Attachments/flashlight/lightSource" />
 		<property name="AttachmentFlashlight" value="flashlight02" />
-		<!-- End: Needed for the attachment flashlight -->         
+		<!-- End: Needed for the attachment flashlight -->
         <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
             <property name="Zoom" value="2" />
@@ -1285,7 +1271,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
 		<property name="ActionSkillGroup" value="Rifles"/>
 		<property name="CraftingSkillGroup" value="Gun Smithing"/>
-    </item>	
+    </item>
     <item id="48" name="shotgunShell">
         <property name="Meshfile" value="Items/Weapons/Ranged/SawedOffPumpShotgun/shotgunShell" />
         <property name="Material" value="metal" />
@@ -1314,8 +1300,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="RepairTools" value="repairKit" />
 		<property name="SoundJammed" value="Weapons/weapon_jam" />
         <property name="Degradation" value="150" param1="false" />
-        <property name="DegradationBreaksAfter" value="false" /> 
-        <property name="Attachments" value="flashlight02" />       
+        <property name="DegradationBreaksAfter" value="false" />
+        <property name="Attachments" value="flashlight02" />
         <property class="Parts">
             <property name="Stock" value="sniperRifle_stock" />
             <property name="Receiver" value="sniperRifle_triggerHousing" />
@@ -1358,7 +1344,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="LightSource" value="lightSource" />
 		<property name="ActivateObject" value="Attachments/flashlight/lightSource" />
 		<property name="AttachmentFlashlight" value="flashlight02" />
-		<!-- End: Needed for the attachment flashlight -->   
+		<!-- End: Needed for the attachment flashlight -->
         <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
             <property name="Zoom" value="1" />
@@ -1414,8 +1400,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 				<property name="Receiver" value="smallEngine" />
 				<property name="Pump"     value="handlebars" />
 				<property name="Barrel"   value="chainsawBlade" />
-		    </property>  
-			       
+		    </property>
         <property name="Group" value="Tools/Traps" />
         <property class="Preview">
             <property name="Zoom" value="2" />
@@ -1438,7 +1423,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="Receiver" value="smallEngine" />
 			<property name="Pump"     value="handlebars" />
 			<property name="Barrel"   value="augerBlade" />
-		</property>         
+		</property>
         <property class="Action0">
             <!-- AttackAction -->
             <property name="Class" value="Ranged" />
@@ -1469,7 +1454,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="DamageBonus.head" value="4" />
             <property name="DamageBonus.glass" value="25" />
 			<property name="SupportHarvesting" value="true" />
-        </property>    
+        </property>
         <property name="Group" value="Tools/Traps" />
         <property class="Preview">
             <property name="Zoom" value="2" />
@@ -1479,8 +1464,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 		<property name="CraftingSkillGroup" value="Tool Smithing"/>
     </item>
-
-
     <!-- Ids 70 - 79: Hand attacks -->
     <item id="70" name="handPlayer">
         <property name="Material" value="organic" />
@@ -1518,10 +1501,10 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
         <property class="Attributes">
             <property name="EntityDamage" value="5,5" />
-            <property name="BlockDamage" value="1,1" />				
+            <property name="BlockDamage" value="1,1" />
 			<property name="DismembermentBaseChance" value="0,0"/>
 			<property name="DismembermentBonus" value="0,0"/>
-        </property>		
+        </property>
 		<property name="ActionSkillGroup" value="Athletics"/>
         <!--use_action
                 class="LiftUpTerrain"
@@ -1655,14 +1638,13 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="CollisionRadius" value="0.5" />
         </property>
     </item>
-
     <item id="102" name="forgedIron">
         <property name="Meshfile" value="Items/Crafting/ingotIron" />
         <property name="Material" value="metal" />
         <property name="HoldType" value="21" />
 		<property name="Weight" value="10" />
 		<property name="CraftingIngredientExp" value="10" />
-		<property name="CraftingIngredientTime" value="10" />	
+		<property name="CraftingIngredientTime" value="10" />
 		<property name="RepairTime" value="0.5" />
         <property name="RepairAmount" value="200" />
         <property name="Group" value="Resources" />
@@ -1684,8 +1666,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,0" />
         </property>
     </item>
-	<!-- free -->
-	
+<!-- free -->
     <item id="200" name="foodYuccaFruit">
         <property name="Meshfile" value="Items/Food/fruit_yucca" />
         <property name="Material" value="organic" />
@@ -1739,7 +1720,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Weight" value="1" />
         <property name="Material" value="plants" />
         <property name="RepairTime" value="1" />
-        <property name="RepairAmount" value="10" />        
+        <property name="RepairAmount" value="10" />
         <property name="HoldType" value="16" />
         <property name="Group" value="Resources" />
     </item>
@@ -2094,7 +2075,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_food" value="0" />
             <property name="Gain_water" value="20" />
             <property name="Sound_start" value="UseActions/player_drinking" />
-            <property name="Create_item" value="emptyJar" />       
+            <property name="Create_item" value="emptyJar" />
         </property>
         <property name="Group" value="Food/Cooking" />
         <property class="Preview">
@@ -2467,7 +2448,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
     </item>
 <!-- 240-241 free double check 240 -->
-	
     <!-- Bucket -->
     <item id="242" name="bucket">
         <property name="Meshfile" value="Items/Crafting/Metal/IronBucket" />
@@ -2505,7 +2485,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Meshfile" value="Items/Crafting/Metal/IronBucketWaterPrefab" />
         <property name="Material" value="metal" />
         <property name="HoldType" value="34" />
-        <property name="Stacknumber" value="1" />       
+        <property name="Stacknumber" value="1" />
         <property class="Action1">
             <!-- UseAction -->
             <property name="Class" value="PlaceAsBlock" />
@@ -2635,7 +2615,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Create_item" value="emptyJar" />
             <property name="Buff" value="dysentery" />
             <property name="Buff_chance" value="0.5" />
-            
         </property>
         <property name="Group" value="Food/Cooking" />
         <property class="Preview">
@@ -2684,7 +2663,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
-
     <item id="255" name="hubcap">
         <property name="Meshfile" value="Items/Crafting/hubcap" />
         <property name="Material" value="metal" />
@@ -2743,9 +2721,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
-    <!-- free -->
-
-
+<!-- free -->
     <item id="261" name="rockSmall">
         <property name="Meshfile" value="Items/Crafting/rock_small" />
         <property name="Material" value="stone" />
@@ -2781,7 +2757,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="FuelValue" value="1" />
         <property name="Group" value="Resources,Chemicals" />
     </item>
-
     <item id="265" name="pipeBomb">
         <property name="Class" value="ItemClassTimeBomb" />
         <property name="Meshfile" value="Items/Weapons/Ranged/PipeBomb/PipeBombPrefab" />
@@ -2805,7 +2780,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Explosion.DamageBonus.wood" value="0" />
 		<property name="Explosion.DamageBonus.water" value="0" />
 		<property name="Explosion.DamageBonus.glass" value="10" />
-		
 		-->
         <property name="FuseTime" value="5" />
         <!-- time in sec, max 6 -->
@@ -2840,14 +2814,14 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="250" param1="true" />
         <property name="FuelValue" value="40" />
 		<property name="ActionSkillGroup" value="Archery"/>
-		<property name="CraftingSkillGroup" value="Weapon Smithing"/>		
+		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
         <property class="Action0">
             <!-- AttackAction -->
             <property name="Class" value="Launcher" />
             <property name="Delay" value="0.8" />
             <property name="Range" value="200" />
             <property name="Magazine_size" value="1" />
-            <property name="Magazine_items" value="crossbowBolt, ironCrossbowBolt, steelCrossbowBolt, explodingCrossbowBolt" />            
+            <property name="Magazine_items" value="crossbowBolt, ironCrossbowBolt, steelCrossbowBolt, explodingCrossbowBolt" />
             <property name="Reload_time" value="2" />
             <property name="Bullet_icon" value="uzi" />
             <property name="Sound_start" value="Weapons/Ranged/Bows/Crossbow/crossbow_fire" />
@@ -2865,7 +2839,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property class="Attributes">
             <property name="DegradationRate" value="1,1" />
              <property name="DegradationMax" value="30,600" />
-        </property>        
+        </property>
         <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
             <property name="Zoom" value="28" />
@@ -2907,7 +2881,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="BlockDamage" value="1,5" />
         </property>     
 		<property name="ActionSkillGroup" value="Archery"/>
-		<property name="CraftingSkillGroup" value="Weapon Smithing"/>		
+		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
         <property name="Group" value="Ammo/Weapons" />
     </item>
     <item id="268" name="foodHoney">
@@ -2944,7 +2918,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="250" param1="false" />
         <property name="DegradationBreaksAfter" value="false" />
         <property name="SoundJammed" value="Weapons/weapon_jam" />
-		<property name="Attachments" value="flashlight02" />         
+		<property name="Attachments" value="flashlight02" />
         <property class="Parts">
             <property name="Stock" value="PumpShotgun_stock" />
             <property name="Receiver" value="PumpShotgun_receiver" />
@@ -2984,7 +2958,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="LightSource" value="lightSource" />
 		<property name="ActivateObject" value="Attachments/flashlight/lightSource" />
 		<property name="AttachmentFlashlight" value="flashlight02" />
-		<!-- End: Needed for the attachment flashlight -->        
+		<!-- End: Needed for the attachment flashlight -->
         <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
             <property name="Zoom" value="5" />
@@ -3003,7 +2977,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="34" />
         <property name="RepairTools" value="wood" />
 		<property name="DegradationBreaksAfter" value="true" />
-		
         <property class="Action0"> <!-- AttackAction -->
             <property name="Class" value="Catapult" />	<!-- Catapult might not be the best name for it but it can also be used for a slingshot -->
             <property name="Delay" value="0.5" />
@@ -3044,7 +3017,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="ActionSkillGroup" value="Archery"/>
 		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
     </item>
-    
     <item id="271" name="feather">
         <property name="Meshfile" value="Items/Crafting/feather" />
         <property name="Material" value="cloth" />
@@ -3113,10 +3085,10 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="HoldType" value="30" />
         <property name="Stacknumber" value="1" />
         <property name="RepairTools" value="repairKit" />
-        <property name="FuelValue" value="32" />        
+        <property name="FuelValue" value="32" />
         <property name="Degradation" value="150" param1="false" />
         <property name="DegradationBreaksAfter" value="false" />
-        <property name="Attachments" value="flashlight02" /> 
+        <property name="Attachments" value="flashlight02" />
         <property class="Parts">
             <property name="Stock" value="huntingRifleStock" />
             <property name="Receiver" value="huntingRifleReceiver" />
@@ -3159,7 +3131,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="LightSource" value="lightSource" />
 		<property name="ActivateObject" value="Attachments/flashlight/lightSource" />
 		<property name="AttachmentFlashlight" value="flashlight02" />
-		<!-- End: Needed for the attachment flashlight -->        
+		<!-- End: Needed for the attachment flashlight -->
         <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
             <property name="Zoom" value="1" />
@@ -3193,12 +3165,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="600" />
         <property name="Weight" value="35" />
         <property name="Group" value="Resources" />
-        <property class="Attributes">	
+        <property class="Attributes">
 			<property name="DegradationMax" value="500,1000" />
             <property name="EntityDamage" value="6,42" />
             <property name="Accuracy" value="1, 0.01" />
 			<property name="DismembermentBaseChance" value="0.0,0.2"/>
-			<property name="DismembermentBonus" value="0,0"/>			
+			<property name="DismembermentBonus" value="0,0"/>
         </property>
         <property class="Preview">
             <property name="Zoom" value="28" />
@@ -3237,7 +3209,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Weight" value="35" />
         <property name="Group" value="Resources" />
         <property class="Attributes">
-            <property name="DegradationMax" value="500,1000" />		
+            <property name="DegradationMax" value="500,1000" />
             <property name="FalloffRange" value="1,60" />
         </property>
         <property class="Preview">
@@ -3281,7 +3253,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="DegradationBreaksAfter" value="false" />
         <property class="Attributes">
             <property name="DegradationMax" value="30,600" />
-        </property>     
+        </property>
         <property name="Weight" value="10" />
         <property name="Group" value="Resources" />
         <property class="Preview">
@@ -3465,7 +3437,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
     </item>
 <!-- free -->
-
     <item id="292" name="sniperRifle_stock">
 		<property name="DescriptionKey" value="sniperPartsGroupDesc"/>
         <property name="PartType" value="Stock" />
@@ -3508,9 +3479,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
-
 <!-- free -->
-
     <item id="310" name="bandage">
         <property name="Meshfile" value="Items/Health/gauze" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
@@ -3552,7 +3521,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="10,-45,0" />
         </property>
     </item>
-
 <!-- free -->
     <item id="321" name="9mmBullet">
         <property name="Meshfile" value="Items/Weapons/Ranged/Pistol/9mm_bullet" />
@@ -3568,7 +3536,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true" />
-            <property name="EntityDamage" value="0,0" />            
+            <property name="EntityDamage" value="0,0" />
         </property>
 		<property name="ActionSkillGroup" value="Pistols"/>
 		<property name="CraftingSkillGroup" value="Gun Smithing"/>
@@ -3587,8 +3555,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true" />
-            <property name="EntityDamage" value="0,0" />            
-        </property>        
+            <property name="EntityDamage" value="0,0" />
+        </property>
 		<property name="ActionSkillGroup" value="Pistols"/>
 		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
@@ -3606,13 +3574,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true" />
-            <property name="EntityDamage" value="0,0" />            
-        </property>     
+            <property name="EntityDamage" value="0,0" />
+        </property>
 		<property name="ActionSkillGroup" value="Rifles"/>
 		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
 <!-- free -->
-
     <item id="333" name="bulletTip">
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
@@ -3626,7 +3593,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="10,-45,0" />
         </property>
     </item>
-
 <!-- free -->
     <item id="336" name="doorKnob">
         <property name="Meshfile" value="Items/Crafting/door_knob" />
@@ -3711,7 +3677,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="DegradationMax" value="10,600" />
 			<property name="BatteryMaxLoadInVolts" value="24, 36" />
 			<property name="BatteryDischargeTimeInMinutes" value="30,90" />
-        </property>          
+        </property>
     </item>
     <!-- scrap brass -->
     <item id="346" name="scrapBrass">
@@ -3763,7 +3729,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="10,-45,0" />
         </property>
     </item>
-    
     <item id="351" name="miningHelmet">
 		<property name="Insulation" value="1"/>
 		<property name="Waterproof" value="0.2"/>	
@@ -3864,11 +3829,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
-
 <!-- 355 to 359 free -->
-
-
- 
     <item id="360" name="crushedSand">
         <property name="Meshfile" value="Items/Crafting/crushedSand" />
         <property name="Material" value="glass" />
@@ -3989,7 +3950,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="wood" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
-        <property name="Degradation" value="100" param1="true" />       
+        <property name="Degradation" value="100" param1="true" />
         <property name="FuelValue" value="60" />
         <property name="Group" value="Resources" />
         <property class="Attributes">
@@ -4070,7 +4031,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Group" value="Clothing" />
 		<property name="Encumbrance" value="0.01" />
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.2, 0.4" /> 
+  			<property name="ConcussiveProtection" value="0.2, 0.4" />
  			<property name="PunctureProtection" value="0.1, 0.3" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.15, 0.2" />
@@ -4105,7 +4066,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="100" param1="true" />
 		<property name="Encumbrance" value="0.01" />
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.2, 0.4" /> 
+  			<property name="ConcussiveProtection" value="0.2, 0.4" />
  			<property name="PunctureProtection" value="0.1, 0.3" />
  		</property>
         <property name="Group" value="Clothing" />
@@ -4138,9 +4099,9 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="100" param1="true" />
 		<property name="Encumbrance" value="0.01"/>
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.2, 0.4" /> 
+  			<property name="ConcussiveProtection" value="0.2, 0.4" />
  			<property name="PunctureProtection" value="0.1, 0.3" />
- 		</property>        
+ 		</property>
         <property name="Group" value="Clothing" /> 
         <property class="UMA">
             <property name="Mesh" value="armor_leather_chest" />
@@ -4171,9 +4132,9 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="100" param1="true" />
 		<property name="Encumbrance" value="0.01"/>
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.2, 0.4" /> 
+  			<property name="ConcussiveProtection" value="0.2, 0.4" />
  			<property name="PunctureProtection" value="0.1, 0.3" />
- 		</property>        
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_leather_hood" />
@@ -4205,11 +4166,11 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="250" param1="true" />
 		<property name="Encumbrance" value="0.1"/>
 		<property name="ActionSkillGroup" value="Heavy Armor"/>
-		<property name="CraftingSkillGroup" value="Armor Smithing"/>		
+		<property name="CraftingSkillGroup" value="Armor Smithing"/>
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.3, 0.8" /> 
+  			<property name="ConcussiveProtection" value="0.3, 0.8" />
  			<property name="PunctureProtection" value="0.3, 0.7" />
- 		</property> 
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_iron_boots" />
@@ -4239,9 +4200,9 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="250" param1="true" />
 		<property name="Encumbrance" value="0.1"/>
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.3, 0.8" /> 
+  			<property name="ConcussiveProtection" value="0.3, 0.8" />
  			<property name="PunctureProtection" value="0.3, 0.7" />
- 		</property> 
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_iron_pants" />
@@ -4273,9 +4234,9 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="250" param1="true" />
 		<property name="Encumbrance" value="0.1"/>
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.3, 0.8" /> 
+  			<property name="ConcussiveProtection" value="0.3, 0.8" />
  			<property name="PunctureProtection" value="0.3, 0.7" />
- 		</property> 
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_iron_chest" />
@@ -4306,9 +4267,9 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="250" param1="true" />
 		<property name="Encumbrance" value="0.1"/>
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.3, 0.8" /> 
+  			<property name="ConcussiveProtection" value="0.3, 0.8" />
   			<property name="PunctureProtection" value="0.3, 0.7" />
- 		</property> 
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_iron_helmet" />
@@ -4341,9 +4302,9 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Leatherworking"/>
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.2, 0.4" /> 
+  			<property name="ConcussiveProtection" value="0.2, 0.4" />
   			<property name="PunctureProtection" value="0.1, 0.3" />
- 		</property>        
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_leather_gloves" />
@@ -4373,9 +4334,9 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="250" param1="true" />
 		<property name="Encumbrance" value="0.05"/>
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.3, 0.8" /> 
+  			<property name="ConcussiveProtection" value="0.3, 0.8" />
   			<property name="PunctureProtection" value="0.3, 0.7" />
- 		</property> 
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_iron_gloves" />
@@ -4418,7 +4379,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="16" />
         <property name="Degradation" value="250" param1="true" />
         <property class="Attributes">
-          <property name="ConcussiveProtection" value="0.1, 0.3" /> 
+          <property name="ConcussiveProtection" value="0.1, 0.3" />
           <property name="PunctureProtection" value="0.05, 0.2" />
           <property name="FireProtection" value="0.05, 0.2" />
           <property name="RadiationProtection" value="0.15, 0.2" />
@@ -4481,7 +4442,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="UseActions/player_drinking" />
             <property name="Buff" value="CoffeeStaminaBoost" />
             <property name="Create_item" value="emptyJar" />
-            
             <property name="Gain_wellness" value="-0.1" />
         </property>
         <property name="Group" value="Food/Cooking" />
@@ -4526,7 +4486,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="100" param1="true" />
         <property name="Encumbrance" value="0.01"/>
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.2, 0.4" /> 
+  			<property name="ConcussiveProtection" value="0.2, 0.4" />
   			<property name="PunctureProtection" value="0.1, 0.3" />
  		</property>
         <property name="Group" value="Clothing" />
@@ -4546,7 +4506,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <item id="392" name="ballCap">
 		<property name="DescriptionKey" value="clothClothesGroupDesc"/>
 		<property name="Insulation" value="-7"/>
-		<property name="Waterproof" value="0.1"/>	
+		<property name="Waterproof" value="0.1"/>
         <property name="Meshfile" value="Items/Clothing/Head/prefabBallcap" />
         <property name="Material" value="cloth" />
         <property name="HoldType" value="7" />
@@ -4558,10 +4518,10 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="RepairTools" value="cloth" />
 		<property name="Encumbrance" value="0.01"/>
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.05, 0.2" /> 
-  			<property name="PunctureProtection" value="0.05, 0.2" /> 
+  			<property name="ConcussiveProtection" value="0.05, 0.2" />
+  			<property name="PunctureProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>         
+		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="gear_ballcap" />
@@ -4590,12 +4550,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="RepairTools" value="cloth" />
 		<property name="Encumbrance" value="0.01"/>
 		<property name="ActionSkillGroup" value="Clothing"/>
-		<property name="CraftingSkillGroup" value="Tailoring"/>			
-		<property class="Attributes">	
-  			<property name="ConcussiveProtection" value="0.05, 0.2" /> 
-  			<property name="PunctureProtection" value="0.05, 0.2" /> 
+		<property name="CraftingSkillGroup" value="Tailoring"/>
+		<property class="Attributes">
+  			<property name="ConcussiveProtection" value="0.05, 0.2" />
+  			<property name="PunctureProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>         
+		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="gear_skullcap" />
@@ -4648,7 +4608,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
-    
     <item id="396" name="mushrooms">
         <property name="Meshfile" value="Items/Misc/parcel" />
         <property name="Material" value="organic" />
@@ -4718,7 +4677,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
-
     <item id="399" name="moldyBread">
         <property name="Meshfile" value="Items/Food/cornbread" />
         <property name="Material" value="organic" />
@@ -4842,12 +4800,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Encumbrance" value="0"/>
 		<property name="Weight" value="5"/>
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.05, 0.2" /> 
-  			<property name="PunctureProtection" value="0.05, 0.2" /> 
+  			<property name="ConcussiveProtection" value="0.05, 0.2" />
+  			<property name="PunctureProtection" value="0.05, 0.2" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>         
+		</property>
         <property class="UMA">
             <property name="Mesh" value="gear_shades" />
             <property name="Overlay" value="gear_shades" />
@@ -4875,12 +4833,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="RepairTools" value="cloth" />
 		<property name="Encumbrance" value="0"/>
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.05, 0.2" /> 
-  			<property name="PunctureProtection" value="0.05, 0.2" /> 
+  			<property name="ConcussiveProtection" value="0.05, 0.2" />
+  			<property name="PunctureProtection" value="0.05, 0.2" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>         
+		</property>
         <property class="UMA">
             <property name="Mesh" value="gear_bandana" />
             <property name="Overlay" value="gear_bandana" />
@@ -4920,7 +4878,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Overlay" value="cigarette" />
             <property name="Layer" value="1" />
             <property name="UISlot" value="Face" />
-        </property>		
+        </property>
         <property class="Preview">
             <property name="Zoom" value="28" />
             <property name="Pos" value="0,-0.05" />
@@ -4941,12 +4899,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Weight" value="10" />
 		<property name="Encumbrance" value="0"/>
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.3, 0.7" /> 
+  			<property name="ConcussiveProtection" value="0.3, 0.7" />
   			<property name="PunctureProtection" value="0.3, 0.6" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
- 		</property>     
+ 		</property>
         <property class="UMA">
             <property name="Mesh" value="gear_football_helmet" />
             <property name="Overlay" value="gear_football_helmet" />
@@ -4954,7 +4912,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="UISlot" value="Headgear" />
             <property name="ShowHair" value="false" />
         </property>
-               
         <property class="Preview">
             <property name="Zoom" value="28" />
             <property name="Pos" value="0,-0.05" />
@@ -4971,16 +4928,15 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="EquipSlot" value="Eyes" />
         <property name="Group" value="Clothing" />
         <property name="RepairTools" value="forgedIron" />
-        <property name="Weight" value="5" />   
+        <property name="Weight" value="5" />
 		<property name="Encumbrance" value="0"/>
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.05, 0.2" /> 
-  			<property name="PunctureProtection" value="0.05, 0.2" /> 
+  			<property name="ConcussiveProtection" value="0.05, 0.2" />
+  			<property name="PunctureProtection" value="0.05, 0.2" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>          
-       
+		</property>
         <property class="UMA">
             <property name="Mesh" value="gear_goggles" />
             <property name="Overlay" value="gear_goggles" />
@@ -5006,12 +4962,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Encumbrance" value="0"/>
 		<property name="Weight" value="5"/>
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.6, 0.9" /> 
+  			<property name="ConcussiveProtection" value="0.6, 0.9" />
   			<property name="PunctureProtection" value="0.6, 0.9" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>        
+		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="gear_kevlar_helmet" />
@@ -5041,12 +4997,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="PlaySoundOnActive" value="nightvision_toggle" />
         <property name="Active" value="false" />
         <property class="Attributes">
-  			    <property name="ConcussiveProtection" value="0.05, 0.2" /> 
-  			    <property name="PunctureProtection" value="0.05, 0.2" /> 
+  			    <property name="ConcussiveProtection" value="0.05, 0.2" />
+  			    <property name="PunctureProtection" value="0.05, 0.2" />
 			      <property name="FireProtection" value="0.05, 0.2" />
 			      <property name="RadiationProtection" value="0.05, 0.2" />
   			    <property name="DegradationMax" value="40,600" />
-		    </property>        
+		    </property>
         <property class="UMA">
             <property name="Mesh" value="gear_nightvision_goggles" />
             <property name="Overlay" value="gear_nightvision_goggles" />
@@ -5071,12 +5027,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="RepairTools" value="forgedIron" />
 		<property name="Weight" value="10" />
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.5, 0.8" /> 
+  			<property name="ConcussiveProtection" value="0.5, 0.8" />
   			<property name="PunctureProtection" value="0.5, 0.8" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>        
+		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="gear_swat_helmet" />
@@ -5138,7 +5094,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
         <property name="Group" value="Food/Cooking" />
     </item>
-
     <item id="417" name="repairKit">
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
@@ -5372,7 +5327,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="organic" />
         <property name="HoldType" value="40" />
         <property name="Stacknumber" value="250" />
-        <property name="Group" value="Resources" />   
+        <property name="Group" value="Resources" />
         <property class="Action0">
             <!-- AttackAction -->
             <property name="Class" value="ThrowAway" />
@@ -5381,7 +5336,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Throw_strength_max" value="2.5" />
             <property name="Max_strain_time" value="2.1" />
             <property name="Sound_start" value="swoosh" />
-        </property>		
+        </property>
         <property class="Preview">
             <property name="Zoom" value="28" />
             <property name="Pos" value="0,-0.05" />
@@ -5408,7 +5363,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="DropScale" value="1" />
         <property name="Group" value="Resources" />
     </item>
-
     <item id="620" name="rottingFlesh">
         <property name="Meshfile" value="Items/Food/meat_rabbit" />
         <property name="Material" value="organic" />
@@ -5614,12 +5568,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="1" />
         <property name="Degradation" value="100" param1="true" />
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.1, 0.3" /> 
+  			<property name="ConcussiveProtection" value="0.1, 0.3" />
   			<property name="PunctureProtection" value="0.05, 0.2" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
- 		</property>        
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_cloth_feet" />
@@ -5650,12 +5604,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="2" />
         <property name="Degradation" value="100" param1="true" />
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.1, 0.3" /> 
+  			<property name="ConcussiveProtection" value="0.1, 0.3" />
   			<property name="PunctureProtection" value="0.05, 0.2" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
- 		</property>        
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_cloth_legs" />
@@ -5686,12 +5640,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="3" />
         <property name="Degradation" value="100" param1="true" />
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.1, 0.3" /> 
+  			<property name="ConcussiveProtection" value="0.1, 0.3" />
   			<property name="PunctureProtection" value="0.05, 0.2" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
- 		</property>        
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_cloth_chest" />
@@ -5722,12 +5676,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="1" />
         <property name="Degradation" value="100" param1="true" />
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.1, 0.3" /> 
+  			<property name="ConcussiveProtection" value="0.1, 0.3" />
   			<property name="PunctureProtection" value="0.05, 0.2" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
- 		</property>         
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_cloth_hood" />
@@ -5759,12 +5713,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="1" />
         <property name="Degradation" value="100" param1="true" />
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.1, 0.3" /> 
+  			<property name="ConcussiveProtection" value="0.1, 0.3" />
   			<property name="PunctureProtection" value="0.05, 0.2" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
- 		</property>        
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_cloth_hands" />
@@ -5798,7 +5752,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
     </item>
     <item id="635" name="splint">
-        <property name="Meshfile" value="Items/Health/gauze" />       
+        <property name="Meshfile" value="Items/Health/gauze" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="wood" />
         <property name="HoldType" value="16" />
@@ -5862,7 +5816,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_water" value="0" />
             <property name="Sound_start" value="UseActions/player_firstAidKit" />
             <property name="Debuff" value="bleeding,burning" />
-            
             <property name="Buff" value="firstAidLarge" />
         </property>
         <property name="Group" value="Medicine" />
@@ -5913,8 +5866,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
-    
-    
     <item id="639" name="machete">
         <property name="Meshfile" value="Items/Weapons/Melee/Knives/machete" />
         <property name="Material" value="metal" />
@@ -5947,19 +5898,19 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="DegradationMax" value="100,600" />
 			<property name="DegradationRate" value="1,1" />
 			<property name="DismembermentBaseChance" value="0.1,0.4"/>
-			<property name="DismembermentBonus" value="0.005,0.010"/>		
-        </property>         
+			<property name="DismembermentBonus" value="0.005,0.010"/>
+        </property>
         <property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Blade Weapons"/>
 		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
-    </item>    
-        <item id="640" name="bloodDrawKit">
-        	<property name="Meshfile" value="Items/Misc/sackPrefab" />
-			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-        	<property name="Material" value="metal" />
-        	<property name="HoldType" value="45" />
-        	<property name="Stacknumber" value="250" />
-        	<property class="Action1">
+    </item>
+	<item id="640" name="bloodDrawKit">
+        <property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+        <property name="Material" value="metal" />
+        <property name="HoldType" value="45" />
+        <property name="Stacknumber" value="250" />
+        <property class="Action1">
             <!-- UseAction -->
             <property name="Class" value="Eat" />
             <property name="Delay" value="1.0" />
@@ -6118,7 +6069,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Insulation" value="3"/>
 		<property name="Waterproof" value="0.05"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
-		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />        
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="metal" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
@@ -6128,12 +6079,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="250" param1="true" />
         <property name="RepairTools" value="scrapIron" />
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.3, 0.7" /> 
+  			<property name="ConcussiveProtection" value="0.3, 0.7" />
   			<property name="PunctureProtection" value="0.2, 0.5" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
- 		</property>         
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_scrap_metal_feet" />
@@ -6154,7 +6105,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Insulation" value="3"/>
 		<property name="Waterproof" value="0.05"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
-		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />        
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="metal" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
@@ -6164,12 +6115,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="250" param1="true" />
         <property name="RepairTools" value="scrapIron" />
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.3, 0.7" /> 
+  			<property name="ConcussiveProtection" value="0.3, 0.7" />
   			<property name="PunctureProtection" value="0.2, 0.5" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
- 		</property>         
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_scrap_metal_legs" />
@@ -6190,7 +6141,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Insulation" value="3"/>
 		<property name="Waterproof" value="0.05"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
-		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />        
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="metal" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
@@ -6200,12 +6151,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="250" param1="true" />
         <property name="RepairTools" value="scrapIron" />
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.3, 0.7" /> 
+  			<property name="ConcussiveProtection" value="0.3, 0.7" />
   			<property name="PunctureProtection" value="0.2, 0.5" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
- 		</property>         
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_scrap_metal_chest" />
@@ -6226,7 +6177,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Insulation" value="3"/>
 		<property name="Waterproof" value="0.05"/>	
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
-		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />   		       
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="metal" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
@@ -6236,12 +6187,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="250" param1="true" />
         <property name="RepairTools" value="scrapIron" />
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.3, 0.7" /> 
+  			<property name="ConcussiveProtection" value="0.3, 0.7" />
   			<property name="PunctureProtection" value="0.2, 0.5" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
- 		</property>         
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_scrapmetal_helmet" />
@@ -6263,7 +6214,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Insulation" value="3"/>
 		<property name="Waterproof" value="0.05"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
-		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />        
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="metal" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
@@ -6273,12 +6224,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="250" param1="true" />
         <property name="RepairTools" value="scrapIron" />
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.3, 0.7" /> 
+  			<property name="ConcussiveProtection" value="0.3, 0.7" />
   			<property name="PunctureProtection" value="0.2, 0.5" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
- 		</property>         
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_scrap_metal_hands" />
@@ -6325,7 +6276,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Insulation" value="5"/>
 		<property name="Waterproof" value="0.1"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
-		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />        
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="cloth" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
@@ -6335,12 +6286,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Weight" value="5" />
         <property name="Degradation" value="100" param1="true" />
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.05, 0.2" /> 
-  			<property name="PunctureProtection" value="0.05, 0.2" /> 
+  			<property name="ConcussiveProtection" value="0.05, 0.2" />
+  			<property name="PunctureProtection" value="0.05, 0.2" />
   			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>         
+		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="clothes_denim_pants" />
@@ -6360,7 +6311,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Insulation" value="2"/>
 		<property name="Waterproof" value="0.1"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
-		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />        
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="cloth" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
@@ -6370,14 +6321,14 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Weight" value="5" />
         <property name="Degradation" value="100" param1="true" />
 		<property name="ActionSkillGroup" value="Clothing"/>
-		<property name="CraftingSkillGroup" value="Tailoring"/>		
+		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.05, 0.2" /> 
-  			<property name="PunctureProtection" value="0.05, 0.2" /> 
+  			<property name="ConcussiveProtection" value="0.05, 0.2" />
+  			<property name="PunctureProtection" value="0.05, 0.2" />
   			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>         
+		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="base_chest" />
@@ -6411,7 +6362,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Insulation" value="10"/>
 		<property name="Waterproof" value="0.1"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
-		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />       
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="cloth" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
@@ -6421,12 +6372,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Weight" value="5" />
         <property name="Degradation" value="100" param1="true" />
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.05, 0.2" /> 
-  			<property name="PunctureProtection" value="0.05, 0.2" /> 
+  			<property name="ConcussiveProtection" value="0.05, 0.2" />
+  			<property name="PunctureProtection" value="0.05, 0.2" />
   			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>         
+		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="clothes_denim_jacket" />
@@ -6469,12 +6420,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="2" />
         <property name="Degradation" value="100" param1="true" />
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.05, 0.2" /> 
-  			<property name="PunctureProtection" value="0.05, 0.2" /> 
+  			<property name="ConcussiveProtection" value="0.05, 0.2" />
+  			<property name="PunctureProtection" value="0.05, 0.2" />
   			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>         
+		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="worn_boots" />
@@ -6561,12 +6512,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="2" />
         <property name="Degradation" value="100" param1="true" />
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.05, 0.2" /> 
-  			<property name="PunctureProtection" value="0.05, 0.2" /> 
+  			<property name="ConcussiveProtection" value="0.05, 0.2" />
+  			<property name="PunctureProtection" value="0.05, 0.2" />
   			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>         
+		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="plaidShirt" />
@@ -6602,7 +6553,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
-	
     <item id="696" name="tankTopGreen">
 		<property name="Extends" value="tankTopWhite" />
         <property name="CustomIcon" value="tankTopWhite" />
@@ -6610,8 +6560,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="UMA">
             <property name="OverlayTints" value="skin,335C41" />
         </property>
-    </item>	
-	
+    </item>
     <item id="697" name="tankTopBlue">
 		<property name="Extends" value="tankTopWhite" />
         <property name="CustomIcon" value="tankTopWhite" />
@@ -6619,39 +6568,35 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="UMA">
             <property name="OverlayTints" value="skin,6282A3" />
         </property>
-    </item>		
-	
+    </item>
     <item id="698" name="blackDenimPants">
 		<property name="DescriptionKey" value="denimClothesGroupDesc"/>
 		<property name="Extends" value="denimPants" />
         <property name="CustomIcon" value="denimPants" />
-        <property name="CustomIconTint" value="575757" />       
+        <property name="CustomIconTint" value="575757" />
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="OverlayTints" value="575757" />
         </property>
-
     </item>
     <item id="699" name="redDenimPants">
 		<property name="DescriptionKey" value="denimClothesGroupDesc"/>
 		<property name="Extends" value="denimPants" />
         <property name="CustomIcon" value="denimPants" />
-        <property name="CustomIconTint" value="AE3B3B" />     
+        <property name="CustomIconTint" value="AE3B3B" />
         <property class="UMA">
             <property name="OverlayTints" value="AE3B3B" />
         </property>
     </item>
-	
     <item id="700" name="brownDenimPants">
 		<property name="DescriptionKey" value="denimClothesGroupDesc"/>
 		<property name="Extends" value="denimPants" />
         <property name="CustomIcon" value="denimPants" />
-        <property name="CustomIconTint" value="846954" />     
+        <property name="CustomIconTint" value="846954" />
         <property class="UMA">
             <property name="OverlayTints" value="846954" />
         </property>
     </item>
-
     <item id="701" name="plantFiberPants">
 		<property name="Insulation" value="2"/>
 		<property name="Waterproof" value="0.05"/>
@@ -6665,12 +6610,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="2" />
         <property name="Degradation" value="100" param1="true" />
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.01, 0.1" /> 
-  			<property name="PunctureProtection" value="0.01, 0.1" /> 
+  			<property name="ConcussiveProtection" value="0.01, 0.1" />
+  			<property name="PunctureProtection" value="0.01, 0.1" />
   			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>         
+		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
 		    <property name="Mesh" value="plant_fiber_pants" />
@@ -6709,7 +6654,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Create_item" value="canEmpty" />
             <property name="Buff" value="dysentery" />
             <property name="Buff_chance" value="0.5" />
-            
         </property>
         <property name="Group" value="Food/Cooking" />
         <property class="Preview">
@@ -6736,7 +6680,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_water" value="20" />
             <property name="Sound_start" value="UseActions/player_drinking" />
             <property name="Create_item" value="canEmpty" />
-            
         </property>
         <property name="Group" value="Food/Cooking" />
         <property class="Preview">
@@ -6745,10 +6688,9 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="0,-45,0" />
         </property>
     </item>
-    <!-- Free -->
-
-    <!-- vitamins -->
-    <item id="705" name="vitamins">
+<!-- Free -->
+<!-- vitamins -->
+	<item id="705" name="vitamins">
         <property name="Meshfile" value="Items/Health/painkillersPrefab" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="16" />
@@ -6820,7 +6762,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="OverlayTints" value="AD0000" />
         </property>
     </item>
-	
     <item id="709" name="plaidShirtBrown">
 		<property name="Extends" value="plaidShirt" />
         <property name="CustomIcon" value="plaidShirt" />
@@ -6828,8 +6769,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="UMA">
             <property name="OverlayTints" value="846954" />
         </property>
-    </item>	
-	
+    </item>
     <item id="710" name="plaidShirtGreen">
 		<property name="Extends" value="plaidShirt" />
         <property name="CustomIcon" value="plaidShirt" />
@@ -6837,8 +6777,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="UMA">
             <property name="OverlayTints" value="335C41" />
         </property>
-    </item>		
-	
+    </item>
     <item id="711" name="plaidShirtBlue">
 		<property name="Extends" value="plaidShirt" />
         <property name="CustomIcon" value="plaidShirt" />
@@ -6846,8 +6785,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="UMA">
             <property name="OverlayTints" value="6EADFF" />
         </property>
-    </item>		
-
+    </item>
     <item id="712" name="plaidShirtBlack">
 		<property name="Extends" value="plaidShirt" />
         <property name="CustomIcon" value="plaidShirt" />
@@ -6855,53 +6793,47 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="UMA">
             <property name="OverlayTints" value="575757" />
         </property>
-    </item>	
-	
+    </item>
     <item id="713" name="skullCapRed">
 		<property name="Extends" value="skullCap" />
         <property name="CustomIcon" value="skullCap" />
-        <property name="CustomIconTint" value="AD0000" />        
+        <property name="CustomIconTint" value="AD0000" />
         <property class="UMA">
             <property name="OverlayTints" value="AD0000" />
         </property>
     </item>
-	
     <item id="714" name="skullCapBlue">
 		<property name="Extends" value="skullCap" />
         <property name="CustomIcon" value="skullCap" />
-        <property name="CustomIconTint" value="6EADFF" />        
+        <property name="CustomIconTint" value="6EADFF" />
         <property class="UMA">
             <property name="OverlayTints" value="6EADFF" />
         </property>
-    </item>	
-	
+    </item>
     <item id="715" name="skullCapGreen">
 		<property name="Extends" value="skullCap" />
         <property name="CustomIcon" value="skullCap" />
-        <property name="CustomIconTint" value="335C41" />        
+        <property name="CustomIconTint" value="335C41" />
         <property class="UMA">
             <property name="OverlayTints" value="335C41" />
         </property>
-    </item>	
-	
+    </item>
     <item id="716" name="skullCapBrown">
 		<property name="Extends" value="skullCap" />
         <property name="CustomIcon" value="skullCap" />
-        <property name="CustomIconTint" value="846954" />        
+        <property name="CustomIconTint" value="846954" />
         <property class="UMA">
             <property name="OverlayTints" value="846954" />
         </property>
-    </item>	
-
+    </item>
     <item id="717" name="skullCapBlack">
 		<property name="Extends" value="skullCap" />
         <property name="CustomIcon" value="skullCap" />
-        <property name="CustomIconTint" value="575757" />        
+        <property name="CustomIconTint" value="575757" />
         <property class="UMA">
             <property name="OverlayTints" value="575757" />
         </property>
-    </item>		
-
+    </item>
     <item id="718" name="bandanaRed">
 		<property name="Extends" value="bandana" />
         <property name="CustomIcon" value="bandana" />
@@ -6910,7 +6842,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="OverlayTints" value="AD0000" />
         </property>
     </item>
-	
     <item id="719" name="bandanaBlue">
 		<property name="Extends" value="bandana" />
         <property name="CustomIcon" value="bandana" />
@@ -6918,8 +6849,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="UMA">
             <property name="OverlayTints" value="6EADFF" />
         </property>
-    </item>	
-
+    </item>
     <item id="720" name="bandanaGreen">
 		<property name="Extends" value="bandana" />
         <property name="CustomIcon" value="bandana" />
@@ -6927,8 +6857,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="UMA">
             <property name="OverlayTints" value="335C41" />
         </property>
-    </item>		
-	
+    </item>
     <item id="721" name="bandanaBrown">
 		<property name="Extends" value="bandana" />
         <property name="CustomIcon" value="bandana" />
@@ -6936,8 +6865,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="UMA">
             <property name="OverlayTints" value="846954" />
         </property>
-    </item>		
-
+    </item>
     <item id="722" name="bandanaBlack">
 		<property name="Extends" value="bandana" />
         <property name="CustomIcon" value="bandana" />
@@ -6945,7 +6873,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="UMA">
             <property name="OverlayTints" value="575757" />
         </property>
-    </item>		    
+    </item>
      <item id="723" name="chainsawBlade">
 		<property name="PartType" value="Barrel" />
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -6961,14 +6889,14 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="DegradationMax" value="300,600" />
             <property name="DegradationRate" value="0.1,0.1" />
 			<property name="DismembermentBaseChance" value="1,1"/>
-        </property>        
+        </property>
     </item>
     <!-- hunting book-->
     <item id="724" name="huntingRifleSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
         <property name="HoldType" value="21" />
-        <property name="Stacknumber" value="50" />		
+        <property name="Stacknumber" value="50" />
         <property class="Action1">
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
@@ -6991,7 +6919,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="paper" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
-		
         <property class="Action1">
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
@@ -7008,10 +6935,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
-
-
-    <!-- free -->
-
+<!-- free -->
     <item id="731" name="dynamite">
         <property name="Class" value="ItemClassTimeBomb" />
         <property name="Meshfile" value="Items/Weapons/Ranged/Dynamite/dynamitePrefab" />
@@ -7036,7 +6960,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Explosion.DamageBonus.wood" value="0" />
 		<property name="Explosion.DamageBonus.water" value="0" />
 		<property name="Explosion.DamageBonus.glass" value="10" />
-		
 		-->
         <property name="FuseTime" value="5" />
         <!-- time in sec, max 6 -->
@@ -7100,7 +7023,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Accuracy" value="1, 0.01" />
             <property name="DegradationMax" value="300,600" />
             <property name="DegradationRate" value="0.1,0.1" />
-        </property>        
+        </property>
     </item>
     <item id="734" name="handlebars">
 		<property name="PartType" value="Pump" />
@@ -7113,7 +7036,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Attributes">
             <property name="DegradationRate" value="0.1,0.1" />
             <property name="DegradationMax" value="30,600" />
-        </property>        
+        </property>
     </item>
 	<item id="735" name="flashlight02">
 		<property name="Class" value="ItemClassToggle" />
@@ -7166,12 +7089,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="RepairTools" value="forgedIron" />
         <property name="Weight" value="10" />
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.05, 0.2" /> 
-  			<property name="PunctureProtection" value="0.05, 0.2" /> 
+  			<property name="ConcussiveProtection" value="0.05, 0.2" />
+  			<property name="PunctureProtection" value="0.05, 0.2" />
   			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>                
+		</property>
         <property class="UMA">
             <property name="Mesh" value="aviator_goggles" />
             <property name="Overlay" value="aviator_goggles" />
@@ -7186,14 +7109,14 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     </item>
     <item id="738" name="tazasStoneaxe">
 		<property name="DescriptionKey" value="tazasStoneaxeDesc"/>
-		<property name="Extends" value="stoneAxe" />    
+		<property name="Extends" value="stoneAxe" />
 		<property name="CustomIcon" value="stoneAxe" />
         <property class="Attributes">
             <property name="EntityDamage" value="10,20" />
             <property name="BlockDamage" value="20,120" />
 			<property name="DegradationMax" value="300,600" />
 			<property name="DegradationRate" value="1,1" />
-        </property>        
+        </property>
     </item>
     <item id="739" name="blunderbuss">
         <property name="Meshfile" value="Items/Weapons/Ranged/blunderbuss/blunderbussPrefab" />
@@ -7243,7 +7166,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="BlockDamage" value="7,35" />
             <property name="DegradationMax" value="50,600" />
 			<property name="DegradationRate" value="2,1" />
-        </property>        
+        </property>
         <property class="Preview">
             <property name="Zoom" value="5" />
             <property name="Pos" value="0.1,-0.05" />
@@ -7320,7 +7243,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="100" param1="true" />
         <property class="Attributes">
             <property name="DegradationMax" value="30,600" />
-        </property>          
+        </property>
         <property name="Weight" value="10" />
         <property name="Group" value="Resources" />
         <property class="Preview">
@@ -7329,7 +7252,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
-    
     <item id="744" name="sniperRifleParts">
 		<property name="DescriptionKey" value="sniperPartsGroupDesc"/>
         <property name="PartType" value="Pump" />
@@ -7342,7 +7264,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="100" param1="true" />
         <property class="Attributes">
             <property name="DegradationMax" value="30,600" />
-        </property>          
+        </property>
         <property name="Weight" value="10" />
         <property name="Group" value="Resources" />
         <property class="Preview">
@@ -7350,8 +7272,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item> 
-    
+    </item>
      <item id="745" name="setInConcrete">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
@@ -7373,7 +7294,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
-    
     <item id="746" name="minibikeSeat">
 		<property name="DescriptionKey" value="minibikePartsGroupDesc"/>
         <property name="VehicleSlotType" value="seat" />
@@ -7396,8 +7316,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>    
-    
+    </item>
     <item id="747" name="minibikeWheels">
 		<property name="DescriptionKey" value="minibikePartsGroupDesc"/>
         <property name="VehicleSlotType" value="wheel" />
@@ -7421,8 +7340,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>    
-
+    </item>
      <item id="748" name="padlock">
         <property name="VehicleSlotType" value="lock" />
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -7443,8 +7361,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>  
-      
+    </item>
      <item id="749" name="minibikesForDumbshits">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
@@ -7465,24 +7382,21 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>  
-    
-     <item id="750" name="scrapCable">        
+    </item>
+     <item id="750" name="scrapCable">
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="metal" />
         <property name="HoldType" value="45" />
-        <property name="Stacknumber" value="50" />        
+        <property name="Stacknumber" value="50" />
         <property name="Weight" value="5" />
         <property name="Group" value="Resources" />
-
         <property class="Preview">
             <property name="Zoom" value="28" />
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>   
-    
+    </item>
      <item id="751" name="headlight">
         <property name="VehicleSlotType" value="headlight" />
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -7497,8 +7411,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>  
-    
+    </item>
     <item id="752" name="pickaxeSteel">
         <property name="Meshfile" value="Items/Tools/pickaxe_steel" />
         <property name="Material" value="metal" />
@@ -7507,7 +7420,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="RepairTools" value="forgedSteel" />
         <property name="SoundDestroy" value="metaldestroy1" />
 		<property name="DegradationBreaksAfter" value="false" />
-		<property name="SoundJammed" value="ItemNeedsRepair" />		
+		<property name="SoundJammed" value="ItemNeedsRepair" />
         <property name="FuelValue" value="16" />
         <property class="Action0">
             <!-- AttackAction -->
@@ -7534,14 +7447,13 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="DegradationRate" value="2,1" />
 			<property name="DismembermentBaseChance" value="0.05,0.15"/>
 			<property name="DismembermentBonus" value="0,0"/>
-        </property>  
+        </property>
         <property class="Preview">
             <property name="Pos" value="-0.05,-0.4" />
         </property>
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 		<property name="CraftingSkillGroup" value="Tool Smithing"/>
-    </item>  
-    
+    </item>
     <item id="753" name="forgedSteel">
         <property name="Meshfile" value="Items/Crafting/ingotIron" />
         <property name="Material" value="metal" />
@@ -7558,8 +7470,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>  
-    
+    </item>
      <item id="755" name="theRiddleOfSteel">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
@@ -7582,8 +7493,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>  
-    
+    </item>
     <!-- antibiotics -->
     <item id="756" name="herbalAntibiotics">
         <property name="Meshfile" value="Items/Health/painkillersPrefab" />
@@ -7598,7 +7508,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Gain_food" value="0" />
             <property name="Gain_water" value="0" />
             <property name="Gain_wellness" value="1" />
-            <property name="Sound_start" value="UseActions/player_painkillers" />            
+            <property name="Sound_start" value="UseActions/player_painkillers" />
             <property name="Debuff" value="infection,dysentery,dysentery2" />
         </property>
         <property name="Group" value="Medicine" />
@@ -7607,8 +7517,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="-0.02,-0.1" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>                                                                                                                                                                                                                                                                                                                                                                                            
-               
+    </item>
      <item id="757" name="herbalAntibioticsRecipe">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
@@ -7631,8 +7540,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>    
-    
+    </item>
     <item id="758" name="minibikeHandlebars">
 		<property name="DescriptionKey" value="minibikePartsGroupDesc"/>
 		<property name="VehicleSlotType" value="handlebars"/>
@@ -7651,8 +7559,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="VehicleBraking" value="25,25" />
 			<property name="LightIntensity" value="0.1,1" />
         </property>
-    </item>                                  
-
+    </item>
 	<item id="759" name="minibikeChassis">
 		<property name="DescriptionKey" value="minibikePartsGroupDesc"/>
         <property name="VehicleSlotType" value="chassis" />
@@ -7670,19 +7577,16 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="DegradationRate" value="1,1" />
             <property name="DegradationMax" value="30,600" />
         </property>
-		
 		<property class="Action1">
             <property name="Class" value="SpawnMinibike" />
         </property>
-		
         <property class="Preview">
             <property name="Zoom" value="28" />
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>    
-        
-    <item id="760" name="shoppingBasketItem">     
+    </item>
+    <item id="760" name="shoppingBasketItem">
 		<property name="VehicleSlotType" value="basket" />
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
@@ -7698,26 +7602,23 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="VehicleStorageWidth" value="3,8" />
 			<property name="VehicleStorageHeight" value="3,5" />
         </property>
-    </item>  
-    
-    <item id="761" name="glue">     		
+    </item>
+    <item id="761" name="glue">
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="organic" />
-		<property name="HoldType" value="45"/>        
+		<property name="HoldType" value="45"/>
         <property name="Weight" value="10" />
         <property name="Group" value="Resources" />
-    </item>  
-    
-    <item id="762" name="ductTape">     		
+    </item>
+    <item id="762" name="ductTape">
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="cloth" />
         <property name="HoldType" value="45" />
         <property name="Weight" value="5" />
         <property name="Group" value="Resources" />
-    </item>           
-
+    </item>
 	<item id="763" name="ironArrow">
         <property name="Meshfile" value="Items/Weapons/Ranged/Bows/WoodenBow/Arrow" />
 		<property name="DropMeshfile" value="Items/Misc/arrow_dropped" />
@@ -7752,7 +7653,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="ActionSkillGroup" value="Archery"/>
 		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
     </item>
-    
 	<item id="764" name="steelArrow">
         <property name="Meshfile" value="Items/Weapons/Ranged/Bows/WoodenBow/Arrow" />
 		<property name="DropMeshfile" value="Items/Misc/arrow_dropped" />
@@ -7786,7 +7686,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
 		<property name="ActionSkillGroup" value="Archery"/>
 		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
-    </item>    
+    </item>
 	<item id="765" name="flamingArrow">
         <property name="Meshfile" value="Items/Weapons/Ranged/Bows/WoodenBow/flamingArrowPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/arrow_flaming_dropped" />
@@ -7800,7 +7700,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="DamageBonus.wood" value="2" />
         <property name="DamageBonus.earth" value="0.1" />
         <property name="DamageBonus.metal" value="0.1" />
-        <property name="DamageBonus.cloth" value="0.5" />        
+        <property name="DamageBonus.cloth" value="0.5" />
         <property class="Action1"> <!-- UseAction -->
             <property name="Class" value="Projectile" />
             <property name="Explosion.ParticleIndex" value="0" /> <!-- no expl. -->
@@ -7820,7 +7720,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="ActionSkillGroup" value="Archery"/>
 		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
     </item>
-    
     <item id="766" name="ironArrowHead">
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
         <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
@@ -7834,8 +7733,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
 		<property name="ActionSkillGroup" value="Archery"/>
 		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
-    </item>     
-    
+    </item>
     <item id="768" name="shotgunSlug">
         <property name="Meshfile" value="Items/Weapons/Ranged/SawedOffPumpShotgun/shotgunShell" />
         <property name="Material" value="metal" />
@@ -7847,7 +7745,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Class" value="Projectile" />
             <property name="Rays_per_shot" value="1" />
             <property name="Rays_spread" value="0.25" />
-        </property>        
+        </property>
         <property class="Preview">
             <property name="Zoom" value="40" />
             <property name="Pos" value="0.0,0.0" />
@@ -7860,8 +7758,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
 		<property name="ActionSkillGroup" value="Shotguns"/>
 		<property name="CraftingSkillGroup" value="Gun Smithing"/>
-    </item>       
-              
+    </item>
     <item id="769" name="handBear">
         <property name="Material" value="organic" />
         <property name="Canhold" value="false" />
@@ -7882,8 +7779,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Buff_chance" value="0.2,0.3" />
             <property name="DamageBonus.glass" value="25" />
         </property>
-    </item>   
-    
+    </item>
     <item id="770" name="shotgunSlugSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
@@ -7906,8 +7802,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
 		<property name="ActionSkillGroup" value="Shotguns"/>
 		<property name="CraftingSkillGroup" value="Gun Smithing"/>
-    </item>  
-    
+    </item>
     <item id="771" name="762mmBulletSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
@@ -7928,8 +7823,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>    
-    
+    </item>
     <item id="772" name="10mmBulletSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
@@ -7950,18 +7844,17 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>   
-    
-<item id="773" name="rocketLauncher">
-	<property name="Meshfile" value="Items/Weapons/Ranged/RocketLauncher/rocketlauncherPrefab" />
-	<property name="Material" value="metal" />
-	<property name="HoldType" value="10" />
-	<property name="Stacknumber" value="1" />
-	<property name="RepairTools" value="repairKit" />
-	<property name="Weight" value="140" />
-	<property name="Degradation" value="30" param1="false" />
-	<property name="DegradationBreaksAfter" value="false" />
-	<property name="SoundJammed" value="Weapons/weapon_jam" />
+    </item>
+	<item id="773" name="rocketLauncher">
+		<property name="Meshfile" value="Items/Weapons/Ranged/RocketLauncher/rocketlauncherPrefab" />
+		<property name="Material" value="metal" />
+		<property name="HoldType" value="10" />
+		<property name="Stacknumber" value="1" />
+		<property name="RepairTools" value="repairKit" />
+		<property name="Weight" value="140" />
+		<property name="Degradation" value="30" param1="false" />
+		<property name="DegradationBreaksAfter" value="false" />
+		<property name="SoundJammed" value="Weapons/weapon_jam" />
         <property class="Parts">
             <property name="Stock" value="rocketLauncherStock" />
             <property name="Receiver" value="rocketLauncherReceiver" />
@@ -7984,47 +7877,44 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="Sound_reload" value="Weapons/Ranged/M136/m136_reload" />
 			<property name="Particles_muzzle_fire" value="rocketLauncherFire" />
 			<property name="Particles_muzzle_smoke" value="nozzlesmoke_m136" />
-	</property>
+		</property>
 		<property class="Action1">
-		<!-- UseAction -->
+			<!-- UseAction -->
 			<property name="Class" value="Zoom" />
 			<property name="Zoom_max_out" value="35" />
 			<property name="Zoom_max_in" value="35" />
-	</property>
-	<property name="Group" value="Ammo/Weapons" />
-</item>
-
-<item id="774" name="rocket">
-	<property name="Meshfile" value="Items/Weapons/Ranged/RocketLauncher/rocketPrefab" />
-	<property name="HandMeshfile" value="Items/Weapons/Ranged/RocketLauncher/rocketHandPrefab" />
-	<property name="Material" value="metal" />
-	<property name="HoldType" value="3" />
-	<property class="Attributes">
-		<property name="GetQualityFromWeapon" value="true" />
-        <property name="EntityDamage" value="250,500" />
-        <property name="BlockDamage" value="50,200" /> <!-- this is not working yet, it uses damage from Action1 -->
-    </property>	
-	
-	<property class="Action1">
-	<!-- UseAction -->
-		<property name="Class" value="Projectile" />
-		<property name="Explosion.ParticleIndex" value="4" />
-		<!-- which prefab/particle is used -->
-		<property name="Explosion.RadiusBlocks" value="5" />
-		<!-- damage radius for blocks -->
-		<property name="Explosion.BlockDamage" value="500" />
-		<!-- damage for blocks in the center of the explosion -->
-		<property name="Explosion.RadiusEntities" value="5" />
-		<!-- damage radius for entities -->
-		<property name="Explosion.EntityDamage" value="150" />
-		<!-- damage for entities in the center of the explosion -->
-		<property name="Velocity" value="50" />
-		<property name="FlyTime" value="1.2" />
-		<property name="LifeTime" value="8" />
-	</property>
-	<property name="Group" value="Ammo/Weapons" />
-</item>         
-   
+		</property>
+		<property name="Group" value="Ammo/Weapons" />
+	</item>
+	<item id="774" name="rocket">
+		<property name="Meshfile" value="Items/Weapons/Ranged/RocketLauncher/rocketPrefab" />
+		<property name="HandMeshfile" value="Items/Weapons/Ranged/RocketLauncher/rocketHandPrefab" />
+		<property name="Material" value="metal" />
+		<property name="HoldType" value="3" />
+		<property class="Attributes">
+			<property name="GetQualityFromWeapon" value="true" />
+			<property name="EntityDamage" value="250,500" />
+			<property name="BlockDamage" value="50,200" /> <!-- this is not working yet, it uses damage from Action1 -->
+		</property>
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="Projectile" />
+			<property name="Explosion.ParticleIndex" value="4" />
+			<!-- which prefab/particle is used -->
+			<property name="Explosion.RadiusBlocks" value="5" />
+			<!-- damage radius for blocks -->
+			<property name="Explosion.BlockDamage" value="500" />
+			<!-- damage for blocks in the center of the explosion -->
+			<property name="Explosion.RadiusEntities" value="5" />
+			<!-- damage radius for entities -->
+			<property name="Explosion.EntityDamage" value="150" />
+			<!-- damage for entities in the center of the explosion -->
+			<property name="Velocity" value="50" />
+			<property name="FlyTime" value="1.2" />
+			<property name="LifeTime" value="8" />
+		</property>
+		<property name="Group" value="Ammo/Weapons" />
+	</item>
     <item id="775" name="9mmBulletSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
@@ -8045,8 +7935,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>      
-            
+    </item>
     <item id="776" name="handleBarsSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
@@ -8067,8 +7956,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>    
-    
+    </item>
     <item id="777" name="augerParts">
         <property name="PartType" value="Stock" />
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -8081,7 +7969,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Attributes">
             <property name="DegradationMax" value="300,600" />
             <property name="DegradationRate" value="0.1,0.1" />
-        </property>     
+        </property>
         <property name="Weight" value="10" />
         <property name="Group" value="Resources" />
         <property class="Preview">
@@ -8089,10 +7977,9 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>    
-    
-    <!-- leather crafting-->
-    <item id="778" name="leatherBootsSchematic">
+    </item>
+	<!-- leather crafting-->
+	<item id="778" name="leatherBootsSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
         <property name="HoldType" value="21" />
@@ -8112,8 +7999,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>        
-    
+    </item>
     <!-- leather crafting-->
     <item id="779" name="leatherPantsSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
@@ -8135,9 +8021,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>   
-    
-    
+    </item>
     <!-- leather crafting-->
     <item id="780" name="leatherJacketSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
@@ -8159,8 +8043,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>        
-    
+    </item>
     <!-- leather crafting-->
     <item id="781" name="leatherHoodSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
@@ -8182,8 +8065,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>       
-    
+    </item>
     <!-- leather crafting-->
     <item id="782" name="leatherGlovesSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
@@ -8205,8 +8087,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>    
-    
+    </item>
     <item id="783" name="steelArrowHead">
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
         <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
@@ -8221,7 +8102,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="ActionSkillGroup" value="Archery"/>
 		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
     </item>
-	
     <item id="790" name="firstAidKitSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
@@ -8242,8 +8122,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>      
-    
+    </item>
     <!-- book -->
     <item id="791" name="gasCanSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
@@ -8265,8 +8144,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>        
-    
+    </item>
     <item id="792" name="clubSpikedSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
@@ -8287,8 +8165,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>   
-    
+    </item>
     <!-- shotgun book-->
     <item id="793" name="sawedoffPumpShotgunSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
@@ -8312,8 +8189,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
 		<property name="ActionSkillGroup" value="Shotguns"/>
 		<property name="CraftingSkillGroup" value="Gun Smithing"/>
-    </item>   
-    
+    </item>
     <item id="794" name="flamingArrowSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
@@ -8334,8 +8210,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>            
-               
+    </item>
     <item id="795" name="augerSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
@@ -8356,8 +8231,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item> 
-    
+    </item>
     <!-- Home maintenance book -->
     <item id="796" name="wrenchSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
@@ -8379,8 +8253,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>    
-    
+    </item>
     <item id="797" name="ironCrossbowBolt">
         <property name="Meshfile" value="Items/Weapons/Ranged/Bows/Crossbow/crossbowBoltPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/crossbow_bolt_dropped" />
@@ -8412,12 +8285,11 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="GetQualityFromWeapon" value="true" />
             <property name="EntityDamage" value="25,50" />
             <property name="BlockDamage" value="6,11" />
-        </property>        
+        </property>
         <property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Archery"/>
 		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
-    </item>  
-    
+    </item>
     <item id="798" name="steelCrossbowBolt">
         <property name="Meshfile" value="Items/Weapons/Ranged/Bows/Crossbow/crossbowBoltPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/crossbow_bolt_dropped" />
@@ -8449,12 +8321,11 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="GetQualityFromWeapon" value="true" />
             <property name="EntityDamage" value="30,55" />
             <property name="BlockDamage" value="6,11" />
-        </property>        
+        </property>
         <property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Archery"/>
 		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
     </item>
-    
     <item id="799" name="explodingCrossbowBolt">
         <property name="Meshfile" value="Items/Weapons/Ranged/Bows/Crossbow/crossbowBoltPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/crossbow_bolt_dropped" />
@@ -8489,18 +8360,17 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <!-- which prefab/particle is used -->
         <property name="Explosion.RadiusBlocks" value="4" />
         <!-- damage radius for blocks -->
-        <property name="Explosion.RadiusEntities" value="5" />            
+        <property name="Explosion.RadiusEntities" value="5" />
         </property>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true" />
             <property name="EntityDamage" value="30,55" />
             <property name="BlockDamage" value="6,11" />
-        </property>        
+        </property>
         <property name="Group" value="Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Archery"/>
 		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
-    </item>   
-    
+    </item>
     <item id="800" name="crossbowSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
@@ -8521,8 +8391,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>  
-    
+    </item>
     <item id="801" name="explodingCrossbowBoltSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
@@ -8543,14 +8412,13 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>      
-    
+    </item>
     <item id="802" name="bellows">
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="leather" />
         <property name="HoldType" value="45" />
-        <property name="Stacknumber" value="1" />       
+        <property name="Stacknumber" value="1" />
         <property name="Weight" value="10" />
         <property name="Group" value="Resources" />
         <property class="Preview">
@@ -8558,15 +8426,14 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>  
-
+    </item>
     <item id="803" name="oilShale">
         <property name="Meshfile" value="Items/Crafting/coal" />
         <property name="Material" value="coal" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="500" />
         <property name="FuelValue" value="50" />
-        <property name="DropScale" value="8" />				
+        <property name="DropScale" value="8" />
         <property name="Group" value="Resources" />
 		<property name="CraftingIngredientExp" value="10" />
         <property class="Preview">
@@ -8575,12 +8442,11 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
-	
     <item id="804" name="spring">
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="metal" />
-        <property name="HoldType" value="45" />      
+        <property name="HoldType" value="45" />
         <property name="Weight" value="10" />
         <property name="Group" value="Resources" />
         <property class="Preview">
@@ -8588,8 +8454,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>  	
-	
+    </item>
     <item id="805" name="hazmatBoots">
 		<property name="DescriptionKey" value="hazmatClothesGroupDesc"/>
 		<property name="Insulation" value="10"/>
@@ -8604,14 +8469,13 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="EquipSlot" value="Feet" />
         <property name="FuelValue" value="1" />
         <property name="Degradation" value="100" param1="true" />
-
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.1, 0.3" /> 
+  			<property name="ConcussiveProtection" value="0.1, 0.3" />
   			<property name="PunctureProtection" value="0.05, 0.2" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.15, 0.2" />
   			<property name="DegradationMax" value="40,600" />
- 		</property>        
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_hazmat_feet" />
@@ -8624,8 +8488,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>	
-	
+    </item>
     <item id="806" name="hazmatPants">
 		<property name="DescriptionKey" value="hazmatClothesGroupDesc"/>
 		<property name="Insulation" value="15"/>
@@ -8641,12 +8504,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="2" />
         <property name="Degradation" value="100" param1="true" />
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.1, 0.3" /> 
+  			<property name="ConcussiveProtection" value="0.1, 0.3" />
   			<property name="PunctureProtection" value="0.05, 0.2" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.15, 0.2" />
   			<property name="DegradationMax" value="40,600" />
- 		</property>        
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_hazmat_legs" />
@@ -8659,8 +8522,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>	
-	
+    </item>
     <item id="807" name="hazmatShirt">
 		<property name="DescriptionKey" value="hazmatClothesGroupDesc"/>
 		<property name="Insulation" value="20"/>
@@ -8675,14 +8537,13 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="EquipSlot" value="Chest" />
         <property name="FuelValue" value="3" />
         <property name="Degradation" value="100" param1="true" />
-
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.1, 0.3" /> 
+  			<property name="ConcussiveProtection" value="0.1, 0.3" />
   			<property name="PunctureProtection" value="0.05, 0.2" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.15, 0.2" />
   			<property name="DegradationMax" value="40,600" />
- 		</property>        
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_hazmat_chest" />
@@ -8695,8 +8556,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>	
-	
+    </item>
    <item id="808" name="hazmatGloves">
 		<property name="DescriptionKey" value="hazmatClothesGroupDesc"/>
 		<property name="Insulation" value="10"/>
@@ -8711,14 +8571,13 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="EquipSlot" value="Hands" />
         <property name="FuelValue" value="1" />
         <property name="Degradation" value="100" param1="true" />
-		
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.1, 0.3" /> 
+  			<property name="ConcussiveProtection" value="0.1, 0.3" />
   			<property name="PunctureProtection" value="0.05, 0.2" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.15, 0.2" />
   			<property name="DegradationMax" value="40,600" />
- 		</property>        
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_hazmat_hands" />
@@ -8732,7 +8591,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
-
     <item id="809" name="hazmatMask">
 		<property name="DescriptionKey" value="hazmatClothesGroupDesc"/>
 	    <property name="Insulation" value="15"/>
@@ -8747,14 +8605,13 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="EquipSlot" value="Head" />
         <property name="FuelValue" value="1" />
         <property name="Degradation" value="100" param1="true" />
-
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.1, 0.3" /> 
+  			<property name="ConcussiveProtection" value="0.1, 0.3" />
   			<property name="PunctureProtection" value="0.05, 0.2" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.15, 0.2" />
   			<property name="DegradationMax" value="40,600" />
- 		</property>         
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_hazmat_head" />
@@ -8768,8 +8625,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item> 
-
+    </item>
     <!-- Gating book -->
     <item id="810" name="invisibleRecipesForRepairCost">
         <property name="Meshfile" value="Items/Misc/Book" />
@@ -8793,8 +8649,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>	
-	
+    </item>
     <item id="811" name="plantFiberShirt">
 		<property name="Insulation" value="5"/>
 		<property name="Waterproof" value="0.05"/>
@@ -8808,14 +8663,13 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="3" />
         <property name="Weight" value="5" />
         <property name="Degradation" value="100" param1="true" />
-
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.01, 0.1" /> 
-  			<property name="PunctureProtection" value="0.01, 0.1" /> 
+  			<property name="ConcussiveProtection" value="0.01, 0.1" />
+  			<property name="PunctureProtection" value="0.01, 0.1" />
   			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.15, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>         
+		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="plant_fiber_shirt" />
@@ -8831,8 +8685,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="ActionSkillGroup" value="Clothing"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="DescriptionKey" value="plantFiberClothesGroupDesc"/>
-    </item>	
-	
+    </item>
     <item id="812" name="plantFiberHood">
 		<property name="Extends" value="clothHat" />
 		<property name="Insulation" value="2"/>
@@ -8840,14 +8693,13 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="plants" />
         <property name="Degradation" value="100" param1="true" />
 		<property name="RepairTools" value="yuccaFibers" />
-		
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.01, 0.1" /> 
-  			<property name="PunctureProtection" value="0.01, 0.1" /> 
+  			<property name="ConcussiveProtection" value="0.01, 0.1" />
+  			<property name="PunctureProtection" value="0.01, 0.1" />
   			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.15, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>         
+		</property>
         <property class="UMA">
             <property name="Mesh" value="armor_leather_hood" />
             <property name="Overlay" value="plant_fiber_hood" />
@@ -8858,22 +8710,20 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="ActionSkillGroup" value="Clothing"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="DescriptionKey" value="plantFiberClothesGroupDesc"/>
-    </item>	
-	
+    </item>
     <item id="813" name="plantFiberShoes">
 		<property name="Extends" value="wornBoots" />
 		<property name="Insulation" value="2"/>	
 		<property name="Waterproof" value="0.05"/>
         <property name="Material" value="plants" />
 		<property name="RepairTools" value="yuccaFibers" />
-		
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.01, 0.1" /> 
-  			<property name="PunctureProtection" value="0.01, 0.1" /> 
+  			<property name="ConcussiveProtection" value="0.01, 0.1" />
+  			<property name="PunctureProtection" value="0.01, 0.1" />
   			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.15, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>         
+		</property>
         <property class="UMA">
 		    <property name="Mesh" value="plant_fiber_shoes" />
             <property name="Overlay" value="fiberCloth_shoes" />
@@ -8882,22 +8732,20 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="ActionSkillGroup" value="Clothing"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="DescriptionKey" value="plantFiberClothesGroupDesc"/>
-    </item>	
-	
+    </item>
     <item id="814" name="plantFiberGloves">
 		<property name="Extends" value="leatherGloves" />
 		<property name="Insulation" value="2"/>	
 		<property name="Waterproof" value="0.05"/>
         <property name="Material" value="plants" />
 		<property name="RepairTools" value="yuccaFibers" />
-		
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.01, 0.1" /> 
-  			<property name="PunctureProtection" value="0.01, 0.1" /> 
+  			<property name="ConcussiveProtection" value="0.01, 0.1" />
+  			<property name="PunctureProtection" value="0.01, 0.1" />
   			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.15, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>         
+		</property>
         <property class="UMA">
 		    <property name="Mesh" value="plant_fiber_gloves" />
             <property name="Overlay" value="fiberCloth_gloves" />
@@ -8906,14 +8754,13 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="ActionSkillGroup" value="Clothing"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="DescriptionKey" value="plantFiberClothesGroupDesc"/>
-    </item>		
-	
+    </item>
     <item id="815" name="leatherDuster">
 		<property name="DescriptionKey" value="leatherClothesGroupDesc"/>
 		<property name="Insulation" value="20"/>
 		<property name="Waterproof" value="0.2"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
-		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />       
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="leather" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
@@ -8922,14 +8769,13 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="4" />
         <property name="Weight" value="5" />
         <property name="Degradation" value="100" param1="true" />
-        
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.05, 0.2" /> 
-  			<property name="PunctureProtection" value="0.05, 0.2" /> 
+  			<property name="ConcussiveProtection" value="0.05, 0.2" />
+  			<property name="PunctureProtection" value="0.05, 0.2" />
   			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>         
+		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="clothes_leather_duster" />
@@ -8942,8 +8788,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>	
-	
+    </item>
     <item id="816" name="ak47_barrel">
 		<property name="DescriptionKey" value="ak47PartsGroupDesc"/>
         <property name="PartType" value="Barrel" />
@@ -8956,7 +8801,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="600" />
         <property name="Weight" value="35" />
         <property name="Group" value="Resources" />
-        <property class="Attributes">	
+        <property class="Attributes">
 			<property name="DegradationMax" value="500,2000" />
             <property name="EntityDamage" value="6,42" />
 			<property name="BlockDamage" value="6,42" />
@@ -8999,7 +8844,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Weight" value="35" />
         <property name="Group" value="Resources" />
         <property class="Attributes">
-            <property name="DegradationMax" value="500,2000" />	
+            <property name="DegradationMax" value="500,2000" />
             <property name="FalloffRange" value="1,60" />
         </property>
         <property class="Preview">
@@ -9007,8 +8852,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>	
-	
+    </item>
     <item id="819" name="ak47_parts">
 		<property name="DescriptionKey" value="ak47PartsGroupDesc"/>
         <property name="PartType" value="Pump" />
@@ -9029,8 +8873,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>	
-	
+    </item>
     <item id="820" name="anvil">
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
@@ -9038,8 +8881,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="metal" />
         <property name="Stacknumber" value="1" />
         <property name="Group" value="Resources" />
-    </item>	
-	
+    </item>
     <item id="821" name="calipers">
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
@@ -9048,8 +8890,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Weight" value="5" />
         <property name="Stacknumber" value="1" />
         <property name="Group" value="Resources" />
-    </item>	
-	
+    </item>
     <item id="822" name="toolAndDieSet">
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
@@ -9058,8 +8899,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Weight" value="5" />
         <property name="Stacknumber" value="1" />
         <property name="Group" value="Resources" />
-    </item>		
-	
+    </item>
 	<item id="823" name="unit_iron">
 		<property name="CustomIcon" value="scrapIron" />
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -9074,7 +8914,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="UserHidden" value="true" />
 		<property name="CraftingIngredientTime" value="0.5" />
 	</item>
-	
 	<item id="824" name="unit_brass">
 		<property name="CustomIcon" value="scrapBrass" />
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -9089,7 +8928,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="UserHidden" value="true" />
 		<property name="CraftingIngredientTime" value="0.5" />
 	</item>
-	
 	<item id="825" name="unit_lead">
 		<property name="CustomIcon" value="scrapLead" />
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -9104,7 +8942,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="UserHidden" value="true" />
 		<property name="CraftingIngredientTime" value="0.5" />
 	</item>
-	
 	<item id="826" name="unit_glass">
 		<property name="CustomIcon" value="brokenGlass" />
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -9119,7 +8956,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="UserHidden" value="true" />
 		<property name="CraftingIngredientTime" value="0.5" />
 	</item>
-	
 	<item id="827" name="unit_stone">
 		<property name="CustomIcon" value="cobblestones" />
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -9134,7 +8970,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="UserHidden" value="true" />
 		<property name="CraftingIngredientTime" value="0.5" />
 	</item>
-	
 	<item id="828" name="unit_clay">
 		<property name="CustomIcon" value="clayLump" />
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -9149,14 +8984,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="UserHidden" value="true" />
 		<property name="CraftingIngredientTime" value="0.5" />
 	</item>
-	
-	
     <item id="829" name="pufferCoat">
 		<property name="DescriptionKey" value="pufferCoatGroupDesc"/>
 		<property name="Insulation" value="30"/>
 		<property name="Waterproof" value="0.5"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
-		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />       
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="cloth" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
@@ -9165,14 +8998,13 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="4" />
         <property name="Weight" value="30" />
         <property name="Degradation" value="100" param1="true" />
-        
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.05, 0.2" /> 
-  			<property name="PunctureProtection" value="0.05, 0.2" /> 
+  			<property name="ConcussiveProtection" value="0.05, 0.2" />
+  			<property name="PunctureProtection" value="0.05, 0.2" />
   			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.05, 0.2" />
   			<property name="DegradationMax" value="40,600" />
-		</property>         
+		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="coats_puffer_coat" />
@@ -9184,10 +9016,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Zoom" value="28" />
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
-
         </property>
-    </item>	
-
+    </item>
 	<item id="830" name="pufferCoatRed">
 		<property name="Extends" value="pufferCoat" />
         <property name="CustomIcon" value="pufferCoat" />
@@ -9196,7 +9026,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="OverlayTints" value="FD9095" />
         </property>
     </item>
-	
 	<item id="831" name="pufferCoatGreen">
 		<property name="Extends" value="pufferCoat" />
         <property name="CustomIcon" value="pufferCoat" />
@@ -9204,8 +9033,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="UMA">
         <property name="OverlayTints" value="335C41" />
         </property>
-    </item>	
-	
+    </item>
 	<item id="832" name="pufferCoatBrown">
 		<property name="Extends" value="pufferCoat" />
         <property name="CustomIcon" value="pufferCoat" />
@@ -9213,8 +9041,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="UMA">
         <property name="OverlayTints" value="846954" />
         </property>
-    </item>		
-	
+    </item>
 	<item id="833" name="pufferCoatBlack">
 		<property name="Extends" value="pufferCoat" />
         <property name="CustomIcon" value="pufferCoat" />
@@ -9222,8 +9049,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="UMA">
         <property name="OverlayTints" value="575757" />
         </property>
-    </item>		
-	
+    </item>
     <item id="834" name="animalHideBoots">
 		<property name="Insulation" value="7"/>
 		<property name="Waterproof" value="0.15"/>
@@ -9240,7 +9066,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Weight" value="15" />
 		<property name="Encumbrance" value="0.01" />
 		<property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.2, 0.4" /> 
+  			<property name="ConcussiveProtection" value="0.2, 0.4" />
  			<property name="PunctureProtection" value="0.1, 0.3" />
 			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.15, 0.2" />
@@ -9276,7 +9102,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Weight" value="48" />
 		<property name="Encumbrance" value="0.01" />
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.2, 0.4" /> 
+  			<property name="ConcussiveProtection" value="0.2, 0.4" />
  			<property name="PunctureProtection" value="0.1, 0.3" />
  		</property>
         <property name="Group" value="Clothing" />
@@ -9310,10 +9136,10 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Weight" value="25" />
 		<property name="Encumbrance" value="0.01"/>
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.2, 0.4" /> 
+  			<property name="ConcussiveProtection" value="0.2, 0.4" />
  			<property name="PunctureProtection" value="0.1, 0.3" />
- 		</property>        
-        <property name="Group" value="Clothing" /> 
+ 		</property>
+        <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_hide_chest" />
             <property name="Overlay" value="armor_hide_chest" />
@@ -9344,9 +9170,9 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="100" param1="true" />
 		<property name="Encumbrance" value="0.01"/>
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.2, 0.4" /> 
+  			<property name="ConcussiveProtection" value="0.2, 0.4" />
  			<property name="PunctureProtection" value="0.1, 0.3" />
- 		</property>        
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_hide_hood" />
@@ -9363,8 +9189,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Leatherworking"/>
 		<property name="DescriptionKey" value="animalHideClothesGroupDesc"/>
-    </item>	
-	
+    </item>
     <item id="838" name="animalHideGloves">
 		<property name="Insulation" value="7"/>
 		<property name="Waterproof" value="0.15"/>
@@ -9380,9 +9205,9 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Weight" value="10" />
 		<property name="Encumbrance" value="0.01"/>
         <property class="Attributes">
-  			<property name="ConcussiveProtection" value="0.2, 0.4" /> 
+  			<property name="ConcussiveProtection" value="0.2, 0.4" />
   			<property name="PunctureProtection" value="0.1, 0.3" />
- 		</property>        
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="armor_hide_gloves" />
@@ -9398,8 +9223,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="ActionSkillGroup" value="Light Armor"/>
 		<property name="CraftingSkillGroup" value="Leatherworking"/>
 		<property name="DescriptionKey" value="animalHideClothesGroupDesc"/>
-    </item>	
-	
+    </item>
     <item id="839" name="rocketLauncherBarrel">
 		<property name="DescriptionKey" value="rocketLauncherPartsGroupDesc"/>
         <property name="PartType" value="Barrel" />
@@ -9411,7 +9235,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="600" />
         <property name="Weight" value="35" />
         <property name="Group" value="Resources" />
-        <property class="Attributes">	
+        <property class="Attributes">
 			<property name="DegradationMax" value="500,2000" />
             <property name="EntityDamage" value="6,42" />
 			<property name="EntityDamage" value="12, 90" />
@@ -9454,7 +9278,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Weight" value="35" />
         <property name="Group" value="Resources" />
         <property class="Attributes">
-            <property name="DegradationMax" value="500,2000" />	
+            <property name="DegradationMax" value="500,2000" />
             <property name="FalloffRange" value="1,60" />
         </property>
         <property class="Preview">
@@ -9462,8 +9286,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>	
-	
+    </item>
     <item id="842" name="rocketLauncherParts">
 		<property name="DescriptionKey" value="rocketLauncherPartsGroupDesc"/>
         <property name="PartType" value="Pump" />
@@ -9484,8 +9307,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>		
-	
+    </item>
     <item id="843" name="rocketLauncherSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="paper" />
@@ -9506,9 +9328,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item> 	
-
-	    <item id="844" name="chainsawParts">
+    </item>
+	<item id="844" name="chainsawParts">
         <property name="PartType" value="Stock" />
 		<property name="CustomIcon" value="augerParts" />
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -9521,7 +9342,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Attributes">
             <property name="DegradationMax" value="300,600" />
             <property name="DegradationRate" value="0.1,0.1" />
-        </property>     
+        </property>
         <property name="Weight" value="10" />
         <property name="Group" value="Resources" />
         <property class="Preview">
@@ -9529,8 +9350,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item> 
-
+    </item>
     <item id="845" name="rocketTip">
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
@@ -9544,8 +9364,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0.1,0" />
             <property name="Rot" value="10,-45,0" />
         </property>
-    </item>	
-	
+    </item>
     <item id="846" name="rocketCasing">
         <property name="Meshfile" value="Items/Crafting/bullet_casing" />
         <property name="Material" value="metal" />
@@ -9558,8 +9377,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0.1,0" />
             <property name="Rot" value="10,-45,0" />
         </property>
-    </item>	
-	
+    </item>
     <item id="847" name="plantFiberHat">
 		<property name="Insulation" value="-10"/>
 		<property name="Waterproof" value="0.15"/>
@@ -9575,20 +9393,19 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="CustomIcon" value="cowboyHat" />
         <property name="CustomIconTint" value="e3cea4" />	
 		<property name="ActionSkillGroup" value="Clothing"/>
-		<property name="CraftingSkillGroup" value="Tailoring"/>		
-        <property class="Attributes">	
-  			<property name="ConcussiveProtection" value="0.01, 0.1" /> 
-  			<property name="PunctureProtection" value="0.01, 0.1" /> 
+		<property name="CraftingSkillGroup" value="Tailoring"/>
+        <property class="Attributes">
+  			<property name="ConcussiveProtection" value="0.01, 0.1" />
+  			<property name="PunctureProtection" value="0.01, 0.1" />
   			<property name="FireProtection" value="0.05, 0.2" />
 			<property name="RadiationProtection" value="0.15, 0.2" />
   			<property name="DegradationMax" value="40,600" />
- 		</property>        
-        
+ 		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
             <property name="Mesh" value="gear_cowboyhat" />
             <property name="Overlay" value="gear_cowboyhat" />
-			<property name="OverlayTints" value="e3cea4" />			
+			<property name="OverlayTints" value="e3cea4" />
             <property name="Layer" value="2" />
             <property name="UISlot" value="Headgear" />
             <property name="ShowHair" value="true" />
@@ -9598,7 +9415,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-
-    </item>		
+    </item>
     
 </items>
