@@ -680,6 +680,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="HoldType" value="32" />
         <property name="RepairTools" value="rockSmall" />
         <property name="SoundDestroy" value="wooddestroy1" />
+		<property name="Weight" value="10" />
         <property name="FuelValue" value="5" />
         <property class="Action0">
             <!-- AttackAction -->
@@ -941,6 +942,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="RepairTools" value="rockSmall" />
         <property name="Degradation" value="250" param1="true" />
         <property name="SoundDestroy" value="wooddestroy1" />
+		<property name="Weight" value="15" />
         <property name="FuelValue" value="24" />
         <property class="Action0">
             <!-- AttackAction -->
