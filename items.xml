@@ -1105,7 +1105,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Crosshair_min_distance" value="30" />
             <property name="Crosshair_max_distance" value="50" />
             <property name="Magazine_size" value="8" />
-            <property name="Magazine_items" value="shotgunShell" />
+            <property name="Magazine_items" value="shotgunShell, shotgunSlug" />
             <property name="Reload_time" value="2.6" />
             <property name="Bullet_icon" value="uzi" />
             <property name="Sound_start" value="Weapons/Ranged/SawedOffPumpShotgun/sawed_off_shotgun_fire" />
