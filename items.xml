@@ -4214,6 +4214,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Stacknumber" value="1" />
         <property name="EquipSlot" value="Feet" />
         <property name="FuelValue" value="4" />
+		<property name="Weight" value="25" />
         <property name="Degradation" value="250" param1="true" />
 		<property name="Encumbrance" value="0.1"/>
 		<property name="ActionSkillGroup" value="Heavy Armor"/>
@@ -4247,6 +4248,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Stacknumber" value="1" />
         <property name="EquipSlot" value="Legs" />
         <property name="FuelValue" value="16" />
+		<property name="Weight" value="25" />
         <property name="Degradation" value="250" param1="true" />
 		<property name="Encumbrance" value="0.1"/>
         <property class="Attributes">
@@ -4280,6 +4282,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Stacknumber" value="1" />
         <property name="EquipSlot" value="Chest" />
         <property name="FuelValue" value="16" />
+		<property name="Weight" value="50" />
         <property name="Degradation" value="250" param1="true" />
 		<property name="Encumbrance" value="0.1"/>
         <property class="Attributes">
@@ -4312,7 +4315,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="RepairTools" value="forgedIron" />
         <property name="Stacknumber" value="1" />
         <property name="EquipSlot" value="Head" />
-        <property name="Weight" value="15" />
+        <property name="Weight" value="25" />
         <property name="Degradation" value="250" param1="true" />
 		<property name="Encumbrance" value="0.1"/>
         <property class="Attributes">
@@ -4379,6 +4382,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Stacknumber" value="1" />
         <property name="EquipSlot" value="Hands" />
         <property name="FuelValue" value="16" />
+		<property name="Weight" value="25" />
         <property name="Degradation" value="250" param1="true" />
 		<property name="Encumbrance" value="0.05"/>
 		<property class="Attributes">
