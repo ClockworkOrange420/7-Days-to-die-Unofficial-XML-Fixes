@@ -7661,6 +7661,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Stacknumber" value="1" />
         <property name="Degradation" value="100" param1="true" />
         <property name="Group" value="Resources" />
+		<property name="Weight" value="200" />
 		<property name="RepairTools" value="repairKit" />
         <property class="Attributes">
 			<property name="VehicleDamagePassedToPlayer" value="0.7, 0.1" />
