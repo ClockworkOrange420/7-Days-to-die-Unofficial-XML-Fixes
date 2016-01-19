@@ -242,7 +242,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="200" param1="true" />
         <property name="SoundDestroy" value="wooddestroy1" />
         <property name="FuelValue" value="16" />
-        <property name="Weight" value="15" />
+        <property name="Weight" value="25" />
         <property class="Action0">
             <!-- AttackAction -->
             <property name="Class" value="Melee" />
@@ -280,7 +280,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Stacknumber" value="1" />
         <property name="RepairTools" value="forgedIron" />
         <property name="FuelValue" value="16" />
-        <property name="Weight" value="5" />
+        <property name="Weight" value="20" />
         <property name="Degradation" value="175" param1="true" />
         <property name="SoundDestroy" value="wooddestroy1" />
         <property class="Action0">
@@ -347,6 +347,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="DegradationBreaksAfter" value="false" />
 		<property name="SoundJammed" value="ItemNeedsRepair" />		
         <property name="FuelValue" value="16" />
+		<property name="Weight" value="25" />
         <property name="SoundDestroy" value="wooddestroy1" />
         <property class="Action0">
             <!-- AttackAction -->
@@ -387,6 +388,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="RepairTools" value="forgedIron" />
         <property name="SoundDestroy" value="metaldestroy1" />
         <property name="FuelValue" value="16" />
+		<property name="Weight" value="25" />
         <property class="Action0">
             <!-- AttackAction -->
             <property name="Class" value="Melee" />
@@ -426,7 +428,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="SoundJammed" value="ItemNeedsRepair" />		
         <property name="SoundDestroy" value="metaldestroy1" />
         <property name="FuelValue" value="16" />
-        <property name="Weight" value="72" />
+        <property name="Weight" value="40" />
         <property name="CritChance" value=".4" />
         <property class="Action0">        
             <!-- AttackAction -->
@@ -474,6 +476,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="SoundJammed" value="ItemNeedsRepair" />
         <property name="SoundDestroy" value="wooddestroy1" />
         <property name="FuelValue" value="24" />
+		<property name="Weight" value="20" />
         <property class="Action0">
             <!-- AttackAction -->
             <property name="Class" value="Melee" />
@@ -516,7 +519,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="SoundJammed" value="ItemNeedsRepair" />
         <property name="SoundDestroy" value="wooddestroy1" />
         <property name="FuelValue" value="24" />
-        <property name="Weight" value="32" />
+        <property name="Weight" value="20" />
         <property class="Action0">
             <!-- AttackAction -->
             <property name="Class" value="Melee" />
@@ -889,7 +892,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="350" param1="true" />
         <property name="FuelValue" value="4" />
         <property name="SoundDestroy" value="wooddestroy1" />
-        <property name="Weight" value="25" />
+        <property name="Weight" value="10" />
         <property class="Action0">
             <!-- AttackAction -->
             <property name="Class" value="Melee" />
@@ -951,7 +954,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="250" param1="true" />
         <property name="SoundDestroy" value="wooddestroy1" />
         <property name="FuelValue" value="24" />
-        <property name="Weight" value="64" />
+        <property name="Weight" value="10" />
         <property class="Action0">
             <!-- AttackAction -->
             <property name="Class" value="Melee" />
@@ -2231,7 +2234,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="glass" />
         <property name="HoldType" value="3" />
         <property name="Stacknumber" value="15" />
-        <property name="Weight" value="15" />
+        <property name="Weight" value="10" />
         <property class="Action1">
             <!-- UseAction -->
             <property name="Class" value="ExchangeItem" />
@@ -2482,6 +2485,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="metal" />
         <property name="HoldType" value="34" />
         <property name="Stacknumber" value="1" />
+		<property name="Weight" value="35" />
         <property class="Action0">
             <!-- AttackAction -->
             <property name="Class" value="BailLiquid" />
@@ -3901,6 +3905,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="250" />
         <property name="Group" value="Food/Cooking" />
+		<property name="Weight" value="25" />
         <property class="Preview">
             <property name="Zoom" value="28" />
             <property name="Pos" value="0,-0.05" />
@@ -7508,6 +7513,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="DegradationBreaksAfter" value="false" />
 		<property name="SoundJammed" value="ItemNeedsRepair" />		
         <property name="FuelValue" value="16" />
+		<property name="Weight" value="50" />
         <property class="Action0">
             <!-- AttackAction -->
             <property name="Class" value="Melee" />
@@ -7546,11 +7552,12 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="metal" />
         <property name="HoldType" value="21" />
         <property name="Group" value="Resources" />
+		<property name="Weight" value="20" />
 		<property name="CraftingIngredientExp" value="15" />
 		<property name="CraftingIngredientTime" value="15" />
 		<property name="RepairTime" value="0.5" />
         <property name="RepairAmount" value="200" />
-		<property name="LootExpValue" value="1" />		
+		<property name="LootExpValue" value="1" />
         <property class="Preview">
             <property name="Zoom" value="10" />
             <property name="Pos" value="0,-0.2" />
