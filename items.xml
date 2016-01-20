@@ -631,6 +631,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="chainsaw" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -652,6 +654,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="ak47" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -3642,7 +3646,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="brass" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="5" />
-        <property name="Weight" value="50" />
+        <property name="Weight" value="100" />
         <property name="Group" value="Resources" />
         <property class="Preview">
             <property name="Zoom" value="18" />
@@ -3763,6 +3767,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Preview">
             <property name="Pos" value="-0.15,-0.8" />
         </property>
+		<property name="ActionSkillGroup" value="Heavy Armor"/>
+		<property name="CraftingSkillGroup" value="Armor Smithing"/>
     </item>
     <item id="352" name="charredMeat">
         <property name="Meshfile" value="Items/Misc/parcel" />
@@ -4402,6 +4408,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Clothing"/>
+		<property name="CraftingSkillGroup" value="Tailoring"/>
     </item>
     <!-- corn on the cob -->
     <item id="388" name="cornOnTheCob">
@@ -4506,6 +4514,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Clothing"/>
+		<property name="CraftingSkillGroup" value="Tailoring"/>
     </item>
     <item id="392" name="ballCap">
 		<property name="DescriptionKey" value="clothClothesGroupDesc"/>
@@ -4539,6 +4549,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Clothing"/>
+		<property name="CraftingSkillGroup" value="Tailoring"/>
     </item>
     <item id="393" name="skullCap">
 		<property name="Insulation" value="15"/>
@@ -4821,6 +4833,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Clothing"/>
+		<property name="CraftingSkillGroup" value="Tailoring"/>
     </item>
     <item id="405" name="bandana">
 		<property name="DescriptionKey" value="bandanaClothesGroupDesc"/>
@@ -4921,6 +4935,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Heavy Armor"/>
+		<property name="CraftingSkillGroup" value="Armor Smithing"/>
     </item>
     <item id="409" name="goggles">
 		<property name="Insulation" value="5"/>
@@ -4952,6 +4968,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Heavy Armor"/>
+		<property name="CraftingSkillGroup" value="Armor Smithing"/>
     </item>
     <item id="410" name="kevlarHelmet">
 		<property name="Insulation" value="-5"/>
@@ -4985,6 +5003,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Heavy Armor"/>
+		<property name="CraftingSkillGroup" value="Armor Smithing"/>
     </item>
     <item id="411" name="nightvisionGoggles">
         <property name="Class" value="ItemClassToggle" />
@@ -5018,6 +5038,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Heavy Armor"/>
+		<property name="CraftingSkillGroup" value="Armor Smithing"/>
     </item>
     <item id="412" name="swatHelmet">
 	<property name="Insulation" value="-10"/>
@@ -5050,6 +5072,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Heavy Armor"/>
+		<property name="CraftingSkillGroup" value="Armor Smithing"/>
     </item>
     <item id="413" name="grainAlcohol">
         <property name="Meshfile" value="Items/Food/bottledRiverWaterPrefab" />
@@ -5159,6 +5183,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="huntingKnife" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -5181,6 +5207,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="pistol" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -5203,6 +5231,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="PumpShotgun" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -5225,6 +5255,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="bulletTip,bulletCasing" />
+			<property name="ActionExp" value="50"/>
+            <property name="ActionExpBonusMultiplier" value="4"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -5247,6 +5279,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="shotgunShell,buckshot" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -5268,6 +5302,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="44MagBullet,44Magnum" />
+			<property name="ActionExp" value="50"/>
+            <property name="ActionExpBonusMultiplier" value="4"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -5289,6 +5325,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="mp5" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -5436,6 +5474,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="leather" />
+			<property name="ActionExp" value="50"/>
+            <property name="ActionExpBonusMultiplier" value="1.3"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -5458,6 +5498,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="ironHelmet" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -5480,6 +5522,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="ironChestArmor" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -5502,6 +5546,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="ironLegArmor" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -5524,6 +5570,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="ironBoots" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -5546,6 +5594,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="ironGloves" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -5943,6 +5993,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="sledgehammer" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -6309,6 +6361,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Clothing"/>
+		<property name="CraftingSkillGroup" value="Tailoring"/>
     </item>
     <item id="685" name="tankTopWhite">
 		<property name="DescriptionKey" value="tankTopClothesGroupDesc"/>
@@ -6394,6 +6448,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Clothing"/>
+		<property name="CraftingSkillGroup" value="Tailoring"/>
     </item>
     <item id="688" name="tankTopRed">
 		<property name="Extends" value="tankTopWhite" />
@@ -6442,6 +6498,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Clothing"/>
+		<property name="CraftingSkillGroup" value="Tailoring"/>
     </item>
     <item id="691" name="tallow">
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -6534,6 +6592,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Clothing"/>
+		<property name="CraftingSkillGroup" value="Tailoring"/>
     </item>
     <!-- MacDyvers guide to scrapmetal building -->
     <item id="695" name="macDyverBook">
@@ -6545,6 +6605,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="scrapBoots,scrapLegArmor,scrapChestArmor,scrapHelmet,scrapGloves" />
+			<property name="ActionExp" value="20"/>
+            <property name="ActionExpBonusMultiplier" value="4"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -6905,6 +6967,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="huntingRifle" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -6927,6 +6991,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="sniperRifle" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -7110,6 +7176,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Heavy Armor"/>
+		<property name="CraftingSkillGroup" value="Armor Smithing"/>
     </item>
     <item id="738" name="tazasStoneaxe">
 		<property name="DescriptionKey" value="tazasStoneaxeDesc"/>
@@ -7286,6 +7354,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="concreteMix,cement,rebarFrame,rebarRampFrame" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="2.5"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -7375,6 +7445,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="minibikeChassis,minibikeWheels,minibikeSeat,minibikeHandlebars" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="2.5"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -7486,6 +7558,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Title" value="Forging Steel." />
             <property name="Description" value="Teaches you how to forge Steel items." />
             <property name="Recipes_to_learn" value="forgedSteel,pickaxeSteel,steelArrowHead,steelArrow" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="2.5"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -7533,6 +7607,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Title" value="Herbal Antibiotics Recipe" />
             <property name="Description" value="An ancient indian recipe to make herbal antibiotics." />
             <property name="Recipes_to_learn" value="herbalAntibiotics" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -7793,6 +7869,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="shotgunSlug" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -7816,6 +7894,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="762mmBullet" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -7837,6 +7917,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="10mmBullet" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -7928,6 +8010,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="9mmBullet" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -7949,6 +8033,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="handlebars" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -7992,6 +8078,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="leatherBoots" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -8014,6 +8102,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="leatherPants" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -8036,6 +8126,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="leatherJacket,leatherDuster" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -8058,6 +8150,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="leatherHood" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -8080,6 +8174,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="leatherGloves" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -8115,6 +8211,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="firstAidKit" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -8137,6 +8235,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="gasCan" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="1.3"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -8158,6 +8258,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="clubSpiked" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -8180,6 +8282,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="sawedOffPumpShotgun" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -8203,6 +8307,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="flamingArrow" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -8224,6 +8330,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="auger" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -8246,6 +8354,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="wrench" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -8384,6 +8494,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="crossbow" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -8405,6 +8517,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="explodingCrossbowBolt" />
+			<property name="ActionExp" value="100"/>
+            <property name="ActionExpBonusMultiplier" value="10"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -8492,6 +8606,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Clothing"/>
+		<property name="CraftingSkillGroup" value="Tailoring"/>
     </item>
     <item id="806" name="hazmatPants">
 		<property name="DescriptionKey" value="hazmatClothesGroupDesc"/>
@@ -8526,6 +8642,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Clothing"/>
+		<property name="CraftingSkillGroup" value="Tailoring"/>
     </item>
     <item id="807" name="hazmatShirt">
 		<property name="DescriptionKey" value="hazmatClothesGroupDesc"/>
@@ -8560,6 +8678,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Clothing"/>
+		<property name="CraftingSkillGroup" value="Tailoring"/>
     </item>
    <item id="808" name="hazmatGloves">
 		<property name="DescriptionKey" value="hazmatClothesGroupDesc"/>
@@ -8594,6 +8714,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Clothing"/>
+		<property name="CraftingSkillGroup" value="Tailoring"/>
     </item>
     <item id="809" name="hazmatMask">
 		<property name="DescriptionKey" value="hazmatClothesGroupDesc"/>
@@ -8629,6 +8751,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Clothing"/>
+		<property name="CraftingSkillGroup" value="Tailoring"/>
     </item>
     <!-- Gating book -->
     <item id="810" name="invisibleRecipesForRepairCost">
@@ -8792,6 +8916,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="CraftingSkillGroup" value="Leatherworking"/>
     </item>
     <item id="816" name="ak47_barrel">
 		<property name="DescriptionKey" value="ak47PartsGroupDesc"/>
@@ -9021,6 +9147,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Clothing"/>
+		<property name="CraftingSkillGroup" value="Tailoring"/>
     </item>
 	<item id="830" name="pufferCoatRed">
 		<property name="Extends" value="pufferCoat" />
@@ -9321,6 +9449,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="rocketLauncher,rocket,rocketCasing,rocketTip" />
+			<property name="ActionExp" value="25"/>
+            <property name="ActionExpBonusMultiplier" value="4"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
