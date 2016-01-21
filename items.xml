@@ -2672,7 +2672,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="metal" />
         <property name="HoldType" value="23" />
         <property name="Weight" value="5" />
-        <property name="Group" value="Miscellaneous" />
+        <property name="Group" value="Decor/Miscellaneous" />
         <property class="Preview">
             <property name="Zoom" value="28" />
             <property name="Pos" value="0,-0.05" />
@@ -2684,7 +2684,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="metal" />
         <property name="HoldType" value="23" />
         <property name="Weight" value="5" />
-        <property name="Group" value="Miscellaneous" />
+        <property name="Group" value="Decor/Miscellaneous" />
         <property class="Preview">
             <property name="Zoom" value="28" />
             <property name="Pos" value="0,-0.05" />
@@ -2696,7 +2696,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="metal" />
         <property name="HoldType" value="3" />
         <property name="Weight" value="5" />
-        <property name="Group" value="Miscellaneous" />
+        <property name="Group" value="Decor/Miscellaneous" />
         <property class="Preview">
             <property name="Zoom" value="28" />
             <property name="Pos" value="0,-0.05" />
@@ -4729,7 +4729,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="100" param1="false" />
         <property name="DegradationBreaksAfter" value="false" />
         <property name="Weight" value="35" />
-        <property name="Group" value="Miscellaneous" />
+        <property name="Group" value="Decor/Miscellaneous" />
         <property class="Attributes">
             <property name="FalloffRange" value="4,60" />
         </property>
@@ -4750,7 +4750,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="100" param1="false" />
         <property name="DegradationBreaksAfter" value="false" />
         <property name="Weight" value="35" />
-        <property name="Group" value="Miscellaneous" />
+        <property name="Group" value="Decor/Miscellaneous" />
         <property class="Attributes">
             <property name="EntityDamage" value="30, 150" />
             <property name="Accuracy" value="1, 0.01" />
@@ -4772,7 +4772,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="100" param1="false" />
         <property name="DegradationBreaksAfter" value="false" />
         <property name="Weight" value="35" />
-        <property name="Group" value="Miscellaneous" />
+        <property name="Group" value="Decor/Miscellaneous" />
         <property class="Attributes">
             <property name="DegradationRate" value="1,1" />
         </property>
@@ -4793,7 +4793,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="100" param1="false" />
         <property name="DegradationBreaksAfter" value="false" />
         <property name="Weight" value="35" />
-        <property name="Group" value="Miscellaneous" />
+        <property name="Group" value="Decor/Miscellaneous" />
 		<property class="Attributes">
 			<property name="DegradationMax" value="30,600"/>
 		</property>
@@ -7129,7 +7129,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="DamageBonus.head" value="2" />
 			<property name="DamageBonus.glass" value="25" />
 		</property>
-		<property name="Group" value="Miscellaneous" />
+		<property name="Group" value="Decor/Miscellaneous" />
 		<property class="Preview">
 			<property name="Pos" value="-0.15,-0.8" />
 		</property>
@@ -7143,6 +7143,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Weight" value="5" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="500" />
+		<property name="Group" value="Resources" />
         <property class="Preview">
             <property name="Zoom" value="35" />
             <property name="Pos" value="0,-0.05" />
@@ -7674,7 +7675,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="metal" />
         <property name="HoldType" value="45" />
         <property name="Weight" value="10" />
-        <property name="Group" value="Miscellaneous" />
+        <property name="Group" value="Decor/Miscellaneous" />
 		<property name="RepairTools" value="repairKit" />
         <property class="Attributes">
 			<property name="DegradationRate" value="1,1" />
