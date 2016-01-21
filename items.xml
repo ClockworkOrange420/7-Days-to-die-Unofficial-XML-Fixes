@@ -7833,8 +7833,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true" />
-            <property name="EntityDamage" value="18,18" />
-            <property name="BlockDamage" value="18,18" />
+            <property name="EntityDamage" value="19,19" />
+            <property name="BlockDamage" value="19,19" />
         </property>
 		<property name="ActionSkillGroup" value="Shotguns"/>
 		<property name="CraftingSkillGroup" value="Gun Smithing"/>
