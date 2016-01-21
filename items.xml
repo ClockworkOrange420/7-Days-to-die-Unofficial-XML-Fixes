@@ -4729,7 +4729,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="100" param1="false" />
         <property name="DegradationBreaksAfter" value="false" />
         <property name="Weight" value="35" />
-        <property name="Group" value="Decor/Miscellaneous" />
+        <property name="Group" value="Resources" />
         <property class="Attributes">
             <property name="FalloffRange" value="4,60" />
         </property>
@@ -4750,7 +4750,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="100" param1="false" />
         <property name="DegradationBreaksAfter" value="false" />
         <property name="Weight" value="35" />
-        <property name="Group" value="Decor/Miscellaneous" />
+        <property name="Group" value="Resources" />
         <property class="Attributes">
             <property name="EntityDamage" value="30, 150" />
             <property name="Accuracy" value="1, 0.01" />
@@ -4772,7 +4772,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="100" param1="false" />
         <property name="DegradationBreaksAfter" value="false" />
         <property name="Weight" value="35" />
-        <property name="Group" value="Decor/Miscellaneous" />
+        <property name="Group" value="Resources" />
         <property class="Attributes">
             <property name="DegradationRate" value="1,1" />
         </property>
@@ -4793,7 +4793,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Degradation" value="100" param1="false" />
         <property name="DegradationBreaksAfter" value="false" />
         <property name="Weight" value="35" />
-        <property name="Group" value="Decor/Miscellaneous" />
+        <property name="Group" value="Resources" />
 		<property class="Attributes">
 			<property name="DegradationMax" value="30,600"/>
 		</property>
