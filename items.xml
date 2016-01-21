@@ -1103,9 +1103,9 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- AttackAction -->
             <property name="Class" value="Ranged" />
             <property name="Delay" value="0.8" />
-            <property name="Range" value="100" /><!--
+            <property name="Range" value="100" />
             <property name="Rays_per_shot" value="8" />
-            <property name="Rays_spread" value="0.95" />-->
+            <property name="Rays_spread" value="0.95" />
             <property name="Crosshair_min_distance" value="30" />
             <property name="Crosshair_max_distance" value="50" />
             <property name="Magazine_size" value="8" />
@@ -1283,11 +1283,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Stacknumber" value="250" />
         <property name="DropScale" value="4" />
         <property name="Group" value="Ammo/Weapons" />
-		<property class="Action1"> <!-- UseAction -->
-            <property name="Class" value="Projectile" />
-            <property name="Rays_per_shot" value="8" />
-            <property name="Rays_spread" value="0.75" />
-        </property>
         <property class="Preview">
             <property name="Zoom" value="40" />
             <property name="Pos" value="0.0,0.0" />
@@ -2938,9 +2933,9 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- AttackAction -->
             <property name="Class" value="Ranged" />
             <property name="Delay" value="0.8" />
-            <property name="Range" value="100" /><!--
+            <property name="Range" value="100" />
             <property name="Rays_per_shot" value="8" />
-            <property name="Rays_spread" value="0.75" />-->
+            <property name="Rays_spread" value="0.75" />
             <property name="Crosshair_min_distance" value="30" />
             <property name="Crosshair_max_distance" value="50" />
             <property name="Magazine_size" value="8" />
@@ -7838,8 +7833,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true" />
-            <property name="EntityDamage" value="150,150" />
-            <property name="BlockDamage" value="150,150" />
+            <property name="EntityDamage" value="18,18" />
+            <property name="BlockDamage" value="18,18" />
         </property>
 		<property name="ActionSkillGroup" value="Shotguns"/>
 		<property name="CraftingSkillGroup" value="Gun Smithing"/>
