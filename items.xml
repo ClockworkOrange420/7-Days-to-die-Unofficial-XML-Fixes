@@ -7559,8 +7559,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Title" value="Forging Steel." />
             <property name="Description" value="Teaches you how to forge Steel items." />
             <property name="Recipes_to_learn" value="forgedSteel,pickaxeSteel,steelArrowHead,steelArrow" />
-			<property name="ActionExp" value="100"/>
-            <property name="ActionExpBonusMultiplier" value="2.5"/>
+			<property name="ActionExp" value="25"/>
+            <property name="ActionExpBonusMultiplier" value="2"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
