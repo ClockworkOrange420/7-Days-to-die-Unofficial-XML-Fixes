@@ -7782,14 +7782,14 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Velocity" value="75" />
             <property name="FlyTime" value="0.15" />
             <property name="LifeTime" value="12" />
-			<property name="ActionExp" value="30"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
 			<property name="DamageBonus.head" value="6" />
 			<property name="DamageBonus.glass" value="25" />
 			<property name="DamageBonus.wood" value="2" />
 			<property name="DamageBonus.earth" value="0.1" />
 			<property name="DamageBonus.metal" value="0.1" />
 			<property name="DamageBonus.cloth" value="0.5" />
+			<property name="ActionExp" value="30"/>
+			<property name="ActionExpBonusMultiplier" value="10"/>
         </property>
         <property name="Group" value="Ammo/Weapons" />
 		<property class="Attributes">
