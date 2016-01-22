@@ -9124,7 +9124,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Material" value="cloth" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
-        <property name="RepairTools" value="leather" />
+        <property name="RepairTools" value="cloth" />
         <property name="EquipSlot" value="Chest" />
         <property name="FuelValue" value="4" />
         <property name="Weight" value="30" />
