@@ -7355,8 +7355,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="concreteMix,cement,rebarFrame,rebarRampFrame" />
-			<property name="ActionExp" value="100"/>
-            <property name="ActionExpBonusMultiplier" value="2.5"/>
+			<property name="ActionExp" value="25"/>
+            <property name="ActionExpBonusMultiplier" value="2"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
