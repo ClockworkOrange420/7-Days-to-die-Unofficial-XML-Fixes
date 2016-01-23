@@ -6070,6 +6070,10 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Allowed_upgrade_items" value="wood,scrapIron,forgedIron,forgedSteel,concreteMix,cobblestones" />
             <!--<property name="Restricted_upgrade_items" value="concrete" /> -->
         </property>
+		<property class="Attributes">
+			<property name="DegradationMax" value="100,600" />
+			<property name="DegradationRate" value="2,1" />
+		</property>
         <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
             <property name="Zoom" value="14" />
