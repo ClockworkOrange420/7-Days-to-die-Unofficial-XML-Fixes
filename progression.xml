@@ -37,9 +37,7 @@
 
 		<player_skill name="Clothing" icon="shirt" description_key="clothingSkillDesc" title_key="clothingSkill">
 			<effect name="ArmorDefense">
-				<multiply skill_level="1,50" value="1,1.25"/>
-				<multiply skill_level="51,99" value="1.26, 1.6"/>
-				<multiply skill_level="100" value="1.75"/>
+				<multiply skill_level="1,100" value="1,1.02" />
 			</effect>
 		</player_skill>
 		
@@ -57,13 +55,13 @@
 		
 		<player_skill name="Heavy Armor" icon="armor_iron" description_key="heavyArmorDesc" title_key="heavyArmor">
 			<effect name="ArmorDefense">
-				<add skill_level="1,5" value="1,1.03" />
-				<add skill_level="6,10" value="1.04,1.07" />
-				<add skill_level="11,20" value="1.07,1.12" />
-				<add skill_level="21,25" value="1.12,1.14" />
-				<add skill_level="26,45" value="1.15,1.22" />
-				<add skill_level="46,70" value="1.23,1.31" />
-				<add skill_level="71,100" value="1.31,1.4" />
+				<multiply skill_level="1,5" value="1,1.03" />
+				<multiply skill_level="6,10" value="1.04,1.07" />
+				<multiply skill_level="11,20" value="1.07,1.12" />
+				<multiply skill_level="21,25" value="1.12,1.14" />
+				<multiply skill_level="26,45" value="1.15,1.22" />
+				<multiply skill_level="46,70" value="1.23,1.31" />
+				<multiply skill_level="71,100" value="1.31,1.4" />
 			</effect>
 		</player_skill>
 		
