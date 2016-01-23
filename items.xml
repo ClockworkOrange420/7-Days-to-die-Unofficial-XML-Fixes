@@ -7716,7 +7716,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="LifeTime" value="12" />
             <property name="Buff" value="criticalBleedout" />
             <property name="Buff_chance" value="0.25" />
-            <property name="DamageBonus.head" value="3" />
+            <property name="DamageBonus.head" value="6" />
             <property name="DamageBonus.glass" value="25" />
             <property name="DamageBonus.wood" value="0.1" />
             <property name="DamageBonus.earth" value="0.1" />
