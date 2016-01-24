@@ -2604,6 +2604,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="HoldType" value="3" />
         <property name="Stacknumber" value="15" />
 		<property name="CraftingIngredientTime" value="20" />
+		<property name="Weight" value="10" />
         <property class="Action1">
             <!-- UseAction -->
             <property name="Class" value="Eat" />
@@ -5183,8 +5184,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="huntingKnife" />
-			<property name="ActionExp" value="100"/>
-            <property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="50"/>
+            <property name="ActionExpBonusMultiplier" value="5"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -8131,8 +8132,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="leatherJacket,leatherDuster" />
-			<property name="ActionExp" value="100"/>
-            <property name="ActionExpBonusMultiplier" value="10"/>
+			<property name="ActionExp" value="50"/>
+            <property name="ActionExpBonusMultiplier" value="5"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
