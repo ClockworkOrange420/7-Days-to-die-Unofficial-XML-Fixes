@@ -3250,12 +3250,14 @@
     <property name="ParticleOffset" value="0.5,0,0.5" />
   </block>
   <block id="383" name="tileFloor5">
-	<property name="Extends" value="concrete" />
     <property name="Material" value="stone" />
     <property name="Texture" value="9" />
 	<property class="RepairItems">
 		<property name="concreteMix" value="10" />
 	</property>
+	<drop event="Destroy" name="destroyedStone" count="1" />
+	<drop event="Fall" name="destroyedStone" count="1" prob="1.0" stick_chance=".75" />
+	<property name="Group" value="Building" />
   </block>
   <block id="384" name="reinforcedMetalSiding">
     <property name="Material" value="metal_medium" />
@@ -7291,7 +7293,7 @@
     <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
   </block>
   <block id="795" name="shinglesWood">
-    <property name="Extends" value="oldWood" />
+    <property name="Extends" value="woodRamp" />
     <property name="Texture" value="44" />
 	<property name="FuelValue" value="200" />
 	<property class="RepairItems">
@@ -7787,7 +7789,7 @@
   <!-- free -->
 
   <block id="858" name="shinglesOld">
-    <property name="Extends" value="oldWood" />
+    <property name="Extends" value="woodRamp" />
     <property name="Texture" value="192" />
 	<property class="RepairItems">
 		<property name="wood" value="10" />
@@ -8181,7 +8183,10 @@
   </block>
   <block id="908" name="tileFloor4">
     <property name="Material" value="stone" />
-    <property name="Texture" value="361" />    
+    <property name="Texture" value="361" />
+	<property class="RepairItems">
+		<property name="concreteMix" value="10" />
+	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="Group" value="Building" />
