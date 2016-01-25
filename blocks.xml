@@ -14664,6 +14664,9 @@
     <property name="Collide" value="bullet,melee" />
     <property name="Model" value="Entities/Lighting/industrialLight01Prefab" />
 	<property name="Place" value="TowardsPlacerInverted" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="ironFragment" count="1" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
