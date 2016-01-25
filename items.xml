@@ -2762,6 +2762,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="FuelValue" value="1" />
         <property name="Group" value="Resources,Chemicals" />
 		<property name="ActionSkillGroup" value="Science"/>
+		<property name="CraftingSkillGroup" value="Science"/>
     </item>
     <item id="265" name="pipeBomb">
         <property name="Class" value="ItemClassTimeBomb" />
