@@ -5265,7 +5265,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="bulletTip,bulletCasing" />
 			<property name="ActionExp" value="50"/>
-            <property name="ActionExpBonusMultiplier" value="4"/>
+            <property name="ActionExpBonusMultiplier" value="5"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
