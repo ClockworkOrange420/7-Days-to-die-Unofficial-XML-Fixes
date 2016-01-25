@@ -2758,9 +2758,10 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="HoldType" value="45" />	
         <property name="Material" value="metal" />
-        <property name="Stacknumber" value="1000" />
+        <property name="Stacknumber" value="1000" /> 
 		<property name="FuelValue" value="1" />
         <property name="Group" value="Resources,Chemicals" />
+		<property name="ActionSkillGroup" value="Science"/>
     </item>
     <item id="265" name="pipeBomb">
         <property name="Class" value="ItemClassTimeBomb" />
@@ -3529,6 +3530,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0.1,0" />
             <property name="Rot" value="10,-45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Weapon Smithing"/>
     </item>
 <!-- free -->
     <item id="321" name="9mmBullet">
@@ -3601,6 +3603,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0.1,0" />
             <property name="Rot" value="10,-45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Weapon Smithing"/>
     </item>
 <!-- free -->
     <item id="336" name="doorKnob">
@@ -4025,6 +4028,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Leatherworking"/>
+		<property name="CraftingSkillGroup" value="Leatherworking"/>
     </item>
     <item id="374" name="leatherBoots">
 		<property name="DescriptionKey" value="leatherClothesGroupDesc"/>
@@ -4693,6 +4698,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="-0.02,-0.1" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Medicine"/>
+		<property name="CraftingSkillGroup" value="Science"/>
     </item>
     <item id="399" name="moldyBread">
         <property name="Meshfile" value="Items/Food/cornbread" />
@@ -5364,6 +5371,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Miscellaneous Crafting"/>
+		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
     </item>
     <item id="614" name="turd">
 		<property name="Meshfile" value="Items/Crafting/clay" />
@@ -6419,6 +6428,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0.18,-0.15" />
             <property name="Rot" value="0,-45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Miscellaneous Crafting"/>
+		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
     </item>
     <item id="687" name="denimJacket">
 		<property name="DescriptionKey" value="denimClothesGroupDesc"/>
@@ -7112,6 +7123,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="DegradationRate" value="0.1,0.1" />
             <property name="DegradationMax" value="30,600" />
         </property>
+		<property name="ActionSkillGroup" value="Miscellaneous Crafting"/>
+		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
     </item>
 	<item id="735" name="flashlight02">
 		<property name="Class" value="ItemClassToggle" />
@@ -7396,6 +7409,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Miscellaneous Crafting"/>
+		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
     </item>
     <item id="747" name="minibikeWheels">
 		<property name="DescriptionKey" value="minibikePartsGroupDesc"/>
@@ -7420,6 +7435,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Miscellaneous Crafting"/>
+		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
     </item>
      <item id="748" name="padlock">
         <property name="VehicleSlotType" value="lock" />
@@ -7441,6 +7458,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Miscellaneous Crafting"/>
+		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
     </item>
      <item id="749" name="minibikesForDumbshits">
         <property name="Meshfile" value="Items/Misc/Book" />
@@ -7552,6 +7571,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Miscellaneous Crafting"/>
+		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
     </item>
      <item id="755" name="theRiddleOfSteel">
         <property name="Meshfile" value="Items/Misc/Book" />
@@ -7601,6 +7622,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="-0.02,-0.1" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Medicine"/>
+		<property name="CraftingSkillGroup" value="Science"/>
     </item>
      <item id="757" name="herbalAntibioticsRecipe">
         <property name="Meshfile" value="Items/Misc/Book" />
@@ -7645,6 +7668,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="VehicleBraking" value="25,25" />
 			<property name="LightIntensity" value="0.1,1" />
         </property>
+		<property name="ActionSkillGroup" value="Miscellaneous Crafting"/>
+		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
     </item>
 	<item id="759" name="minibikeChassis">
 		<property name="DescriptionKey" value="minibikePartsGroupDesc"/>
@@ -7671,6 +7696,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Miscellaneous Crafting"/>
+		<property name="CraftingSkillGroup" value="Miscellaneous Crafting"/>
     </item>
     <item id="760" name="shoppingBasketItem">
 		<property name="VehicleSlotType" value="basket" />
@@ -7974,6 +8001,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="Zoom_max_out" value="35" />
 			<property name="Zoom_max_in" value="35" />
 		</property>
+		<property name="ActionSkillGroup" value="Weapon Smithing"/>
+		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
 		<property name="Group" value="Ammo/Weapons" />
 	</item>
 	<item id="774" name="rocket">
@@ -8003,6 +8032,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="FlyTime" value="1.2" />
 			<property name="LifeTime" value="8" />
 		</property>
+		<property name="ActionSkillGroup" value="Weapon Smithing"/>
+		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
 		<property name="Group" value="Ammo/Weapons" />
 	</item>
     <item id="775" name="9mmBulletSchematic">
@@ -9452,7 +9483,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="rocketLauncher,rocket,rocketCasing,rocketTip" />
 			<property name="ActionExp" value="25"/>
-            <property name="ActionExpBonusMultiplier" value="4"/>
+            <property name="ActionExpBonusMultiplier" value="2"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -9500,6 +9531,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0.1,0" />
             <property name="Rot" value="10,-45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Weapon Smithing"/>
+		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
     </item>
     <item id="846" name="rocketCasing">
         <property name="Meshfile" value="Items/Crafting/bullet_casing" />
@@ -9513,6 +9546,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0.1,0" />
             <property name="Rot" value="10,-45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Weapon Smithing"/>
+		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
     </item>
     <item id="847" name="plantFiberHat">
 		<property name="Insulation" value="-10"/>
