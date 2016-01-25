@@ -8002,8 +8002,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 			<property name="Zoom_max_out" value="35" />
 			<property name="Zoom_max_in" value="35" />
 		</property>
-		<property name="ActionSkillGroup" value="Weapon Smithing"/>
-		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
+		<property name="ActionSkillGroup" value="Gun Smithing"/>
+		<property name="CraftingSkillGroup" value="Gun Smithing"/>
 		<property name="Group" value="Ammo/Weapons" />
 	</item>
 	<item id="774" name="rocket">
