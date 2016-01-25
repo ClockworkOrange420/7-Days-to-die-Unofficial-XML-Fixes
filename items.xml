@@ -7888,8 +7888,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-		<property name="ActionSkillGroup" value="Shotguns"/>
-		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="771" name="762mmBulletSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
@@ -8301,8 +8299,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-		<property name="ActionSkillGroup" value="Shotguns"/>
-		<property name="CraftingSkillGroup" value="Gun Smithing"/>
     </item>
     <item id="794" name="flamingArrowSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
