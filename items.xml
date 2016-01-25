@@ -9483,8 +9483,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Recipes_to_learn" value="rocketLauncher,rocket,rocketCasing,rocketTip" />
-			<property name="ActionExp" value="25"/>
-            <property name="ActionExpBonusMultiplier" value="2"/>
+			<property name="ActionExp" value="50"/>
+            <property name="ActionExpBonusMultiplier" value="5"/>
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -9532,8 +9532,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0.1,0" />
             <property name="Rot" value="10,-45,0" />
         </property>
-		<property name="ActionSkillGroup" value="Weapon Smithing"/>
-		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
     </item>
     <item id="846" name="rocketCasing">
         <property name="Meshfile" value="Items/Crafting/bullet_casing" />
@@ -9547,8 +9545,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0.1,0" />
             <property name="Rot" value="10,-45,0" />
         </property>
-		<property name="ActionSkillGroup" value="Weapon Smithing"/>
-		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
     </item>
     <item id="847" name="plantFiberHat">
 		<property name="Insulation" value="-10"/>
