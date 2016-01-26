@@ -4015,8 +4015,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
-		<property name="ActionSkillGroup" value="Leatherworking"/>
-		<property name="CraftingSkillGroup" value="Leatherworking"/>
     </item>
     <item id="373" name="leather">
         <property name="Meshfile" value="Items/Crafting/leather" />
@@ -4034,7 +4032,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
 		<property name="ActionSkillGroup" value="Leatherworking"/>
-		<property name="CraftingSkillGroup" value="Leatherworking"/>
     </item>
     <item id="374" name="leatherBoots">
 		<property name="DescriptionKey" value="leatherClothesGroupDesc"/>
