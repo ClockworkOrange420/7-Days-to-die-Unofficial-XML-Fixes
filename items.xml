@@ -3759,6 +3759,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Attributes">
             <property name="ConcussiveProtection" value="0.3, 0.5" />
             <property name="PunctureProtection" value="0.15, 0.3" />
+			<property name="DegradationMax" value="40,600" />
         </property>
         <property name="ActivateObject" value="miningHelmetLightSource(Clone)" />
         <property name="Group" value="Clothing" />
@@ -4086,6 +4087,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Attributes">
   			<property name="ConcussiveProtection" value="0.2, 0.4" />
  			<property name="PunctureProtection" value="0.1, 0.3" />
+			<property name="DegradationMax" value="40,600" />
  		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
@@ -4119,6 +4121,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Attributes">
   			<property name="ConcussiveProtection" value="0.2, 0.4" />
  			<property name="PunctureProtection" value="0.1, 0.3" />
+			<property name="DegradationMax" value="40,600" />
  		</property>
         <property name="Group" value="Clothing" /> 
         <property class="UMA">
@@ -4152,6 +4155,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Attributes">
   			<property name="ConcussiveProtection" value="0.2, 0.4" />
  			<property name="PunctureProtection" value="0.1, 0.3" />
+			<property name="DegradationMax" value="40,600" />
  		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
@@ -4188,6 +4192,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Attributes">
   			<property name="ConcussiveProtection" value="0.3, 0.8" />
  			<property name="PunctureProtection" value="0.3, 0.7" />
+			<property name="DegradationMax" value="40,600" />
  		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
@@ -4220,6 +4225,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Attributes">
   			<property name="ConcussiveProtection" value="0.3, 0.8" />
  			<property name="PunctureProtection" value="0.3, 0.7" />
+			<property name="DegradationMax" value="40,600" />
  		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
@@ -4254,6 +4260,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Attributes">
   			<property name="ConcussiveProtection" value="0.3, 0.8" />
  			<property name="PunctureProtection" value="0.3, 0.7" />
+			<property name="DegradationMax" value="40,600" />
  		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
@@ -4287,6 +4294,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Attributes">
   			<property name="ConcussiveProtection" value="0.3, 0.8" />
   			<property name="PunctureProtection" value="0.3, 0.7" />
+			<property name="DegradationMax" value="40,600" />
  		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
@@ -4322,6 +4330,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Attributes">
   			<property name="ConcussiveProtection" value="0.2, 0.4" />
   			<property name="PunctureProtection" value="0.1, 0.3" />
+			<property name="DegradationMax" value="40,600" />
  		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
@@ -4354,6 +4363,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property class="Attributes">
   			<property name="ConcussiveProtection" value="0.3, 0.8" />
   			<property name="PunctureProtection" value="0.3, 0.7" />
+			<property name="DegradationMax" value="40,600" />
  		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
@@ -4508,6 +4518,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property class="Attributes">
   			<property name="ConcussiveProtection" value="0.2, 0.4" />
   			<property name="PunctureProtection" value="0.1, 0.3" />
+			<property name="DegradationMax" value="40,600" />
  		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
@@ -6496,6 +6507,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="RepairTools" value="cloth" />
         <property name="EquipSlot" value="Feet" />
         <property name="FuelValue" value="2" />
+		<property name="Weight" value="5" />
         <property name="Degradation" value="100" param1="true" />
 		<property class="Attributes">
   			<property name="ConcussiveProtection" value="0.05, 0.2" />
@@ -9271,6 +9283,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Attributes">
   			<property name="ConcussiveProtection" value="0.2, 0.4" />
  			<property name="PunctureProtection" value="0.1, 0.3" />
+			<property name="DegradationMax" value="40,600" />
  		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
@@ -9305,6 +9318,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Attributes">
   			<property name="ConcussiveProtection" value="0.2, 0.4" />
  			<property name="PunctureProtection" value="0.1, 0.3" />
+			<property name="DegradationMax" value="40,600" />
  		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
@@ -9339,6 +9353,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Attributes">
   			<property name="ConcussiveProtection" value="0.2, 0.4" />
  			<property name="PunctureProtection" value="0.1, 0.3" />
+			<property name="DegradationMax" value="40,600" />
  		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
@@ -9374,6 +9389,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property class="Attributes">
   			<property name="ConcussiveProtection" value="0.2, 0.4" />
   			<property name="PunctureProtection" value="0.1, 0.3" />
+			<property name="DegradationMax" value="40,600" />
  		</property>
         <property name="Group" value="Clothing" />
         <property class="UMA">
