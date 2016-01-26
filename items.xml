@@ -4003,6 +4003,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <item id="372" name="animalHide">
         <property name="Meshfile" value="Items/Crafting/animal_hide" />
         <property name="Material" value="organic" />
+		<property name="RepairAmount" value="20" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="250" />
         <property name="FuelValue" value="12" />
@@ -9221,10 +9222,10 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Waterproof" value="0.15"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-        <property name="Material" value="leather" />
+        <property name="Material" value="organic" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
-        <property name="RepairTools" value="leather" />
+        <property name="RepairTools" value="animalHide" />
         <property name="EquipSlot" value="Feet" />
         <property name="FuelValue" value="36" />
         <property name="Degradation" value="100" param1="true" />
@@ -9258,10 +9259,10 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Waterproof" value="0.15"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-        <property name="Material" value="leather" />
+        <property name="Material" value="organic" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
-        <property name="RepairTools" value="leather" />
+        <property name="RepairTools" value="animalHide" />
         <property name="EquipSlot" value="Legs" />
         <property name="FuelValue" value="144" />
         <property name="Degradation" value="100" param1="true" />
@@ -9292,10 +9293,10 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Waterproof" value="0.15"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-        <property name="Material" value="leather" />
+        <property name="Material" value="organic" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
-        <property name="RepairTools" value="leather" />
+        <property name="RepairTools" value="animalHide" />
         <property name="EquipSlot" value="Chest" />
         <property name="FuelValue" value="96" />
         <property name="Degradation" value="100" param1="true" />
@@ -9326,10 +9327,10 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Waterproof" value="0.15"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-        <property name="Material" value="leather" />
+        <property name="Material" value="organic" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
-        <property name="RepairTools" value="leather" />
+        <property name="RepairTools" value="animalHide" />
         <property name="EquipSlot" value="Head" />
         <property name="FuelValue" value="48" />
          <property name="Weight" value="15" />
@@ -9361,10 +9362,10 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Waterproof" value="0.15"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-        <property name="Material" value="leather" />
+        <property name="Material" value="organic" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
-        <property name="RepairTools" value="leather" />
+        <property name="RepairTools" value="animalHide" />
         <property name="EquipSlot" value="Hands" />
         <property name="FuelValue" value="16" />
         <property name="Degradation" value="100" param1="true" />
