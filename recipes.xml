@@ -697,6 +697,10 @@
     <recipe name="leather" count="1" scrapable="False" tooltip="ttScrapMetalBrass" >
         <wildcard_forge_category />
     </recipe>
+	
+	<recipe name="animalHide" count="1" scrapable="False" tooltip="ttScrapMetalBrass" >
+        <wildcard_forge_category />
+    </recipe>
 
     <recipe name="leatherBoots" count="1" scrapable="False" >
         <ingredient name="leather" count="5"/>

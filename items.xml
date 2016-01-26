@@ -4002,18 +4002,21 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 <!-- free -->
     <item id="372" name="animalHide">
         <property name="Meshfile" value="Items/Crafting/animal_hide" />
-        <property name="Material" value="organic" />
+        <property name="Material" value="animalHide" />
 		<property name="RepairAmount" value="20" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="250" />
         <property name="FuelValue" value="12" />
         <property name="Group" value="Resources" />
 		<property name="CraftingIngredientTime" value="2" />
+		<property name="Weight" value="5" />
         <property class="Preview">
             <property name="Zoom" value="28" />
             <property name="Pos" value="0,-0.05" />
             <property name="Rot" value="90,45,0" />
         </property>
+		<property name="ActionSkillGroup" value="Leatherworking"/>
+		<property name="CraftingSkillGroup" value="Leatherworking"/>
     </item>
     <item id="373" name="leather">
         <property name="Meshfile" value="Items/Crafting/leather" />
@@ -9222,7 +9225,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Waterproof" value="0.15"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-        <property name="Material" value="organic" />
+        <property name="Material" value="animalHide" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
         <property name="RepairTools" value="animalHide" />
@@ -9259,7 +9262,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Waterproof" value="0.15"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-        <property name="Material" value="organic" />
+        <property name="Material" value="animalHide" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
         <property name="RepairTools" value="animalHide" />
@@ -9293,7 +9296,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Waterproof" value="0.15"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-        <property name="Material" value="organic" />
+        <property name="Material" value="animalHide" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
         <property name="RepairTools" value="animalHide" />
@@ -9327,7 +9330,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Waterproof" value="0.15"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-        <property name="Material" value="organic" />
+        <property name="Material" value="animalHide" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
         <property name="RepairTools" value="animalHide" />
@@ -9362,7 +9365,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Waterproof" value="0.15"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-        <property name="Material" value="organic" />
+        <property name="Material" value="animalHide" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
         <property name="RepairTools" value="animalHide" />
