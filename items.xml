@@ -4004,7 +4004,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <item id="372" name="animalHide">
         <property name="Meshfile" value="Items/Crafting/animal_hide" />
         <property name="Material" value="animalHide" />
-		<property name="RepairAmount" value="20" />
+		<property name="RepairAmount" value="25" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="250" />
         <property name="FuelValue" value="12" />
@@ -9242,7 +9242,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="FuelValue" value="36" />
         <property name="Degradation" value="100" param1="true" />
         <property name="Group" value="Clothing" />
-        <property name="Weight" value="15" />
 		<property name="Encumbrance" value="0.01" />
 		<property class="Attributes">
   			<property name="ConcussiveProtection" value="0.2, 0.4" />
@@ -9278,7 +9277,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="EquipSlot" value="Legs" />
         <property name="FuelValue" value="144" />
         <property name="Degradation" value="100" param1="true" />
-        <property name="Weight" value="48" />
 		<property name="Encumbrance" value="0.01" />
         <property class="Attributes">
   			<property name="ConcussiveProtection" value="0.2, 0.4" />
@@ -9313,7 +9311,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="EquipSlot" value="Chest" />
         <property name="FuelValue" value="96" />
         <property name="Degradation" value="100" param1="true" />
-        <property name="Weight" value="25" />
 		<property name="Encumbrance" value="0.01"/>
         <property class="Attributes">
   			<property name="ConcussiveProtection" value="0.2, 0.4" />
@@ -9347,7 +9344,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="RepairTools" value="animalHide" />
         <property name="EquipSlot" value="Head" />
         <property name="FuelValue" value="48" />
-         <property name="Weight" value="15" />
         <property name="Degradation" value="100" param1="true" />
 		<property name="Encumbrance" value="0.01"/>
         <property class="Attributes">
@@ -9384,7 +9380,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="EquipSlot" value="Hands" />
         <property name="FuelValue" value="16" />
         <property name="Degradation" value="100" param1="true" />
-        <property name="Weight" value="10" />
 		<property name="Encumbrance" value="0.01"/>
         <property class="Attributes">
   			<property name="ConcussiveProtection" value="0.2, 0.4" />
