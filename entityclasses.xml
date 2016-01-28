@@ -182,7 +182,6 @@
 	    <property name="LootListOnDeath"  value="15" />
 	    <property name="CorpseBlock" value="GoreBlock1Prefab"/>
 	    <property name="CorpseBlockChance" value="0"/>
-	    <property name="ExperienceGain" value="100"/>
 		<!--
 		<property name="DeadBodyHitPoints"  value="100" />	
 		<drop event="Harvest" name="rawMeat" count="5" />		
@@ -451,7 +450,6 @@
     <entity_class name="zombieYo" extends="zombie01">
         <property name="Mesh"   value="Zombies/zombieStandardYoRagdoll" />
         <property name="AvatarController" value="AvatarZombie01Controller" />
-        <property name="AvatarController" value="AvatarZombie01Controller" />
 		<property name="ModelType" value="Standard" />
 	    <property name="WalkType"  value="5" />
 		<property name="ExperienceGain" value="100"/>
@@ -501,7 +499,6 @@
         <property name="SoundSense"  value="Enemies/Snow_Zombie_Male/zombiemalesnowsense" />
 		<property name="SoundFootstepModifier"  value="Enemies/Snow_Zombie_Male/zombiesnowfootstep" />
         <property name="HandItem"             value="handCopZombie" />
-		<property name="ExperienceGain" value="500"/>
 		<property name="LootListOnDeath"  value="66" />
     </entity_class>	
 	
@@ -519,7 +516,6 @@
 	    <property name="SoundAttack"  value="Enemies/Spider_Zombie/spiderattack" />
 	    <property name="SoundDeath"   value="Enemies/Spider_Zombie/spiderdeath" />
 	    <property name="SoundHurt"    value="Enemies/Spider_Zombie/spiderpain" />
-        <property name="SoundHurt"    value="Enemies/Spider_Zombie/spidersense" />
 	    <property name="MaxHealth"    value="150" />
         <property name="WanderSpeed"        value="0.08" />
         <property name="ApproachSpeed"      value="0.2" />
@@ -584,7 +580,6 @@
         <property name="AvatarController" value="AvatarZombie01Controller" />
 		<property name="ModelType" value="Standard" />
 	    <property name="CanClimbLadders"     value="true" />
-		<property name="ExperienceGain" value="500"/>		
 		<property name="PhysicsBody" value="zombieStandard" />
 		<property name="RootMotion"   value="true" />
 		<property name="HasDeathAnim" value="true" />				
@@ -1100,7 +1095,6 @@
 	<!-- This one decides for scoring -->
         <property name="EntityType" value="Zombie" />
         <!-- Mesh and class properties -->
-        <property name="Mesh"   value="Zombies/zombieStandardBoeRagdoll" />
         <property name="Prefab" value="NPC" />
         <property name="Class"  value="EntityZombie" />
         <property name="Parent" value="Enemies" />
@@ -1122,8 +1116,8 @@
         <property name="HandItem"     value="handZombie" />
         <property name="Weight"       value="70" />
 		<property name="Immunity"     value="sickness;disease;bleeding;wellness" />
-        <property name="WanderSpeed"        value="0.08" />
-        <property name="ApproachSpeed"      value="0.2" />
+		<property name="WanderSpeed"        value="0.08" />
+        <property name="ApproachSpeed"      value="0.33" />
         <property name="NightWanderSpeed"   value="0.08" />
         <property name="NightApproachSpeed" value="1.1" />
         <property name="PanicSpeed"         value="0.55" />
@@ -1146,20 +1140,12 @@
 	    <property name="LootListOnDeath"  value="15" />
 	    <property name="CorpseBlock" value="GoreBlock1Prefab"/>
 	    <property name="CorpseBlockChance" value="0"/>
-        <property name="Mesh"   value="Zombies/zombie01Ragdoll" />
-		<property name="ModelType" value="ZombieUMA" />	
-        <property name="Prefab" value="NPC" />
-        <property name="Class"  value="EntityZombie" />
+		<property name="ModelType" value="ZombieUMA" />
 		<property name="RootMotion"   value="true" />
-        <property name="Parent" value="Enemies" />
         <property name="AvatarController" value="AvatarZombie01Controller" />
 		<property name="PhysicsBody" value="zombieStandard" />
 		<property name="HasDeathAnim" value="true" />
 		<property name="Mesh"   value="Zombies/zombieStandardBoeRagdoll" />
-        <property name="WalkType"  value="2" />
-        <property name="WanderSpeed"        value="0.08" />
-        <property name="ApproachSpeed"      value="0.33" />
-        <property name="NightWanderSpeed"   value="0.08" />
 		<property name="UMA.EquipmentSlot.Head" value="0" param1="female_base_face" param2="female_head" />
 		<property name="UMA.EquipmentSlot.Eyes" value="0" param1="female_base_eyes" param2="unisex_eyes" />
 		<property name="UMA.EquipmentSlot.Face" value="0" param1="female_base_eyelashes" param2="female_eyelashes" />

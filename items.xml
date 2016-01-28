@@ -590,7 +590,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Insulation" value="-10"/>
 		<property name="Waterproof" value="0.15"/>
         <property name="Meshfile" value="Items/Clothing/Head/prefabCowboyhat" />
-        <property name="Material" value="cloth" />
+        <property name="Material" value="leather" />
         <property name="Weight" value="5" />
         <property name="HoldType" value="7" />
         <property name="Stacknumber" value="1" />
@@ -620,7 +620,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
 		<property name="ActionSkillGroup" value="Clothing"/>
-		<property name="CraftingSkillGroup" value="Tailoring"/>
+		<property name="CraftingSkillGroup" value="Leatherworking"/>
     </item>
     <item id="27" name="chainsawSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
@@ -4506,7 +4506,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Waterproof" value="0.15"/>
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-        <property name="Material" value="cloth" />
+        <property name="Material" value="leather" />
         <property name="Weight" value="5" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
@@ -4534,7 +4534,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
 		<property name="ActionSkillGroup" value="Clothing"/>
-		<property name="CraftingSkillGroup" value="Tailoring"/>
+		<property name="CraftingSkillGroup" value="Leatherworking"/>
     </item>
     <item id="392" name="ballCap">
 		<property name="DescriptionKey" value="clothClothesGroupDesc"/>

@@ -155,6 +155,9 @@
     <property name="DropScale" value="2" />
     <property name="Map.Color" value="204,177,131" />
 	<property name="Group" value="Building" />
+	<property class="RepairItems">
+		<property name="concreteMix" value="10" />
+	</property>
     <drop event="Destroy" name="destroyedStone" count="0" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
   </block>
@@ -1020,7 +1023,7 @@
   <block id="213" name="solidScrapIronFrame">
     <property name="Extends" value="scrapIronFrame" />
 	<property class="RepairItems">
-	<property name="scrapIron" value="10" />
+		<property name="scrapIron" value="10" />
 	</property>
 	<property name="CanPickup" value="false" />
   </block>
@@ -3172,7 +3175,7 @@
     <property name="GrassBlock1" value="tallGrassDiagonal" />
     <property name="GrassBlock2" value="tallGrassDiagonal" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="4" />
+		<property name="concreteMix" value="5" />
 	</property>
     <drop event="Destroy" count="0" />
   </block>
@@ -6101,9 +6104,6 @@
       <property name="ItemCount" value="10" />
       <property name="UpgradeHitCount" value="4" />
     </property>
-	<property class="RepairItems">
-		<property name="wood" value="10" />
-	</property>
     <drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
   </block>
@@ -6849,7 +6849,7 @@
     <property name="Shape" value="Plate" />
     <property name="Texture" value="217" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />
+		<property name="wood" value="10" />
 	</property>
 	<property name="Group" value="Building" />
   </block>
@@ -8676,7 +8676,7 @@
     <property name="Shape" value="Half" />
     <property name="Texture" value="8,24,8,8,8,8" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="10" />
+		<property name="concreteMix" value="10" />
 	</property>
     <drop event="Destroy" count="0" />
 	<property name="Group" value="Decor/Miscellaneous" />
@@ -10017,7 +10017,7 @@
     <property name="Extends" value="brick" /> 
     <property name="Texture" value="215,215,216,319,216,216" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="4" />
+		<property name="cobblestones" value="10" />
 	</property>
   </block>
   <block id="1124" name="brickModernTanIndustrialTile">
@@ -10044,7 +10044,7 @@
     <property name="Shape" value="Wedged60Full" />
     <property name="Texture" value="8" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="4" />
+		<property name="concreteMix" value="5" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
@@ -10056,7 +10056,7 @@
     <property name="Shape" value="Wedged60Full" />
     <property name="Texture" value="329,8,8,8,8,8" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="4" />
+		<property name="concreteMix" value="5" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
@@ -10068,7 +10068,7 @@
     <property name="Shape" value="Wedged60Full" />
     <property name="Texture" value="10" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="4" />
+		<property name="concreteMix" value="5" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
@@ -10079,7 +10079,7 @@
     <property name="Shape" value="Wedged60Full" />
     <property name="Texture" value="241" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="4" />
+		<property name="concreteMix" value="5" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
@@ -10091,7 +10091,7 @@
     <property name="Shape" value="Wedged60Curb" />
     <property name="Texture" value="329,11,8,11,11,11" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="4" />
+		<property name="concreteMix" value="5" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
@@ -10113,7 +10113,7 @@
     <property name="Shape" value="Wedged60Tip" />
     <property name="Texture" value="11" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="4" />
+		<property name="cobblestones" value="5" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
@@ -10134,7 +10134,7 @@
     <property name="Shape" value="Wedged60Tip" />
     <property name="Texture" value="10" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="4" />
+		<property name="concreteMix" value="5" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
 	<property name="Group" value="Building" />
@@ -12311,7 +12311,7 @@
     <property name="Material" value="stone" />
     <property name="Texture" value="430" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="4" />
+		<property name="cobblestones" value="10" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
@@ -12322,7 +12322,7 @@
     <property name="Extends" value="brick" /> 
     <property name="Texture" value="227,227,227,430,227,227" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="4" />
+		<property name="cobblestones" value="10" />
 	</property>
   </block> 
   
@@ -12672,6 +12672,9 @@
       <property name="ItemCount" value="10" />
       <property name="UpgradeHitCount" value="4" />
     </property>
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <property name="CanPickup" value="true" />
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
@@ -14265,6 +14268,9 @@
     <property name="UpgradeRated.ToBlock" value="reinforcedConcreteInsideCorner" />
     <property name="UpgradeRated.Rate" value="15" /> 
     <property name="Place" value="TowardsPlacer90" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />
+	</property>
     <drop event="Destroy" count="0" />
   </block>
   
@@ -14455,6 +14461,9 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="Industrial/control_panel_duct" param1="main_mesh" />
 	<property name="Place" value="TowardsPlacerInverted" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="5" />
+	</property>
 	<drop event="Destroy" name="scrapIron" count="1" prob="1" />
 	<property name="Group" value="Building" />
   </block>
@@ -14465,6 +14474,9 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="Industrial/control_panel_duct_corner" param1="main_mesh" />
 	<property name="Place" value="TowardsPlacerInverted" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="5" />
+	</property>
 	<drop event="Destroy" name="scrapIron" count="1" prob="1" />
 	<property name="Group" value="Building" />
   </block>
