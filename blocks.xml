@@ -14472,7 +14472,7 @@
     <property name="Model" value="Industrial/control_panel_duct" param1="main_mesh" />
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems">
-		<property name="scrapIron" value="5" />
+		<property name="scrapIron" value="10" />
 	</property>
 	<drop event="Destroy" name="scrapIron" count="1" prob="1" />
 	<property name="Group" value="Building" />
@@ -14485,7 +14485,7 @@
     <property name="Model" value="Industrial/control_panel_duct_corner" param1="main_mesh" />
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems">
-		<property name="scrapIron" value="5" />
+		<property name="scrapIron" value="10" />
 	</property>
 	<drop event="Destroy" name="scrapIron" count="1" prob="1" />
 	<property name="Group" value="Building" />
