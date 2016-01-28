@@ -516,6 +516,7 @@
 	    <property name="SoundAttack"  value="Enemies/Spider_Zombie/spiderattack" />
 	    <property name="SoundDeath"   value="Enemies/Spider_Zombie/spiderdeath" />
 	    <property name="SoundHurt"    value="Enemies/Spider_Zombie/spiderpain" />
+		<property name="SoundSense"  value="Enemies/Spider_Zombie/spidersense" />
 	    <property name="MaxHealth"    value="150" />
         <property name="WanderSpeed"        value="0.08" />
         <property name="ApproachSpeed"      value="0.2" />
