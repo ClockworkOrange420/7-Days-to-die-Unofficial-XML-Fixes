@@ -9450,7 +9450,7 @@
     <property name="Shape" value="Gable" />
     <property name="Texture" value="229,8,226,226,226,226" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="10" />
+		<property name="concreteMix" value="10" />
 	</property>
     <property name="CanMobsSpawnOn" value="false" />
     <drop event="Destroy" name="destroyedStone" />
