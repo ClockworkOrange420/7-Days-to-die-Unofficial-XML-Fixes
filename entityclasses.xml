@@ -516,7 +516,7 @@
 	    <property name="SoundAttack"  value="Enemies/Spider_Zombie/spiderattack" />
 	    <property name="SoundDeath"   value="Enemies/Spider_Zombie/spiderdeath" />
 	    <property name="SoundHurt"    value="Enemies/Spider_Zombie/spiderpain" />
-		<property name="SoundSense"  value="Enemies/Spider_Zombie/spidersense" />
+        <property name="SoundSense"    value="Enemies/Spider_Zombie/spidersense" />
 	    <property name="MaxHealth"    value="150" />
         <property name="WanderSpeed"        value="0.08" />
         <property name="ApproachSpeed"      value="0.2" />
@@ -1096,6 +1096,7 @@
 	<!-- This one decides for scoring -->
         <property name="EntityType" value="Zombie" />
         <!-- Mesh and class properties -->
+        <property name="Mesh"   value="Zombies/zombieStandardBoeRagdoll" />
         <property name="Prefab" value="NPC" />
         <property name="Class"  value="EntityZombie" />
         <property name="Parent" value="Enemies" />
@@ -1117,7 +1118,7 @@
         <property name="HandItem"     value="handZombie" />
         <property name="Weight"       value="70" />
 		<property name="Immunity"     value="sickness;disease;bleeding;wellness" />
-		<property name="WanderSpeed"        value="0.08" />
+        <property name="WanderSpeed"        value="0.08" />
         <property name="ApproachSpeed"      value="0.33" />
         <property name="NightWanderSpeed"   value="0.08" />
         <property name="NightApproachSpeed" value="1.1" />
@@ -1146,7 +1147,6 @@
         <property name="AvatarController" value="AvatarZombie01Controller" />
 		<property name="PhysicsBody" value="zombieStandard" />
 		<property name="HasDeathAnim" value="true" />
-		<property name="Mesh"   value="Zombies/zombieStandardBoeRagdoll" />
 		<property name="UMA.EquipmentSlot.Head" value="0" param1="female_base_face" param2="female_head" />
 		<property name="UMA.EquipmentSlot.Eyes" value="0" param1="female_base_eyes" param2="unisex_eyes" />
 		<property name="UMA.EquipmentSlot.Face" value="0" param1="female_base_eyelashes" param2="female_eyelashes" />

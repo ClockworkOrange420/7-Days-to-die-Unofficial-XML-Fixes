@@ -501,7 +501,6 @@
 	
 	<lootgroup name="commonBooks" count="1">
 	    <item name="book" prob="20"/>
-		<item name="herbalAntibioticsRecipe"/>
 		<item name="crossbowSchematic"/>			
 		<item name="hammerSchematic"/>	
 		<item name="huntingKnifeBook"/>
@@ -1305,6 +1304,7 @@
     
     <lootcontainer id="63"  count="0,1" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest"> 
 		<item group="herbalRecipes" count="1"/>	
+		<item name="herbalAntibiotics" count="1,2"/>	
     </lootcontainer>  
     
 	<!-- gas pump loot  -->

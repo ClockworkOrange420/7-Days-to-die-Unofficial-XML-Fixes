@@ -1,7 +1,4 @@
 <windows>
-	<include_control_file file="XUi/controls"/>
-	<include_style_file file="XUi/styles"/>
-	
 	<window name="HUDLeftStatBars">
 		<grid name="hud" pos="9,98" rows="2" cols="1" width="168" cell_width="168" cell_height="46" repeat_content="false" controller="InGameHUD" side="left" >
 			<rect width="168" height="43" controller="HUDStatBar" stat_type="Stamina" visible="{StatVisible}">

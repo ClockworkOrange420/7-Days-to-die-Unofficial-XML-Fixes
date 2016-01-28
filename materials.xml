@@ -243,7 +243,7 @@
    </material>
    <material id="gravel">
       <property name="damage_category" value="earth" />
-      <property name="surface_category" value="stone" />
+	<property name="surface_category" value="earth" />
       <property name="forge_category" value="stone" />
       <property name="Hardness" type="float" value="1" />
       <property name="stepsound" value="gravel" />
@@ -473,6 +473,7 @@
       <property name="Mass" type="int" value="6" />
 	  <property name="MaxDamage" value="20" />
    </material>
+   
    <material id="animalHide">
       <property name="damage_category" value="cloth" />
       <property name="surface_category" value="cloth" />

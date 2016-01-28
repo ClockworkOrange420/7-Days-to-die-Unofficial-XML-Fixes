@@ -378,14 +378,14 @@
         <ingredient name="yuccaFibers" count="1"/>
     </recipe>
 	
-	<recipe name="cobblestoneWedge" count="1" scrapable="False" >
-        <ingredient name="cobblestones" count="4"/>
-    </recipe>
 	
-	<!--
     <recipe name="cobblestoneRampFrame" count="1" scrapable="False" >
         <ingredient name="wood" count="5"/>
         <ingredient name="yuccaFibers" count="1"/>
+    </recipe>
+	<!--
+    <recipe name="cobblestoneWedge" count="1" scrapable="False" >
+        <ingredient name="cobblestones" count="12"/>
     </recipe>
 	-->
 
@@ -732,6 +732,12 @@
 
     <recipe name="metalTrussing" count="3" scrapable="False" >
         <ingredient name="shortMetalPipe" count="10"/>
+    </recipe>
+
+    <recipe name="miningHelmet" count="1" scrapable="False" >
+        <ingredient name="forgedIron" count="5"/>
+	<ingredient name="leather" count="3"/>
+        <ingredient name="flashlight02" count="1"/>
     </recipe>
 
     <recipe name="mineAirFilter" count="1" scrapable="True" >
