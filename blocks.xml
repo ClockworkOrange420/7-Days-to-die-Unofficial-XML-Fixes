@@ -2931,6 +2931,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="OutdoorDecor/grave_stone01" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="concreteMix" value="10" />
+	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -2939,6 +2942,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="OutdoorDecor/grave_stone02" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="concreteMix" value="10" />
+	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -2947,6 +2953,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="OutdoorDecor/grave_stone03" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="concreteMix" value="10" />
+	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -2955,6 +2964,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="OutdoorDecor/grave_stone04" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="concreteMix" value="10" />
+	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -2963,6 +2975,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="OutdoorDecor/grave_stone05" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="concreteMix" value="10" />
+	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -2971,6 +2986,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="OutdoorDecor/grave_stone06" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="concreteMix" value="10" />
+	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -2979,6 +2997,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="OutdoorDecor/grave_stone07" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="concreteMix" value="10" />
+	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -2987,6 +3008,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="OutdoorDecor/grave_stone08" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="concreteMix" value="10" />
+	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
