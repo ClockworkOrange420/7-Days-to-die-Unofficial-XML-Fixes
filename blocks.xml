@@ -9001,7 +9001,7 @@
     <property name="Texture" value="226,226,226,226,226,226" />
     <property name="Place" value="TowardsPlacer90" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="5" />
+		<property name="concreteMix" value="10" />
 	</property>
     <drop event="Destroy" name="destroyedStone" />
 	<property name="Group" value="Building" />
