@@ -8790,23 +8790,23 @@
 	<property name="Group" value="Building" />
   </block>
   <block id="975" name="pyramidShinglesOld">
-    <property name="Material" value="stone" />
+    <property name="Material" value="wood" />
     <property name="Shape" value="Pyramid" />
     <property name="Texture" value="192" />
 	<property name="FuelValue" value="24" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="10" />
+		<property name="wood" value="10" />
 	</property>
     <property name="CanMobsSpawnOn" value="false" />
     <drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
   </block>
   <block id="976" name="pyramidShinglesAsphalt">
-    <property name="Material" value="stone" />
+    <property name="Material" value="wood" />
     <property name="Shape" value="Pyramid" />
     <property name="Texture" value="229" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="10" />
+		<property name="wood" value="10" />
 	</property>
     <property name="CanMobsSpawnOn" value="false" />
     <drop event="Destroy" count="0" />
@@ -10075,14 +10075,13 @@
 	<property name="Group" value="Building" />
   </block>
   <block id="1132" name="wedge60EndWoodOld">
-    <property name="Material" value="stone" />
+    <property name="Material" value="wood" />
     <property name="Shape" value="Wedged60Full" />
     <property name="Texture" value="241" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="5" />
+		<property name="wood" value="10" />
 	</property>
-    <drop event="Destroy" name="destroyedStone" count="1" />
-    <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
+    <drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
   </block>
   <!-- free -->
@@ -10362,6 +10361,9 @@
       <property name="ItemCount" value="10" />
       <property name="UpgradeHitCount" value="4" />
     </property>
+	<property class="RepairItems">
+		<property name="forgedIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
     <property name="Group" value="Building" />
@@ -10414,7 +10416,7 @@
     <property name="CloseSound" value="UseActions/close_door_metal" />
     <property name="DowngradeBlock" value="commercialDoor1_v2" />
 	<property class="RepairItems">
-		<property name="forgedIron" value="10" />
+		<property name="scrapIron" value="10" />
 	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
@@ -10496,7 +10498,7 @@
     <property name="CloseSound" value="UseActions/close_door_metal" />
     <property name="DowngradeBlock" value="commercialDoor2_v2" />
 	<property class="RepairItems">
-		<property name="forgedIron" value="10" />
+		<property name="scrapIron" value="10" />
 	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
@@ -10578,7 +10580,7 @@
     <property name="CloseSound" value="UseActions/close_door_metal" />
     <property name="DowngradeBlock" value="commercialDoor3_v2" />
 	<property class="RepairItems">
-		<property name="forgedIron" value="10" />
+		<property name="scrapIron" value="10" />
 	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
@@ -11328,7 +11330,7 @@
     <property name="CloseSound" value="UseActions/close_door_wood" />
     <property name="DowngradeBlock" value="houseFrontDoor2_v2" />
 	<property class="RepairItems">
-		<property name="wood" value="10" />
+		<property name="scrapIron" value="10" />
 	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
