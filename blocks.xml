@@ -9847,7 +9847,7 @@
     <property name="Place" value="Plate" />
     <property name="FuelValue" value="24" />
 	<property class="RepairItems">
-		<property name="wood" value="10" />
+		<property name="wood" value="5" />
 	</property>
     <drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
