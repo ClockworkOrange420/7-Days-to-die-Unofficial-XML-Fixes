@@ -3668,7 +3668,7 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="OutdoorDecor/scrapmetalblock" param1="main_mesh" />
     <property name="IsTerrainDecoration" value="true" />
-    <property name="Weight" value="16" />
+    <property name="Weight" value="25" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="Group" value="Resources" />
   </block>
