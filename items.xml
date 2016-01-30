@@ -439,7 +439,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		</property>
         <property class="Attributes">
             <property name="EntityDamage" value="20,50" />
-            <property name="BlockDamage" value="10,60" />
+            <property name="BlockDamage" value="10,80" />
             <property name="DegradationMax" value="100,600" />
 			<property name="DegradationRate" value="2,1" />
 			<property name="DismembermentBaseChance" value="0.1,0.3"/>
@@ -734,6 +734,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sphere" value="0.1" />
             <property name="Sound_start" value="swoosh" />
             <property name="Stamina_usage" value="8" />
+			<property name="DamageBonus.wood" value="0.5" />
             <property name="DamageBonus.head" value="5" />
             <property name="DamageBonus.glass" value="25" />
             <property name="DamageBonus.stone" value=".5" />
@@ -752,7 +753,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
             <property class="Attributes">
             	<property name="EntityDamage" value="7,20" />
-            	<property name="BlockDamage" value="10,80" />
+            	<property name="BlockDamage" value="10,60" />
 				<property name="DegradationMax" value="100,600" />
 				<property name="DegradationRate" value="2,1" />
 			</property>
