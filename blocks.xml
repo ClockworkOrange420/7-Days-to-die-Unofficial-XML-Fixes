@@ -1334,7 +1334,7 @@
     </property>
     <property name="DowngradeBlock" value="reinforcedWoodInsideCorner" />
 	<property class="RepairItems">
-		<property name="wood" value="10" />
+		<property name="scrapIron" value="10" />
 	</property>
     <drop event="Destroy" count="0" />
     <property name="Group" value="Building" />
@@ -2108,7 +2108,7 @@
     <property name="Material" value="stone" />
     <property name="Texture" value="340" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />
+		<property name="cobblestones" value="4" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
@@ -2121,7 +2121,7 @@
     <property name="Texture" value="340" />
     <property name="Place" value="TowardsPlacer" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />
+		<property name="cobblestones" value="4" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
@@ -2932,7 +2932,7 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="OutdoorDecor/grave_stone01" param1="main_mesh" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />
+		<property name="concreteMix" value="5" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
@@ -2943,7 +2943,7 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="OutdoorDecor/grave_stone02" param1="main_mesh" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />
+		<property name="concreteMix" value="5" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
@@ -2954,7 +2954,7 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="OutdoorDecor/grave_stone03" param1="main_mesh" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />
+		<property name="concreteMix" value="5" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
@@ -2965,7 +2965,7 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="OutdoorDecor/grave_stone04" param1="main_mesh" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />
+		<property name="concreteMix" value="5" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
@@ -2976,7 +2976,7 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="OutdoorDecor/grave_stone05" param1="main_mesh" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />
+		<property name="concreteMix" value="5" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
@@ -2987,7 +2987,7 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="OutdoorDecor/grave_stone06" param1="main_mesh" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />
+		<property name="concreteMix" value="5" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
@@ -2998,7 +2998,7 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="OutdoorDecor/grave_stone07" param1="main_mesh" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />
+		<property name="concreteMix" value="5" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
@@ -3009,7 +3009,7 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="OutdoorDecor/grave_stone08" param1="main_mesh" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />
+		<property name="concreteMix" value="5" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
@@ -3238,6 +3238,9 @@
     <property name="Material" value="stone" />
     <property name="Mesh" value="decals" />
     <property name="Texture" value="500,501,502,503,504,505" />
+	<property class="RepairItems">
+		<property name="cobblestones" value="4" />
+	</property>
   </block>
   <block id="380" name="solidWoodRampFrame">
     <property name="Extends" value="woodRampFrame" />
@@ -3306,7 +3309,7 @@
     <property name="Collide" value="movement,rocket,melee" />
 	<property name="Weight" value="16" />
 	<property class="RepairItems">
-		<property name="forgedIron" value="5" />
+		<property name="shortMetalPipe" value="5" />
 	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
@@ -3372,7 +3375,7 @@
     <property name="Shape" value="Plate" />
     <property name="Texture" value="319" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="4" />
+		<property name="concreteMix" value="5" />
 	</property>
     <drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
@@ -3494,7 +3497,7 @@
     <property name="Texture" value="189" />
     <property name="IndexName" value="lpblock" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />
+		<property name="forgedSteel" value="10" />
 	</property>
 	<property name="Group" value="Building" />
   </block>
@@ -4221,6 +4224,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_arrowhead_apache" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4229,6 +4235,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_az260_east_speed65" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4237,6 +4246,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_az260_west" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4245,6 +4257,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_az260_west_speed65" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4253,6 +4268,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_az73_north" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4261,6 +4279,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_az73_north_speed65" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4269,6 +4290,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_az73_south" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4277,6 +4301,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_az73_south_speed65" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4285,6 +4312,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_camping" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4293,6 +4323,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_camp_fish" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4301,6 +4334,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_destinations_east" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4309,6 +4345,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_destinations_west" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4317,6 +4356,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_info_center" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4325,6 +4367,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_no_hazardous_waste" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4333,6 +4378,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_right_only" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4341,6 +4389,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_road_work" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4349,6 +4400,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_rough_surface" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4357,6 +4411,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_schoolzone" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4365,6 +4422,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_slow" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4373,6 +4433,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_speed25" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4381,6 +4444,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_speed25_notrucks" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4389,6 +4455,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_speed35" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4397,6 +4466,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_speed45" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4405,6 +4477,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_speed55" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4413,6 +4488,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_speed65" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4421,6 +4499,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_stop" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4429,6 +4510,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_stop_4way" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4437,6 +4521,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_street_apache_az260" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4445,6 +4532,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_street_bell_lake" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4453,6 +4543,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_street_coronado" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4461,6 +4554,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_street_coronado_courtland" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4469,6 +4565,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_street_courtland_apache" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4477,6 +4576,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_street_courtland_az260" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4485,6 +4587,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_street_courtland_bell" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4493,6 +4598,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_street_courtland_huenink" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4501,6 +4609,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_street_courtland_maple" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4509,6 +4620,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_street_courtland_tran" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4517,6 +4631,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_street_davis" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4525,6 +4642,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_street_essig" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4533,6 +4653,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_street_lang_tran" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4541,6 +4664,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_street_private" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4549,6 +4675,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_street_tran" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4557,6 +4686,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_street_courtland_az260_2" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4565,6 +4697,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_national_park" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4573,6 +4708,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_spillway_lake" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4581,6 +4719,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_ansel_adams_river" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -4590,6 +4731,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_street_maple" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <property name="UpwardsCount" value="2" />
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
@@ -4599,6 +4743,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="OutdoorDecor/rebar" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1" prob="1.0" />
 	<property name="Weight" value="16" />
   </block>
@@ -5767,6 +5914,9 @@
 	<property name="Mesh" value="models" />
     <property name="Texture" value="282" />
     <property name="Model" value="Plumbing/fountain" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="Group" value="Decor/Miscellaneous" />
@@ -5869,7 +6019,7 @@
     <property name="Material" value="stone" />
     <property name="Texture" value="436" />
 	<property class="RepairItems">
-		<property name="wood" value="10" />
+		<property name="concreteMix" value="10" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
@@ -6490,7 +6640,7 @@
     <property name="Texture" value="170" />
     <property name="CanMobsSpawnOn" value="false" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />
+		<property name="cobblestones" value="4" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
@@ -6504,7 +6654,7 @@
     <property name="DowngradeBlock" value="solidWoodRampFrame" />
     <property name="CanMobsSpawnOn" value="false" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />
+		<property name="cobblestones" value="4" />
 	</property>
     <drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
@@ -6514,7 +6664,7 @@
     <property name="Material" value="stone" />
     <property name="Texture" value="170" />
 	<property class="RepairItems">
-		<property name="concreteMix" value="10" />
+		<property name="cobblestones" value="4" />
 	</property>
   </block>
   <block id="689" name="adobeWhitePole">
@@ -6826,15 +6976,24 @@
   <block id="715" name="wallPlasterBaseboard2">
 	<property name="Extends" value="oldWood" />
     <property name="Material" value="wood_weak" />
-    <property name="Texture" value="59" /> 
+    <property name="Texture" value="59" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />
+	</property>
   </block>
   <block id="716" name="wallPlasterMiddle2">
     <property name="Extends" value="oldWood" />
     <property name="Texture" value="58" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />
+	</property>
   </block>
   <block id="717" name="wallPlasterTop2">
     <property name="Extends" value="oldWood" />
     <property name="Texture" value="62" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />
+	</property>
   </block>
   <block id="718" name="WedgedCornerFullOldWood">
     <property name="Extends" value="woodOutsideCorner" />
@@ -6963,7 +7122,7 @@
     <property name="Material" value="stone" />
     <property name="Texture" value="173,173,173,173,174,174" />
 	<property class="RepairItems">
-		<property name="wood" value="10" />
+		<property name="concreteMix" value="10" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
@@ -7276,7 +7435,7 @@
     </property>
     <property name="DowngradeBlock" value="cobblestoneBroke01" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="5" />
+		<property name="cobblestones" value="4" />
 	</property>
     <drop event="Destroy" count="0" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
@@ -7538,11 +7697,17 @@
   <block id="817" name="bridgeAsphalt">
     <property name="Material" value="bridge_asphalt" />
     <property name="Texture" value="10" />
+	<property class="RepairItems">
+		<property name="concreteMix" value="10" />
+	</property>
 	<property name="Group" value="Building" />
   </block>
   <block id="818" name="bridgeMetalRivet">
     <property name="Material" value="bridge_metal" />
     <property name="Texture" value="46" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
 	<property name="Group" value="Building" />
   </block>
@@ -7558,6 +7723,9 @@
 	<property name="Extends" value="oldWood" />
     <property name="Material" value="bridge_wood" />
     <property name="Texture" value="241" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />
+	</property>
   </block>
   <block id="821" name="concreteTrimTanDrywall">
     <property name="Extends" value="concrete" />
@@ -7648,6 +7816,9 @@
     <property name="Material" value="wood" />
     <property name="Shape" value="Half" />
     <property name="Texture" value="241" />
+	<property class="RepairItems">
+		<property name="wood" value="5" />
+	</property>
     <drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
   </block>
@@ -7928,6 +8099,9 @@
     <property name="Texture" value="376" />
     <property name="ShapeMinBB" value="0.3,0,0.3" />
     <property name="Place" value="TowardsPlacerInverted" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
   </block>
   
@@ -8002,6 +8176,9 @@
   <block id="872" name="sidewalkFull">
     <property name="Material" value="stone" />
     <property name="Texture" value="329" />
+	<property class="RepairItems">
+		<property name="concreteMix" value="5" />
+	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
   </block>
@@ -8622,6 +8799,9 @@
     <property name="Extends" value="oldWood" />
     <property name="Texture" value="214" />
 	<property name="FuelValue" value="200" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />
+	</property>
   </block>
   <block id="953" name="woodFloor01">
     <property name="Extends" value="oldWood" />
@@ -9290,6 +9470,9 @@
     <property name="Material" value="concrete" />
     <property name="Shape" value="Wedged" />
     <property name="Texture" value="11,11,11,11,11,11" />
+	<property class="RepairItems">
+		<property name="concreteMix" value="10" />
+	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
   </block>
@@ -10126,6 +10309,9 @@
     <property name="Material" value="stone" />
     <property name="Shape" value="Wedged60Tip" />
     <property name="Texture" value="11" />
+	<property class="RepairItems">
+		<property name="cobblestones" value="4" />
+	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="Group" value="Building" />
@@ -10767,6 +10953,9 @@
     <property name="Material" value="wood" />
     <property name="Texture" value="423" />
     <drop event="Destroy" count="0" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />
+	</property>
     <property name="DowngradeBlock" value="lootCrateShamway" />
 	<property name="Group" value="Building" />
   </block>
@@ -10776,6 +10965,9 @@
     <property name="Material" value="wood" />
     <property name="Texture" value="276,437,437,437,437,437" />
     <property name="LootList" value="59" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />
+	</property>
     <drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
   </block>
@@ -10893,9 +11085,6 @@
       <property name="ItemCount" value="10" />
       <property name="UpgradeHitCount" value="4" />
     </property>
-	<property class="RepairItems">
-		<property name="wood" value="10" />
-	</property>
     <drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
   </block>
@@ -11356,6 +11545,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/gasSignPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="Group" value="Decor/Miscellaneous" />
@@ -11367,6 +11559,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/gasSignLitPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -11379,6 +11574,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/gasSignWallPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" count="0" />
 	<property name="CanMobsSpawnOn" value="false" />
 	<property name="Group" value="Decor/Miscellaneous" />
@@ -11390,6 +11588,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/gasSignLitWallPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -11402,6 +11603,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/gasSign_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -11414,6 +11618,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/gasSignLit_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -11426,6 +11633,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/gasSignWall_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -11438,6 +11648,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/gasSignLitWall_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -11450,6 +11663,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/gunStoreSignPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -11462,6 +11678,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/gunStoreSignLitPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -11474,6 +11693,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/gunStoreSignWallPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -11486,6 +11708,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/gunStoreSignLitWallPrefab" />
 	<property name="MultiBlockDim" value="3,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -11498,6 +11723,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/gunStoreSign_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -11510,6 +11738,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/gunStoreSignLit_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -11522,6 +11753,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/gunStoreSignWall_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -11534,6 +11768,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/gunStoreSignLitWall_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -11543,6 +11780,9 @@
     <property name="Material" value="wood" />
     <property name="Texture" value="423" />
     <drop event="Destroy" count="0" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />
+	</property>
     <property name="DowngradeBlock" value="lootCrateShotgunMessiah" />
 	<property name="CanMobsSpawnOn" value="false" />
 	<property name="Group" value="Building" />
@@ -12057,6 +12297,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/bookSignPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12070,6 +12313,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/bookSignLitPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12083,6 +12329,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/bookSignWallPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12096,6 +12345,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/bookSignLitWallPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12109,6 +12361,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/bookSign_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12122,6 +12377,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/bookSignLit_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12135,6 +12393,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/bookSignWall_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12148,6 +12409,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/bookSignLitWall_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12161,6 +12425,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/pharmacySignPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12174,6 +12441,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/pharmacySignLitPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12187,6 +12457,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/pharmacySignWallPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12200,6 +12473,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/pharmacySignLitWallPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12213,6 +12489,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/pharmacySign_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12226,6 +12505,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/pharmacySignLit_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12239,6 +12521,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/pharmacySignWall_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12252,6 +12537,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/pharmacySignLitWall_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12265,6 +12553,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/toolSignPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12278,6 +12569,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/toolSignLitPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12291,6 +12585,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/toolSignWallPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12304,6 +12601,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/toolSignLitWallPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12317,6 +12617,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/toolSign_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12330,6 +12633,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/toolSignLit_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12343,6 +12649,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/toolSignWall_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12356,6 +12665,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/toolSignLitWall_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12369,6 +12681,9 @@
     <property name="Collide" value="melee" />
     <drop event="Destroy" count="0" />
 	<property name="CanMobsSpawnOn" value="false" />
+	<property class="RepairItems">
+		<property name="wood" value="5" />
+	</property>
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
   
@@ -12383,6 +12698,9 @@
     <drop event="Destroy" name="candle" count="1" />
     <property name="CanPickup" value="true" param1="candle" />
 	<property name="CanMobsSpawnOn" value="false" />
+	<property class="RepairItems">
+		<property name="wood" value="5" />
+	</property>
     <property name="Group" value="Building" />
   </block>
   
@@ -12440,7 +12758,7 @@
     </property>    
     <property name="DowngradeBlock" value="cobblestoneBroke02" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="5" />
+		<property name="cobblestones" value="4" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
@@ -12458,7 +12776,7 @@
       <property name="UpgradeHitCount" value="4" />
     </property>
 	<property class="RepairItems">
-		<property name="cobblestones" value="5" />
+		<property name="cobblestones" value="4" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
@@ -12542,7 +12860,11 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="LootContainers/cash_register_empty" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="5" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1" />
+	<property name="Group" value="Decor/Miscellaneous" />
   </block>
   
   <block id="1340" name="cashRegister">
@@ -12552,6 +12874,9 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="LootContainers/cash_register" param1="main_mesh" />
     <property name="LootList" value="55" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="5" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
@@ -12622,6 +12947,9 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="LootContainers/shopping_cart_empty" param1="main_mesh" />
     <property name="IsTerrainDecoration" value="true" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="5" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
      <property name="Collide" value="movement,rocket,melee" />
@@ -12635,6 +12963,9 @@
     <property name="Model" value="LootContainers/shopping_cart" param1="main_mesh" />
     <property name="LootList" value="54" />
     <property name="IsTerrainDecoration" value="true" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="5" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
   </block>
@@ -12657,6 +12988,9 @@
     <property name="Model" value="LootContainers/shopping_basket" param1="main_mesh" />
 	<property name="CustomIcon" value="shoppingBasketEmpty" />
     <property name="LootList" value="58" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="5" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1" />
   </block>
   
@@ -12781,6 +13115,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/grocerySignPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12793,6 +13130,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/grocerySignLitPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12805,6 +13145,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/grocerySignWallPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12817,6 +13160,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/grocerySignLitWallPrefab" />
 	<property name="MultiBlockDim" value="5,1,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12829,6 +13175,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/grocerySign_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12841,6 +13190,9 @@
     <property name="Collide" value="movement,rocket,melee,bullet" />
     <property name="Model" value="Entities/Signs/grocerySignLit_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12853,6 +13205,9 @@
     <property name="Texture" value="241" />
     <property name="Model" value="Entities/Signs/grocerySignWall_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
@@ -12866,6 +13221,9 @@
     <property name="Collide" value="movement,rocket,melee" />
     <property name="Model" value="Entities/Signs/grocerySignLitWall_LargePrefab" />
 	<property name="MultiBlockDim" value="7,2,1" />
+	<property class="RepairItems">
+		<property name="scrapIron" value="10" />
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="CanMobsSpawnOn" value="false" />
