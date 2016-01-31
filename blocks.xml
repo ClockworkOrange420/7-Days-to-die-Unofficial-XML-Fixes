@@ -9721,7 +9721,7 @@
     <property name="Extends" value="concrete" />
     <property name="Texture" value="436,8,8,8,8,8" />
 	<property class="RepairItems">
-		<property name="wood" value="10" />
+		<property name="concreteMix" value="10" />
 	</property>
   </block>
   <block id="1086" name="woodPainted1">
