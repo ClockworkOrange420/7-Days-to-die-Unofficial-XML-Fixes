@@ -8058,7 +8058,7 @@
   <!-- free -->
 
   <block id="858" name="shinglesOld">
-    <property name="Extends" value="woodRamp" />
+    <property name="Extends" value="oldWood" />
     <property name="Texture" value="192" />
 	<property class="RepairItems">
 		<property name="wood" value="10" />
