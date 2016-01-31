@@ -2108,7 +2108,7 @@
     <property name="Material" value="stone" />
     <property name="Texture" value="340" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="4" />
+		<property name="concreteMix" value="10" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
@@ -2121,7 +2121,7 @@
     <property name="Texture" value="340" />
     <property name="Place" value="TowardsPlacer" />
 	<property class="RepairItems">
-		<property name="cobblestones" value="4" />
+		<property name="concreteMix" value="10" />
 	</property>
     <drop event="Destroy" name="destroyedStone" count="1" />
     <drop event="Fall" name="destroyedStone" count="1" prob="1.0"  stick_chance=".75" />
@@ -12699,7 +12699,7 @@
     <property name="CanPickup" value="true" param1="candle" />
 	<property name="CanMobsSpawnOn" value="false" />
 	<property class="RepairItems">
-		<property name="wood" value="5" />
+		<property name="wood" value="10" />
 	</property>
     <property name="Group" value="Building" />
   </block>
