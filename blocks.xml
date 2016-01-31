@@ -7526,7 +7526,7 @@
     <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
   </block>
   <block id="795" name="shinglesWood">
-    <property name="Extends" value="woodRamp" />
+    <property name="Extends" value="oldWood" />
     <property name="Texture" value="44" />
 	<property name="FuelValue" value="200" />
 	<property class="RepairItems">
