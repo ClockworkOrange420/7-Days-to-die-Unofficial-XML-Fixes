@@ -1303,7 +1303,7 @@
     
 	<!-- mountain man loot  -->
     
-    <lootcontainer id="63"  count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest"> 
+    <lootcontainer id="63"  count="1" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest"> 
 		<item group="herbalRecipes"/>
     </lootcontainer>  
     
