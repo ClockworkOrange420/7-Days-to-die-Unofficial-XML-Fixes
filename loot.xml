@@ -491,8 +491,9 @@
 		<item name="rocketLauncherSchematic"/> 
 	</lootgroup>	
 	
-	<lootgroup name="herbalRecipes" count="1">
-		<item name="herbalAntibioticsRecipe"/>
+	<lootgroup name="herbalRecipes" count="all">
+		<item name="herbalAntibioticsRecipe" count="1"/>
+		<item name="herbalAntibiotics" count="1,2"/>
 	</lootgroup>	
 	
 	<lootgroup name="gasPumps" >
@@ -1302,9 +1303,8 @@
     
 	<!-- mountain man loot  -->
     
-    <lootcontainer id="63"  count="0,1" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest"> 
-		<item group="herbalRecipes" count="1"/>	
-		<item name="herbalAntibiotics" count="1,2"/>	
+    <lootcontainer id="63"  count="1" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest"> 
+		<item group="herbalRecipes"/>
     </lootcontainer>  
     
 	<!-- gas pump loot  -->

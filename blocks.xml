@@ -7301,7 +7301,7 @@
     <property name="Texture" value="21,21,116,116,116,116" />
     <property name="FuelValue" value="400" />
     <drop event="Harvest" name="wood" count="25" />
-    <drop event="Destroy" name="wood" count="12" prob="1" />
+    <drop event="Destroy" name="wood" count="15" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="Group" value="Building" />
   </block>
