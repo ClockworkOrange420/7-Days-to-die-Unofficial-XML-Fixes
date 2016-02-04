@@ -1720,6 +1720,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <item id="202" name="yuccaFibers">
         <property name="Meshfile" value="Items/Crafting/plant_fibers" />
 		<property name="Weight" value="1" />
+		<property name="FuelValue" value="1" />
         <property name="Material" value="plants" />
         <property name="RepairTime" value="1" />
         <property name="RepairAmount" value="10" />
