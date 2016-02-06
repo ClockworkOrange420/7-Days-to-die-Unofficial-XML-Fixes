@@ -558,7 +558,7 @@
       <property name="damage_category" value="metal" />
       <property name="surface_category" value="metal" />
       <property name="Hardness" type="float" value="1" />
-      <property name="stepsound" value="wood" />
+      <property name="stepsound" value="metal" />
       <property name="stability_glue" value="36" />
       <property name="Mass" type="int" value="6" />
 	  <property name="MaxDamage" value="500" />
