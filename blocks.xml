@@ -5433,6 +5433,12 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="Buildings/brick_decayed_broke_1" param1="main_mesh" />
     <property name="Map.Color" value="94,84,75" />
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="brickDecayed" />
+		<property name="Item" value="cobblestones" />
+		<property name="ItemCount" value="5" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
 	<property class="RepairItems">
 		<property name="cobblestones" value="4" />
 	</property>
@@ -5443,6 +5449,12 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="Buildings/brick_decayed_broke_2" param1="main_mesh" />
     <property name="Map.Color" value="94,84,75" />
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="brickDecayed" />
+		<property name="Item" value="cobblestones" />
+		<property name="ItemCount" value="5" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
 	<property class="RepairItems">
 		<property name="cobblestones" value="4" />
 	</property>
@@ -5453,6 +5465,12 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="Buildings/brick_decayed_broke_3" param1="main_mesh" />  
     <property name="Map.Color" value="94,84,75" />
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="brickDecayed" />
+		<property name="Item" value="cobblestones" />
+		<property name="ItemCount" value="5" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
 	<property class="RepairItems">
 		<property name="cobblestones" value="4" />
 	</property>
@@ -5658,6 +5676,12 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Buildings/tanbrick_broke_1" param1="main_mesh" />
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="brickDecayedTan" />
+		<property name="Item" value="cobblestones" />
+		<property name="ItemCount" value="5" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
 	<property class="RepairItems">
 		<property name="cobblestones" value="4" />
 	</property>
@@ -5667,6 +5691,12 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Buildings/tanbrick_broke_2" param1="main_mesh" />
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="brickDecayedTan" />
+		<property name="Item" value="cobblestones" />
+		<property name="ItemCount" value="5" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
 	<property class="RepairItems">
 		<property name="cobblestones" value="4" />
 	</property>
@@ -5676,6 +5706,12 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Buildings/tanbrick_broke_3" param1="main_mesh" />
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="brickDecayedTan" />
+		<property name="Item" value="cobblestones" />
+		<property name="ItemCount" value="5" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
 	<property class="RepairItems">
 		<property name="cobblestones" value="4" />
 	</property>
@@ -5685,6 +5721,12 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Buildings/painted_brick_broke_1" param1="main_mesh" />
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="brickpainted" />
+		<property name="Item" value="cobblestones" />
+		<property name="ItemCount" value="5" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
 	<property class="RepairItems">
 		<property name="cobblestones" value="4" />
 	</property>
@@ -5694,6 +5736,12 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Buildings/painted_brick_broke_2" param1="main_mesh" />
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="brickpainted" />
+		<property name="Item" value="cobblestones" />
+		<property name="ItemCount" value="5" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
 	<property class="RepairItems">
 		<property name="cobblestones" value="4" />
 	</property>
@@ -5703,6 +5751,12 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Buildings/painted_brick_broke_3" param1="main_mesh" />
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="brickpainted" />
+		<property name="Item" value="cobblestones" />
+		<property name="ItemCount" value="5" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
 	<property class="RepairItems">
 		<property name="cobblestones" value="4" />
 	</property>
@@ -5712,6 +5766,12 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Buildings/concrete_trim2_broke1" param1="main_mesh" />
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="concreteTrim2" />
+		<property name="Item" value="concreteMix" />
+		<property name="ItemCount" value="5" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
 	<property class="RepairItems">
 		<property name="concreteMix" value="10" />
 	</property>
@@ -5723,6 +5783,12 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Buildings/concrete_trim2_broke2" param1="main_mesh" />
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="concreteTrim2" />
+		<property name="Item" value="concreteMix" />
+		<property name="ItemCount" value="5" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
 	<property class="RepairItems">
 		<property name="concreteMix" value="10" />
 	</property>
@@ -5734,6 +5800,12 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Buildings/concrete_trim2_broke3" param1="main_mesh" />
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="concreteTrim2" />
+		<property name="Item" value="concreteMix" />
+		<property name="ItemCount" value="5" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
 	<property class="RepairItems">
 		<property name="concreteMix" value="10" />
 	</property>
@@ -5745,6 +5817,12 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Buildings/concrete_trim2_broke4" param1="main_mesh" />
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="concreteTrim2" />
+		<property name="Item" value="concreteMix" />
+		<property name="ItemCount" value="5" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
 	<property class="RepairItems">
 		<property name="concreteMix" value="10" />
 	</property>
