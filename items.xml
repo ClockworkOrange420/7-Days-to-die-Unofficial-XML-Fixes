@@ -7131,6 +7131,8 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="Material" value="metal" />
 		<property name="Weight" value="5" />
 		<property name="HoldType" value="13" />
+		<property name="RepairTools" value="repairKit" />
+		<property name="Degradation" value="100" param1="true" />
 		<property name="LightSource" value="lightSource" />
 		<property name="ActivateObject" value="lightSource" />
 		<property class="Action0">
@@ -7152,6 +7154,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		</property>
 		<property class="Attributes">
 			<property name="DegradationMax" value="30,600" />
+			<property name="DegradationRate" value="1,1" />
 		</property>
 	</item>
     <item id="736" name="casinoCoin">
