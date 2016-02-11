@@ -16,7 +16,7 @@
 		<!-- Player Skills -->
 		<player_skill name="Athletics" icon="run" description_key="athleticsDesc" title_key="athletics">
 			<effect name="StaminaDegradation">
-				<multiply skill_level="1,99" value="1,0.75"/>
+				<multiply skill_level="1,99" value="1,0.65"/>
 				<multiply skill_level="100" value="0.5" />
 			</effect>
 		</player_skill>
