@@ -3673,7 +3673,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Meshfile" value="Items/Misc/car_battery" />
         <property name="Material" value="lead" />
         <property name="HoldType" value="21" />
-        <property name="Stacknumber" value="5" />
+        <property name="Stacknumber" value="1" />
         <property name="Weight" value="160" />
         <property name="Group" value="Resources" />
 		<property name="VehicleSlotType" value="battery"/>
@@ -7446,7 +7446,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="metal" />
         <property name="HoldType" value="45" />
-        <property name="Stacknumber" value="50" />
+        <property name="Stacknumber" value="1" />
         <property name="Degradation" value="100" param1="true" />
         <property name="Weight" value="5" />
         <property name="Group" value="Resources" />
