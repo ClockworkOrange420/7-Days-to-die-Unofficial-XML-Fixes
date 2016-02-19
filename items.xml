@@ -863,7 +863,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Stamina_usage" value="8" />
             <property name="DamageBonus.head" value="2" />
         </property>
-        <property name="Group" value="Miscellaneous" />
+        <property name="Group" value="Decor/Miscellaneous" />
     </item>
     <item id="34" name="huntingKnife">
         <property name="Meshfile" value="Items/Weapons/Melee/Knives/hunting_knife" />
@@ -2152,7 +2152,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Stacknumber" value="250" />
         <property name="FuelValue" value="1" />
         <property name="Weight" value="1" />
-        <property name="Group" value="Miscellaneous" />
+        <property name="Group" value="Decor/Miscellaneous" />
         <property class="Preview">
             <property name="Zoom" value="10" />
             <property name="Pos" value="0,-0.2" />
@@ -2167,7 +2167,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Stacknumber" value="50" />
         <property name="FuelValue" value="20" />
         <property name="Weight" value="20" />
-        <property name="Group" value="Miscellaneous" />
+        <property name="Group" value="Decor/Miscellaneous" />
         <property class="Preview">
             <property name="Zoom" value="10" />
             <property name="Pos" value="0,-0.2" />
