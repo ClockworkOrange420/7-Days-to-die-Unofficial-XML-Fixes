@@ -684,6 +684,8 @@
         <item name="plaidShirtRed"/>
         <item name="plaidShirtGreen"/>        
         <item name="plaidShirtBrown"/>
+		<item name="plaidShirtBlue"/>
+		<item name="plaidShirtBlack"/>
         <item name="footballHelmet"/>
         <item name="skullCap"/>
         <item name="skullCapRed"/>
@@ -695,7 +697,7 @@
 		<item name="pufferCoatRed"/> 	
 		<item name="pufferCoatGreen"/> 	
 		<item name="pufferCoatBrown"/> 	
-		<item name="pufferCoat"/> 			
+		<item name="pufferCoatBlack"/> 			
 	</lootgroup>
 	
 	<lootgroup name="warmClothes">
