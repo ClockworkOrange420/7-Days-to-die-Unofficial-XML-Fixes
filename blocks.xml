@@ -15103,7 +15103,13 @@
   <block id="1531" name="WindowPlug06">
     <property name="Material" value="metal_medium" />
     <property name="Shape" value="PlateCentered" />
-    <property name="Texture" value="352" />	
+    <property name="Texture" value="352" />
+	<property class="UpgradeBlock">
+      <property name="ToBlock" value="concreteBarrier" />
+      <property name="Item" value="concreteMix" />
+      <property name="ItemCount" value="10" />
+      <property name="UpgradeHitCount" value="4" />
+    </property> 
     <property name="DowngradeBlock" value="WindowPlug05" />
     <drop event="Destroy" count="0" />
 	<property class="RepairItems">
