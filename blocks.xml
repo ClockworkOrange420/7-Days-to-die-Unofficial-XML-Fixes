@@ -3084,7 +3084,7 @@
 	</property>
 	<property name="DowngradeBlock" value="deskSafeInsecure" />
 	<drop event="Destroy" count="0" prob="1" />
-	<drop event="Fall" name="deskSafe" count="1" prob="1.0"  stick_chance=".75" />
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
   <block id="367" name="wallSafe">
