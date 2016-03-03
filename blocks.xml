@@ -4690,7 +4690,7 @@
 	<property name="Group" value="Decor/Miscellaneous" />
   </block>
   <block id="513" name="signNationalPark">
-    <property name="Material" value="metal_medium" />
+    <property name="Material" value="wood+wood" />
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Signs/sign_national_park" param1="main_mesh" />
