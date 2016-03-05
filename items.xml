@@ -2817,8 +2817,6 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="RepairTools" value="wood" />
         <property name="Degradation" value="250" param1="true" />
         <property name="FuelValue" value="40" />
-		<property name="ActionSkillGroup" value="Archery"/>
-		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
         <property class="Action0">
             <!-- AttackAction -->
             <property name="Class" value="Launcher" />
