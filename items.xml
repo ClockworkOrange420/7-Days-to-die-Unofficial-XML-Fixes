@@ -6249,6 +6249,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Stacknumber" value="250" /> <!-- STK resource -->
 	<property name="FuelValue" value="5" />
 	<property name="Group" value="Resources" />
+	<property name="Weight" value="5" />
 	<property name="CraftingIngredientTime" value="2" />
 	<property name="CraftingSkillGroup" value="Leatherworking"/>
 </item>
