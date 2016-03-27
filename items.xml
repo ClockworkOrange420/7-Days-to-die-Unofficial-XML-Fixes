@@ -6245,7 +6245,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 <item id="1312" name="animalHide">
 	<property name="Meshfile" value="Items/Crafting/animal_hidePrefab" />
 	<property name="Material" value="animalHide" />
-	<property name="RepairAmount" value="20" />
+	<property name="RepairAmount" value="25" />
 	<property name="HoldType" value="21" />
 	<property name="Stacknumber" value="250" /> <!-- STK resource -->
 	<property name="FuelValue" value="5" />
