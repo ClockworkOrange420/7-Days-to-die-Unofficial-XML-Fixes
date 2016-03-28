@@ -64,7 +64,7 @@
 	<property name="Class" value="EntityPlayer" />
 	<property name="HasRagdoll" value="true" />
 	<property name="RagdollOnDeathChance" value="0"/>
-	<property name="HasDeathAnim" value="true" />>
+	<property name="HasDeathAnim" value="true" />
 	<property name="Prefab" value="Player" />
 	<property name="Mesh" value="Player/Female/player_femaleRagdoll" />
 	<property name="AvatarController" value="AvatarUMAController" />
