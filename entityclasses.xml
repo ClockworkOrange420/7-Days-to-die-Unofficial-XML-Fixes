@@ -602,7 +602,6 @@
 	<property name="HasDeathAnim" value="true" />
 	<property name="MaxHealth" value="700" />
 	<property name="Weight" value="70" />
-	<property name="PushFactor" value="20" />
 	<property name="LootListOnDeath" value="17" />
 	<property name="AITask-1" value="BreakDoor" />
 	<property name="AITask-2" value="BreakBlock" />
@@ -673,7 +672,6 @@
 	<property name="Weight" value="20" />
 	<property name="PushFactor" value="10" />
 	<property name="Immunity" value="sickness;disease;bleeding;wellness" />
-	<property name="PushFactor" value="10" />
 	<property name="WanderSpeed" value="0.08" />
 	<property name="ApproachSpeed" value="0.2" />
 	<property name="NightWanderSpeed" value="0.08" />
