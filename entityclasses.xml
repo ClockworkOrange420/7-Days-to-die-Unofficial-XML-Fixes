@@ -1238,7 +1238,6 @@
 	<property name="AvatarController" value="AvatarZombie01Controller" />
 	<property name="PhysicsBody" value="zombieStandard" />
 	<property name="HasDeathAnim" value="true" />
-	<property name="WanderSpeed" value="0.08" />
 	<property name="UMA.EquipmentSlot.Head" value="0" param1="female_base_face" param2="female_head" />
 	<property name="UMA.EquipmentSlot.Eyes" value="0" param1="female_base_eyes" param2="unisex_eyes" />
 	<property name="UMA.EquipmentSlot.Face" value="0" param1="female_base_eyelashes" param2="female_eyelashes" />
