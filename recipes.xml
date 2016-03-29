@@ -366,7 +366,7 @@ tooltip?
 
 <recipe name="bellows" count="1" scrapable="False">
 	<ingredient name="wood" count="8"/>
-	<ingredient name="animalHide" count="24"/>
+	<ingredient name="animalHide" count="20"/>
 	<ingredient name="shortMetalPipe" count="1"/>
 </recipe>
 
@@ -817,7 +817,7 @@ tooltip?
 	<ingredient name="concreteMix" count="10"/>
 </recipe>
 
-<recipe name="concreteMix" count="1" scrapable="False" craft_area="backpack">
+<recipe name="concreteMix" count="1" scrapable="False">
 	<ingredient name="crushedSand" count="1"/>
 	<ingredient name="rockSmall" count="2"/>
 	<ingredient name="cement" count="1"/>
@@ -1759,6 +1759,11 @@ tooltip?
 
 <recipe name="shovelIron" count="1" scrapable="False">
 	<ingredient name="forgedIron" count="4"/>
+	<ingredient name="wood" count="5"/>
+</recipe>
+
+<recipe name="shovelSteel" count="1" scrapable="False">
+	<ingredient name="forgedSteel" count="5"/>
 	<ingredient name="wood" count="5"/>
 </recipe>
 
