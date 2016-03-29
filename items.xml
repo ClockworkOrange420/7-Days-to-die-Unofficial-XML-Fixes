@@ -2915,8 +2915,8 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Insulation" value="7"/>
 	<property name="Waterproof" value="0.16"/>
 	<property name="Encumbrance" value="0.02" />
-	<property name="Material" value="leather" />
-	<property name="RepairTools" value="leather" />
+	<property name="Material" value="animalHide" />
+	<property name="RepairTools" value="animalHide" />
 	<property name="DegradationBreaksAfter" value="false" />
 	<property name="FuelValue" value="20" />
 	<property name="EquipSlot" value="Feet" />
@@ -3857,8 +3857,8 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Waterproof" value="0.2"/>
 	<property name="Meshfile" value="Items/Misc/sackPrefab" />
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-	<property name="Material" value="leather" />
-	<property name="RepairTools" value="leather" />
+	<property name="Material" value="animalHide" />
+	<property name="RepairTools" value="animalHide" />
 	<property name="HoldType" value="45" />
  	<property name="DegradationBreaksAfter" value="false" />
 	<property name="EquipSlot" value="Chest" />
