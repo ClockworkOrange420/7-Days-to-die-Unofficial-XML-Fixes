@@ -75,7 +75,12 @@
 		<spawn maxcount="2" respawndelay="4" time="Any" entitygroup="SnowZombies" />
 		
        	<spawn maxcount="1" respawndelay="8" time="Any" entitygroup="AnimalsAll" spawnDeadChance="0" />
-	</biome>		
+	</biome>
+	
+	<biome name="water">
+		<spawn maxcount="3" respawndelay="4" time="Day"   entitygroup="ZombiesAll" />
+       	<spawn maxcount="1" respawndelay="8" time="Any" entitygroup="AnimalsAll" spawnDeadChance="0" />
+	</biome>
 	
 
   <!-- Entity spawner classes -->
