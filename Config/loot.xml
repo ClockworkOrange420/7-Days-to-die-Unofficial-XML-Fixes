@@ -505,7 +505,7 @@
 
 <lootgroup name="militaryguns+ammo">
 	<item group="militaryWeaponParts" />
-	<item group="Ak47+ammo" prob="0.03" />
+	<item group="AK47+ammo" prob="0.03" />
 	<item group="mp5+ammo" prob="0.03" />
 	<item group="sniperRifle+ammo" prob="0.03" />
 	<item group="rocketLauncher+ammo" prob="0.01"/>
