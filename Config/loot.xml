@@ -338,6 +338,11 @@
 	<item name="shotgunShell" count="1,6"/>
 </lootgroup>
 
+<lootgroup name="AK47+ammo" count="all">
+	<item name="gunAK47"/>
+	<item name="762mmBullet" count="1,20"/>
+</lootgroup>
+
 <lootgroup name="mp5+ammo" count="all">
 	<item name="gunMP5"/>
 	<item name="10mmBullet" count="1,20"/>
@@ -500,6 +505,7 @@
 
 <lootgroup name="militaryguns+ammo">
 	<item group="militaryWeaponParts" />
+	<item group="Ak47+ammo" prob="0.03" />
 	<item group="mp5+ammo" prob="0.03" />
 	<item group="sniperRifle+ammo" prob="0.03" />
 	<item group="rocketLauncher+ammo" prob="0.01"/>
