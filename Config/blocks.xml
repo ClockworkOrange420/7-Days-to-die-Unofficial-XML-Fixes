@@ -52,7 +52,6 @@ then add recipes for those white/red/green metals
 	<property name="Shape" value="Terrain" />
 	<property name="Mesh" value="terrain" />
 	<property name="Texture" value="0,2,0,0,0,0" />
-	<drop event="Destroy" name="fertileDirt" />
 	<property name="DropScale" value="2" />
 	<property name="LPHardnessScale" value="4" />
 	<property name="Map.Color" value="55,79,58" />
@@ -67,7 +66,6 @@ then add recipes for those white/red/green metals
 	<property name="Shape" value="Terrain" />
 	<property name="Mesh" value="terrain" />
 	<property name="Texture" value="2" />
-	<drop event="Destroy" name="fertileDirt" />
 	<property name="DropScale" value="2" />
 	<property name="LPHardnessScale" value="2" />
 	<drop event="Destroy" name="fertileDirt" />
@@ -4066,7 +4064,7 @@ kind of free
 	<property name="HeatMapStrength" value="2"/>
 	<property name="HeatMapTime" value="1200"/>
 	<property name="HeatMapFrequency" value="25"/>
-	<!-- <property name="BuffsWhenWalkedOn" value="burningSmall"/>      SDTD-3320: class "Forge" does not support the required behaviour -->
+	<property name="BuffsWhenWalkedOn" value="burningSmall"/>
 	<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
 	<property class="RepairItems">
 		<property name="rockSmall" value="50" />
@@ -10684,7 +10682,7 @@ kind of free
 
 <block id="1453" name="cntCar03Blue">
 	<property name="Material" value="metal" />
-	<property name="Class" value="Loot" />
+	<property name="Class" value="CarExplodeLoot" />
 	<property name="LootList" value="19" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="26" />
@@ -10702,11 +10700,18 @@ kind of free
 	<property name="DowngradeBlock" value="cntCar03BlueDamage1" />
 	<property name="BigDecorationRadius" value="5" />
 	<property name="CanDecorateOnSlopes" value="false" />
+	<property class="Explosion">
+		<property name="ParticleIndex" value="4" /> <!-- which prefab/particle is used -->
+		<property name="RadiusBlocks" value="5" /> <!-- damage radius for blocks -->
+		<property name="BlockDamage" value="5000" /> <!-- damage for blocks in the center of the explosion -->
+		<property name="RadiusEntities" value="5" /> <!-- damage radius for entities -->
+		<property name="EntityDamage" value="100" /> <!-- damage for entities in the center of the explosion -->
+	</property>
 </block>
 
 <block id="1454" name="cntCar03BlueDamage1">
 	<property name="Material" value="metal" />	
-	<property name="Class" value="Loot" />	
+	<property name="Class" value="CarExplodeLoot" />	
 	<property name="LootList" value="19" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="26" />
@@ -10725,6 +10730,13 @@ kind of free
 	<property name="DowngradeBlock" value="cntCar03Damage2" />
 	<property name="BigDecorationRadius" value="5" />
 	<property name="CanDecorateOnSlopes" value="false" />
+	<property class="Explosion">
+		<property name="ParticleIndex" value="4" /> <!-- which prefab/particle is used -->
+		<property name="RadiusBlocks" value="5" /> <!-- damage radius for blocks -->
+		<property name="BlockDamage" value="5000" /> <!-- damage for blocks in the center of the explosion -->
+		<property name="RadiusEntities" value="5" /> <!-- damage radius for entities -->
+		<property name="EntityDamage" value="100" /> <!-- damage for entities in the center of the explosion -->
+	</property>
 </block>
 
 <block id="1455" name="cntCar03Damage2">
@@ -11468,13 +11480,15 @@ kind of free
 	<property name="HeatMapFrequency" value="25"/>
 	<!--<property name="CraftTimeMultiplier" value="0.5,1"/>-->
 	<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
-	<property class="RepairItems"><property name="forgedIron" value="50" /></property>
+	<property class="RepairItems">
+		<property name="forgedIron" value="50" /></property>
 	<drop event="Destroy" name="[recipe]" count="1" />
 	<property name="Group" value="Building" />
 	<property class="Workstation">
-	<property name="Modules" value="output"/>
+		<property name="Modules" value="output"/>
 	</property>
 	<property name="DescriptionKey" value="cementMixerDesc"/>
+	<property name="StabilitySupport" value="false" />
 </block>
 	<!--
 
