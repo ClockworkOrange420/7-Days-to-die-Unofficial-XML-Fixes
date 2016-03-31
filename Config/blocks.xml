@@ -3911,9 +3911,12 @@ kind of free
 	<property name="Mesh" value="models" />
 	<property name="Texture" value="282" />
 	<property name="Model" value="Furniture/office_chair01" param1="main_mesh" />
+	<property name="CanPickup" value="true" />
 	<property name="FuelValue" value="90" />
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
-	<drop event="Destroy" name="officeChair01" count="1" />
+	<drop event="Harvest" name="wood" count="2" />
+	<drop event="Harvest" name="leather" count="2" />
+	<drop event="Destroy" count="0" />
 </block>
 
 <block id="522" name="storeShelving01">
@@ -3983,6 +3986,8 @@ kind of free
 	<property name="FuelValue" value="32" />
 	<property name="CanPickup" value="true" />
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<drop event="Harvest" name="wood" count="2" />
+	<drop event="Destroy" count="0" prob="1" />
 </block>
 
 <block id="548" name="endTableLamp">
@@ -3994,6 +3999,8 @@ kind of free
 	<property name="FuelValue" value="32" />
 	<property name="CanPickup" value="true" />
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<drop event="Harvest" name="wood" count="2" />
+	<drop event="Destroy" count="0" prob="1" />
 </block>
 
 <block id="549" name="sectionalArm2">
