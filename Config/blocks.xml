@@ -865,6 +865,7 @@ group desc for stuff like metal siding
 <block id="156" name="solidScrapIronFrameWedge">
 	<property name="Extends" value="scrapIronFrameWedge" />
 	<property name="CustomIcon" value="scrapIronFrameWedge" />
+	<property name="CanPickup" value="false" />
 </block>
 
 <block id="157" name="scrapIronWedge">
@@ -1269,6 +1270,7 @@ group desc for stuff like metal siding
 <block id="213" name="solidScrapIronFrameBlock">
 	<property name="Extends" value="scrapIronFrameBlock" />
 	<property name="CustomIcon" value="scrapIronFrameBlock" />
+	<property name="CanPickup" value="false" />
 </block>
 
 <block id="214" name="scrapIronFrameCNRInside">
@@ -1288,6 +1290,7 @@ group desc for stuff like metal siding
 <block id="216" name="solidScrapIronFrameCNRInside">
 	<property name="Extends" value="scrapIronFrameCNRInside" />
 	<property name="CustomIcon" value="scrapIronFrameCNRInside" />
+	<property name="CanPickup" value="false" />
 </block>
 
 <block id="217" name="rScrapIronCNRInside">
@@ -1469,6 +1472,7 @@ group desc for stuff like metal siding
 <block id="241" name="solidScrapIronFrameRamp">
 	<property name="Extends" value="scrapIronFrameRamp" />
 	<property name="CustomIcon" value="scrapIronFrameRamp" />
+	<property name="CanPickup" value="false" />
 </block>
 
 <block id="242" name="scrapIronRamp">
