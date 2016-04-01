@@ -9848,7 +9848,7 @@ kind of free
   <block id="1355" name="homelyFurRug">
 	<property name="Extends" value="furRugBlock" />
 	<property name="BuffsWhenWalkedOn" value="sleepingBagTrigger"/>
-	<property name="Group" value="Decor" />
+	<property name="Group" value="Decor/Miscellaneous" />
   </block>
 -->
 
@@ -10316,7 +10316,7 @@ kind of free
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
-	<property name="Group" value="Decor" />
+	<property name="Group" value="Decor/Miscellaneous" />
 </block>
 
 <block id="1417" name="redWoodTable">
