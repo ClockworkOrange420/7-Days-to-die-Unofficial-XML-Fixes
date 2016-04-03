@@ -481,6 +481,7 @@
 	<item name="partsRocketLauncher_parts"/>
 	<item name="smgSchematics"/>
 	<item name="ak47Schematic"/>
+	<item name="sniperRifleSchematic"/>
 	<item name="rocketLauncherSchematic"/>
 </lootgroup>
 

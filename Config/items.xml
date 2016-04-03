@@ -7201,7 +7201,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 
 <item id="1464" name="unit_stone">
 	<property name="Extends" value="unit_iron" />
-	<property name="CustomIcon" value="cobblestones" />
+	<property name="CustomIcon" value="rockSmall" />
 	<property name="Material" value="stone" />
 	<property name="IsDeveloper" value="true" />
 </item>
