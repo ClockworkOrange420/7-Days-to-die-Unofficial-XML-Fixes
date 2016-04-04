@@ -314,7 +314,7 @@ tooltip?
 	<ingredient name="cloth" count="10"/>
 </recipe>
 
-<recipe name="baconAndEggs" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingGrill">
+<recipe name="baconAndEggs" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot">
 	<ingredient name="egg" count="2"/>
 	<ingredient name="rawMeat" count="1"/>
 </recipe>

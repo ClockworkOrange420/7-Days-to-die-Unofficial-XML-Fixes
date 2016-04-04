@@ -194,7 +194,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Delay" value="0.5" />
 		<property name="Blockname" value="wallTorch" />
 	</property>
-	<property name="Group" value="Building,Basics" />
+	<property name="Group" value="Basics,Decor/Miscellaneous" />
 	<property name="DescriptionKey" value="torchDesc"/>
 </item>
 
@@ -6432,7 +6432,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="Material" value="stone" />
 	<property name="HoldType" value="45" />
 	<property name="Stacknumber" value="1000" /> <!-- STK resource -->
-	<property name="Group" value="Building" />
+	<property name="Group" value="Building,Resources" />
 </item>
 
 <item id="1324" name="concreteMix">
@@ -6999,6 +6999,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 		<property name="Delay" value="0.5" />
 		<property name="Blockname" value="candleWall" />
 	</property>
+	<property name="Group" value="Basics,Decor/Miscellaneous" />
 </item>
 
 <item id="1431" name="smallEngine">
