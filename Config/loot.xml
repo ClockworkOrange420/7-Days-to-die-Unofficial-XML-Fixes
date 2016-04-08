@@ -521,7 +521,6 @@
 	<item name="firstAidKitSchematic"/>
 	<item name="flamingArrowSchematic"/>
 	<item name="gasCanSchematic"/>
-	<item name="handleBarsSchematic"/>
 	<item name="ironBootsSchematic"/>
 	<item name="ironChestArmorSchematic"/>
 	<item name="ironGlovesSchematic"/>
@@ -537,6 +536,7 @@
 	<item name="theEnforcerMagazine"/>
 	<item group="questChallenge" count="1"/>
 	<!--
+	<item name="handleBarsSchematic"/>
 	<item name="theRiddleOfSteel"/>
 	<item name="setInConcrete"/>
 	<item name="10mmBulletSchematic"/>
@@ -1323,6 +1323,9 @@
 	<item group="airdropMedicine"/>
 	<item group="herbalRecipes"/>
 	<item group="questChallenge"/>
+	<item name="calipers" prob="0.075"/> <!-- = 5% -->
+	<item name="toolAndDieSet" prob="0.075"/>
+	<item name="bloodDrawKit" prob="0.03"/>
 </lootcontainer>
 
 </lootcontainers>
