@@ -10305,7 +10305,6 @@ kind of free
 	<property name="Texture" value="214" />
 	<property name="MaxDamage" value="300" />
 	<property name="FuelValue" value="120" />
-	<property class="RepairItems"> <property name="wood" value="15" /> </property>
 </block>
 
 <block id="1418" name="rScrapIronTable">
