@@ -4679,6 +4679,7 @@ kind of free
 		<property name="ItemCount" value="10" />
 		<property name="UpgradeHitCount" value="4" />
 	</property>
+	<property class="RepairItems"> <property name="concreteMix" value="10" /> </property>
 </block>
 
 <block id="609" name="concreteTrim2Broke2">
@@ -4690,6 +4691,7 @@ kind of free
 		<property name="ItemCount" value="10" />
 		<property name="UpgradeHitCount" value="4" />
 	</property>
+	<property class="RepairItems"> <property name="concreteMix" value="10" /> </property>
 </block>
 
 <block id="610" name="concreteTrim2Broke3">
@@ -4701,6 +4703,7 @@ kind of free
 		<property name="ItemCount" value="10" />
 		<property name="UpgradeHitCount" value="4" />
 	</property>
+	<property class="RepairItems"> <property name="concreteMix" value="10" /> </property>
 </block>
 
 <block id="611" name="concreteTrim2Broke4">
@@ -4712,6 +4715,7 @@ kind of free
 		<property name="ItemCount" value="10" />
 		<property name="UpgradeHitCount" value="4" />
 	</property>
+	<property class="RepairItems"> <property name="concreteMix" value="10" /> </property>
 </block>
 
 <block id="612" name="whiteSidingWoodPanelBurnt1">
@@ -11402,7 +11406,6 @@ kind of free
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Industrial/electrical_box01" param1="main_mesh" />
 	<property name="Place" value="TowardsPlacerInverted" />
-	<property class="RepairItems"><property name="scrapIron" value="5" /></property>
 </block>
 
 <block id="1555" name="asphaltCracked">
