@@ -403,7 +403,7 @@
 
 
 	
-	<entityspawner name="RoamingHordeSpawnDay" dynamic="true" wrapMode="wrap">
+	<entityspawner name="RoamingHordeSpawnDay" dynamic="true">
 		<day value="1">
 			<property name="EntityGroupName"    value="ZombiesAll" />
 			<property name="Time"               value="Any" />
@@ -5705,7 +5705,7 @@
 		</day>
 	</entityspawner>
 	
-	<entityspawner name="RoamingHordeSpawnNight" dynamic="true" wrapMode="wrap">
+	<entityspawner name="RoamingHordeSpawnNight" dynamic="true">
 		<day value="1">
 			<property name="EntityGroupName"    value="ZombiesAll" />
 			<property name="Time"               value="Any" />
