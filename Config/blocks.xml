@@ -2190,7 +2190,6 @@ group desc for stuff like metal siding
 	<property name="Material" value="glass" />
 	<property name="StabilitySupport" value="false" />
 	<property name="Model" value="Entities/Lighting/porchLight04BrassPrefab" />
-	<property name="Model" value="Entities/Lighting/ceilingLight01Prefab" />
 	<drop event="Destroy" count="0" />
 </block>
 
