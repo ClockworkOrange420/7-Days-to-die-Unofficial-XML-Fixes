@@ -158,7 +158,7 @@
 	<property name="SoundHurt" value="Enemies/Base_Zombie_Male/zombiemalepain" />
 	<property name="SoundDeath" value="Enemies/Base_Zombie_Male/zombiemaledeath" />
 	<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack" />
-	<property name="TimeStayAfterDeath" value="60" />
+	<property name="TimeStayAfterDeath" value="300" />
 	<property name="AttackTimeoutDay" value="1.5" />
 	<!-- in s -->
 	<property name="AttackTimeoutNight" value="1.1" />
@@ -167,9 +167,6 @@
 	<property name="CorpseBlockChance" value="1"/>
 	<property name="ExperienceGain" value="100"/>
 	<property name="DeadBodyHitPoints" value="150" /> <!-- For harvesting -->
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".33" />
-
 	<property name="RootMotion" value="true" />
 	<property name="HasDeathAnim" value="true" />
 	<property name="ExperienceGain" value="100"/>
@@ -218,8 +215,6 @@
 	<property name="LootListOnDeath" value="61" />
 	<property name="PhysicsBody" value="zombieStandardFemale" />
 	<property name="DeadBodyHitPoints" value="150" /> <!-- For harvesting. Note that "Harvest" events do NOT extend. -->
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".33" />
 </entity_class>
 
 <entity_class name="zombieBoe" extends="zombie01">
@@ -239,8 +234,6 @@
 	<property name="RootMotion" value="true" />
 	<property name="HasDeathAnim" value="true" />
 	<property name="DeadBodyHitPoints" value="150" />
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".33" />
 </entity_class>
 
 <entity_class name="zombieJoe" extends="zombie01">
@@ -253,8 +246,6 @@
 	<property name="RootMotion" value="true" />
 	<property name="HasDeathAnim" value="true" />
 	<property name="DeadBodyHitPoints" value="150" /> <!-- For harvesting -->
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".33" />
 </entity_class>
 
 <entity_class name="zombieMoe" extends="zombie01">
@@ -279,8 +270,6 @@
 	<property name="HasDeathAnim" value="true" />
 	<property name="LootListOnDeath" value="38" />
 	<property name="DeadBodyHitPoints" value="150" /> <!-- For harvesting -->
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="3" />
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="2" prob=".3" />
 </entity_class>
 
 <entity_class name="zombieArlene" extends="zombie01">
@@ -303,8 +292,6 @@
 	<property name="HasDeathAnim" value="true" />
 	<property name="LootListOnDeath" value="38" />
 	<property name="DeadBodyHitPoints" value="150" /> <!-- For harvesting -->
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".33" />
 </entity_class>
 
 <entity_class name="zombieScreamer" extends="zombie01">
@@ -327,8 +314,6 @@
 	<property name="HasDeathAnim" value="true" />
 	<property name="LootListOnDeath" value="38" />
 	<property name="DeadBodyHitPoints" value="150" /> <!-- For harvesting -->
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".33" />
 </entity_class>
 
 <entity_class name="zombieDarlene" extends="zombie01">
@@ -351,8 +336,6 @@
 	<property name="HasDeathAnim" value="true" />
 	<property name="LootListOnDeath" value="38" />
 	<property name="DeadBodyHitPoints" value="150" /> <!-- For harvesting -->
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".33" />
 </entity_class>
 
 <entity_class name="zombieMarlene" extends="zombie01">
@@ -375,8 +358,6 @@
 	<property name="HasDeathAnim" value="true" />
 	<property name="LootListOnDeath" value="38" />
 	<property name="DeadBodyHitPoints" value="150" /> <!-- For harvesting -->
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".33" />
 </entity_class>
 
 <entity_class name="zombieYo" extends="zombie01">
@@ -389,8 +370,6 @@
 	<property name="RootMotion" value="true" />
 	<property name="HasDeathAnim" value="true" />
 	<property name="DeadBodyHitPoints" value="150" /> <!-- For harvesting -->
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".33" />
 </entity_class>
 
 <entity_class name="zombieSteve" extends="zombie01">
@@ -402,8 +381,6 @@
 	<property name="PhysicsBody" value="zombieStandardFemale" />
 	<property name="RootMotion" value="true" />
 	<property name="DeadBodyHitPoints" value="150" /> <!-- For harvesting -->
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".33" />
 </entity_class>
 
 <entity_class name="zombieSteveCrawler" extends="zombie01">
@@ -418,8 +395,6 @@
 	<property name="PhysicsBody" value="zombieStandard" />
 	<property name="RootMotion" value="true" />
 	<property name="DeadBodyHitPoints" value="150" /> <!-- For harvesting -->
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".33" />
 </entity_class>
 
 <entity_class name="snowzombie" extends="zombie01">
@@ -442,8 +417,6 @@
 	<property name="HandItem" value="handCopZombie" />
 	<property name="ExperienceGain" value="300"/>
 	<property name="DeadBodyHitPoints" value="150" /> <!-- For harvesting -->
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".33" />
 </entity_class>
 
 <entity_class name="spiderzombie" extends="zombie01">
@@ -469,8 +442,6 @@
 	<property name="PanicSpeed" value="1.2" />
 	<property name="ExperienceGain" value="200"/>
 	<property name="DeadBodyHitPoints" value="150" /> <!-- For harvesting -->
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".33" />
 	<property name="HeadDismemberThreshold" value="0"/> <!-- if the total damage exceeds that value, there is a chance for dismemberment /> -->
 	<property name="LowerLegDismemberThreshold" value="0"/>
 	<property name="UpperLegDismemberThreshold" value="0"/>
@@ -496,8 +467,6 @@
 	<property name="ExperienceGain" value="150"/>
 	<property name="DeadBodyHitPoints" value="150" /> <!-- For harvesting -->
 	<drop event="Harvest" name="charredMeat" tool_category="Butcher" count="1" prob=".08" />
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".33" />
 </entity_class>
 
 <entity_class name="zombieNurse" extends="zombie01">
@@ -519,8 +488,6 @@
 	<property name="HasDeathAnim" value="true" />
 	<property name="LootListOnDeath" value="21" />
 	<property name="DeadBodyHitPoints" value="150" /> <!-- For harvesting -->
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".33" />
 </entity_class>
 
 <entity_class name="fatzombiecop" extends="zombie01">
@@ -569,8 +536,6 @@
 	<property name="KnockdownProneDamageThreshold" value="0"/>
 	<property name="KnockdownKneelDamageThreshold" value="0"/>
 	<property name="DeadBodyHitPoints" value="200" /> <!-- For harvesting -->
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="4" />
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob="1" />
 </entity_class>
 
 <entity_class name="hornet">
@@ -631,7 +596,7 @@
 	<property name="ExperienceGain" value="120"/>
 	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
 	<property name="CorpseBlockChance" value="0"/>
-	<property name="TimeStayAfterDeath" value="60" />
+	<property name="TimeStayAfterDeath" value="300" />
 	<property name="DeadBodyHitPoints" value="80" /> <!-- For harvesting -->
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
 	<drop event="Harvest" name="foodHoney" tool_category="Butcher" count="1" prob="1" />
@@ -672,8 +637,6 @@
 	<property name="SoundAttack" value="Enemies/Zombie_Dogs/zombiedogattack" />
 	<property name="SoundSense" value="Enemies/Zombie_Dogs/zombiedogsense" />
 	<property name="SoundGiveUp" value="Enemies/Zombie_Dogs/zombiedoggiveup" />
-	<!--property name="LootListOnDeath" value="12" /-->
-	<!-- Need to remove this when we want to harvest the entity ! -->
 	<property name="ExperienceGain" value="300"/>
 	<property name="Immunity" value="sickness;disease;bleeding;wellness" />
 	<property name="Weight" value="70" />
@@ -695,7 +658,7 @@
 	<property name="CorpseBlock" value="animalGore"/>
 	<property name="CorpseBlockChance" value="0"/>
 	<property name="ParticleOnDestroy" value="blood_death" />
-	<property name="TimeStayAfterDeath" value="60" />
+	<property name="TimeStayAfterDeath" value="300" />
 	<property name="DeadBodyHitPoints" value="150" /> <!-- For harvesting -->
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="4" />
 	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="4" />
@@ -803,9 +766,7 @@
 	<property name="ParticleOnDeath" value="blood_death" />
 	<property name="SoundHurt" value="Animals/stagpain" />
 	<property name="SoundDeath" value="Animals/stagdeath" />
-	<!--property name="LootListOnDeath" value="12" /-->
-	<!-- Need to remove this when we want to harvest the entity ! -->
-	<property name="TimeStayAfterDeath" value="120" />
+	<property name="TimeStayAfterDeath" value="300" />
 	<!-- Set this if you want this entity to be spawned when user chooses 'enemy entities off' -->
 	<property name="IsEnemyEntity" value="false" />
 	<property name="ExperienceGain" value="150"/>
@@ -872,9 +833,7 @@
 	<property name="SoundSense" value="Animals/Bear/bearsense" />
 	<property name="SoundGiveUp" value="Animals/Bear/beargiveup" />
 	<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep" />
-	<!--property name="LootListOnDeath" value="65" /-->
-	<!-- Need to remove this when we want to harvest the entity ! -->
-	<property name="TimeStayAfterDeath" value="120" />
+	<property name="TimeStayAfterDeath" value="300" />
 	<!-- Set this if you want this entity to be spawned when user chooses 'enemy entities off' -->
 	<property name="IsEnemyEntity" value="true" />
 	<property name="ExperienceGain" value="500"/>
@@ -940,9 +899,7 @@
 	<property name="SoundSense" value="Animals/Bear/bearsense" />
 	<property name="SoundGiveUp" value="Animals/Bear/beargiveup" />
 	<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep" />
-	<!--property name="LootListOnDeath" value="65" /-->
-	<!-- Need to remove this when we want to harvest the entity ! -->
-	<property name="TimeStayAfterDeath" value="120" />
+	<property name="TimeStayAfterDeath" value="300" />
 	<!-- Set this if you want this entity to be spawned when user chooses 'enemy entities off' -->
 	<property name="IsEnemyEntity" value="true" />
 	<property name="ExperienceGain" value="500"/>
@@ -975,8 +932,6 @@
 	<property name="SoundHurt" value="Animals/rabbitpain" />
 	<property name="SoundDeath" value="Animals/rabbitdeath" />
 	<property name="PanicSpeed" value="1.5" />
-	<!--property name="LootListOnDeath" value="13" /-->
-	<!-- Need to remove this when we want to harvest the entity ! -->
 	<property name="CorpseBlockChance" value="0"/>
 	<property name="ExperienceGain" value="150"/>
 	<!-- For harvesting -->
@@ -997,8 +952,6 @@
 	<property name="SoundHurt" value="Animals/Chicken/chickenpain" />
 	<property name="SoundDeath" value="Animals/Chicken/chickendeath" />
 	<property name="PanicSpeed" value="1" />
-	<!--property name="LootListOnDeath" value="13" /-->
-	<!-- Need to remove this when we want to harvest the entity ! -->
 	<property name="CorpseBlockChance" value="0"/>
 	<property name="ExperienceGain" value="150"/>
 	<!-- For harvesting -->
@@ -1017,8 +970,6 @@
 	<property name="Parent" value="Animals" />
 	<property name="SoundHurt" value="Animals/pigpain" />
 	<property name="SoundDeath" value="Animals/pigdeath" />
-	<!--property name="LootListOnDeath" value="18" /-->
-	<!-- Need to remove this when we want to harvest the entity ! -->
 	<property name="PanicSpeed" value="1.2" />
 	<property name="PhysicsBody" value="pig" />
 	<property name="ExperienceGain" value="150"/>
@@ -1169,13 +1120,11 @@
 	<property name="UMA.EquipmentSlot.Legs" value="0" param1="female_armor_hazmat_legs" param2="female_torso" />
 	<property name="UMA.EquipmentSlot.Feet" value="0" param1="female_armor_hazmat_feet" param2="female_feet" />
 	<property name="ExperienceGain" value="120"/>
-	<property name="TimeStayAfterDeath" value="60" />
+	<property name="TimeStayAfterDeath" value="300" />
 	<property name="LootListOnDeath" value="15" />
 	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
 	<property name="CorpseBlockChance" value="1"/>
 	<property name="DeadBodyHitPoints" value="150" />
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="1" prob=".33" />
 </entity_class>
 
 <entity_class name="zombieUMAmale" extends="zombieUMAfemale" >
@@ -1227,6 +1176,7 @@
 	<property name="Explosion.ParticleIndex" value="6" />
 	<property name="Explosion.RadiusBlocks" value="6" />
 	<property name="Explosion.RadiusEntities" value="6" />
+	<property name="RotateToGround" value="true"/>
 	<!-- uncomment to have minibikes show on the map
 	<property name="MapIcon" value="ui_game_symbol_minibike" />
 	-->

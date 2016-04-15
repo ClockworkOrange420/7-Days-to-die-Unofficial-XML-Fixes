@@ -389,8 +389,8 @@ tooltip?
 </recipe>
 
 <recipe name="blunderbuss" count="1" scrapable="False">
-	<ingredient name="shortMetalPipe" count="2"/>
 	<ingredient name="forgedIron" count="4"/>
+	<ingredient name="shortMetalPipe" count="2"/>
 	<ingredient name="wood" count="1"/>
 	<ingredient name="spring" count="2"/>
 </recipe>
@@ -1237,16 +1237,6 @@ tooltip?
 	<ingredient name="leather" count="3"/>
 </recipe>
 
-<recipe name="ironCrossbowBolt" count="1" scrapable="False">
-	<ingredient name="ironArrowHead" count="1"/>
-	<ingredient name="wood" count="1"/>
-	<ingredient name="feather" count="1"/>
-</recipe>
-
-<recipe name="ironDoor1_v1" count="1" scrapable="False">
-	<ingredient name="forgedIron" count="10"/>
-</recipe>
-
 <recipe name="ironGloves" count="1" scrapable="False">
 	<ingredient name="forgedIron" count="5"/>
 	<ingredient name="leather" count="3"/>
@@ -1260,6 +1250,16 @@ tooltip?
 <recipe name="ironLegArmor" count="1" scrapable="False">
 	<ingredient name="forgedIron" count="5"/>
 	<ingredient name="leather" count="3"/>
+</recipe>
+
+<recipe name="ironCrossbowBolt" count="1" scrapable="False">
+	<ingredient name="ironArrowHead" count="1"/>
+	<ingredient name="wood" count="1"/>
+	<ingredient name="feather" count="1"/>
+</recipe>
+
+<recipe name="ironDoor1_v1" count="1" scrapable="False">
+	<ingredient name="forgedIron" count="10"/>
 </recipe>
 
 <recipe name="rustyIronTable" count="1" scrapable="False">
@@ -1653,6 +1653,18 @@ tooltip?
 	<ingredient name="ductTape" count="1"/>
 </recipe>
 
+<recipe name="scrapHelmet" count="1" scrapable="False">
+	<ingredient name="scrapIron" count="5"/>
+	<ingredient name="leather" count="2"/>
+	<ingredient name="ductTape" count="1"/>
+</recipe>
+
+<recipe name="scrapLegArmor" count="1" scrapable="False">
+	<ingredient name="scrapIron" count="5"/>
+	<ingredient name="leather" count="2"/>
+	<ingredient name="ductTape" count="1"/>
+</recipe>
+
 <recipe name="scrapIronSheet" count="1" scrapable="False">
 	<ingredient name="scrapIron" count="8"/>
 </recipe>
@@ -1663,12 +1675,6 @@ tooltip?
 
 <recipe name="scrapHatch_v1" count="1" scrapable="False">
 	<ingredient name="scrapIron" count="8"/>
-</recipe>
-
-<recipe name="scrapHelmet" count="1" scrapable="False">
-	<ingredient name="scrapIron" count="5"/>
-	<ingredient name="leather" count="2"/>
-	<ingredient name="ductTape" count="1"/>
 </recipe>
 
 <recipe name="scrapIronFrameBlock" count="1" scrapable="False">
@@ -1697,12 +1703,6 @@ tooltip?
 
 <recipe name="rScrapIronTable" count="1" scrapable="False">
 	<ingredient name="scrapIron" count="8"/>
-</recipe>
-
-<recipe name="scrapLegArmor" count="1" scrapable="False">
-	<ingredient name="scrapIron" count="5"/>
-	<ingredient name="leather" count="2"/>
-	<ingredient name="ductTape" count="1"/>
 </recipe>
 
 <recipe name="sectionalArm" count="1" scrapable="False">
