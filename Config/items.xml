@@ -23,7 +23,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 <!-- * * * * * * * * * * player melee weapons / clubs / knives * * * * * * * * * * -->
 <item id="1" name="clubMaster">
 	<property name="IsDeveloper" value="true" />
-	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_BranchPrefab" />
+	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_Branch" />
 	<property name="Material" value="wood" />
 	<property name="RepairTools" value="wood" />
 	<property name="HoldType" value="2" />
@@ -67,7 +67,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 
 <item id="7" name="clubIron">
 	<property name="Extends" value="clubMaster" />
-	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_RefinedPrefab" />
+	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_Refined" />
 	<property name="Material" value="metal" />
 	<property name="RepairTools" value="scrapIron" />
 	<property class="Action0">
@@ -87,7 +87,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 
 <item id="8" name="clubBarbed">
 	<property name="Extends" value="clubIron" />
-	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_BarbedPrefab" />
+	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_Barbed" />
 	<property name="RepairTools" value="forgedIron" />
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Buff" value="bleeding,criticalBlunt" />
@@ -107,7 +107,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 
 <item id="9" name="clubSpiked">
 	<property name="Extends" value="clubIron" />
-	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_SpikedPrefab" />
+	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_Spiked" />
 	<property name="RepairTools" value="forgedIron" />
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Buff" value="bleeding,criticalBlunt" />
@@ -124,7 +124,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="DescriptionKey" value="clubSpikedDesc"/>
 </item>
 <item id="12" name="sledgehammer">
-	<property name="Meshfile" value="Items/Tools/sledgehammer_steelPrefab" />
+	<property name="Meshfile" value="Items/Tools/sledgehammer_steel" />
 	<property name="Material" value="metal" />
 	<property name="RepairTools" value="forgedIron" />
 	<property name="HoldType" value="33" />
@@ -246,7 +246,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 </item>
 
 <item id="19" name="boneShiv">
-	<property name="Meshfile" value="Items/Weapons/Melee/Knives/boneShivPrefab" />
+	<property name="Meshfile" value="Items/Weapons/Melee/Knives/boneShiv" />
 	<property name="Material" value="metal" />
 	<property name="HoldType" value="36" />
  	<property name="SoundDestroy" value="wooddestroy1" />
@@ -279,7 +279,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 </item>
 
 <item id="21" name="huntingKnife">
-	<property name="Meshfile" value="Items/Weapons/Melee/Knives/hunting_knifePrefab" />
+	<property name="Meshfile" value="Items/Weapons/Melee/Knives/hunting_knife" />
 	<property name="Material" value="metal" />
 	<property name="RepairTools" value="forgedIron" />
 	<property name="HoldType" value="36" />
@@ -315,7 +315,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 </item>
 
 <item id="22" name="machete">
-	<property name="Meshfile" value="Items/Weapons/Melee/Knives/machetePrefab" />
+	<property name="Meshfile" value="Items/Weapons/Melee/Knives/machete" />
 	<property name="Material" value="metal" />
 	<property name="RepairTools" value="forgedIron" />
 	<property name="HoldType" value="47" />
@@ -1072,7 +1072,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 <!-- * * * * * * * * * * tools for mining / farming, manual or motorised * * * * * * * * * * -->
 
 <item id="105" name="stoneAxe">
-	<property name="Meshfile" value="Items/Weapons/Melee/Axe/stone_axePrefab" />
+	<property name="Meshfile" value="Items/Weapons/Melee/Axe/stone_axe" />
 	<property name="Material" value="stone" />
 	<property name="RepairTools" value="rockSmall" />
 	<property name="HoldType" value="32" />
@@ -1185,7 +1185,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 </item>
 
 <item id="113" name="pickaxeIron">
-	<property name="Meshfile" value="Items/Tools/pickaxe_ironPrefab" />
+	<property name="Meshfile" value="Items/Tools/pickaxe_iron" />
 	<property name="SoundJammed" value="ItemNeedsRepair" />
 	<property name="Material" value="metal" />
 	<property name="RepairTools" value="forgedIron" />
@@ -1222,7 +1222,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 
 <item id="114" name="pickaxeSteel">
 	<property name="Extends" value="pickaxeIron" />
-	<property name="Meshfile" value="Items/Tools/pickaxe_steelPrefab" />
+	<property name="Meshfile" value="Items/Tools/pickaxe_steel" />
 	<property name="HoldType" value="4" />
 	<property name="RepairTools" value="forgedSteel" />
 	<property class="Action0">
@@ -1240,7 +1240,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 </item>
 
 <item id="117" name="stoneShovel">
-	<property name="Meshfile" value="Items/Tools/stone_shovelPrefab" />
+	<property name="Meshfile" value="Items/Tools/stone_shovel" />
 	<property name="Material" value="stone" />
 	<property name="RepairTools" value="rockSmall" />
 	<property name="HoldType" value="18" />
@@ -1277,7 +1277,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 </item>
 
 <item id="118" name="shovelIron">
-	<property name="Meshfile" value="Items/Tools/shovel_ironPrefab" />
+	<property name="Meshfile" value="Items/Tools/shovel_iron" />
 	<property name="Material" value="metal" />
 	<property name="RepairTools" value="forgedIron" />
 	<property name="HoldType" value="18" />
@@ -1315,7 +1315,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 
 <item id="119" name="shovelSteel">
 	<property name="Extends" value="shovelIron" />
-	<property name="Meshfile" value="Items/Tools/shovel_steelPrefab" />
+	<property name="Meshfile" value="Items/Tools/shovel_steel" />
 	<property name="CustomIcon" value="shovelIron" />
 	<property name="CustomIconTint" value="a0a0ff" />
 	<property name="RepairTools" value="forgedSteel" />
@@ -1331,7 +1331,7 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 </item>
 
 <item id="122" name="hoeIron">
-	<property name="Meshfile" value="Items/Tools/hoe_ironPrefab" />
+	<property name="Meshfile" value="Items/Tools/hoe_iron" />
 	<property name="Material" value="metal" />
 	<property name="RepairTools" value="forgedIron" />
 	<property name="HoldType" value="4" />

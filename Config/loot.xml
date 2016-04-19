@@ -1015,7 +1015,7 @@
 </lootcontainer>
 
 <!-- lootcontainer 15 generic zombie loot-->
-<lootcontainer id="15" count="0,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="15" count="0,2" size="4,3" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="1"/>
 	<item group="clothes" prob="0.19"/>
 	<item group="rottenFood" prob="0.062"/>
@@ -1030,7 +1030,7 @@
 </lootcontainer>
 
 <!-- lootcontainer 17 zombie cop-->
-<lootcontainer id="17" count="1,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
+<lootcontainer id="17" count="1,2" size="4,3" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
 	<item group="pistol+ammo"/>
 	<item group="shotgun+ammo"/>
 	<item name="shamSandwich" count="1,5"/>
@@ -1051,7 +1051,7 @@
 </lootcontainer>
 
 <!-- lootcontainer 21 medical supplies dead nurse-->
-<lootcontainer id="21" count="0,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="21" count="0,2" size="4,3" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="medicine"/>
 </lootcontainer>
 
@@ -1121,7 +1121,7 @@
 </lootcontainer>
 
 <!-- fat zombie loot -->
-<lootcontainer id="38" count="0,3" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="38" count="0,3" size="4,3" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item name="bottledWater" count="1,2" prob="0.15"/>
 	<item name="shamSandwich" prob="0.5"/>
 	<item group="cannedfood" prob=".2"/>
@@ -1271,7 +1271,7 @@
 </lootcontainer>
 
 <!-- feral loot -->
-<lootcontainer id="61" count="1,3" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="61" count="1,3" size="4,4" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="militaryguns+ammo" prob="0.2"/>
 	<item group="magnumparts" prob="1"/>
 	<item group="militaryArmor" prob="0.1"/>
@@ -1298,7 +1298,7 @@
 </lootcontainer>
 
 <!-- lootcontainer lumberjack zombie loot-->
-<lootcontainer id="66" count="0,2" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="66" count="0,2" size="4,4" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="lumberjacks" prob="0.42"/>
 	<item group="warmClothes" prob="1"/>
 	<item group="hazmatGear" count="1" prob="0.01"/>
