@@ -7739,9 +7739,9 @@ kind of free
 
 <block id="1042" name="cobblestoneRamp">
 	<property name="Material" value="Mcobblestone" />
-	<property name="Shape" value="New" />
-	<property name="Mesh" value="opaque" />
-	<property name="Model" value="wedge" />
+	<property name="Shape" value="Wedged" />
+	<!--<property name="Mesh" value="opaque" />
+	<property name="Model" value="wedge" />-->
 	<property name="Texture" value="26" />
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="concreteRamp" />

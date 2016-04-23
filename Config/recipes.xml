@@ -772,11 +772,15 @@ tooltip?
 	<ingredient name="yuccaFibers" count="1"/>
 </recipe>
 
+<recipe name="cobblestoneRamp" count="1" scrapable="False">
+        <ingredient name="cobblestones" count="10"/>
+    </recipe>
+<!--
 <recipe name="cobblestoneFrameRamp" count="1" scrapable="False">
 	<ingredient name="wood" count="5"/>
 	<ingredient name="yuccaFibers" count="1"/>
 </recipe>
-
+-->
 <recipe name="cobblestoneStairs25" count="1" scrapable="False">
 	<ingredient name="cobblestones" count="10"/>
 </recipe>
