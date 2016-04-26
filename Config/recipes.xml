@@ -1537,10 +1537,6 @@ tooltip?
 	<ingredient name="potato" count="1"/>
 </recipe>
 
-<recipe name="rScrapIronPlate" count="1" scrapable="True">
-	<ingredient name="scrapIron" count="3"/>
-</recipe>
-
 <recipe name="rScrapIronPlateMine" count="1" scrapable="True">
 	<ingredient name="gunPowder" count="3"/>
 	<ingredient name="ductTape" count="1"/>
