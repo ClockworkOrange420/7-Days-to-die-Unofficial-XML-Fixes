@@ -873,8 +873,8 @@
 	<property name="AITask-3" value="Territorial" param1="10" />
 	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer" />
 	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag" />
-	<property name="AITask-7" value="ApproachSpot" />
-	<property name="AITask-8" value="Wander" />
+	<property name="AITask-6" value="ApproachSpot" />
+	<property name="AITask-7" value="Wander" />
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask" />
 	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityPlayer" param2="25" />

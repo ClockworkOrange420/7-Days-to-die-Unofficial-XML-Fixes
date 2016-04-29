@@ -1828,7 +1828,7 @@ tooltip?
 </recipe>
 
 <recipe name="storeShelving01" count="1" scrapable="False">
-	<ingredient name="forgedIron" count="10"/>
+	<ingredient name="forgedIron" count="3"/>
 </recipe>
 
 <recipe name="tallow" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot">
@@ -1894,7 +1894,6 @@ tooltip?
 <recipe name="window03Wood" count="1" scrapable="False">
 	<ingredient name="wood" count="8"/>
 </recipe>
-
 
 <recipe name="woodFenceFarmSheet" count="1" scrapable="False">
 	<ingredient name="wood" count="5"/>

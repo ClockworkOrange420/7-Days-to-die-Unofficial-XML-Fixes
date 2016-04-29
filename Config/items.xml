@@ -7076,10 +7076,10 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 
 <item id="1435" name="casinoCoin">
 	<property name="Meshfile" value="Items/Misc/casino_coinPrefab" />
-	<property name="Material" value="metal" />
-	<property name="Weight" value="5" />
+	<property name="Material" value="brass" />
+	<property name="Weight" value="1" />
 	<property name="HoldType" value="21" />
-	<property name="Stacknumber" value="1000" /> <!-- STK resource -->
+	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
 </item>
 
 <item id="1439" name="glue">
