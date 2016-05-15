@@ -4258,7 +4258,6 @@ Item ID ranges:       Master items (if applicable) are listed at the start of th
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 	<property name="Material" value="cloth" />
 	<property name="RepairTools" value="cloth" />
-	<property name="Weight" value="15" />
 	<property name="HoldType" value="45" />
  	<property name="DegradationBreaksAfter" value="false" />
 	<property name="EquipSlot" value="Chest" />
