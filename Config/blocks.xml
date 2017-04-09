@@ -2200,6 +2200,7 @@ group desc for stuff like metal siding
 	<property name="Texture" value="334,335,335,335,335,335" />
 	<property name="Weight" value="10" />
 	<property name="CanPickup" value="true" />
+	<property name="EconomicValue" value="25" />
 	<drop event="Destroy" name="brokenGlass" count="1,2" />
 </block>
 
@@ -4346,6 +4347,7 @@ kind of free
 	<property name="Place" value="TowardsPlacer" />
 	<property name="FuelValue" value="32" />
 	<property name="Weight" value="50" />
+	<property name="EconomicValue" value="15" />
 	<property name="CanPickup" value="true" />
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<drop event="Destroy" name="wood" count="6" prob="1" />
@@ -4696,6 +4698,7 @@ kind of free
 	<property name="Model" value="Furniture/tv" param1="main_mesh" />
 	<property name="Collide" value="melee,bullet,arrow,rocket" />
 	<property name="Weight" value="7" />
+	<property name="EconomicValue" value="100" />
 	<drop event="Harvest" name="electricParts" count="2" prob="1" tool_category="Disassemble" /> <!-- HV: mounted fluorescent lamp -->
 	<drop event="Harvest" name="electricParts" count="2" prob=".35" tool_category="Disassemble" />
 	<drop event="Harvest" name="electronicParts" count="3" prob="1" tool_category="Disassemble" />
@@ -6583,6 +6586,7 @@ kind of free
 	<property name="CloseSound" value="UseActions/close_bridge" />
 	<property name="Place" value="DrawBridge" />
 	<property name="PlaceEverywhere" value="true" />
+	<property name="EconomicValue" value="150" />
 	<property class="RepairItems">
 		<property name="forgedIron" value="100"/>
 		<property name="wood" value="2000"/>
@@ -6593,6 +6597,7 @@ kind of free
 	<drop event="Destroy" name="spring" count="4,12" prob="1" tool_category="Disassemble" />
 	<drop event="Destroy" name="mechanicalParts" count="4,20" prob="1" tool_category="Disassemble" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="SellableToTrader" value="false" />
 	<property name="DescriptionKey" value="drawBridgeGroupDesc"/>
 	<property name="ActivationDistance" value="14" /> <!-- This is how far away you can PLACE the block and how far away you can ACTIVATE it -->
 </block>
@@ -7208,6 +7213,7 @@ kind of free
 	<property name="Shape" value="Half" />
 	<property name="Texture" value="241" />
 	<drop event="Destroy" count="0" />
+	<property name="EconomicValue" value="10" />
 </block>
 
 <block id="831" name="tanStuccoBlock">
@@ -7863,6 +7869,7 @@ kind of free
 	<property name="Shape" value="Plate" />
 	<property name="Texture" value="336,335,335,335,335,335" />
 	<property name="Weight" value="10" />
+	<property name="EconomicValue" value="25" />
 	<property name="CanPickup" value="true" />
 	<drop event="Destroy" name="brokenGlass" count="1,2" />
 </block>
@@ -11538,6 +11545,7 @@ kind of free
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Tag" value="Door" />
+	<property name="EconomicValue" value="150" />
 	<property name="Model" value="Entities/Doors/garage_metal_v1Prefab" />
 	<property name="Mesh-Damage-1" value="Door/Door_DMG0" />
 	<property name="Mesh-Damage-2" value="Door/Door_DMG1" />
@@ -11565,6 +11573,7 @@ kind of free
 	<property name="Group" value="Building" />
 	<property name="Place" value="TowardsPlacer" />
 	<property name="PlaceEverywhere" value="true" />
+	<property name="SellableToTrader" value="false" />
 </block>
 
 <block id="1430" name="garageDoorMetal_v2">
