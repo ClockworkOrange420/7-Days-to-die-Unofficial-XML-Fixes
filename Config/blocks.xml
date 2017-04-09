@@ -2109,7 +2109,7 @@ group desc for stuff like metal siding
 	<property name="HeatMapFrequency" value="1"/>
 	<drop event="Harvest" name="rottingFlesh" count="1" prob=".4" tool_category="Butcher" />
 	<drop event="Harvest" name="rottingFlesh" count="2" prob=".4" />
-	<drop event="Harvest" name="femur" count="1,2" prob="1" />
+	<drop event="Harvest" name="femur" count="1" prob="1" />
 	<drop event="Destroy" name="femur" count="1,2" prob="1" />
 </block>
 
@@ -2771,8 +2771,7 @@ group desc for stuff like metal siding
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
 	<property name="LootList" value="36" />
-	<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
-	<drop event="Harvest" name="scrapPlastics" count="2,8" tool_category="Disassemble" />
+	<drop event="Harvest" name="scrapPlastics" count="4" prob="0.75" tool_category="Disassemble" />
 	<drop event="Destroy" count="0" />
 </block>
 
