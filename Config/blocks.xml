@@ -5260,7 +5260,7 @@ kind of free
 
 <block id="608" name="concreteTrim2Broke1">
 	<property name="Extends" value="concreteMaster" />
-	<property class="UpgradeBlock"> <property name="ToBlock" value="concreteTrimBlock" /> </property>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="concreteTrim2Block" /> </property>
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="Buildings/concrete_trim2_broke1" param1="main_mesh" />
