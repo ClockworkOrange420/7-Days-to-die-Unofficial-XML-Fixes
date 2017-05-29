@@ -1908,6 +1908,7 @@ which does not exist, yet. -->
 		<property name="BlockDamage" value="5.4,13.5" />
 	</property>
 	<property name="CraftingSkillGroup" value="Gun Smithing"/>
+	<property name="ActionSkillGroup" value="Shotguns"/>
 	<property name="Group" value="Ammo/Weapons" />
 </item>
 
@@ -1923,6 +1924,7 @@ which does not exist, yet. -->
 		<property name="BlockDamage" value="100,150" />
 	</property>
 	<property name="CraftingSkillGroup" value="Gun Smithing"/>
+	<property name="ActionSkillGroup" value="Shotguns"/>
 	<property name="Group" value="Ammo/Weapons" />
 </item>
 
