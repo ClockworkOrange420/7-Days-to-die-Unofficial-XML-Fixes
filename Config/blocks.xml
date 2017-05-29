@@ -7722,7 +7722,7 @@ kind of free
 	<drop event="Destroy" name="paper" count="2,8" />
 </block>
 
-<block id="893" name="woodFenceSheet">
+<block id="893" name="fenceWoodSheet">
 	<property name="Material" value="wood_weak" />
 	<property name="Shape" value="BillboardSingleOnWall" /> <property name="Place" value="TowardsPlacerInverted" />
 	<property name="Texture" value="272" />
@@ -9106,7 +9106,7 @@ kind of free
 	<property name="CanPickup" value="false" />
 </block>
 
-<block id="1102" name="fenceWoodSheet">
+<block id="1102" name="woodFenceSheet">
 	<property name="Extends" value="woodPlate" />
 	<property name="Texture" value="246" />
 </block>

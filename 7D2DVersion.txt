@@ -1,3 +1,7 @@
 Version:
 
+<<<<<<< HEAD
 3.19
+=======
+3.19
+>>>>>>> origin/master
