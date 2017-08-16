@@ -1519,7 +1519,7 @@ Mesh files no longer used:
 	</property>
 	<property class="Attributes">
 		<property name="EntityDamage" value="6,15"/>
-		<property name="BlockDamage" value="22,48"/>
+		<property name="BlockDamage" value="30,48"/>
 		<property name="DegradationMax" value="200,1000"/>
 		<property name="DegradationRate" value="1,1"/>
 		<property name="DismembermentBaseChance" value="0,0.05"/>
@@ -2316,7 +2316,7 @@ Mesh files no longer used:
 	<property name="EconomicValue" value="17"/>
 	<property class="Attributes">
 		<property name="GetQualityFromWeapon" value="true"/>
-		<property name="EntityDamage" value="3.6,9"/>
+		<property name="EntityDamage" value="6,10"/>
 		<property name="BlockDamage" value="5.4,13.5"/>
 	</property>
 	<property name="CraftingSkillGroup" value="craftSkillGuns"/>
@@ -6521,7 +6521,7 @@ Mesh files no longer used:
 		<property name="Gain_stamina" value="30"/>
 		<property name="Gain_wellness" value="0.1"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<property name="Buff" value="yuccaJuiceCooling"/>
+		<property name="Buff" value="yuccaJuiceCooling,extinguishFireBuff"/>
 		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
@@ -7210,9 +7210,8 @@ Mesh files no longer used:
 		<property name="Gain_sickness" value="15"/>
 		<property name="Gain_wellness" value="-0.1"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<property name="Buff" value="dysentery"/>
-		<property name="Buff_chance" value="0.5"/>
-		<property name="Debuff" value="burningSmall,burning,burningMolotov"/>
+		<property name="Buff" value="dysentery,extinguishFireBuff"/>
+		<property name="Buff_chance" value="0.5,1"/>
 		<property name="Create_item" value="canEmpty"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
@@ -7235,7 +7234,7 @@ Mesh files no longer used:
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="20"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<property name="Debuff" value="burningSmall,burning,burningMolotov"/>
+		<property name="Buff" value="extinguishFireBuff"/>
 		<property name="Create_item" value="canEmpty"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
@@ -7262,9 +7261,8 @@ Mesh files no longer used:
 		<property name="Gain_sickness" value="15"/>
 		<property name="Gain_wellness" value="-0.1"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<property name="Buff" value="dysentery"/>
-		<property name="Buff_chance" value="0.5"/>
-		<property name="Debuff" value="burningSmall,burning,burningMolotov"/>
+		<property name="Buff" value="dysentery,extinguishFireBuff"/>
+		<property name="Buff_chance" value="0.5,1"/>
 		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
@@ -7287,7 +7285,7 @@ Mesh files no longer used:
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="20"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<property name="Debuff" value="burningSmall,burning,burningMolotov"/>
+		<property name="Buff" value="extinguishFireBuff"/>
 		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
@@ -7304,8 +7302,7 @@ Mesh files no longer used:
 		<property name="Gain_stamina" value="10"/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="10"/>
-		<property name="Buff" value="eatsnowberryJuiceTrigger"/>
-		<property name="Debuff" value="burningSmall,burning,burningMolotov"/>
+		<property name="Buff" value="eatsnowberryJuiceTrigger,extinguishFireBuff"/>
 	</property>
 	<property name="Group" value="Science"/>
 </item>
@@ -7326,7 +7323,8 @@ Mesh files no longer used:
 		<property name="Gain_stamina" value="40"/>
 		<property name="Gain_wellness" value="0.2"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<property name="Debuff" value="dysentery,burningSmall,burning,burningMolotov"/>
+		<property name="Buff" value="extinguishFireBuff"/>
+		<property name="Debuff" value="dysentery"/>
 		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
@@ -7348,8 +7346,8 @@ Mesh files no longer used:
 		<property name="Gain_stamina" value="40"/>
 		<property name="Gain_wellness" value="0.2"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<property name="Buff" value="redTeaCooling"/>
-		<property name="Debuff" value="dysentery,burningSmall,burning,burningMolotov"/>
+		<property name="Buff" value="redTeaCooling,extinguishFireBuff"/>
+		<property name="Debuff" value="dysentery"/>
 		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
@@ -7370,8 +7368,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Gain_water" value="8"/>
 		<property name="Gain_stamina" value="0"/>
-		<property name="Buff" value="megaCrushBuff"/>
-		<property name="Debuff" value="burningSmall,burning,burningMolotov"/>
+		<property name="Buff" value="megaCrushBuff,extinguishFireBuff"/>
 	</property>
 </item>
 
@@ -7392,7 +7389,7 @@ Mesh files no longer used:
 		<property name="Gain_stamina" value="100"/>
 		<property name="Gain_wellness" value="-0.1"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<property name="Buff" value="CoffeeStaminaBoost"/>
+		<property name="Buff" value="CoffeeStaminaBoost,extinguishFireBuff"/>
 		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
@@ -7414,7 +7411,7 @@ Mesh files no longer used:
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<property name="Buff" value="DrinkBeer"/>
+		<property name="Buff" value="DrinkBeer,extinguishFireBuff"/>
 		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
@@ -7437,7 +7434,7 @@ Mesh files no longer used:
 		<property name="Gain_water" value="-5"/>
 		<property name="Gain_wellness" value="-0.5"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<property name="Buff" value="DrinkGrainAlcohol"/>
+		<property name="Buff" value="DrinkGrainAlcohol,extinguishFireBuff"/>
 		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Chemicals"/>
@@ -8345,8 +8342,7 @@ Mesh files no longer used:
 <item id="1312" name="animalHide">
 	<property name="Meshfile" value="Items/Crafting/animal_hidePrefab"/>
 	<property name="HoldType" value="21"/>
-	<property name="Material" value="animalHide"/>
-	<property name="RepairAmount" value="100"/>
+	<property name="Material" value="leather"/>
 	<property name="Weight" value="5"/>
 	<property name="Stacknumber" value="250"/> <!-- STK resource -->
 	<property name="FuelValue" value="5"/>

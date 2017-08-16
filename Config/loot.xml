@@ -1028,8 +1028,8 @@
 	<item group="rottenFood" count="1"/>
 	<item group="books"/>
 	<item group="seeds"/>
-	<item group="questChallenge" count="1" prob="0.084"/> 	<!-- 0.06 = .23 % -->
-	<item group="treasureMaps" count="1" prob="0.084"/>
+	<item group="questChallenge" count="1" prob="0.11"/> 	<!-- 0.06 = .23 % -->
+	<item group="treasureMaps" count="1" prob="0.092"/>
 	<item name="femur" count="1,2" prob="0.05"/>
 	<item name="scrapPlastics" count="1,2" prob="0.3"/>
 </lootgroup>
@@ -1375,8 +1375,8 @@
 	<item name="bandage"/>
 	<item name="vitamins"/>
 	<item group="rareMedicine"/>
-	<item group="questChallenge" count="1" prob="0.056"/>
-	<item group="treasureMaps" count="1" prob="0.084"/>
+	<item group="questChallenge" count="1" prob="0.073"/>
+	<item group="treasureMaps" count="1" prob="0.092"/>
 </lootgroup>
 
 <lootgroup name="minibikeParts">
@@ -1505,8 +1505,8 @@
 	<item group="clothes" prob="1.9"/>
 	<item group="rottenFood" prob="0.62"/>
 	<item group="hazmatGear" count="1" prob="0.08"/>
-	<item group="questChallenge" count="1" prob="0.147"/>
-	<item group="treasureMaps" count="1" prob="0.147"/> <!-- total 2% for a quest thing -->
+	<item group="questChallenge" count="1" prob="0.191"/>
+	<item group="treasureMaps" count="1" prob="0.161"/> <!-- total 2% for a quest thing -->
 	<item name="facialPiercings" prob="0.08"/>
 </lootcontainer>
 
@@ -1834,8 +1834,8 @@
 	<item name="cloth" count="1,4" prob="0.3"/>
 	<item name="ductTape" count="1,3" prob="0.25"/>
 	<item group="books"/>
-	<item group="questChallenge" count="1" prob="0.07"/>
-	<item group="treasureMaps" count="1" prob="0.084"/>
+	<item group="questChallenge" count="1" prob="0.09"/>
+	<item group="treasureMaps" count="1" prob="0.092"/>
 	<item group="weaponsPistol+ammo" prob="0.03"/>
 </lootcontainer>
 
@@ -1936,8 +1936,8 @@
 	<item name="tshirtZUWhite" prob="2"/>
 	<item name="denimShortsPantsRed" prob="2"/>
 	<item name="runningShoes" prob="1.5"/>
-	<item group="questChallenge" count="1" prob="0.028"/>
-	<item group="treasureMaps" count="1" prob="0.028"/>
+	<item group="questChallenge" count="1" prob="0.036"/>
+	<item group="treasureMaps" count="1" prob="0.031"/>
 </lootcontainer>
 
 <!-- ZombieSkateboarder -->
@@ -1947,8 +1947,8 @@
 	<item name="blackDenimPants" prob="1"/>
 	<item name="runningShoes" prob="1"/>
 	<item name="mechanicalParts" count="1,3" prob="1.5"/>
-	<item group="questChallenge" count="1" prob="0.028"/>
-	<item group="treasureMaps" count="1" prob="0.028"/>
+	<item group="questChallenge" count="1" prob="0.036"/>
+	<item group="treasureMaps" count="1" prob="0.031"/>
 </lootcontainer>
 
 <!-- zombieOldTimer / zombieCowboy -->
@@ -2100,8 +2100,8 @@
 	<item group="suitAll" prob="2"/>
 	<item name="oldCash" count="14,60" prob="2"/>
 	<item name="paper" count="10,25" prob="0.66"/>
-	<item group="questChallenge" count="1" prob="0.028"/>
-	<item group="treasureMaps" count="1" prob="0.028"/>
+	<item group="questChallenge" count="1" prob="0.036"/>
+	<item group="treasureMaps" count="1" prob="0.031"/>
 </lootcontainer>
 
 <!-- cntGreenDrawerSecure, player crafted -->
@@ -2215,6 +2215,10 @@
 <lootcontainer id="98" count="0,1" size="6,1" sound_open="open_vending" sound_close="close_vending" loot_quality_template="baseTemplate">
 	<item name="scrapIron" count="1,30" prob="19"/>
 	<item name="smallEngine"/>
+</lootcontainer>
+
+<!-- "bag" container that gets dropped when a zombie gore block is destroyed but still contained loot -->
+<lootcontainer id="99" count="0" size="5,10" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="baseTemplate">
 </lootcontainer>
 
 </lootcontainers>
