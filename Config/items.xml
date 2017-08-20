@@ -8342,7 +8342,8 @@ Mesh files no longer used:
 <item id="1312" name="animalHide">
 	<property name="Meshfile" value="Items/Crafting/animal_hidePrefab"/>
 	<property name="HoldType" value="21"/>
-	<property name="Material" value="leather"/>
+	<property name="Material" value="animalHide"/>
+	<property name="RepairAmount" value="80"/>
 	<property name="Weight" value="5"/>
 	<property name="Stacknumber" value="250"/> <!-- STK resource -->
 	<property name="FuelValue" value="5"/>
