@@ -1368,8 +1368,8 @@
 	<property name="ExperienceGain" value="173"/>
 	<property name="SwimOffset" value="2"/>
 	<property name="Faction" value="animals"/>
-	<property name="HasRagdoll" value="false"/>
-	<property name="HasDeathAnim" value="true"/>
+	<property name="HasRagdoll" value="true"/>
+	<property name="HasDeathAnim" value="false"/>
 	<property name="DeadBodyHitPoints" value="175"/>
 	<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="2"/> <!-- animalChicken -->
 	<drop event="Harvest" name="feather" tool_category="Butcher" count="30"/>
