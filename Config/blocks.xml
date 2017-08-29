@@ -15607,7 +15607,6 @@ kind of free
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="RequiredPower" value="20"/>
-	<property name="EconomicValue" value="444"/>
 	<property name="Group" value="Tools/Traps,Science"/>
 	<property name="ActivationDistance" value="6"/>
 	<property class="RepairItems">
@@ -15622,6 +15621,7 @@ kind of free
 	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="TakeDelay" value="10"/>
+	<property name="EconomicValue" value="444"/>
 </block>
 
 <block id="2011" name="dartTrap">
