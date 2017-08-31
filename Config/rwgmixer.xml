@@ -456,7 +456,7 @@
 			<lot min_x_y="-135, -135" size="128,128" rotation_to_road="1" align="north_east"/>
 		</hub_layout>
 	</hub_layouts>
-	<!-- 	GENERATOR MODULE TYPES AbsoluteOutput Add BiasOutput Blend ClampOutput CurveOutput DisplaceInput ExponentialOutput InvertInput InvertOutput LargerOutput Multiply Power RotateInput ScaleBiasOutput ScaleInput ScaleOutput Select SmallerOutput Terrace TranslateInput Billow Checkerboard Constant FastBillow FastNoise FastNoiseBasis FastRidgedMultifractal FastTurbulence GradientNoiseBasis RidgedMultifractal Turbulence Voronoi 	 -->
+	<!-- 	GENERATOR MODULE TYPES AbsoluteOutput Add BiasOutput Blend ClampOutput CurveOutput DisplaceInput ExponentialOutput InvertInput InvertOutput LargerOutput Multiply Power RotateInput ScaleBiasOutput ScaleInput ScaleOutput Select SmallerOutput Terrace TranslateInput Billow Checkerboard Constant FastBillow FastNoise FastNoiseBasis FastRidgedMultifractal FastTurbulence GradientNoiseBasis RidgedMultifractal Turbulence Voronoi -->
 	<terrain_generators>
 		<terrain_generator name="vanilla" use_old_final="false">
 			<module name="landBaseBase" type="FastBillow" seed_additive="5">
