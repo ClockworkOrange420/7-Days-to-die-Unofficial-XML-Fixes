@@ -519,7 +519,7 @@
 			</module>
 			<module name="scaleBiasOutput" type="ScaleBiasOutput">
 				<property name="sourceModule" value="finalLand"/>
-				<property name="scale" value="255"/>
+				<property name="scale" value="182"/>
 			</module>
 			<output module="scaleBiasOutput"/>
 		</terrain_generator>
