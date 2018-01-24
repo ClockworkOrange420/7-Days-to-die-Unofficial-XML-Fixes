@@ -2291,7 +2291,7 @@ group desc for stuff like metal siding
 	<property name="Extends" value="rWoodMaster"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="ramp_inside_corner"/>
-	<property name="Texture" value="44,379,379,379,379,379"/>
+	<property name="Texture" value="379,379,379,379,379,379"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodMetalCNRInside"/> </property>
 	<property name="DowngradeBlock" value="woodCNRInside"/>
 </block>
