@@ -3853,7 +3853,7 @@ We _want_ players to specialise so we also have to make it feasible.
 	<property name="Meshfile" value="Entities/Vehicles/minibike_Prefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="EconomicValue" value="220000"/>
+	<property name="EconomicValue" value="22000"/>
 	<property class="Action1">
 		<property name="Class" value="SpawnVehicle"/>
 		<property name="Vehicle" value="vehicleMinibike"/>
@@ -3875,7 +3875,7 @@ We _want_ players to specialise so we also have to make it feasible.
 	<property name="Extends" value="vehicleMinibikePlaceable"/>
 
 	<property name="Meshfile" value="Entities/Vehicles/bicycle_Prefab"/>
-	<property name="EconomicValue" value="220000"/>
+	<property name="EconomicValue" value="5000"/>
 	<property class="Action1">
 		<property name="Vehicle" value="vehicleBicycle"/>
 	</property>
@@ -3896,7 +3896,7 @@ We _want_ players to specialise so we also have to make it feasible.
 	<property name="Extends" value="vehicleMinibikePlaceable"/>
 
 	<property name="Meshfile" value="Entities/Vehicles/motorcycle_Prefab"/>
-	<property name="EconomicValue" value="220000"/>
+	<property name="EconomicValue" value="30000"/>
 	<property class="Action1">
 		<property name="Vehicle" value="vehicleMotorcycle"/>
 		<property name="VehicleSize" value="1.3, 1.9, 3"/>
@@ -3918,7 +3918,7 @@ We _want_ players to specialise so we also have to make it feasible.
 	<property name="Extends" value="vehicleMinibikePlaceable"/>
 
 	<property name="Meshfile" value="Entities/Vehicles/jeep_Prefab"/>
-	<property name="EconomicValue" value="220000"/>
+	<property name="EconomicValue" value="110000"/>
 	<property class="Action1">
 		<property name="Vehicle" value="vehicle4x4Truck"/>
 		<property name="VehicleSize" value="2.5, 2.1, 5"/>
@@ -3940,7 +3940,7 @@ We _want_ players to specialise so we also have to make it feasible.
 	<property name="Extends" value="vehicleMinibikePlaceable"/>
 
 	<property name="Meshfile" value="Entities/Vehicles/gyrocopter_Prefab"/>
-	<property name="EconomicValue" value="220000"/>
+	<property name="EconomicValue" value="40000"/>
 	<property class="Action1">
 		<property name="Vehicle" value="vehicleGyrocopter"/>
 		<property name="VehicleSize" value="2.5, 2.5, 5.5"/>
