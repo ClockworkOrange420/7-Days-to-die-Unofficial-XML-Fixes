@@ -3266,7 +3266,7 @@ foodCharredMeatDesc,items,Food,EnChanged,"Charring meat isn't the best way to co
 foodChiliDog,items,Food,New,Chili Dog,,,,,
 foodChiliDogDesc,items,Food,New,Tasty!,,,,,
 foodCornBread,items,Food,KgNone,Corn Bread,Pain de maïs,Maisbrot,,Pan de maíz,
-foodCornBreadDesc,items,Food,EnChanged,A tasty piece of corn bread lifts your spritis with its home-cooked charm. ,Un morceau de pain de maïs vous remplit l'estomac et améliore votre bien-être.,Ein Stück Maisbrot füllt deinen Bauch und verbessert dein Wohlbefinden.,,Un trozo de pan de maíz te saciará y mejorará tu bienestar.,
+foodCornBreadDesc,items,Food,EnChanged,A tasty piece of corn bread lifts your spirits with its home-cooked charm. ,Un morceau de pain de maïs vous remplit l'estomac et améliore votre bien-être.,Ein Stück Maisbrot füllt deinen Bauch und verbessert dein Wohlbefinden.,,Un trozo de pan de maíz te saciará y mejorará tu bienestar.,
 foodCornMeal,items,Food,KgNone,Corn Meal,Farine de maïs,Maismehl,,Harina de maíz,
 foodCornMealDesc,items,Food,EnChanged,"Corn meal is used in several recipes at the campfire, but you can just eat it.",La farine de maïs est utilisée pour plusieurs compositions au feu de camp.,Maismehl kann für verschiedene Rezepte am Lagerfeuer benutzt werden.,,La harina de maíz se usa en varias recetas en la fogata.,
 foodCornOnTheCob,items,Food,KgNone,Corn on the Cob,Épi de maïs doux,Gekochter Maiskolben,,Mazorca de maíz,
