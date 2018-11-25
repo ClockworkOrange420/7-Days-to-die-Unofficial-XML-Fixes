@@ -1505,7 +1505,7 @@
 
 		<effect_group>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5"
-				tags="workbench,generatorbank,electricwirerelay,switch,ceilingLight01_player,switch,gunCrossbow,armorMiningHelmet"/>
+				tags="workbench,tableSaw,generatorbank,electricwirerelay,switch,ceilingLight01_player,switch,gunCrossbow,armorMiningHelmet"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5"
 				tags="gunPistol,gunPumpShotgun,gunHuntingRifle,spotlightPlayer,speaker,pressureplate,pressureplateLong,electrictimerrelay,motionsensor,cementMixer"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="electricfencepost,bladeTrap,dartTrap,gunSMG5,gun44Magnum,gunAK47,gunMR10"/>
