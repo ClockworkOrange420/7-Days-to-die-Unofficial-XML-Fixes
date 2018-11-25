@@ -1527,7 +1527,7 @@
 
 		<effect_group>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5"
-				tags="ammo9mmBullet,ammo44MagnumBullet,ammoShotgunShell,ammo762mmBulletFMJ,thrownAmmoPipeBomb,mineHubcap,mineCookingPot"/>
+				tags="chemistryStation,ammo9mmBullet,ammo44MagnumBullet,ammoShotgunShell,ammo762mmBulletFMJ,thrownAmmoPipeBomb,mineHubcap,mineCookingPot"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5"
 				tags="thrownDynamite,ammo9mmBulletSteel,ammo44MagnumBulletSteel,ammo762mmBulletFMJSteel,ammoShotgunSlug,ammoArrowSteelAP,ammoCrossbowBoltSteelAP,ammoArrowFlaming,mineAirFilter,resourceMilitaryFiber"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5"

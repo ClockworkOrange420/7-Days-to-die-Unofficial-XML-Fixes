@@ -756,7 +756,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceSpring" count="4"/>
 	<ingredient name="smallEngine" count="1"/>
 	<ingredient name="resourceMechanicalParts" count="10"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="4"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="4"/>
 </recipe>
 
 <recipe name="meleeToolAuger" count="1" craft_area="workbench" tags="learnable">
@@ -1030,7 +1030,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceCrushedSand" count="1"/>
 	<ingredient name="resourceRockSmall" count="2"/>
 	<ingredient name="resourceCement" count="1"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="4"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="4"/>
 </recipe>
 
 <recipe name="pouredConcreteBlock" count="1" craft_area="cementMixer">
@@ -3045,7 +3045,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="meleeToolWrench" count="1"/>
 	<ingredient name="meleeToolClawHammer" count="1"/>
 	<ingredient name="resourceWood" count="50"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="1"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="1"/>
 </recipe>
 
 <recipe name="tableSaw" count="1" craft_area="workbench" tags="learnable">
@@ -3053,7 +3053,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceMechanicalParts" count="20"/>
 	<ingredient name="resourceElectricParts" count="10"/>
 	<ingredient name="resourceSpring" count="4"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="1"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="1"/>
 </recipe>
 
 <recipe name="meleeToolWrench" count="1" craft_area="workbench">
@@ -3295,110 +3295,110 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceMechanicalParts" count="10"/>
 	<ingredient name="resourceElectricParts" count="10"/>
 	<ingredient name="resourceElectricParts" count="4"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="3"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="3"/>
 </recipe>
 <recipe name="batterybank" count="1" craft_area="workbench" tags="learnable">
 	<ingredient name="resourceForgedIron" count="10"/>
 	<ingredient name="resourceElectricParts" count="8"/>
 	<ingredient name="resourceElectricParts" count="3"/>
 	<ingredient name="resourceScrapPolymers" count="6"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="5"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="5"/>
 </recipe>
 
 <recipe name="electricwirerelay" count="1" craft_area="workbench" tags="learnable">
 	<ingredient name="resourceForgedIron" count="2"/>
 	<ingredient name="resourceElectricParts" count="1"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="3"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="3"/>
 </recipe>
 
 <recipe name="ceilingLight01_player" count="1" craft_area="workbench">
 	<ingredient name="resourceForgedIron" count="2"/>
 	<ingredient name="resourceElectricParts" count="4"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="3"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="3"/>
 </recipe>
 <!--<recipe name="industrialLight02_player" count="1" craft_area="workbench">
 	<ingredient name="resourceForgedIron" count="2"/>
 	<ingredient name="resourceElectricParts" count="4"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="3"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="3"/>
 </recipe>
 <recipe name="ceilingLight07_player" count="1" craft_area="workbench">
 	<ingredient name="resourceForgedIron" count="2"/>
 	<ingredient name="resourceElectricParts" count="5"/>
 	<ingredient name="resourceElectricParts" count="3"/>
 	<ingredient name="resourceScrapPolymers" count="3"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="3"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="3"/>
 </recipe>-->
 <recipe name="spotlightPlayer" count="1" craft_area="workbench" tags="learnable">
 	<ingredient name="resourceHeadlight" count="1"/>
 	<ingredient name="resourceElectricParts" count="8"/>
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="resourceScrapIron" count="50"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="3"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="3"/>
 </recipe>
 
 <recipe name="speaker" count="1" craft_area="workbench" tags="learnable">
 	<ingredient name="resourceForgedIron" count="4"/>
 	<ingredient name="resourceElectricParts" count="3"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="3"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="3"/>
 </recipe>
 <recipe name="switch" count="1" craft_area="workbench" tags="learnable" >
 	<ingredient name="resourceForgedIron" count="2"/>
 	<ingredient name="resourceMechanicalParts" count="1"/>
 	<ingredient name="resourceElectricParts" count="1"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="3"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="3"/>
 </recipe>
 <recipe name="pressureplate" count="1" craft_area="workbench" tags="learnable">
 	<ingredient name="resourceForgedIron" count="10"/>
 	<ingredient name="resourceMechanicalParts" count="2"/>
 	<ingredient name="resourceElectricParts" count="2"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="3"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="3"/>
 </recipe>
 <recipe name="pressureplateLong" count="1" craft_area="workbench" tags="learnable">
 	<ingredient name="resourceForgedIron" count="50"/>
 	<ingredient name="resourceMechanicalParts" count="8"/>
 	<ingredient name="resourceElectricParts" count="6"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="3"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="3"/>
 </recipe>
 <recipe name="tripwirepost" count="1" craft_area="workbench" tags="learnable">
 	<ingredient name="resourceWood" count="5"/>
 	<ingredient name="resourceElectricParts" count="1"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="3"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="3"/>
 </recipe>
 <recipe name="electrictimerrelay" count="1" craft_area="workbench" tags="learnable">
 	<ingredient name="resourceForgedIron" count="2"/>
 	<ingredient name="resourceElectricParts" count="2"/>
 	<ingredient name="resourceElectricParts" count="3"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="3"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="3"/>
 </recipe>
 <recipe name="motionsensor" count="1" craft_area="workbench" tags="learnable">
 	<ingredient name="resourceForgedIron" count="2"/>
 	<ingredient name="resourceMechanicalParts" count="1"/>
 	<ingredient name="resourceElectricParts" count="2"/>
 	<ingredient name="resourceElectricParts" count="3"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="3"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="3"/>
 </recipe>
 <recipe name="electricfencepost" count="1" craft_area="workbench" tags="learnable">
 	<ingredient name="resourceForgedIron" count="5"/>
 	<ingredient name="resourceElectricParts" count="2"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="3"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="3"/>
 </recipe>
 <recipe name="bladeTrap" count="1" craft_area="workbench" tags="learnable"> <!-- trap -->
 	<ingredient name="resourceForgedIron" count="10"/>
 	<ingredient name="resourceForgedSteel" count="10"/>
 	<ingredient name="resourceMechanicalParts" count="8"/>
 	<ingredient name="resourceElectricParts" count="6"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="3"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="3"/>
 </recipe>
 <recipe name="dartTrap" count="1" craft_area="workbench" tags="learnable"> <!-- trap -->
 	<ingredient name="resourceForgedIron" count="20"/>
 	<ingredient name="resourceMechanicalParts" count="6"/>
 	<ingredient name="resourceElectricParts" count="4"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="3"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="3"/>
 </recipe>
 <recipe name="ammoDartSteel" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
 	<ingredient name="unit_iron" count="3"/>
 	<ingredient name="unit_clay" count="1"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="3"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="3"/>
 </recipe>
 
 <recipe name="shotgunTurret" count="1" craft_area="workbench" tags="learnable"> <!-- trap -->
@@ -3407,7 +3407,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="resourceScrapPolymers" count="10"/>
 	<ingredient name="motionsensor" count="1"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="5"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="5"/>
 </recipe>
 <recipe name="autoTurret" count="1" craft_area="workbench" tags="learnable"> <!-- trap -->
 	<ingredient name="motionsensor" count="1"/>
@@ -3415,7 +3415,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceMechanicalParts" count="9"/>
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="resourceScrapPolymers" count="5"/>
-	<requirement name="ProgressionLevel" progression_name="perkEngineer" operation="GTE" value="5"/>
+	<requirement name="ProgressionLevel" progression_name="perkAdvancedEngineering" operation="GTE" value="5"/>
 </recipe>
 
 <recipe name="toolForgeCrucible" count="1" craft_area="workbench">
