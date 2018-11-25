@@ -849,7 +849,7 @@ We _want_ players to specialise so we also have to make it feasible.
 <!-- Base DPS Values: Sledge = 15.33 / Iron Axe = 14.33 / Steel Axe = 15.05 / Steel Pickaxe = 14.0 / Hoe = 12.46 -->
 
 <item name="meleeToolSledgehammer">
-	<property name="Tags" value="Sledge,hammer,blunt,melee,heavy,weapon,meleeWeapon,perkHeavyMetal,perkMotherLode"/>
+	<property name="Tags" value="sledge,hammer,blunt,melee,heavy,weapon,meleeWeapon,perkHeavyMetal,perkMotherLode"/>
 	<property name="DisplayType" value="melee"/>
 	<property name="HoldType" value="33"/>
 	<property name="Meshfile" value="Items/Tools/sledgehammer_steelPrefab"/>
