@@ -2622,7 +2622,7 @@
 
 <entity_class name="animalZombieVultureRadiated" extends="animalZombieVulture">
 	<property name="Tags" value="animal,zombie,hostile"/>
-	<property name="Radiated" value=""/>
+	<!--<property name="Radiated" value=""/>-->
 	<property name="SizeScale" value="1.2"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 
