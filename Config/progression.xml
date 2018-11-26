@@ -1527,11 +1527,11 @@
 
 		<effect_group>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5"
-				tags="chemistryStation,ammo9mmBullet,ammo44MagnumBullet,ammoShotgunShell,ammo762mmBulletFMJ,thrownAmmoPipeBomb,mineHubcap,mineCookingPot"/>
+				tags="chemistryStation,ammo9mmBullet,ammo44MagnumBullet,ammoShotgunShell,ammo762mmBulletFMJ,thrownAmmoPipeBomb,mineHubcap,mineCookingPot,ammoGasCan,modGunMuzzleBrake,modGunFlashlight,modGunScopeSmall,modGunTriggerGroupSemi,modGunBipod,modGunForegrip,modGunDuckbill,modGunChoke,modGunMagazineExtender,modShotgunSawedOffBarrel,modGunMeleeTheHunter,modMeleeSerratedBlade,modMeleeWeightedHead,modMeleeStructuralBrace,modArmorInsulatedLiner,modArmorCoolingMesh,modArmorReinforcedPadding,modArmorScrapPlating,modArmorImprovedFittings,modArmorStoragePocket,modArmorHelmetLight"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5"
-				tags="thrownDynamite,ammo9mmBulletSteel,ammo44MagnumBulletSteel,ammo762mmBulletFMJSteel,ammoShotgunSlug,ammoArrowSteelAP,ammoCrossbowBoltSteelAP,ammoArrowFlaming,mineAirFilter,resourceMilitaryFiber"/>
+				tags="thrownDynamite,ammo9mmBulletSteel,ammo44MagnumBulletSteel,ammo762mmBulletFMJSteel,ammoShotgunSlug,ammoArrowSteelAP,ammoCrossbowBoltSteelAP,ammoArrowFlaming,mineAirFilter,resourceMilitaryFiber,modGunBarrelExtender,modGunSoundSuppressorSilencer,modGunLaserSight,modGunScopeMedium,modGunReflexSight,modGunTriggerGroupBurst,modGunRetractingStock,modGunCrippleEm,modMeleeFortifyingGrip,modMeleeClubBarbedWire,modMeleeClubBurningShaft,modArmorPlasticPlating,modArmorIronPlating,modArmorSpikedKnuckles,modArmorCustomizedFittings,modArmorDoubleStoragePocket,modArmorAdvancedMuffledConnectors,modArmorImpactBracing,modArmorWaterPurifier"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5"
-				tags="ammoCrossbowBoltExploding,modArmorMuffledConnectors"/>
+				tags="ammoCrossbowBoltExploding,modArmorMuffledConnectors,modGunScopeLarge,modGunTriggerGroupAutomatic,modGunRodAndSpring,modGunBowPolymerString,modMeleeTemperedBlade,modMeleeErgonomicGrip,modMeleeClubMetalSpikes,modArmorBandolier,modArmorMilitaryPlating,modArmorSteelPlating,modArmorTripleStoragePocket"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5"
 				tags="resourceRocketTip,resourceRocketCasing,ammoRocketHE,ammoRocketFrag"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5" />

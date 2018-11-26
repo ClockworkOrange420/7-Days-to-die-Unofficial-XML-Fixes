@@ -1154,13 +1154,13 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceCloth" count="1"/>
 </recipe>
 
-<recipe name="thrownAmmoPipeBomb" count="1" craft_area="workbench">
+<recipe name="thrownAmmoPipeBomb" count="1" craft_area="workbench" tags="learnable">
 	<ingredient name="resourceYuccaFibers" count="1"/>
 	<ingredient name="resourceGunPowder" count="10"/>
 	<ingredient name="resourceMetalPipe" count="1"/>
 </recipe>
 
-<recipe name="thrownDynamite" count="1" craft_area="workbench">
+<recipe name="thrownDynamite" count="1" craft_area="workbench" tags="learnable">
 	<ingredient name="resourceYuccaFibers" count="1"/>
 	<ingredient name="resourceGunPowder" count="16"/>
 	<ingredient name="resourcePaper" count="8"/>
