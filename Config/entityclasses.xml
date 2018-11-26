@@ -1314,8 +1314,6 @@
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 
 	<!-- Gameplay -->
-	<property name="ApproachSpeed" value="1.5"/>
-	<property name="NightApproachSpeed" value="1.5"/>
 	<property name="ApproachSpeed" value="1.1"/>
 	<property name="JumpMaxDistance" value="12"/>
 
