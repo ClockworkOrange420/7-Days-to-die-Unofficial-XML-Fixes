@@ -885,7 +885,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 	<!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
 
 	<!--Clothing Attachments-->
-	<item_modifier name="modArmorBandolier" installable_tags="chest,leg" modifier_tags="light" type="attachment" rarity="0.5">
+	<item_modifier name="modArmorBandolier" installable_tags="chest,legs" modifier_tags="light" type="attachment" rarity="0.5">
 		<property name="Stacknumber" value="1"/>
 
 		<!--Reload Guns X% faster-->

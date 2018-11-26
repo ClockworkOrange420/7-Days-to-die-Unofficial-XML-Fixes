@@ -4301,7 +4301,7 @@ We _want_ players to specialise so we also have to make it feasible.
 
 <item name="armorMilitaryVest">
 	<property name="Extends" value="armorMilitaryMaster" param1="CustomIcon"/>
-	<property name="Tags" value="upperbodychest,armor,armorChest,lightarmor"/>
+	<property name="Tags" value="upperbody,chest,armor,armorChest,lightarmor"/>
 	<property name="EquipSlot" value="Chest"/>
 	<effect_group>
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
