@@ -7120,7 +7120,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Group" value="Science"/>
 
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffDrugdrugHerbalAntibiotics"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffDrugHerbalAntibiotics"/>
 	</effect_group>
 </item>
 
