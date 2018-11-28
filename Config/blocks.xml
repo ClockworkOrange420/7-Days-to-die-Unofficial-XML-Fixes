@@ -20005,7 +20005,6 @@ NOT the TextureNumber.
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-	<property class="RepairItems"> <property name="resourceElectricParts" value="1"/> <property name="resourceScrapIron" value="1"/> </property>
 	<property name="Model" value="Entities/Electrical/trap_spinning_bladePrefab"/> <property name="HandleFace" value="Bottom"/>
 	<property name="DisplayType" value="blockElectricalMulti" />
 	<property name="MultiBlockDim" value="3,1,3"/>
