@@ -848,7 +848,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceMetalPipe" count="2"/>
 	<ingredient name="resourceMechanicalParts" count="2"/>
 	<ingredient name="resourceElectricParts" count="8"/>
-	<ingredient name="resourceElectricParts" count="2"/>
 </recipe>-->
 
 <recipe name="cntFridgeBottom" count="1" craft_area="workbench">
@@ -3289,7 +3288,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 <recipe name="ceilingLight07_player" count="1" craft_area="workbench">
 	<ingredient name="resourceForgedIron" count="2"/>
 	<ingredient name="resourceElectricParts" count="5"/>
-	<ingredient name="resourceElectricParts" count="3"/>
 	<ingredient name="resourceScrapPolymers" count="3"/>
 </recipe>-->
 <recipe name="spotlightPlayer" count="1" craft_area="workbench" tags="learnable">
