@@ -192,8 +192,10 @@
 			<prefab name="gas_station4" max_count="1"/>
 			<prefab name="gas_station5" max_count="1"/>
 			<prefab name="gas_station6" max_count="1"/>
-      <prefab name="gas_station6" max_count="1"/>
-      <prefab name="gas_station7" max_count="1"/>
+			<prefab name="gas_station6" max_count="1"/>
+			<prefab name="gas_station7" max_count="1"/>
+			<prefab name="gas_station8" max_count="1"/>
+      <prefab name="gas_station9" max_count="1"/>
 			<prefab name="diner_01" max_count="2"/>
 			<prefab name="diner_02" max_count="2"/>
 			<prefab name="fastfood_01" max_count="2"/>
