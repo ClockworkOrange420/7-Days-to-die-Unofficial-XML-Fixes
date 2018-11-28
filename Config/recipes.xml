@@ -3629,7 +3629,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceWood" count="6"/>
 </recipe>
 
-<recipe name="scrapIronStairsFilledRailingLeft" count="1" craft_area="tablesaw">
+<recipe name="scrapIronStairsFilledRailingLeft" count="1">
 	<ingredient name="resourceScrapIron" count="40"/>
 </recipe>
 
