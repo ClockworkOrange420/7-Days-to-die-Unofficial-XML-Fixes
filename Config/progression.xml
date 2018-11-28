@@ -1598,7 +1598,7 @@
 		<effect_group>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="foodBaconAndEggs,foodEggBoiled,foodBoiledMeat,foodGrilledMeat,foodBakedPotato,foodCornBread,foodCornOnTheCob,drinkJarRedTea,drinkJarCoffee,drinkJarGoldenRodTea"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="foodSteakAndPotato,foodBlueberryPie,foodMeatStew,foodVegetableStew"/>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="foodShamChowder,foodHoboStew,foodFishTacos"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="foodCanHam,foodShamChowder,foodHoboStew,foodFishTacos"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="drinkYuccaJuiceSmoothie,foodChiliDog"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="drinkJarGrandpasMoonshine,drinkJarGrandpasAwesomeSauce,drinkJarGrandpasLearningElixir"/>
 			<effect_description level="1" desc_key="perkMasterChefRank1Desc"/>
