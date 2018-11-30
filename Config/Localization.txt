@@ -4307,7 +4307,7 @@ perkRunandGunDesc,progression,Perk,New,Improve your hip fire accuracy and run fa
 perkRunAndGunName,progression,Perk,New,Run and Gun,,,,,
 perkRunAndGunRank1Desc,progression,Perk,New,Hip fire accuracy is improved by 15%.\nMovement penalty when reloading is reduced 20%.,,,,,
 perkRunAndGunRank2Desc,progression,Perk,New,Hip fire accuracy is improved by 20%.\nMovement penalty when reloading is reduced 40%.,,,,,
-perkRunAndGunRank3Desc,progression,Perk,New,Hip fire accuracy is improved by 15%.\nMovement penalty when reloading is reduced 20%.,,,,,
+perkRunAndGunRank3Desc,progression,Perk,New,Hip fire accuracy is improved by 15%.\nMovement penalty when reloading is reduced 60%.,,,,,
 perkRunAndGunRank4Desc,progression,Perk,New,Hip fire accuracy is improved by 30%.\nMovement penalty when reloading is reduced 80%.,,,,,
 perkRunAndGunRank5Desc,progression,Perk,New,Hip fire accuracy is improved by 40%.\nNo movement penalty when reloading.,,,,,
 perkSalvageOperationsDesc,progression,Perk,New,"Waste not, want not! Scrap items for more resources.",,,,,
