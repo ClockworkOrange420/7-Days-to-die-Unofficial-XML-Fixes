@@ -3315,13 +3315,17 @@ We _want_ players to specialise so we also have to make it feasible.
 	<property class="Action1">
 		<property name="Class" value="Projectile"/>
 		<property name="Explosion.ParticleIndex" value="4"/> <!-- which Prefab/particle is used -->
-		<property name="Explosion.RadiusBlocks" value="5"/> <!-- damage radius for blocks -->
+		<property name="Explosion.RadiusBlocks" value="7"/> <!-- damage radius for blocks -->
 		<property name="Explosion.BlockDamage" value="500"/> <!-- damage for blocks in the center of the explosion -->
-		<property name="Explosion.RadiusEntities" value="5"/> <!-- damage radius for entities -->
+		<property name="Explosion.RadiusEntities" value="7"/> <!-- damage radius for entities -->
 		<property name="Explosion.EntityDamage" value="350"/> <!-- damage for entities in the center of the explosion. Zombies take 2x this damage. -->
-
+		
 		<property name="Explosion.DamageBonus.water" value="0"/>
-
+		<property name="Explosion.DamageBonus.wood" value="3"/>
+		<property name="Explosion.DamageBonus.metal" value="8"/>
+		<property name="Explosion.DamageBonus.organic" value="1"/>
+		<property name="Explosion.DamageBonus.earth" value="1"/>
+		<property name="Explosion.DamageBonus.stone" value="5"/>
 		<property name="Gravity" value="-6"/>
 		<property name="FlyTime" value=".2"/>
 		<property name="LifeTime" value="8"/>
@@ -3330,7 +3334,7 @@ We _want_ players to specialise so we also have to make it feasible.
 	<property name="Group" value="Ammo/Weapons"/>
 	<effect_group name="Base Effects" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="350"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="50"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="500"/>
 		<passive_effect name="ProjectileVelocity" operation="base_set" value="50"/>
 		<display_value name="ExRadius" value="5" />
 	</effect_group>
