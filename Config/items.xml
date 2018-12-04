@@ -2907,6 +2907,7 @@ We _want_ players to specialise so we also have to make it feasible.
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="9"/>
 	<property class="Action0">
+		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0,buffInjuryStunned1"/>
 		<property name="DamageBlock" value="80"/>
 	</property>
 	<effect_group name="Base Effects">
