@@ -2236,14 +2236,14 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="drinkJarBeer" count="1"/>
 </recipe>
 
-<recipe name="drugRecog" count="1" craft_area="campfire" craft_tool="chemistryStation" tags="learnable">
+<recipe name="drugRecog" count="1" craft_area="campfire" craft_tool="toolBeaker" tags="learnable">
 	<ingredient name="resourceAcid" count="5"/>
 	<ingredient name="drinkJarGrainAlcohol" count="1"/>
 	<ingredient name="resourceScrapPolymers" count="5"/>
 	<ingredient name="drugVitamins" count="1"/>
 </recipe>
 
-<recipe name="drugFortBites" count="1" craft_area="campfire" craft_tool="chemistryStation" tags="learnable">
+<recipe name="drugFortBites" count="1" craft_area="campfire" craft_tool="toolBeaker" tags="learnable">
 	<ingredient name="medicalBloodBag" count="5"/>
 	<ingredient name="drinkJarGrainAlcohol" count="1"/>
 	<ingredient name="foodRottingFlesh" count="20"/>
