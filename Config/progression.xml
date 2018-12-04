@@ -785,12 +785,12 @@
 				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="60"/>
 			</triggered_effect>-->
 			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" target_tags="zombie,animal" buff="buffStayDownKO">
-				<requirement name="ProgressionLevel" progression_name="perkStayDown" operation="Equals" value="3"/>
+				<requirement name="ProgressionLevel" progression_name="perkStayDown" operation="Equals" value="1"/>
 				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="60"/>
 				<requirement name="CVarCompare" cvar="_stunned" operation="Equals" value="1" target="other"/>
 			</triggered_effect>
 			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" target_tags="zombie,animal" buff="buffStayDownKO">
-				<requirement name="ProgressionLevel" progression_name="perkStayDown" operation="Equals" value="3"/>
+				<requirement name="ProgressionLevel" progression_name="perkStayDown" operation="Equals" value="2"/>
 				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
 				<requirement name="CVarCompare" cvar="_stunned" operation="Equals" value="1" target="other"/>
 			</triggered_effect>
