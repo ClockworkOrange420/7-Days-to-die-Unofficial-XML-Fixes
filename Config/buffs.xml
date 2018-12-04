@@ -806,7 +806,7 @@ List of hacks to be removed:
 				<passive_effect name="AttributeLevel" tags="attAgility" operation="base_add" value="1" />
 		</effect_group>
 		<effect_group>
-			<requirement name="CVarCompare" cvar="CharismaticNature" operation="Equals" value="2"/>
+			<requirement name="CVarCompare" cvar="CharismaticNature" operation="GTE" value="2"/>
 				<passive_effect name="EntityDamage" operation="perc_add" value=".2"/>
 				<passive_effect name="BlockDamage" operation="perc_add" value=".2" tags="melee"/>
 		</effect_group>
