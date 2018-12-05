@@ -14381,6 +14381,7 @@ NOT the TextureNumber.
 </block>
 
 <block name="cntFancyGarbageCan">
+	<property name="Class" value="Loot"/>
 	<property name="Material" value="Mmetal_thin"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Path" value="solid"/>
@@ -14388,6 +14389,7 @@ NOT the TextureNumber.
 	<property name="ImposterExchange" value="imposterDontBlockCTRQuarter" param1="12"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="LootList" value="16"/>
 	<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
