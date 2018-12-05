@@ -13754,7 +13754,7 @@ NOT the TextureNumber.
 	<property name="Path" value="solid"/>
 	<property name="Model" value="Appliances/stove_old" param1="main_mesh"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
-	<property name="LootList" value="47"/>
+	<property name="LootList" value="5"/>
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="4"/>
 		<property name="resourceElectricParts" value="4"/>
