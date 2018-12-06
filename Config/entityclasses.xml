@@ -1286,6 +1286,8 @@
 	<property name="LegCrippleThreshold" value="0"/>
 	<property name="KnockdownProneDamageThreshold" value="0"/>
 	<property name="KnockdownKneelDamageThreshold" value="0"/>
+	
+	<property name="HandItem" value="meleeHandZombie02"/>
 
 	<property name="AITask-1" value="Leap"/>
 	<property name="AITask-2" value="BreakBlock"/>
