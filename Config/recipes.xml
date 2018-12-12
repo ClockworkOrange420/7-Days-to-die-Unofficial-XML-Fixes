@@ -1933,7 +1933,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceForgedIron" count="10"/>
 </recipe>
 
-<recipe name="rustyIronTable" count="1" craft_area="tablesaw">
+<recipe name="rustyIronTable" count="1">
 	<ingredient name="resourceForgedIron" count="7"/>
 </recipe>
 
