@@ -195,9 +195,10 @@
 			<prefab name="gas_station6" max_count="1"/>
 			<prefab name="gas_station7" max_count="1"/>
 			<prefab name="gas_station8" max_count="1"/>
-      <prefab name="gas_station9" max_count="1"/>
+			<prefab name="gas_station9" max_count="1"/>
 			<prefab name="diner_01" max_count="2"/>
 			<prefab name="diner_02" max_count="2"/>
+			<prefab name="diner_03" max_count="2"/>
 			<prefab name="fastfood_01" max_count="2"/>
 			<prefab name="fastfood_02" max_count="2"/>
 			<prefab name="fastfood_03" max_count="2"/>
@@ -344,6 +345,10 @@
 			<prefab name="cabin_05" />
 			<prefab name="cabin_06" />
 			<prefab name="cabin_07"/>
+			<prefab name="cabin_08"/>
+			<prefab name="cabin_09"/>
+			<prefab name="cabin_10"/>
+			<prefab name="cabin_11"/>
 			<prefab name="ranger_station1" />
 			<prefab name="snowy_ski_lodge" />
 			<prefab name="survivor_site_01" />
@@ -471,7 +476,7 @@
 				<property name="bias" value="-0.1"/>
 			</module>
 			<module name="lnd_Fr1" type="Spheres" seed_additive="2">
-				<property name="frequency" value="0.0000175"/> 
+				<property name="frequency" value="0.0000175"/>
 				<property name="persistence" value="0.5"/>
 				<property name="octave" value="8"/>
 			</module>
@@ -516,9 +521,9 @@
 			<module name="lnd_Refiner" type="ScaleBiasOutput">
 				<property name="sourceModule" value="lnd_Se"/>
 				<property name="scale" value="1"/> <!-- Set scale at "1" to output 100% defined in the Moudule block -->
-				<property name="bias" value="0.0"/> 
+				<property name="bias" value="0.0"/>
 			</module>
-			
+
 			<!--  Module Block: Mountains (Positions/ High/ Low/ Terra) [21] modules -->
 			<!-- Mountain Positions (8) modules -->
 			<module name="mntPos_Fr0" type="FastRidgedMultifractal" seed_additive="0">
@@ -614,11 +619,11 @@
 			<module name="mntTerra_Sb2" type="ScaleBiasOutput">
 				<property name="sourceModule" value="mntTerra_Se"/>
 				<property name="scale" value="0.8"/>
-				<property name="bias" value="0.25"/> 
+				<property name="bias" value="0.25"/>
 			</module>
 			<module name="mntTerra_Ex" type="ExponentialOutput">
 				<property name="sourceModule" value="mntTerra_Sb2"/>
-				<property name="exponent" value="1.35"/> 
+				<property name="exponent" value="1.35"/>
 			</module>
 			<module name="mntTerra_Cl" type="ClampOutput">
 				<property name="sourceModule" value="mntTerra_Ex"/>
@@ -627,7 +632,7 @@
 			<module name="mnt_Refiner" type="ScaleBiasOutput">
 				<property name="sourceModule" value="mntTerra_Cl"/>
 				<property name="scale" value="1"/> <!-- Set scale at "1" to output 100% defined in the Moudule block -->
-				<property name="bias" value="0.0"/> 
+				<property name="bias" value="0.0"/>
 			</module>
 
 			<!-- Module Block: Plains (Smooth/ Rough/ Terra)[16] Modules-->
@@ -667,7 +672,7 @@
 				<property name="sourceModule" value="plnsRough_Fn"/>
 				<property name="source_module1" value="plnsRough_Fn"/>
 				<!--<property name="controlPoints" value="-2.00,-2.00; -1.00,-1.250; -0.00,-0.75; 0.500,-0.250; 0.625,0.875; 0.750,1.00; 2.00,1.250"/>-->
-				
+
 				<property name="controlPoints" value="-2.0,-2.0; -1.0,-1.25; -0.0,-0.75; 0.25,-0.25; 0.5,-0.25; 0.625,0.85; 0.75,1.0; 2.0,1.25"/>
 			</module>
 			<module name="plnsRough_Cl" type="ClampOutput">
@@ -706,18 +711,18 @@
 				<property name="bounds" value="-1,1"/>
 			</module>
 			<module name="plnTerra_Se" type="Select">
-				<property name="controlModule" value="plnsRough_Te"/> 
+				<property name="controlModule" value="plnsRough_Te"/>
 				<property name="sourceModule1" value="mnt_Refiner"/>
 				<property name="sourceModule2" value="plnsTerra_Cl"/>
-				<property name="bounds" value="0,1.01"/> 
+				<property name="bounds" value="0,1.01"/>
 				<property name="edgeFalloff" value="0.125"/>
 			</module>
 			<module name="pln_Refiner" type="ScaleBiasOutput">
 				<property name="sourceModule" value="plnTerra_Se"/>
 				<property name="scale" value="0.94"/> <!-- Set scale at "1" to output 100% defined in the Moudule block -->
-				<property name="bias" value="0.0"/> 
+				<property name="bias" value="0.0"/>
 			</module>
-			
+
 			<!-- Module Block: Water Bodies(9) Modules-->
 			<module name="wtrPos_Fr0" type="FastRidgedMultifractal" seed_additive="0">
 				<property name="frequency" value="0.0039"/>
@@ -751,55 +756,55 @@
 			</module>
 			<module name="wtrTerra_Sb2" type="ScaleBiasOutput">
 				<property name="sourceModule" value="wtrPos_Tu0"/>
-				<property name="scale" value="-0.275"/> 
+				<property name="scale" value="-0.275"/>
 				<property name="bias" value="-0.2"/>
 			</module>
 			<module name="wtrTerra_Cl" type="ClampOutput">
 				<property name="sourceModule" value="wtrTerra_Sb2"/>
 				<property name="bounds" value="-0.3,-0.1"/>
 			</module>
-			
+
 			<module name="wtr_Cntrl" type="RidgedMultifractal" seed_additive="0">
-				<property name="frequency" value="0.00175"/> 
+				<property name="frequency" value="0.00175"/>
 				<property name="persistence" value="0.75"/>
 				<property name="octave" value="14"/>
 			</module>
 			<module name="wtrTerra_Se" type="Select">
 				<property name="sourceModule1" value="pln_Refiner"/>
 				<property name="sourceModule2" value="wtrTerra_Cl"/>
-				<property name="controlModule" value="wtr_Cntrl"/> 
-				<property name="bounds" value="0,0.5"/> 
+				<property name="controlModule" value="wtr_Cntrl"/>
+				<property name="bounds" value="0,0.5"/>
 				<property name="edgeFalloff" value="0.33"/>
 			</module>
 			<module name="wtr_Refiner" type="ScaleBiasOutput">
 				<property name="sourceModule" value="wtrTerra_Se"/>
 				<property name="scale" value="1"/> <!-- Set scale at "1" to output 100% defined in the Moudule block -->
-				<property name="bias" value="0.0"/> 
+				<property name="bias" value="0.0"/>
 			</module>
-			
-			
-			
+
+
+
 			<!--<module name="lnd2_Cntrl" type="FastRidgedMultifractal" seed_additive="0">
-				<property name="frequency" value="0.00175"/> 
+				<property name="frequency" value="0.00175"/>
 				<property name="persistence" value="0.75"/>
 				<property name="octave" value="14"/>
 			</module>-->
 			<module name="wrld2_Se" type="SmallerOutput">
-				<property name="controlModule" value="lnd2_Cntrl"/> 
+				<property name="controlModule" value="lnd2_Cntrl"/>
 				<property name="sourceModule1" value="lnd_Refiner"/>
 				<property name="sourceModule2" value="pln_Refiner"/>
 				<property name="bounds" value="0.875,1000"/>
 				<property name="edgeFalloff" value="0.60"/>
 			</module>
-			
+
 			<!-- Module Block: Select  Modules (2)-->
 			<module name="lnd_Cntrl" type="FastRidgedMultifractal" seed_additive="0">
-				<property name="frequency" value="0.00175"/> 
+				<property name="frequency" value="0.00175"/>
 				<property name="persistence" value="0.75"/>
 				<property name="octave" value="14"/>
 			</module>
 			<module name="wrld_Se" type="Select">
-				<property name="controlModule" value="lnd_Cntrl"/> 
+				<property name="controlModule" value="lnd_Cntrl"/>
 				<property name="sourceModule1" value="wrld2_Se"/>
 				<property name="sourceModule2" value="wtr_Refiner"/>
 				<property name="bounds" value="0.875,1000"/>
@@ -808,33 +813,33 @@
 			<module name="wrld_Refiner" type="ScaleBiasOutput">
 				<property name="sourceModule" value="wrld_Se"/>
 				<property name="scale" value="176"/> <!-- Set scale at "1" to output 100% defined in the Moudule block -->
-				<property name="bias" value="0.04"/> 
+				<property name="bias" value="0.04"/>
 			</module>
-			
+
 			<module name="wrld_Refiner2" type="ScaleBiasOutput">
 				<property name="sourceModule" value="wrld_Se"/>
 				<property name="scale" value="168"/> <!-- Set scale at "1" to output 100% defined in the Moudule block -->
-				<property name="bias" value="0.04"/> 
+				<property name="bias" value="0.04"/>
 			</module>
-			
+
 			<module name="lnd_Cntrl2" type="FastRidgedMultifractal" seed_additive="0">
-				<property name="frequency" value="0.00175"/> 
+				<property name="frequency" value="0.00175"/>
 				<property name="persistence" value="0.75"/>
 				<property name="octave" value="14"/>
 			</module>
 			<module name="wrld_Se2" type="Select">
-				<property name="controlModule" value="lnd_Cntrl2"/> 
+				<property name="controlModule" value="lnd_Cntrl2"/>
 				<property name="sourceModule1" value="wrld_Refiner"/>
 				<property name="sourceModule2" value="wrld_Refiner2"/>
 				<property name="bounds" value="0,4096"/>
 				<property name="edgeFalloff" value="0.60"/>
 			</module>
-			
+
 			<!-- Master Output Modules (2) -->
 			<module name="sBO" type="ScaleBiasOutput">
 				<property name="sourceModule" value="wrld_Se2"/>
-				<property name="scale" value="1"/> 
-				<property name="bias" value="30.75"/> 
+				<property name="scale" value="1"/>
+				<property name="bias" value="30.75"/>
 			</module>
 			<output module="sBO"/>
 		</terrain_generator>
@@ -843,7 +848,7 @@
 	<biome_generators>
 		<biome_generator name="vanilla">
 			<module name="voronoi" type="Voronoi">
-				<property name="frequency" value="0.0003"/> 
+				<property name="frequency" value="0.0003"/>
 				<property name="displacement" value="0.5"/>
 			</module>
 			<module name="biasOutput" type="BiasOutput">
@@ -870,7 +875,7 @@
 				<property name="sourceModule" value="jiggle"/>
 				<property name="bounds" value="0,1"/>
 			</module>
-			
+
 			<output module="clampOutput"/>
 		</biome_generator>
 	</biome_generators>
@@ -915,12 +920,12 @@
 			<biome_generator range="0,0.3"/>
 			<terrain_generator range="150,175"/>
 		</biome_spawn_rule>
-		
+
 		<biome_spawn_rule name="snow">
 			<biome_generator range="0.3,0.6"/>
 			<terrain_generator range="176,255"/>
 		</biome_spawn_rule>
-		
+
 		<biome_spawn_rule name="desert">
 			<biome_generator range="0.3,0.6"/>
 		</biome_spawn_rule>

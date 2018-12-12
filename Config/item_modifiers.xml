@@ -5,7 +5,7 @@ weapon,
 ranged,
 gun,
 launcher,
-archery,
+perkArchery,
 bow,
 crossbow,
 shotgun,
@@ -178,12 +178,12 @@ Example of using the seed (creation time) on a weapon to activate an effect
 		</item_property_overrides>
 
 		<item_property_overrides name="gunAK47">
-			<property name="SideOffset" value="0,-0.00183,0.4094"/>
+			<property name="SideOffset" value="0,0,0.31"/>
 			<property name="SideScale" value="1,1,1"/>
 		</item_property_overrides>
 
 		<item_property_overrides name="gun44Magnum">
-			<property name="SideOffset" value="0,0.661,0.1382"/>
+			<property name="SideOffset" value="0,0.065,0.14"/>
 			<property name="SideScale" value="0.75,0.75,0.75"/>
 		</item_property_overrides>
 
@@ -195,6 +195,12 @@ Example of using the seed (creation time) on a weapon to activate an effect
 		<item_property_overrides name="gunMR10">
 			<property name="SideOffset" value="0,0.003,0.1674"/>
 			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunCrossbow">
+			<property name="SideOffset" value="0.0,-0.038,0.32"/>
+			<property name="SideScale" value="1,1,1"/>
+			<property name="SideRotation" value="0,0,0"/>
 		</item_property_overrides>
 
 		<effect_group tiered="false">
@@ -223,11 +229,12 @@ Example of using the seed (creation time) on a weapon to activate an effect
 
 		<item_property_overrides name="gunAK47">
 			<property name="SideOffset" value="0,-0.00672,0.39514"/>
+			<property name="SideOffset" value="0,0,0.28"/>
 			<property name="SideScale" value="1,1,1"/>
 		</item_property_overrides>
 
 		<item_property_overrides name="gun44Magnum">
-			<property name="SideOffset" value="0,0.0621,0.1375"/>
+			<property name="SideOffset" value="0,0.0621,0.095"/>
 			<property name="SideScale" value="0.75,0.75,0.75"/>
 		</item_property_overrides>
 
@@ -244,6 +251,12 @@ Example of using the seed (creation time) on a weapon to activate an effect
 		<item_property_overrides name="gunMR10">
 			<property name="SideOffset" value="0,-0.0025,0.175"/>
 			<property name="SideScale" value="1.12,1.12,1.12"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunCrossbow">
+			<property name="SideOffset" value="0.0,-0.038,0.32"/>
+			<property name="SideScale" value="1,1,1"/>
+			<property name="SideRotation" value="0,0,0"/>
 		</item_property_overrides>
 
 		<effect_group tiered="false">
@@ -501,8 +514,8 @@ Example of using the seed (creation time) on a weapon to activate an effect
 		<property name="Stacknumber" value="1"/>
 
 		<effect_group tiered="false">
-			<passive_effect name="RoundsPerMinute" operation="perc_add" value="1"/>
-			<passive_effect name="DegradationPerUse" operation="perc_subtract" value=".2"/>
+			<passive_effect name="RoundsPerMinute" operation="perc_add" value=".3"/>
+			<!--<passive_effect name="DegradationPerUse" operation="perc_subtract" value=".2"/>-->
 		</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
@@ -577,6 +590,9 @@ Example of using the seed (creation time) on a weapon to activate an effect
 		<property name="Stacknumber" value="1"/>
 		<!--Adds increased Ammunition-->
 		<effect_group tiered="false">
+		<!--
+			<passive_effect name="MagazineSize" operation="perc_add" value=".5"/>
+		-->
 			<passive_effect name="MagazineSize" operation="perc_add" value=".5"/>
 		</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
@@ -668,10 +684,20 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
 
-	<item_modifier name="modGunBowPolymerString" installable_tags="archery" modifier_tags="velocity" type="attachment" rarity="0.5">
+	<item_modifier name="modGunBowPolymerString" installable_tags="perkArchery" modifier_tags="velocity" type="attachment" rarity="0.5">
 		<property name="Stacknumber" value="1"/>
 		<effect_group tiered="false">
-			<passive_effect name="ProjectileVelocity" operation="perc_add" value=".2"/>
+			<passive_effect name="ProjectileVelocity" operation="perc_add" value=".15"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+
+	<item_modifier name="modGunBowArrowRest" installable_tags="bow" modifier_tags="accuracy" type="attachment" rarity="0.5">
+		<property name="CustomIcon" value="resourceScrapIron"/>
+		<property name="Stacknumber" value="1"/>
+		<effect_group tiered="false">
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_subtract" value="0.1"/>
+			<passive_effect name="SpreadMultiplierHip" operation="perc_subtract" value="0.1"/>
 		</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
@@ -813,12 +839,17 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
 
-	<item_modifier name="modMeleeErgonomicGrip" installable_tags="melee" modifier_tags="health" type="attachment" rarity="0.5">
+	<item_modifier name="modMeleeErgonomicGrip" installable_tags="melee,bow" modifier_tags="health" type="attachment" rarity="0.5">
 		<property name="Stacknumber" value="1"/>
 
 		<!-- Reduces Stamina usage on all attacks, all melee -->
 		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkArchery" invert="true"/>
 			<passive_effect name="StaminaLoss" operation="perc_add" value="-.2" tags="primary,secondary"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkArchery"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value=".1"/>
 		</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
@@ -1044,7 +1075,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 		<property name="Stacknumber" value="1"/>
 
 		<effect_group tiered="false">
-			<passive_effect name="PhysicalDamageResist" operation="base_add" value="2"/>
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="1"/>
 		</effect_group>
 	</item_modifier>
 
@@ -1053,7 +1084,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 		<property name="Stacknumber" value="1"/>
 
 		<effect_group tiered="false">
-			<passive_effect name="PhysicalDamageResist" operation="base_add" value="3"/>
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="2"/>
 		</effect_group>
 	</item_modifier>
 
@@ -1062,7 +1093,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 		<property name="Stacknumber" value="1"/>
 
 		<effect_group tiered="false">
-			<passive_effect name="PhysicalDamageResist" operation="base_add" value="4"/>
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="3"/>
 		</effect_group>
 	</item_modifier>
 
