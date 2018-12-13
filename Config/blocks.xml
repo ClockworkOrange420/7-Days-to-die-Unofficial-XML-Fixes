@@ -1138,7 +1138,7 @@ group desc for stuff like metal siding
 	<property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
 	<!--<property name="DisplayType" value="blockShootThrough" />-->
 	<property class="UpgradeBlock">
-		<property name="ToBlock" value="pouredConcreteMaster"/>
+		<property name="ToBlock" value="pouredRConcreteMaster"/>
 		<property name="Item" value="resourceConcreteMix"/>
 		<property name="ItemCount" value="10"/>
 		<property name="UpgradeHitCount" value="4"/>
@@ -7264,7 +7264,7 @@ group desc for stuff like metal siding
 	<property name="Model" value="ramp_inside_corner"/>
 	<property name="SortOrder2" value="0220"/> <!-- SortShape -->
 	<property name="CanPickup" value="true"/>
-	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteCNRInside"/> </property>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredRConcreteCNRInside"/> </property>
 </block>
 
 <block name="pouredRConcreteCNRInside">
@@ -21084,7 +21084,7 @@ NOT the TextureNumber.
 	<property name="UseGlobalUV" value="Local"/>
 	<property name="CanPickup" value="true"/>
 	<property class="UpgradeBlock">
-		<property name="ToBlock" value="pouredConcretePillar100"/>
+		<property name="ToBlock" value="pouredRConcretePillar100"/>
 		<property name="Item" value="resourceConcreteMix"/>
 		<property name="ItemCount" value="10"/>
 		<property name="UpgradeHitCount" value="4"/>
@@ -21155,7 +21155,7 @@ NOT the TextureNumber.
 	<property name="SortOrder2" value="0050"/> <!-- SortShape -->
 	<property name="CreativeMode" value="Player"/>
 	<property name="CanPickup" value="true"/>
-	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteBlock"/> </property>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredRConcreteBlock"/> </property>
 </block>
 
 <block name="rConcreteBlock">
@@ -21456,7 +21456,7 @@ NOT the TextureNumber.
 	<property name="Model" value="ramp"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="SortOrder2" value="0200"/> <!-- SortShape -->
 	<property name="CanPickup" value="true"/>
-	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteRamp"/> </property>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredRConcreteRamp"/> </property>
 </block>
 
 <block name="concreteRamp">
