@@ -548,6 +548,9 @@ Example of using the seed (creation time) on a weapon to activate an effect
 		<property name="Stacknumber" value="1"/>
 
 		<effect_group tiered="false">
+		<passive_effect name="KickDegreesVertical" operation="perc_add" value="0.05"/>
+		<passive_effect name="KickDegreesHorizontal" operation="perc_add" value="0.05"/>
+		<passive_effect name="WalkSpeed" operation="perc_add" value="0.1"/>
 		<passive_effect name="WeaponHandling" operation="perc_add" value=".15"/>
 		</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
