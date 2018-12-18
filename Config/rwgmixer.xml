@@ -119,6 +119,7 @@
 			<prefab name="cemetery_01" />
 			<prefab name="cemetery_02" />
 			<prefab name="church_graveyard1"/>
+			<prefab name="church_01"/>
 			<prefab name="garage_01" />
 			<prefab name="garage_02" />
 			<prefab name="garage_03" />
@@ -202,6 +203,7 @@
 			<prefab name="fastfood_01" max_count="2"/>
 			<prefab name="fastfood_02" max_count="2"/>
 			<prefab name="fastfood_03" max_count="2"/>
+			<prefab name="fastfood_04" max_count="2"/>
 			<prefab name="carlot_01" max_count="2"/>
 			<prefab name="carlot_02" max_count="2"/>
 			<prefab name="store_autoparts_01" max_count="1"/>
@@ -272,6 +274,7 @@
 			<prefab name="vacant_lot_02"/>
 			<prefab name="vacant_lot_03"/>
 			<prefab name="vacant_lot_04"/>
+			<prefab name="vacant_lot_05"/>
 			<prefab name="army_barracks_01" />
 			<prefab name="mp_waste_bldg_01_white" />
 			<prefab name="mp_waste_bldg_03_white" />
@@ -317,9 +320,9 @@
 			<prefab name="oldwest_stables" />
 			<prefab name="pond02"/>
 			<prefab name="pond01"/>
-			<prefab name="water_tower_01" />
-			<prefab name="water_tower_02" />
-			<prefab name="oldwest_watertower" />
+			<prefab name="water_tower_01" max_count="1" />
+			<prefab name="water_tower_02" max_count="1"/>
+			<prefab name="oldwest_watertower" max_count="1" />
 			<prefab name="oldwest_church"/>
 			<prefab name="oldwest_hotel_01"/>
 			<prefab name="oldwest_hotel_02"/>
@@ -349,6 +352,10 @@
 			<prefab name="cabin_09"/>
 			<prefab name="cabin_10"/>
 			<prefab name="cabin_11"/>
+			<prefab name="cabin_12"/>
+			<prefab name="cabin_13"/>
+			<prefab name="cabin_14"/>
+			<prefab name="cabin_15"/>
 			<prefab name="ranger_station1" />
 			<prefab name="snowy_ski_lodge" />
 			<prefab name="survivor_site_01" />
@@ -381,7 +388,7 @@
 			<prefab name="tree_burntpine_01"/>
 			<prefab name="tree_burntpine_02"/>
 			<prefab name="tree_burntpine_03"/>
-			<prefab name="water_tower_03" />
+			<prefab name="water_tower_03" max_count="1" />
 		</prefab_rule>
 
 		<prefab_rule name="traderGroup">

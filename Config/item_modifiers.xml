@@ -216,6 +216,7 @@ Example of using the seed (creation time) on a weapon to activate an effect
 
 	<item_modifier name="modGunFlashlight" installable_tags="sideAttachments" modifier_tags="sideAttachment" type="attachment">
 		<property name="Stacknumber" value="1"/>
+		<property name="LightValue" value="0.7"/>
 
 		<item_property_overrides name="gunPistol">
 			<property name="SideOffset" value="0,0.0198,0.0475"/>
@@ -425,7 +426,7 @@ Example of using the seed (creation time) on a weapon to activate an effect
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
 
-	<item_modifier name="modGunReflexSight" installable_tags="smallTopAttachments" blocked_tags="shotgun,bow" modifier_tags="scope" type="attachment">
+	<item_modifier name="modGunReflexSight" installable_tags="smallTopAttachments" blocked_tags="bow" modifier_tags="scope" type="attachment">
 		<property name="Stacknumber" value="1"/>
 
 		<item_property_overrides name="*">
@@ -438,6 +439,18 @@ Example of using the seed (creation time) on a weapon to activate an effect
 			<property name="ScopeOffset" value="0,0.08,-0.01"/>
 			<property name="ScopeScale" value="0.7,0.7,0.7"/>
 			<property name="ScopeCameraOffset" value="0,-0.035,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunBlunderbuss">
+			<property name="ScopeOffset" value="0.00,0.056,0.05"/>
+			<property name="ScopeScale" value="0.7,0.7,0.7"/>
+			<property name="ScopeCameraOffset" value="0,-0.0297,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunPumpShotgun">
+			<property name="ScopeOffset" value="0.00,0.056,0.05"/>
+			<property name="ScopeScale" value="0.7,0.7,0.7"/>
+			<property name="ScopeCameraOffset" value="0,-0.0375,0"/>
 		</item_property_overrides>
 
 		<item_property_overrides name="gunAK47">
@@ -471,9 +484,9 @@ Example of using the seed (creation time) on a weapon to activate an effect
 		</item_property_overrides>
 
 		<item_property_overrides name="gunCrossbow">
-			<property name="ScopeOffset" value="0,0.052,-0.01"/>
-			<property name="ScopeScale" value="0.8,0.8,0.8"/>
-			<property name="ScopeCameraOffset" value="0,-0.0276,0"/>
+			<property name="ScopeOffset" value="0,0.052,-0.05"/>
+			<property name="ScopeScale" value="0.6,0.6,0.6"/>
+			<property name="ScopeCameraOffset" value="0.00008,-0.0166,0.2"/>
 		</item_property_overrides>
 
 		<effect_group tiered="false">
@@ -545,16 +558,16 @@ Example of using the seed (creation time) on a weapon to activate an effect
 	</item_modifier>
 
 	<item_modifier name="modGunRetractingStock" installable_tags="stock" modifier_tags="stocks" type="attachment">
-		<property name="Stacknumber" value="1"/>
-
-		<effect_group tiered="false">
-		<passive_effect name="KickDegreesVertical" operation="perc_add" value="0.05"/>
-		<passive_effect name="KickDegreesHorizontal" operation="perc_add" value="0.05"/>
-		<passive_effect name="WalkSpeed" operation="perc_add" value="0.1"/>
-		<passive_effect name="WeaponHandling" operation="perc_add" value=".15"/>
-		</effect_group>
-		<property name="PickupJournalEntry" value="augmentGunsTip"/>
-	</item_modifier>
+        <property name="Stacknumber" value="1"/>
+        
+        <effect_group tiered="false">
+        <passive_effect name="KickDegreesVertical" operation="perc_add" value="0.05"/>
+        <passive_effect name="KickDegreesHorizontal" operation="perc_add" value="0.05"/>
+        <passive_effect name="WalkSpeed" operation="perc_add" value="0.1"/>
+        <passive_effect name="WeaponHandling" operation="perc_add" value=".15"/>
+        </effect_group>
+        <property name="PickupJournalEntry" value="augmentGunsTip"/>
+    </item_modifier>
 
 
 		<!--Reduces vertical kick when firing by x%, increases move speed by a small amount when holding the weapon is attached to
@@ -724,13 +737,8 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 		<property name="Stacknumber" value="1"/>
 		<!-- Increases damage against irradiated enemies, all melee only -->
 		<effect_group tiered="false">
-
-			<!--<requirement name="EntityTagCompare" target="other" tags="zombie"/> Need a way to tell if radiated or not, check for a buff? -->
-			<requirements>
-				<requirement name="HasBuff" target="self" buff="needsARadiationRegenBuff"/>
-				<requirement name="EntityTagCompare" target="other" tags="zombie"/>
-			</requirements>
-			<passive_effect name="EntityDamage" operation="perc_add" value="1"/>
+			<requirement name="EntityTagCompare" target="other" tags="radiated"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffRadiatedRegenBlock"/>
 		</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
@@ -821,18 +829,17 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
 
-	<item_modifier name="modMeleeWeightedHead" installable_tags="hammer,sledge" modifier_tags="damage" type="attachment" rarity="0.5">
+	<item_modifier name="modMeleeWeightedHead" installable_tags="medium,heavy" modifier_tags="damage" type="attachment" rarity="0.5">
 		<property name="Stacknumber" value="1"/>
-
 		<!-- Increases stun chance; increases stamina use, axe, hammer, club -->
 		<effect_group tiered="false">
-			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="10"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="15"/>
 			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryStunned1"/>
 		</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
 
-	<item_modifier name="modMeleeStructuralBrace" installable_tags="hammer,sledge" modifier_tags="damage" type="attachment" rarity="0.5">
+	<item_modifier name="modMeleeStructuralBrace" installable_tags="melee" modifier_tags="damage" type="attachment" rarity="0.5">
 		<property name="Stacknumber" value="1"/>
 
 		<!-- Increases durability, increases block efficiency, all melee -->
@@ -849,7 +856,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 		<!-- Reduces Stamina usage on all attacks, all melee -->
 		<effect_group tiered="false">
 			<requirement name="HoldingItemHasTags" tags="perkArchery" invert="true"/>
-			<passive_effect name="StaminaLoss" operation="perc_add" value="-.2" tags="primary,secondary"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.1" tags="primary,secondary"/>
 		</effect_group>
 		<effect_group tiered="false">
 			<requirement name="HoldingItemHasTags" tags="perkArchery"/>
@@ -909,11 +916,20 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 
 	<item_modifier name="modMeleeClubBurningShaft" installable_tags="melee" modifier_tags="fire" type="attachment" rarity="0.5">
 		<property name="Stacknumber" value="1"/>
-
 		<property name="CustomIcon" value="meleeToolTorch"/> <property name="CustomIconTint" value="255,100,100"/> <!-- temp icon -->
 
-		<effect_group tiered="false" name="Power Attack">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="30"/>
+		<item_property_overrides name="*">
+			<property name="LightValue" value="0.35"/>
+			<property name="LightSource" value="lightSource"/>
+			<property name="ActivateObject" value="lightSource"/>
+			<property name="AlwaysActive" value="true"/>
+		</item_property_overrides>
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="30"/>
+				<requirement name="HasBuff" target="other" buff="buffBurningElement"/>
+			</requirements>
 			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningElement"/>
 		</effect_group>
 
@@ -932,7 +948,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 
 		<property name="Stacknumber" value="1"/>
 		<effect_group tiered="false">
-			<passive_effect name="DamageModifier" operation="perc_add" value=".5" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value=".15" tags="earth"/>
 		</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
@@ -943,7 +959,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 
 		<property name="Stacknumber" value="1"/>
 		<effect_group tiered="false">
-			<passive_effect name="DamageModifier" operation="perc_add" value=".5" tags="stone"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value=".15" tags="stone"/>
 		</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
@@ -954,7 +970,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 
 		<property name="Stacknumber" value="1"/>
 		<effect_group tiered="false">
-			<passive_effect name="DamageModifier" operation="perc_add" value=".5" tags="metal"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value=".15" tags="metal"/>
 		</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
@@ -965,7 +981,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 
 		<property name="Stacknumber" value="1"/>
 		<effect_group tiered="false">
-			<passive_effect name="DamageModifier" operation="perc_add" value=".5" tags="wood"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value=".15" tags="wood"/>
 		</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
@@ -1211,9 +1227,10 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 		</effect_group>
 	</item_modifier>
 
-	<item_modifier name="modArmorHelmetLight" installable_tags="armorHead" blocked_tags="clothing" modifier_tags="misc" type="attachment" rarity="0.5">
+	<item_modifier name="modArmorHelmetLight" installable_tags="head" blocked_tags="clothing" modifier_tags="misc" type="attachment" rarity="0.5">
 		<property name="Stacknumber" value="1"/>
 		<property name="Material" value="Msteel"/>
+		<property name="LightValue" value="0.7"/>
 		<effect_group>
 			<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" parent_transform="CameraNode" prefab="Entities/Lighting/miningHelmetLightSource"/>
 			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Lighting/miningHelmetLightSource" parent_transform="CameraNode" local_rotation="-90,0,0" local_position="0,0,0"/>
