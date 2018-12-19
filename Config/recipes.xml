@@ -756,20 +756,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceMechanicalParts" count="3"/>
 </recipe>
 
-<recipe name="cntFridgeBottom" count="1" craft_area="workbench">
-	<ingredient name="resourceForgedIron" count="4"/>
-	<ingredient name="resourceMetalPipe" count="2"/>
-	<ingredient name="resourceMechanicalParts" count="1"/>
-	<ingredient name="resourceElectricParts" count="5"/>
-</recipe>
-
-<recipe name="cntFridgeTop" count="1" craft_area="workbench">
-	<ingredient name="resourceForgedIron" count="4"/>
-	<ingredient name="resourceMetalPipe" count="2"/>
-	<ingredient name="resourceMechanicalParts" count="1"/>
-	<ingredient name="resourceElectricParts" count="5"/>
-</recipe>
-
 <recipe name="cntGreenDrawerSecure" count="1" craft_area="workbench">
 	<ingredient name="resourceForgedIron" count="8"/>
 </recipe>
@@ -1422,11 +1408,9 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 </recipe>
 
 <recipe name="gunBlunderbuss" count="1" >
-	<ingredient name="resourceForgedIron" count="16"/>
-	<ingredient name="resourceMetalPipe" count="2"/>
-	<ingredient name="resourceGlue" count="1"/>
-	<ingredient name="resourceDuctTape" count="1"/>
-	<ingredient name="resourceWood" count="4"/>
+	<ingredient name="resourceMetalPipe" count="4"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceWood" count="6"/>
 </recipe>
 
 <recipe name="gunCompoundBow" count="1" craft_area="workbench" tags="learnable" >
@@ -2749,27 +2733,27 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="unit_clay" count="1"/>
 </recipe>
 
-<recipe name="resourceArrowHeadSteelAP" count="1" craft_area="forge" craft_tool="toolForgeCrucible" material_based="true" tags="learnable">
+<recipe name="resourceArrowHeadSteelAP" count="1" craft_area="forge" craft_tool="toolAndDieSet" material_based="true" tags="learnable">
 	<ingredient name="unit_iron" count="5"/>
 	<ingredient name="unit_clay" count="1"/>
 </recipe>
 
-<recipe name="resourceBuckshot" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
+<recipe name="resourceBuckshot" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" >
 	<ingredient name="unit_lead" count="3"/>
 	<ingredient name="unit_clay" count="1"/>
 </recipe>
 
-<recipe name="resourceBulletCasing" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
+<recipe name="resourceBulletCasing" count="1" craft_area="forge" craft_tool="toolAndDieSet" material_based="true" tags="learnable">
 	<ingredient name="unit_brass" count="2"/>
 	<ingredient name="unit_clay" count="1"/>
 </recipe>
 
-<recipe name="resourceBulletCasingSteel" count="1" craft_area="forge" craft_tool="toolForgeCrucible" material_based="true">
+<recipe name="resourceBulletCasingSteel" count="1" craft_area="forge" craft_tool="toolAndDieSet" material_based="true" tags="learnable">
 	<ingredient name="unit_iron" count="2"/>
 	<ingredient name="unit_clay" count="1"/>
 </recipe>
 
-<recipe name="resourceBulletTip" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
+<recipe name="resourceBulletTip" count="1" craft_area="forge" craft_tool="toolAndDieSet" material_based="true" tags="learnable">
 	<ingredient name="unit_lead" count="2"/>
 	<ingredient name="unit_clay" count="1"/>
 </recipe>
@@ -2897,7 +2881,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 </recipe>
 
 <recipe name="resourceRepairKit" count="1">
-	<ingredient name="resourceForgedIron" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
 	<ingredient name="resourceOil" count="1"/>
 	<ingredient name="resourceCloth" count="1"/>
 	<ingredient name="resourceDuctTape" count="1"/>
@@ -3313,9 +3297,9 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourcePaper" count="10"/>
 </recipe>
 
-<recipe name="toolAnvil" count="1" craft_area="forge" material_based="true">
-	<ingredient name="unit_iron" count="200"/>
-	<ingredient name="unit_clay" count="20"/>
+<recipe name="toolAnvil" count="1" craft_area="forge" material_based="true" tags="learnable">
+	<ingredient name="unit_iron" count="1000"/>
+	<ingredient name="unit_clay" count="100"/>
 </recipe>
 
 <recipe name="toolBellows" count="1">
