@@ -935,6 +935,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 
 		<effect_group tiered="false" name="SpecialEffects">
 			<passive_effect name="HypothermalResist" operation="base_add" value="4"/>
+			<passive_effect name="LightMultiplier" operation="perc_add" value="0.28"/>
 			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachParticleEffectToEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
 			<triggered_effect trigger="onSelfEquipStop" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
 			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
