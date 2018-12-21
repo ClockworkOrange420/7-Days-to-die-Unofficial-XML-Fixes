@@ -283,7 +283,7 @@ We _want_ players to specialise so we also have to make it feasible.
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
-	<property name="EconomicValue" value="200"/>
+	<property name="EconomicValue" value="100"/>
 	<property name="LightSource" value="lightSource"/>
 	<property name="ActivateObject" value="lightSource"/>
 	<property name="LightValue" value="0.52"/>
@@ -2111,7 +2111,6 @@ We _want_ players to specialise so we also have to make it feasible.
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="ActionSkillGroup" value="Rifles"/>
 	<property name="CraftingSkillGroup" value="craftSkillGuns"/>
-
 	<property name="EconomicValue" value="900"/>
 
 	<property class="Action0">
@@ -2133,7 +2132,6 @@ We _want_ players to specialise so we also have to make it feasible.
 	</property>
 
 	<effect_group name="Base Effects"> <!-- AK47 -->
-		<passive_effect name="EconomicValue" operation="base_set" value="6000"/>
 		<passive_effect name="MaxRange" operation="base_set" value="90"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
 		<passive_effect name="EntityDamage" operation="base_add" value="-8"/>
@@ -2162,7 +2160,9 @@ We _want_ players to specialise so we also have to make it feasible.
 
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<!-- <passive_effect name="EconomicValue" operation="base_set" value="6000"/> -->
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+		<!-- <traders buy_markup="2" sell_markdown="0.1" quality_mod="0.4,8" currency_item="casinoCoin" > -->
 	</effect_group>
 
 	<property name="Group" value="Ammo/Weapons"/>
@@ -8094,7 +8094,7 @@ So no clothing dyes until that can be resolved. -->
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodAmount" operation="add" value="53"/>
 		<!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodPerkDisplay" operation="add" value="@foodSatiationPSec"/> -->
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="80"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,buffShamChowder"/>
 	</effect_group>
 </item>
 
@@ -8546,9 +8546,9 @@ So no clothing dyes until that can be resolved. -->
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffIllFoodPoisoning0">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="30"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="2"/>
 		</triggered_effect>
-		<display_value name="FoodPoisoningRisk" value=".5" />
+		<display_value name="FoodPoisoningRisk" value=".02" />
 	</effect_group>
 </item>
 

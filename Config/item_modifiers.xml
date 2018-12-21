@@ -272,7 +272,7 @@ Example of using the seed (creation time) on a weapon to activate an effect
 
 	<!-- ACOG is a trademarked acronym. Do not use. -->
 
-	<item_modifier name="modGunScopeSmall" installable_tags="smallTopAttachments" modifier_tags="scope" type="attachment">
+	<item_modifier name="modGunScopeSmall" installable_tags="smallTopAttachments" blocked_tags="shotgun" modifier_tags="scope" type="attachment">
 		<property name="Stacknumber" value="1"/>
 
 		<item_property_overrides name="*">
@@ -331,7 +331,7 @@ Example of using the seed (creation time) on a weapon to activate an effect
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
 
-	<item_modifier name="modGunScopeMedium" installable_tags="mediumTopAttachments" modifier_tags="scope" type="attachment">
+	<item_modifier name="modGunScopeMedium" installable_tags="mediumTopAttachments" blocked_tags="shotgun" modifier_tags="scope" type="attachment">
 		<property name="Stacknumber" value="1"/>
 
 		<item_property_overrides name="*">
@@ -378,7 +378,7 @@ Example of using the seed (creation time) on a weapon to activate an effect
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
 
-	<item_modifier name="modGunScopeLarge" installable_tags="largeTopAttachments" modifier_tags="scope" type="attachment">
+	<item_modifier name="modGunScopeLarge" installable_tags="largeTopAttachments" blocked_tags="shotgun" modifier_tags="scope" type="attachment">
 		<property name="Stacknumber" value="1"/>
 
 		<item_property_overrides name="*">
@@ -919,7 +919,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 		<property name="CustomIcon" value="meleeToolTorch"/> <property name="CustomIconTint" value="255,100,100"/> <!-- temp icon -->
 
 		<item_property_overrides name="*">
-			<property name="LightValue" value="0.35"/>
+			<property name="LightValue" value="0.45"/>
 			<property name="LightSource" value="lightSource"/>
 			<property name="ActivateObject" value="lightSource"/>
 			<property name="AlwaysActive" value="true"/>

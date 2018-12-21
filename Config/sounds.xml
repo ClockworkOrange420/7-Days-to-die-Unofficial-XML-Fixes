@@ -3049,7 +3049,23 @@
 	<AudioClip ClipName="Sounds/UseActions/close_sign"/>
 	<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
 
+  <!-- Radiation -->
 
+<SoundDataNode name="a_radiated_kill_lp"> <AudioSource name="Sounds/Sounds/AudioSource_Player"/>
+	<AudioClip ClipName="Sounds/Ambient_Loops/a_radiated_kill_lp" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.001"/> </SoundDataNode>
+  
+  <SoundDataNode name="a_radiated_medium_lp"> <AudioSource name="Sounds/Sounds/AudioSource_Player"/>
+	<AudioClip ClipName="Sounds/Ambient_Loops/a_radiated_medium_lp" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.001"/> </SoundDataNode>
+  
+    <SoundDataNode name="a_radiated_strong_lp"> <AudioSource name="Sounds/Sounds/AudioSource_Player"/>
+	<AudioClip ClipName="Sounds/Ambient_Loops/a_radiated_strong_lp" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.001"/> </SoundDataNode>
+  
+    <SoundDataNode name="a_radiated_weak_lp"> <AudioSource name="Sounds/Sounds/AudioSource_Player"/>
+	<AudioClip ClipName="Sounds/Ambient_Loops/a_radiated_weak_lp" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.001"/> </SoundDataNode>
 
 	<!-- Buffs         -->
 
