@@ -137,18 +137,22 @@
 		</prefab_rule>
 
 		<prefab_rule name="wildernessGroup">
-			<prefab rule="traderGroup" min_count="4" max_count="16" prob="0.3"/>
+			<prefab name="settlement_trader_01" min_count="1" max_count="1" prob="2"/>
 			<prefab name="cabin_01" />
+			<prefab name="settlement_trader_02" min_count="1" max_count="1" prob="2"/>
 			<prefab name="cabin_02" />
+			<prefab name="settlement_trader_03" min_count="1" max_count="1" prob="2"/>
 			<prefab name="cabin_03" />
+			<prefab name="settlement_trader_04" min_count="1" max_count="1" prob="2"/>
 			<prefab name="cabin_04" />
+			<prefab name="settlement_trader_05" min_count="1" max_count="1" prob="2"/>
 			<prefab name="cabin_05" />
 			<prefab name="cabin_06" />
 			<prefab name="cabin_07"/>
 			<prefab name="cabin_08"/>
 			<prefab name="cabin_09"/>
 			<prefab name="cabin_10"/>
-      <prefab name="cabin_08"/>
+			<prefab name="cabin_08"/>
 			<prefab name="cabin_12"/>
 			<prefab name="cabin_13"/>
 			<prefab name="cabin_14"/>

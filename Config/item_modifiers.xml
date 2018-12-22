@@ -916,7 +916,6 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 
 	<item_modifier name="modMeleeClubBurningShaft" installable_tags="melee" modifier_tags="fire" type="attachment" rarity="0.5">
 		<property name="Stacknumber" value="1"/>
-		<property name="CustomIcon" value="meleeToolTorch"/> <property name="CustomIconTint" value="255,100,100"/> <!-- temp icon -->
 
 		<item_property_overrides name="*">
 			<property name="LightValue" value="0.45"/>
@@ -945,8 +944,6 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 
 	<item_modifier name="modMeleeGraveDigger" installable_tags="melee" modifier_tags="damageDirt" type="attachment" rarity="0.5">
 
-		<property name="CustomIcon" value="resourceClayLump"/> <property name="CustomIconTint" value="255,100,100"/> <!-- temp icon -->
-
 		<property name="Stacknumber" value="1"/>
 		<effect_group tiered="false">
 			<passive_effect name="DamageModifier" operation="perc_add" value=".15" tags="earth"/>
@@ -955,8 +952,6 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 	</item_modifier>
 
 	<item_modifier name="modMeleeBunkerBuster" installable_tags="melee" modifier_tags="damageStone" type="attachment" rarity="0.5">
-
-		<property name="CustomIcon" value="resourceRockSmall"/> <property name="CustomIconTint" value="255,100,100"/> <!-- temp icon -->
 
 		<property name="Stacknumber" value="1"/>
 		<effect_group tiered="false">
@@ -967,8 +962,6 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 
 	<item_modifier name="modMeleeIronBreaker" installable_tags="melee" modifier_tags="damageIron" type="attachment" rarity="0.5">
 
-		<property name="CustomIcon" value="resourceIronFragment"/> <property name="CustomIconTint" value="255,100,100"/> <!-- temp icon -->
-
 		<property name="Stacknumber" value="1"/>
 		<effect_group tiered="false">
 			<passive_effect name="DamageModifier" operation="perc_add" value=".15" tags="metal"/>
@@ -977,8 +970,6 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 	</item_modifier>
 
 	<item_modifier name="modMeleeWoodSplitter" installable_tags="melee" modifier_tags="damageWood" type="attachment" rarity="0.5">
-
-		<property name="CustomIcon" value="resourceWood"/> <property name="CustomIconTint" value="255,100,100"/> <!-- temp icon -->
 
 		<property name="Stacknumber" value="1"/>
 		<effect_group tiered="false">

@@ -9401,31 +9401,23 @@ So no clothing dyes until that can be resolved. -->
 <item name="modMeleeGraveDiggerSchematic">
 	<property name="Extends" value="schematicMaster"/>
 	<property name="EconomicValue" value="500"/>
-
-	<property name="CustomIcon" value="schematicMaster"/> <!-- temp icon -->
 </item>
 
 <item name="modMeleeBunkerBusterSchematic">
 	<property name="Extends" value="schematicMaster"/>
 	<property name="DescriptionKey" value="schematicMaster2Desc"/>
 	<property name="EconomicValue" value="500"/>
-
-	<property name="CustomIcon" value="schematicMaster"/> <!-- temp icon -->
 </item>
 
 <item name="modMeleeIronBreakerSchematic">
 	<property name="Extends" value="schematicMaster"/>
 	<property name="DescriptionKey" value="schematicMaster3Desc"/>
 	<property name="EconomicValue" value="500"/>
-
-	<property name="CustomIcon" value="schematicMaster"/> <!-- temp icon -->
 </item>
 
 <item name="modMeleeWoodSplitterSchematic">
 	<property name="Extends" value="schematicMaster"/>
 	<property name="EconomicValue" value="500"/>
-
-	<property name="CustomIcon" value="schematicMaster"/> <!-- temp icon -->
 </item>
 
 <!--
@@ -9465,8 +9457,6 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Extends" value="schematicMaster"/>
 	<property name="DescriptionKey" value="schematicMaster2Desc"/>
 	<property name="EconomicValue" value="500"/>
-
-	<property name="CustomIcon" value="schematicMaster"/> <!-- temp icon -->
 </item>
 
 <item name="modArmorInsulatedLinerSchematic">
