@@ -20098,7 +20098,7 @@ NOT the TextureNumber.
 	<property name="RequiredPower" value="10"/>
 	<property name="Group" value="Tools/Traps,Science"/>
 	<property class="RepairItems">
-		<property name="resourceForgedSteel" value="16"/>
+		<property name="resourceForgedIron" value="16"/>
 		<property name="resourceMechanicalParts" value="3"/>
 		<property name="resourceElectricParts" value="2"/>
 	</property>
