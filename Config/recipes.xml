@@ -68,27 +68,31 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<wildcard_forge_category />
 </recipe>
 
-<recipe name="resourceClayLump" count="1" craft_area="forge" material_based="true" craft_time = "1" craft_exp_gain="0" always_unlocked="true">
+<recipe name="resourceClayLump" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
+	<wildcard_forge_category />
+</recipe>
+
+<recipe name="resourceClayLump" count="1" craft_area="forge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
 	<ingredient name="unit_clay" count="5"/>
 </recipe>
 
-<recipe name="resourceBrokenGlass" count="1" craft_area="forge" material_based="true" craft_time = "1" craft_exp_gain="0" always_unlocked="true">
+<recipe name="resourceBrokenGlass" count="1" craft_area="forge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
 	<ingredient name="unit_glass" count="5"/>
 </recipe>
 
-<recipe name="resourceRockSmall" count="1" craft_area="forge" material_based="true" craft_time = "1" craft_exp_gain="0" always_unlocked="true">
+<recipe name="resourceRockSmall" count="1" craft_area="forge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
 	<ingredient name="unit_stone" count="5"/>
 </recipe>
 
-<recipe name="resourceScrapBrass" count="1" craft_area="forge" material_based="true" craft_time = "1" craft_exp_gain="0" always_unlocked="true">
+<recipe name="resourceScrapBrass" count="1" craft_area="forge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
 	<ingredient name="unit_brass" count="1"/>
 </recipe>
 
-<recipe name="resourceScrapIron" count="1" craft_area="forge" material_based="true" craft_time = "1" craft_exp_gain="0" always_unlocked="true">
+<recipe name="resourceScrapIron" count="1" craft_area="forge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
 	<ingredient name="unit_iron" count="1"/>
 </recipe>
 
-<recipe name="resourceScrapLead" count="1" craft_area="forge" material_based="true" craft_time = "1" craft_exp_gain="0" always_unlocked="true">
+<recipe name="resourceScrapLead" count="1" craft_area="forge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
 	<ingredient name="unit_lead" count="1"/>
 </recipe>
 
@@ -2742,7 +2746,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="unit_clay" count="1"/>
 </recipe>
 
-<recipe name="resourceArrowHeadSteelAP" count="1" craft_area="forge" craft_tool="toolAndDieSet" material_based="true" tags="learnable">
+<recipe name="resourceArrowHeadSteelAP" count="1" craft_area="forge" craft_tool="toolForgeCrucible" material_based="true" tags="learnable">
 	<ingredient name="unit_iron" count="5"/>
 	<ingredient name="unit_clay" count="1"/>
 </recipe>
@@ -2816,7 +2820,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 </recipe>
 
 <recipe name="resourceGlue" count="1" craft_area="campfire" craft_tool="toolCookingPot">
-	<ingredient name="resourceFemur" count="2"/>
+	<ingredient name="resourceFemur" count="1"/>
 	<ingredient name="drinkJarRiverWater" count="1"/>
 </recipe>
 
@@ -3410,7 +3414,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceElectricParts" count="20"/>
 </recipe>
 
-<recipe name="vehicle4x4TruckPlaceable" count="1" craft_area="workbench" tags="learnable">
+<recipe name="vehicle4x4TruckPlaceable" count="1" craft_time="210" craft_area="workbench">
 	<ingredient name="vehicleWheels" count="4"/>
 	<ingredient name="vehicle4x4TruckChassis" count="1"/>
 	<ingredient name="vehicle4x4TruckAccessories" count="1"/>
@@ -3432,7 +3436,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceMetalPipe" count="6"/>
 </recipe>
 
-<recipe name="vehicleBicyclePlaceable" count="1" tags="learnable">
+<recipe name="vehicleBicyclePlaceable" count="1" craft_time="30">
 	<ingredient name="vehicleWheels" count="2"/>
 	<ingredient name="vehicleBicycleChassis" count="1"/>
 	<ingredient name="vehicleBicycleHandlebars" count="1"/>
@@ -3453,7 +3457,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceElectricParts" count="20"/>
 </recipe>
 
-<recipe name="vehicleGyrocopterPlaceable" count="1" craft_area="workbench" tags="learnable">
+<recipe name="vehicleGyrocopterPlaceable" count="1" craft_time="270" craft_area="workbench">
 	<ingredient name="vehicleWheels" count="3"/>
 	<ingredient name="vehicleGyroCopterChassis" count="1"/>
 	<ingredient name="vehicleGyroCopterAccessories" count="1"/>
@@ -3477,7 +3481,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceMetalPipe" count="6"/>
 </recipe>
 
-<recipe name="vehicleMinibikePlaceable" count="1" craft_area="workbench" tags="learnable">
+<recipe name="vehicleMinibikePlaceable" count="1" craft_time="90" craft_area="workbench">
 	<ingredient name="vehicleWheels" count="2"/>
 	<ingredient name="vehicleMinibikeChassis" count="1"/>
 	<ingredient name="vehicleMinibikeHandlebars" count="1"/>
@@ -3501,7 +3505,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceForgedSteel" count="6"/>
 </recipe>
 
-<recipe name="vehicleMotorcyclePlaceable" count="1" craft_area="workbench" tags="learnable">
+<recipe name="vehicleMotorcyclePlaceable" count="1" craft_time="150" craft_area="workbench">
 	<ingredient name="vehicleWheels" count="2"/>
 	<ingredient name="vehicleMotorcycleChassis" count="1"/>
 	<ingredient name="vehicleMotorcycleHandlebars" count="1"/>
@@ -3575,7 +3579,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceWood" count="3"/>
 </recipe>
 
-<recipe name="woodFenceFarmSheet" count="1" craft_area="tablesaw">
+<recipe name="woodFenceFarmSheet" count="1">
 	<ingredient name="resourceWood" count="2"/>
 </recipe>
 
@@ -3715,7 +3719,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceWood" count="6"/>
 </recipe>
 
-<recipe name="woodPole" count="1" craft_area="tablesaw">
+<recipe name="woodPole" count="1">
 	<ingredient name="resourceWood" count="6"/>
 </recipe>
 

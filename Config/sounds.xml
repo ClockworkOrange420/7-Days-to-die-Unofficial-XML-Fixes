@@ -819,7 +819,7 @@
 	<LocalCrouchVolumeScale value="1"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="30"/> <MaxVoicesPerEntity value="10"/> <MaxRepeatRate value="0.001"/> </SoundDataNode>
 
   <SoundDataNode name="hunting_rifle_s_fire"> <AudioSource name="Sounds/AudioSource_WeaponFire"/> <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
-	<Noise ID="5" range="60" volume="180" time="2" heat_map_strength="0.3" heat_map_time="120"/>
+	<Noise ID="5" range="20" volume="60" time="2" heat_map_strength="0.3" heat_map_time="120"/>
 	<AudioClip ClipName="Sounds/Weapons/Ranged/hunting_rifle/hunting_rifle_s_fire1"/>
   <AudioClip ClipName="Sounds/Weapons/Ranged/hunting_rifle/hunting_rifle_s_fire2"/>
   <AudioClip ClipName="Sounds/Weapons/Ranged/hunting_rifle/hunting_rifle_s_fire3"/>
@@ -1004,7 +1004,7 @@
 	<LocalCrouchVolumeScale value="1"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="20"/> <MaxVoicesPerEntity value="6"/> <MaxRepeatRate value="0.001"/> </SoundDataNode>
 
  <SoundDataNode name="pump_shotgun_s_fire"> <AudioSource name="Sounds/AudioSource_WeaponFire"/> <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
-	<Noise ID="5" range="60" volume="200" time="2" heat_map_strength="0.3" heat_map_time="120"/>
+	<Noise ID="5" range="20" volume="65" time="2" heat_map_strength="0.3" heat_map_time="120"/>
 	<AudioClip ClipName="Sounds/Weapons/Ranged/pumpshotgun/pump_shotgun_s_fire1"/>
 	<AudioClip ClipName="Sounds/Weapons/Ranged/pumpshotgun/pump_shotgun_s_fire2"/>
 	<AudioClip ClipName="Sounds/Weapons/Ranged/pumpshotgun/pump_shotgun_s_fire3"/>
@@ -1057,7 +1057,7 @@
 	<LocalCrouchVolumeScale value="1"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="20"/> <MaxVoicesPerEntity value="6"/> <MaxRepeatRate value="0.001"/> </SoundDataNode>
 
 <SoundDataNode name="sniperrifle_s_fire"> <AudioSource name="Sounds/AudioSource_WeaponFire"/> <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
-	<Noise ID="5" range="60" volume="180" time="2" heat_map_strength="0.3" heat_map_time="120"/>
+	<Noise ID="5" range="20" volume="60" time="2" heat_map_strength="0.3" heat_map_time="120"/>
 	<AudioClip ClipName="Sounds/Weapons/Ranged/sniperrifle/sniperrifle_s_fire1"/>
   <AudioClip ClipName="Sounds/Weapons/Ranged/sniperrifle/sniperrifle_s_fire2"/>
   <AudioClip ClipName="Sounds/Weapons/Ranged/sniperrifle/sniperrifle_s_fire3"/>
@@ -3054,15 +3054,15 @@
 <SoundDataNode name="a_radiated_kill_lp"> <AudioSource name="Sounds/Sounds/AudioSource_Player"/>
 	<AudioClip ClipName="Sounds/Ambient_Loops/a_radiated_kill_lp" Loop="true"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.001"/> </SoundDataNode>
-  
+
   <SoundDataNode name="a_radiated_medium_lp"> <AudioSource name="Sounds/Sounds/AudioSource_Player"/>
 	<AudioClip ClipName="Sounds/Ambient_Loops/a_radiated_medium_lp" Loop="true"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.001"/> </SoundDataNode>
-  
+
     <SoundDataNode name="a_radiated_strong_lp"> <AudioSource name="Sounds/Sounds/AudioSource_Player"/>
 	<AudioClip ClipName="Sounds/Ambient_Loops/a_radiated_strong_lp" Loop="true"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.001"/> </SoundDataNode>
-  
+
     <SoundDataNode name="a_radiated_weak_lp"> <AudioSource name="Sounds/Sounds/AudioSource_Player"/>
 	<AudioClip ClipName="Sounds/Ambient_Loops/a_radiated_weak_lp" Loop="true"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.001"/> </SoundDataNode>
