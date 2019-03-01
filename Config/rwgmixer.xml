@@ -522,20 +522,112 @@
 -->
 
 	<terrain_generators>
-		<!--
-		<terrain_generator name="vanilla2" base_height="32" water_level="38">
-			<module name="HM" type="NoiseFromImage">
-				<property name="metersPerPixel" value="15.14"/>
-				<property name="imageFile" value="sarek.png"/>
+		
+		<terrain_generator name="vanilla2" base_height="0" water_level="17">
+			<module name="Spheres Node-28012" type="Spheres">
+			   <property name="frequency" value="7E-05"/>
 			</module>
-			<module name="BIAS" type="BiasOutput">
-				<property name="sourceModule" value="HM"/>
-				<property name="bias" value="-30"/>
+			<module name="Translate Input Modifier Node13064" type="TranslateInput">
+			   <property name="sourceModule" value="Spheres Node-28012"/>
+			   <property name="x" value="-4095"/>
+			   <property name="y" value="0"/>
+			   <property name="z" value="-4096"/>
 			</module>
-			<output module="BIAS"/>
+			<module name="Spheres Node-29410" type="Spheres">
+			   <property name="frequency" value="-7E-05"/>
+			</module>
+			<module name="Translate Input Modifier Node13066" type="TranslateInput">
+			   <property name="sourceModule" value="Spheres Node-29410"/>
+			   <property name="x" value="-4095"/>
+			   <property name="y" value="0"/>
+			   <property name="z" value="-4096"/>
+			</module>
+			<module name="Smaller Output Modifier Node13058" type="SmallerOutput">
+			   <property name="sourceModule1" value="Translate Input Modifier Node13064"/>
+			   <property name="sourceModule2" value="Translate Input Modifier Node13066"/>
+			</module>
+			<module name="Fast Turbulence Node13036" type="FastTurbulence" seed_additive="2">
+			   <property name="frequency" value="-0.0012"/>
+			   <property name="power" value="750"/>
+			   <property name="roughness" value="18"/>
+			   <property name="sourceModule" value="Smaller Output Modifier Node13058"/>
+			</module>
+			<module name="Fast Ridged Multi Node13034" type="FastRidgedMultifractal" seed_additive="0">
+			   <property name="frequency" value="9E-05"/>
+			   <property name="noisequality" value="2"/>
+			   <property name="lacunarity" value="1.88"/>
+			   <property name="octavecount" value="4"/>
+			</module>
+			<module name="Perlin Noise Node13042" type="Perlin" seed_additive="0">
+			   <property name="frequency" value="0.00021"/>
+			   <property name="persistence" value="-0.4"/>
+			   <property name="noisequality" value="2"/>
+			   <property name="lacunarity" value="2.65"/>
+			   <property name="octavecount" value="4"/>
+			</module>
+			<module name="Add Modifier Node13026" type="Add">
+			   <property name="sourceModule1" value="Fast Ridged Multi Node13034"/>
+			   <property name="sourceModule2" value="Perlin Noise Node13042"/>
+			</module>
+			<module name="Scale Bias Modifier Node13046" type="ScaleBiasOutput">
+			   <property name="sourceModule" value="Add Modifier Node13026"/>
+			   <property name="scale" value="0.83"/>
+			   <property name="bias" value="-0.5"/>
+			</module>
+			<module name="Fast Billow Node13032" type="FastBillow" seed_additive="0">
+			   <property name="frequency" value="0.0007"/>
+			   <property name="persistence" value="-1.47"/>
+			   <property name="noisequality" value="1"/>
+			   <property name="lacunarity" value="0"/>
+			   <property name="octavecount" value="2"/>
+			</module>
+			<module name="Fast Turbulence Node13038" type="FastTurbulence" seed_additive="1">
+			   <property name="frequency" value="0.002"/>
+			   <property name="power" value="400"/>
+			   <property name="roughness" value="14"/>
+			   <property name="sourceModule" value="Fast Billow Node13032"/>
+			</module>
+			<module name="Scale Bias Modifier Node13050" type="ScaleBiasOutput">
+			   <property name="sourceModule" value="Fast Turbulence Node13038"/>
+			   <property name="scale" value="0.33"/>
+			   <property name="bias" value="0.17"/>
+			</module>
+			<module name="Clamp Modifier Node13028" type="ClampOutput">
+			   <property name="sourceModule" value="Scale Bias Modifier Node13050"/>
+			   <property name="bounds" value="0.32,0.93"/>
+			</module>
+			<module name="Scale Bias Modifier Node13052" type="ScaleBiasOutput">
+			   <property name="sourceModule" value="Add Modifier Node13026"/>
+			   <property name="scale" value="0.68"/>
+			   <property name="bias" value="-0.3"/>
+			</module>
+			<module name="Clamp Modifier Node13030" type="ClampOutput">
+			   <property name="sourceModule" value="Scale Bias Modifier Node13052"/>
+			   <property name="bounds" value="-0.26,1"/>
+			</module>
+			<module name="Select Modifier Node13056" type="Select">
+			   <property name="controlModule" value="Scale Bias Modifier Node13046"/>
+			   <property name="sourceModule1" value="Clamp Modifier Node13028"/>
+			   <property name="sourceModule2" value="Clamp Modifier Node13030"/>
+			   <property name="bounds" value="0.06,3.37"/>
+			   <property name="edgeFalloff" value="0.1"/>
+			</module>
+			<module name="Scale Bias Modifier Node13048" type="ScaleBiasOutput">
+			   <property name="sourceModule" value="Select Modifier Node13056"/>
+			   <property name="scale" value="1.16"/>
+			   <property name="bias" value="-0.2"/>
+			</module>
+			<module name="Select Modifier Node13054" type="Select">
+			   <property name="controlModule" value="Fast Turbulence Node13036"/>
+			   <property name="sourceModule1" value="Scale Bias Modifier Node13048"/>
+			   <property name="sourceModule2" value="Fast Turbulence Node13036"/>
+			   <property name="bounds" value="-1.15,0.18"/>
+			   <property name="edgeFalloff" value="0.2"/>
+			</module>
+			<output module="Select Modifier Node13054"/>
 		</terrain_generator>
-		-->
-	<terrain_generator name="vanilla" base_height="32" water_level="38">
+		
+		<terrain_generator name="vanilla" base_height="32" water_level="38">
 			<!-- Total Module Count [62] -->
 			<!--  Module Block: Main Land  [12] modules -->
 			<module name="lnd_Fn" type="FastNoise" seed_additive="1024">
@@ -549,13 +641,13 @@
 				<property name="octave" value="1"/>
 			</module>
 			<module name="lnd_Cu" type="CurveOutput">
-				<property name="sourceModule" value="lnd_Fn"/>
+				<property name="sourceModule" value="lnd_Fn1"/>
 				<property name="source_module1" value="lnd_Fn1"/>
 				<property name="controlPoints" value="-4.0,0.05; -3.0,-0.05; -2.00,-0.1; -1.00,0.05; -0.1,-0.05; 1.00,0.05; 2.00,-0.05; 3.0,0.0; 4.0,0.05"/>
 				<!--<property name="controlPoints" value="-2.00,-0.1; -1.75,-0.05; -1.50,0.0; -1.25,0.05; -1.00,0.05; -0.75,0.05; -0.50,0.0; -0.05,-0.05; 0.00,-0.05; 0.25,0.0; 0.50,0.05; 0.75,0.1; 1.00,0.05; 1.25,0.0; 1.50,-0.05; 1.75,-0.1; 2.00,-0.05"/>-->
 			</module>
 			<module name="lnd_Cu1" type="CurveOutput">
-				<property name="sourceModule" value="lnd_Fn"/>
+				<property name="sourceModule" value="lnd_Fn1"/>
 				<property name="source_module1" value="lnd_Fn1"/>
 				<property name="controlPoints" value="-4.01,0.05; -3.01,-0.05; -2.01,-0.1; -1.01,0.05; -0.11,-0.05; 1.01,0.05; 2.01,-0.05; 3.01,0.0; 4.01,0.05"/>
 				<!--<property name="controlPoints" value="-2.00,-0.1; -1.75,-0.05; -1.50,0.0; -1.25,0.05; -1.00,0.05; -0.75,0.05; -0.50,0.0; -0.05,-0.05; 0.00,-0.05; 0.25,0.0; 0.50,0.05; 0.75,0.1; 1.00,0.05; 1.25,0.0; 1.50,-0.05; 1.75,-0.1; 2.00,-0.05"/>-->

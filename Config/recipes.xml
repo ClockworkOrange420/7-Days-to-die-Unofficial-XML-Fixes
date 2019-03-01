@@ -1247,10 +1247,11 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 </recipe>
 
 <recipe name="foodMeatStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
-	<ingredient name="foodRawMeat" count="10"/>
+	<ingredient name="foodRawMeat" count="5"/>
 	<ingredient name="foodCropPotato" count="2"/>
 	<ingredient name="foodCropCorn" count="2"/>
 	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
 </recipe>
 
 <recipe name="foodMoldyBread" count="1" craft_area="chemistryStation">
@@ -1266,8 +1267,9 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 </recipe>
 
 <recipe name="foodSteakAndPotato" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="learnable">
-	<ingredient name="foodRawMeat" count="10"/>
+	<ingredient name="foodRawMeat" count="5"/>
 	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropMushrooms" count="2"/>
 	<ingredient name="resourceAnimalFat" count="1"/>
 </recipe>
 

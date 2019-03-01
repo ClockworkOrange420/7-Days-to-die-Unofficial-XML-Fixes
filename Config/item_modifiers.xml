@@ -558,16 +558,16 @@ Example of using the seed (creation time) on a weapon to activate an effect
 	</item_modifier>
 
 	<item_modifier name="modGunRetractingStock" installable_tags="stock" modifier_tags="stocks" type="attachment">
-        <property name="Stacknumber" value="1"/>
-        
-        <effect_group tiered="false">
+		<property name="Stacknumber" value="1"/>
+
+		<effect_group tiered="false">
         <passive_effect name="KickDegreesVertical" operation="perc_add" value="0.05"/>
         <passive_effect name="KickDegreesHorizontal" operation="perc_add" value="0.05"/>
         <passive_effect name="WalkSpeed" operation="perc_add" value="0.1"/>
         <passive_effect name="WeaponHandling" operation="perc_add" value=".15"/>
         </effect_group>
-        <property name="PickupJournalEntry" value="augmentGunsTip"/>
-    </item_modifier>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
 
 
 		<!--Reduces vertical kick when firing by x%, increases move speed by a small amount when holding the weapon is attached to
@@ -1152,7 +1152,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 		</effect_group>
 	</item_modifier>
 
-	<item_modifier name="modArmorMuffledConnectors" installable_tags="armor" modifier_tags="movement" type="attachment" rarity="0.5">
+	<item_modifier name="modArmorMuffledConnectors" installable_tags="armor" modifier_tags="stealth" type="attachment" rarity="0.5">
 		<property name="DisplayType" value="modNoiseReduction"/>
 		<property name="Material" value="Msteel"/>
 		<property name="Stacknumber" value="1"/>
@@ -1163,7 +1163,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 		</effect_group>
 	</item_modifier>
 
-	<item_modifier name="modArmorAdvancedMuffledConnectors" installable_tags="armor" modifier_tags="movement" type="attachment" rarity="0.5">
+	<item_modifier name="modArmorAdvancedMuffledConnectors" installable_tags="armor" modifier_tags="stealth" type="attachment" rarity="0.5">
 		<property name="DisplayType" value="modNoiseReduction"/>
 		<property name="Material" value="Msteel"/>
 		<property name="Stacknumber" value="1"/>
