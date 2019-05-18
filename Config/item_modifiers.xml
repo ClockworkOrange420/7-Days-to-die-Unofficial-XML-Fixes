@@ -10,6 +10,7 @@ bow,
 crossbow,
 shotgun,
 revolver,
+noSilencer,
 shortRange,
 barrelAttachments,
 flaredBarrel,
@@ -43,7 +44,7 @@ Example of using the seed (creation time) on a weapon to activate an effect
 
 <item_modifiers>
 	<!--Weapon Attachments
-		<item_modifier name="modGunSoundSuppressorSilencer" installable_tags="gun" blocked_tags="revolver,flaredBarrel" modifier_tags="barrelAttachment" type="attachment">
+		<item_modifier name="modGunSoundSuppressorSilencer" installable_tags="gun" blocked_tags="noSilencer,flaredBarrel" modifier_tags="barrelAttachment" type="attachment">
 		A  type="attachment"  can be taken back out of an item after it has been installed. A type="mod" can not be removed.
 	-->
 
@@ -90,7 +91,7 @@ Example of using the seed (creation time) on a weapon to activate an effect
 	</item_modifier>
 
 
-	<item_modifier name="modGunSoundSuppressorSilencer" installable_tags="gun" blocked_tags="revolver,flaredBarrel" modifier_tags="barrelAttachment" type="attachment">
+	<item_modifier name="modGunSoundSuppressorSilencer" installable_tags="gun" blocked_tags="noSilencer,flaredBarrel" modifier_tags="barrelAttachment" type="attachment">
 		<property name="Stacknumber" value="1"/>
 		<!--Decreases sound footprint by x% -->
 		<item_property_overrides name="*">
@@ -112,6 +113,7 @@ Example of using the seed (creation time) on a weapon to activate an effect
 
 		<item_property_overrides name="gunAK47">
 			<property name="Sound_start" value="ak47_s_fire"/>
+			<property name="Sound_end" value="silencefiller"/>
 			<property name="BarrelOffset" value="-0.001,-0.0197,0.3197"/>
 			<property name="BarrelScale" value="1,1,1"/>
 		</item_property_overrides>
@@ -131,6 +133,7 @@ Example of using the seed (creation time) on a weapon to activate an effect
 
 		<item_property_overrides name="gunSMG5">
 			<property name="Sound_start" value="mp5_s_fire"/>
+			<property name="Sound_end" value="silencefiller"/>
 			<property name="BarrelOffset" value="0,0,0"/>
 			<property name="BarrelScale" value="1,1,1"/>
 		</item_property_overrides>
@@ -204,7 +207,7 @@ Example of using the seed (creation time) on a weapon to activate an effect
 		</item_property_overrides>
 
 		<effect_group tiered="false">
-			<passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.25"/>
+			<passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.2"/>
 			<passive_effect name="WeaponHandling" operation="perc_add" value=".2"/>
 			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="Items/Mods/Sides/side_attachment_laserPrefab" parent_transform="Attachments/Side" local_rotation="0,0,0"/>
 			<triggered_effect trigger="onSelfItemActivate" action="SetTransformChildrenActive" active="true" parent_transform="Side" transform_path="gun_laser"/>
@@ -548,7 +551,7 @@ Example of using the seed (creation time) on a weapon to activate an effect
 		<effect_group tiered="false">
 			<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.08"/>
 			<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.2"/>
-			<passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.2"/>
+			<passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.15"/>
 			<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value="-.2"/>
 			<passive_effect name="WeaponHandling" operation="perc_add" value=".15"/>
 			<passive_effect name="KickDegreesVertical" operation="perc_subtract" value="0.5"/>
@@ -710,7 +713,6 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 	</item_modifier>
 
 	<item_modifier name="modGunBowArrowRest" installable_tags="bow" modifier_tags="accuracy" type="attachment" rarity="0.5">
-		<property name="CustomIcon" value="resourceScrapIron"/>
 		<property name="Stacknumber" value="1"/>
 		<effect_group tiered="false">
 			<passive_effect name="SpreadMultiplierAiming" operation="perc_subtract" value="0.1"/>
@@ -1225,29 +1227,14 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 		<property name="Material" value="Msteel"/>
 		<property name="LightValue" value="0.7"/>
 		<effect_group tiered="false">
-			<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" parent_transform="CameraNode" prefab="Entities/Lighting/miningHelmetLightSource"/>
-			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Lighting/miningHelmetLightSource" parent_transform="CameraNode" local_rotation="-90,0,0" local_position="0,0,0"/>
-
-			<triggered_effect trigger="onSelfItemActivate" action="SetTransformActive" active="true" parent_transform="CameraNode" transform_path="tempPrefab_miningHelmetLightSource">
-				<requirement name="IsFPV"/>
-			</triggered_effect>
-			<triggered_effect trigger="onSelfItemActivate" action="SetTransformActive" active="false" parent_transform="Spotlight" transform_path="tempPrefab_miningHelmetLightSource">
-				<requirement name="IsFPV"/>
-			</triggered_effect>
-
-			<triggered_effect trigger="onSelfItemDeactivate" action="SetTransformActive" active="false" parent_transform="CameraNode" transform_path="tempPrefab_miningHelmetLightSource">
-				<requirement name="IsFPV"/>
-			</triggered_effect>
-
-			<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" parent_transform="Spotlight" prefab="Entities/Lighting/miningHelmetLightSource"/>
-			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Lighting/miningHelmetLightSource" parent_transform="Spotlight" local_rotation="90,0,0" local_position="0,0,0"/>
-
-			<triggered_effect trigger="onSelfItemActivate" action="SetTransformActive" active="true" parent_transform="Spotlight" transform_path="tempPrefab_miningHelmetLightSource">
-				<requirement name="IsFPV" invert="true"/>
-			</triggered_effect>
-			<triggered_effect trigger="onSelfItemDeactivate" action="SetTransformActive" active="false" parent_transform="Spotlight" transform_path="tempPrefab_miningHelmetLightSource">
-				<requirement name="IsFPV" invert="true"/>
-			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="HeadLight" prefab="Entities/Lighting/miningHelmetLightSource" parentTransform="Spotlight" localPos="0,0,0" localRot="90,0,0"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="HeadLightCam" prefab="Entities/Lighting/miningHelmetLightSource" parentTransform="CameraNode" localPos="0,0,0" localRot="-90,0,0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="HeadLight"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="HeadLightCam"/>
+			<triggered_effect trigger="onSelfItemActivate" action="SetPartActive" part="HeadLight" active="@!.IsFPV"/>
+			<triggered_effect trigger="onSelfItemActivate" action="SetPartActive" part="HeadLightCam" active="@.IsFPV"/>
+			<triggered_effect trigger="onSelfItemDeactivate" action="SetPartActive" part="HeadLight" active="false"/>
+			<triggered_effect trigger="onSelfItemDeactivate" action="SetPartActive" part="HeadLightCam" active="false"/>
 		</effect_group>
 	</item_modifier>
 

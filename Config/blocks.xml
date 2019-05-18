@@ -10127,6 +10127,7 @@ NOT the TextureNumber.
 	<property name="Model" value="fence"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="UseGlobalUV" value="Local"/>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodSheet"/> </property>
 </block>
 
 <block name="woodFenceFarmSheetBroken1">
@@ -10458,8 +10459,11 @@ NOT the TextureNumber.
 </block>
 
 <block name="corrugatedMetalRampSheet">
-	<property name="Extends" value="corrugatedMetalSheet"/>
+	<property name="Extends" value="corrugatedMetalNoUpgradeMaster"/>
+	<property name="Shape" value="New"/>
 	<property name="Model" value="ramp_glass_sheet"/>
+	<property name="SortOrder2" value="0180"/> <!-- SortShape -->
+	<drop event="Fall" count="0" prob="0"/>
 </block>
 
 <block name="woodFenceSheetBent1">
@@ -14527,7 +14531,7 @@ NOT the TextureNumber.
 	<property name="RadiusBlocks" value="5"/> <!-- damage radius for blocks -->
 	<property name="BlockDamage" value="5000"/> <!-- damage for blocks in the center of the explosion -->
 	<property name="RadiusEntities" value="3"/> <!-- damage radius for entities -->
-	<property name="EntityDamage" value="70"/> <!-- damage for entities in the center of the explosion -->
+	<property name="EntityDamage" value="150"/> <!-- damage for entities in the center of the explosion -->
 	</property>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="resourceElectricParts" count="2,7" tag="salvageHarvest"/>
@@ -18413,7 +18417,7 @@ NOT the TextureNumber.
 		<property name="BlockDamage" value="500"/> <!-- damage for blocks in the center of the explosion -->
 
 		<property name="RadiusEntities" value="5"/> <!-- damage radius for entities -->
-		<property name="EntityDamage" value="70"/> <!-- damage for entities in the center of the explosion -->
+		<property name="EntityDamage" value="250"/> <!-- damage for entities in the center of the explosion -->
 	</property>
 	<property name="ActivationDistance" value="6"/>
 	<property name="FilterTags" value="floot"/>
@@ -18473,7 +18477,7 @@ NOT the TextureNumber.
 		<property name="RadiusBlocks" value="5"/> <!-- damage radius for blocks -->
 		<property name="BlockDamage" value="500"/> <!-- damage for blocks in the center of the explosion -->
 		<property name="RadiusEntities" value="5"/> <!-- damage radius for entities -->
-		<property name="EntityDamage" value="70"/> <!-- damage for entities in the center of the explosion -->
+		<property name="EntityDamage" value="250"/> <!-- damage for entities in the center of the explosion -->
 	</property>
 	<property name="ActivationDistance" value="6"/>
 	<property name="FilterTags" value="floot"/>
@@ -18601,7 +18605,7 @@ NOT the TextureNumber.
 		<property name="RadiusBlocks" value="5"/> <!-- damage radius for blocks -->
 		<property name="BlockDamage" value="500"/> <!-- damage for blocks in the center of the explosion -->
 		<property name="RadiusEntities" value="5"/> <!-- damage radius for entities -->
-		<property name="EntityDamage" value="70"/> <!-- damage for entities in the center of the explosion -->
+		<property name="EntityDamage" value="250"/> <!-- damage for entities in the center of the explosion -->
 	</property>
 	<property name="ActivationDistance" value="6"/>
 	<property name="FilterTags" value="floot"/>
@@ -18651,7 +18655,7 @@ NOT the TextureNumber.
 		<property name="RadiusBlocks" value="5"/> <!-- damage radius for blocks -->
 		<property name="BlockDamage" value="5000"/> <!-- damage for blocks in the center of the explosion -->
 		<property name="RadiusEntities" value="5"/> <!-- damage radius for entities -->
-		<property name="EntityDamage" value="70"/> <!-- damage for entities in the center of the explosion -->
+		<property name="EntityDamage" value="250"/> <!-- damage for entities in the center of the explosion -->
 	</property>
 	<drop event="Harvest" name="resourceLeather" count="2,7" prob="0.5" tag="allHarvest"/>
 	<drop event="Harvest" name="resourceScrapIron" count="10,20" tag="allHarvest"/>
@@ -19506,10 +19510,12 @@ NOT the TextureNumber.
 	<property name="Extends" value="corrugatedMetalNoUpgradeMaster" param1="SortOrder1,SortOrder2"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CanPickup" value="true"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Lighting/barrel03_burning_playerPrefab"/>
 	<property name="IsTerrainDecoration" value="true"/>
+	<property name="ImposterExchange" value="imposterDontBlockCTRQuarter" param1="156"/>
+	<property name="ImposterDontBlock" value="true"/>
 	<property name="Stacknumber" value="50"/>
 	<property name="Class" value="TorchHeatMap"/>
 	<property name="HeatMapStrength" value="4.05"/>
@@ -19522,9 +19528,13 @@ NOT the TextureNumber.
 </block>
 
 <block name="burningBarrel">
-	<property name="Extends" value="porchLight01" param1="Collide"/>
+	<property name="Extends" value="burningBarrelPlayer" param1="Class,HeatMapStrength,HeatMapTime,HeatMapFrequency"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="Model" value="Entities/Lighting/barrel03_burningPrefab"/> <property name="HandleFace" value="Bottom"/>
+	<property name="Model" value="Entities/Lighting/barrel03_burningPrefab"/>
+	<property name="Class" value="Light"/>
+	<property name="Light" value="0.5"/>
+	<property name="DescriptionKey" value="lightPOIGroupDesc"/>
+	<property name="CanPickup" value="false"/>
 </block>
 
 <block name="xRayDisplayLight1">
@@ -24679,7 +24689,7 @@ NOT the TextureNumber.
 	<property name="Explosion.RadiusBlocks" value="2"/>
 	<property name="Explosion.RadiusEntities" value="4"/>
 	<property name="Explosion.BlockDamage" value="10"/>
-	<property name="Explosion.EntityDamage" value="45"/> <!-- damage for entities in the center of the explosion. Zombies take 2x this damage. -->
+	<property name="Explosion.EntityDamage" value="276"/> <!-- damage for entities in the center of the explosion. -->
 	<property name="Explosion.DamageBonus.stone" value="0.1"/>
 	<property name="Explosion.DamageBonus.metal" value="0.1"/>
 	<property name="Explosion.DamageBonus.earth" value="0"/>
@@ -24704,7 +24714,7 @@ NOT the TextureNumber.
 	<property name="Explosion.RadiusBlocks" value="3"/>
 	<property name="Explosion.RadiusEntities" value="5"/>
 	<property name="Explosion.BlockDamage" value="10"/>
-	<property name="Explosion.EntityDamage" value="90"/>
+	<property name="Explosion.EntityDamage" value="450"/>
 	<property name="EconomicValue" value="146"/>
 </block>
 
@@ -24716,7 +24726,7 @@ NOT the TextureNumber.
 	<property name="Explosion.RadiusBlocks" value="4"/>
 	<property name="Explosion.RadiusEntities" value="5"/>
 	<property name="Explosion.BlockDamage" value="10"/>
-	<property name="Explosion.EntityDamage" value="180"/>
+	<property name="Explosion.EntityDamage" value="690"/>
 	<property name="EconomicValue" value="182"/>
 </block>
 
@@ -24729,7 +24739,7 @@ NOT the TextureNumber.
 	<property name="Explosion.RadiusBlocks" value="2"/>
 	<property name="Explosion.RadiusEntities" value="3"/>
 	<property name="Explosion.BlockDamage" value="10"/>
-	<property name="Explosion.EntityDamage" value="85"/>
+	<property name="Explosion.EntityDamage" value="300"/>
 	<property name="CanPickup" value="true" param1="toolCookingPot"/>
 	<property name="EconomicValue" value="120"/>
 </block>
@@ -24748,7 +24758,7 @@ NOT the TextureNumber.
 	<property name="Explosion.RadiusBlocks" value="2"/>
 	<property name="Explosion.RadiusEntities" value="3"/>
 	<property name="Explosion.BlockDamage" value="10"/>
-	<property name="Explosion.EntityDamage" value="75"/> <!-- damage for entities in the center of the explosion. Zombies take 2x this damage. -->
+	<property name="Explosion.EntityDamage" value="276"/> <!-- damage for entities in the center of the explosion.  -->
 	<property name="Explosion.DamageBonus.stone" value="0.1"/>
 	<property name="Explosion.DamageBonus.metal" value="0.1"/>
 	<property name="Explosion.DamageBonus.earth" value="0"/>
@@ -24777,7 +24787,7 @@ NOT the TextureNumber.
 	<property name="Explosion.RadiusBlocks" value="5"/>
 	<property name="Explosion.RadiusEntities" value="5"/>
 	<property name="Explosion.BlockDamage" value="3000"/>
-	<property name="Explosion.EntityDamage" value="300"/>
+	<property name="Explosion.EntityDamage" value="800"/>
 
 	<property name="Explosion.DamageBonus.cloth" value="130"/>
 	<property name="Explosion.DamageBonus.earth" value="130"/>
@@ -24842,7 +24852,7 @@ NOT the TextureNumber.
 	<property name="Explosion.RadiusBlocks" value="4"/>
 	<property name="Explosion.RadiusEntities" value="5"/>
 	<property name="Explosion.BlockDamage" value="3000"/>
-	<property name="Explosion.EntityDamage" value="200"/>
+	<property name="Explosion.EntityDamage" value="400"/>
 
 	<property name="Explosion.DamageBonus.cloth" value="60"/>
 	<property name="Explosion.DamageBonus.earth" value="30"/>

@@ -3529,6 +3529,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 
 <recipe name="window03Wood" count="1">
 	<ingredient name="resourceWood" count="4"/>
+	<ingredient name="glassCTRSheet" count="1"/>
 </recipe>
 
 <recipe name="woodArrowBlock" count="1" craft_area="tablesaw">
